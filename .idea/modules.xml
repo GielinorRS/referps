@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/referps.iml" filepath="$PROJECT_DIR$/referps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/referps-client/referps-client.iml" filepath="$PROJECT_DIR$/referps-client/referps-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/referps-runelite/referps-runelite.iml" filepath="$PROJECT_DIR$/referps-runelite/referps-runelite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/referps-server/referps-server.iml" filepath="$PROJECT_DIR$/referps-server/referps-server.iml" />
+    </modules>
+  </component>
+</project>

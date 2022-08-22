@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+    	<groupId>com.github.plong95</groupId>
+    	<artifactId>referps</artifactId>
+    	<version>v1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>referps-client</artifactId>
+	<repositories>
+		<repository>
+			<id>github</id>
+			<name>GitHub plong95 Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/plong95/referps</url>
+		</repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.runelite.pushingpixels</groupId>
+            <artifactId>substance</artifactId>
+            <version>8.0.02</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jenzz.test</groupId>
+            <artifactId>sub1</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
