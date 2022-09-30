@@ -13,7 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="referps" target="1.5" />
+      <module name="referps" target="1.8" />
       <module name="referps-client" target="1.8" />
       <module name="referps-runelite" target="1.8" />
       <module name="referps-server" target="1.8" />
