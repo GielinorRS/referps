@@ -1,9 +1,21 @@
 {
   "prices": [
     {
+      "itemId": 23120,
+      "soldPrices": {
+        "1000000": 1
+      }
+    },
+    {
+      "itemId": 11137,
+      "soldPrices": {
+        "5000": 1
+      }
+    },
+    {
       "itemId": 5010,
       "soldPrices": {
-        "115000": 1
+        "115000": 2
       }
     }
   ]

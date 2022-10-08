@@ -56,3 +56,22 @@
 [10/4/22 05:41PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
 [10/4/22 05:47PM] Player destroying item: -1, amount: 0	
 [10/4/22 06:06PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:03PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:04PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:04PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:10PM] Player destroying item: -1, amount: 0	
+[10/8/22 03:10PM] Player destroying item: -1, amount: 0	
+[10/8/22 03:16PM] Has just redeemed a $5 Bond successfully!	
+[10/8/22 03:19PM] Player bought 5010 x1 from Excaliber's pos shop for 115000 Upgrade Tokens	
+[10/8/22 03:19PM] Player bought 11137 x8 from Jano's pos shop for 40000 Upgrade Tokens	
+[10/8/22 03:20PM] Player bought 23120 x1 from Golden Power's pos shop for 1000000 Upgrade Tokens	
+[10/8/22 03:23PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:32PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:35PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:35PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:39PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:39PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 03:43PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 04:11PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 04:13PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/8/22 04:25PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	

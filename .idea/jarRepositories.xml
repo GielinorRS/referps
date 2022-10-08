@@ -17,11 +17,6 @@
       <option name="url" value="https://jitpack.io" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="clojars" />
-      <option name="name" value="Clojars" />
-      <option name="url" value="https://repo.clojars.org/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="bintray.kotlin.eap" />
       <option name="name" value="Bintray Kotlin EAP Repository" />
       <option name="url" value="https://dl.bintray.com/kotlin/kotlin-eap" />

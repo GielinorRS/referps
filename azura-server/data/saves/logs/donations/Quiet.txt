@@ -1,4 +1,0 @@
-[4/24/22 03:55PM] Donated: $150.0, Item: Bronze Token ($10), Amount: 1049, ID: 23057, item_number: 1049	
-[4/24/22 04:04PM] Donated: $150.0, Item: Bronze Token ($10), Amount: 1049, ID: 23057, item_number: 1049	
-[4/24/22 04:05PM] Donated: $250.0, Item: Diamond Token ($250), Amount: 1053, ID: 6769, item_number: 1053	
-[4/24/22 04:06PM] Donated: $250.0, Item: Diamond Token ($250), Amount: 1053, ID: 6769, item_number: 1053	

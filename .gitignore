@@ -1,6 +1,6 @@
-# Compiled class file
-
-
+/azura-server/
+.class
+main_file_cache.dat
 # Log file
 *.log
 
@@ -11,7 +11,7 @@
 
 
 #saves
-
+\azura-server
 
 # Package Files #
 *.war
@@ -33,6 +33,6 @@
 
 # Module Specific Directories
 
-
+\Lunite
 
 
