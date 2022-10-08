@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="classes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/classes/everythingrs-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/classes/teamgames-api-v1.02.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/classes/mvgate3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

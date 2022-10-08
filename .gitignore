@@ -1,8 +1,6 @@
-/azura-server/
+
 .class
-main_file_cache.dat
-# Log file
-*.log
+
 
 # BlueJ files
 *.ctxt
@@ -11,7 +9,7 @@ main_file_cache.dat
 
 
 #saves
-\azura-server
+
 
 # Package Files #
 *.war
@@ -21,18 +19,7 @@ main_file_cache.dat
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 
-
-# Eclipse Specific
-
-
-
-# Intellij Specific
-
-
-# Module Specific Directories
-
-\Lunite
+/Lunite/
 
 
