@@ -3,32 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.github.plong95</groupId>
-    <artifactId>referps</artifactId>
-    <version>v1.0.0</version>
-    	<packaging>pom</packaging>
+    <groupId>net.azura</groupId>
+    <artifactId>azura</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
     <modules>
-        <module>referps-client</module>
-        <module>referps-server</module>
-        <module>referps-runelite</module>
+        <module>azura-client</module>
+        <module>azura-server</module>
+        <module>azura-runelite</module>
     </modules>
-    <dependencies>
-        <dependency>
-            <groupId>com.jenzz.test</groupId>
-            <artifactId>sub1</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-    </dependencies>
-
-    <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub plong95 Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/plong95/referps</url>
-   </repository>
-</distributionManagement>
-
     <repositories>
         <repository>
             <id>runelite</id>
@@ -39,8 +22,8 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
-    </repositories>
-    <build>
+        </repositories>
+        <build>
         <pluginManagement>
             <plugins>
                 <plugin>

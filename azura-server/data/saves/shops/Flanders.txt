@@ -1,0 +1,40 @@
+0
+11421 - 3 - 8000 - 3
+14915 - 6 - 1000 - 6
+14924 - 6 - 1000 - 6
+14919 - 2 - 1000 - 2
+15005 - 1 - 3000 - 1
+15007 - 2 - 3000 - 2
+20549 - 1 - 60000 - 1
+8273 - 1 - 30000 - 2
+History:
+20173 _ 1 _ 50000 _ Kai
+20173 _ 1 _ 50000 _ Envy Me
+22083 _ 1 _ 25000 _ Nl Lappie
+11422 _ 1 _ 8000 _ Gandalf
+11423 _ 1 _ 7000 _ Gandalf
+23087 _ 1 _ 15000 _ Pknar21
+8809 _ 1 _ 60000 _ Dahmonstah
+11423 _ 1 _ 8000 _ Dora
+20173 _ 1 _ 60000 _ Dissipating
+15006 _ 1 _ 3000 _ Ivoe
+15200 _ 1 _ 3000 _ Ivoe
+11423 _ 1 _ 8000 _ Freya
+5023 _ 220 _ 240 _ Gandalf
+11137 _ 10 _ 2000 _ L S D
+11137 _ 1 _ 2000 _ L S D
+11137 _ 7 _ 2000 _ Renekton
+5023 _ 1 _ 240 _ Wonderpooch
+5023 _ 5 _ 240 _ Wonderpooch
+5023 _ 5 _ 240 _ Wonderpooch
+5023 _ 1 _ 240 _ Wonderpooch
+5023 _ 1 _ 240 _ Wonderpooch
+5023 _ 1 _ 240 _ Wonderpooch
+5023 _ 1 _ 240 _ Wonderpooch
+5023 _ 10 _ 240 _ Wonderpooch
+5023 _ 14 _ 240 _ Process
+8273 _ 1 _ 30000 _ Draconic
+11422 _ 1 _ 8000 _ Kage Okami
+11422 _ 1 _ 8000 _ High Bridge
+11422 _ 1 _ 8000 _ Not Hippie
+11422 _ 1 _ 8000 _ Beastthao

@@ -1,0 +1,22 @@
+0
+15200 - 1 - 1000 - 5
+History:
+15006 _ 1 _ 1800 _ World
+15005 _ 1 _ 1800 _ World
+15100 _ 1 _ 1800 _ Carolus Rex
+15007 _ 1 _ 1800 _ Carolus Rex
+11422 _ 1 _ 3300 _ Kota
+11423 _ 1 _ 3300 _ Kota
+15200 _ 1 _ 1000 _ Nonbreak
+22092 _ 1 _ 8800 _ Well Hi Ther
+11421 _ 1 _ 3400 _ Drshemp
+15201 _ 1 _ 1200 _ Drshemp
+15200 _ 1 _ 1000 _ Drshemp
+23044 _ 1 _ 3000 _ Drshemp
+11421 _ 1 _ 3400 _ Scottpilgrim
+15200 _ 1 _ 1000 _ Firecatf10
+22084 _ 1 _ 13000 _ 25x
+11421 _ 1 _ 3400 _ Dirty Hippie
+15200 _ 1 _ 1000 _ Dirty Hippie
+22083 _ 1 _ 20000 _ Slothsniffer
+22083 _ 2 _ 20000 _ Slothsniffer

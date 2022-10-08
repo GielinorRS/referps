@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="azura-client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/azura_client_jar</output-path>
+    <root id="archive" name="azura-client.jar">
+      <element id="module-output" name="azura-client" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/runelite/pushingpixels/substance/8.0.02/substance-8.0.02.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/runelite/pushingpixels/trident/1.5.00/trident-1.5.00.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/psnrigner/discord-rpc-java/1.0.4/discord-rpc-java-1.0.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

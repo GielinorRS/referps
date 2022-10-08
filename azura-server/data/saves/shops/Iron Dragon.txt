@@ -1,0 +1,6 @@
+6000
+History:
+22083 _ 1 _ 50000 _ Currency
+15005 _ 1 _ 2000 _ Lazaro Br
+15007 _ 1 _ 2000 _ Lazaro Br
+15100 _ 1 _ 2000 _ Dylan

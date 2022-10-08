@@ -1,0 +1,32 @@
+0
+History:
+15007 _ 1 _ 300 _ Shamdon
+15200 _ 1 _ 300 _ Shamdon
+22083 _ 1 _ 30000 _ Hector
+11421 _ 1 _ 3750 _ Solo Noob
+15006 _ 1 _ 300 _ Hector
+11421 _ 1 _ 3750 _ Hector
+15007 _ 1 _ 300 _ Mademoiselle
+15007 _ 1 _ 300 _ Fissker
+11137 _ 10 _ 1900 _ Gnawlije
+11137 _ 10 _ 1900 _ Gnawlije
+11137 _ 1 _ 1900 _ Gnawlije
+22084 _ 1 _ 30000 _ Dad
+23086 _ 2 _ 9000 _ Ellisarmor
+23138 _ 1 _ 40000 _ Texown
+22092 _ 1 _ 5000 _ Toxication
+22092 _ 1 _ 5000 _ Dark Bow454
+23136 _ 1 _ 300000 _ Tomzi
+23115 _ 1 _ 145000 _ Imafreaq
+5023 _ 5 _ 90 _ Ryxn
+5023 _ 14 _ 90 _ Jinxstalock
+5023 _ 10 _ 90 _ Jinxstalock
+5023 _ 115 _ 90 _ Jinxstalock
+5023 _ 27 _ 90 _ Pencil
+5023 _ 53 _ 90 _ Pencil
+5023 _ 155 _ 90 _ Miazhu
+5023 _ 87 _ 90 _ Miazhu
+5023 _ 267 _ 90 _ Miazhu
+5023 _ 152 _ 90 _ Hedo
+23136 _ 1 _ 350000 _ Echo Mafiia
+19114 _ 5 _ 6000 _ That Guy

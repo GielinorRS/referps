@@ -3,58 +3,84 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ab227a-1281-4608-bf7b-30f11ef4ef24" name="Changes" comment="">
+    <list default="true" id="b2d4877d-6a45-46ce-800e-5204dd00409a" name="Default Changelist" comment="vps hotfixes">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/azura_client_jar/azura-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/azura_runelite_jar/azura-runelite.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_discord_rpc_release_v3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_MinnDevelopment_java_discord_rpc_v2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ryleykimmel_Alertify4J_master.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/referps-client/bin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/referps-client/bin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/referps-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/referps-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/referps-runelite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/referps-runelite/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/referps-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/referps-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/RichPresense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectId" id="2DghmFKZluIkHZyL2xryycDURj9" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2BJCqEYxaqgkY0PZwsg4juebjd5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/plong95/Documents/GitHub/referps/pom.xml",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/grim2/refer-ps",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Lombok"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -64,20 +90,46 @@
     ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.necrotic.client" />
-    </key>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ruse.GameServer" />
+      <module name="azura-server" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22ab227a-1281-4608-bf7b-30f11ef4ef24" name="Changes" comment="" />
-      <created>1661126794733</created>
+      <created>1614083658493</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661126794733</updated>
+      <updated>1614083658493</updated>
     </task>
+    <task id="LOCAL-00001" summary="vps hotfixes">
+      <created>1616083290715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616083290715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +142,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="vps hotfixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="vps hotfixes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

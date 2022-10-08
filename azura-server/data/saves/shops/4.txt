@@ -1,0 +1,133 @@
+206850
+23149 - 1 - 1400000 - 1
+23148 - 1 - 1400000 - 1
+23144 - 1 - 450000 - 1
+23167 - 2 - 500000 - 2
+5010 - 1 - 125000 - 2
+20591 - 2 - 45000 - 2
+23046 - 1 - 30000 - 1
+2026 - 77 - 1000 - 78
+536 - 14 - 75 - 784
+History:
+22083 _ 1 _ 20000 _ Dahmonstah
+537 _ 1 _ 200 _ Raz0156
+537 _ 10 _ 200 _ Raz0156
+537 _ 24 _ 200 _ Raz0156
+22084 _ 1 _ 10000 _ Worldwolf
+537 _ 20 _ 200 _ Eggwash
+537 _ 100 _ 200 _ Eggwash
+4685 _ 1 _ 40000 _ Plox
+537 _ 243 _ 200 _ Sonya
+23087 _ 1 _ 20000 _ Griezman
+5023 _ 100 _ 150 _ Die Or Live
+5023 _ 400 _ 150 _ Die Or Live
+5023 _ 10 _ 150 _ Kakor2
+5023 _ 10 _ 150 _ Kakor2
+5023 _ 5 _ 150 _ Kakor2
+5023 _ 10 _ 150 _ 25x
+5023 _ 5 _ 150 _ 25x
+5023 _ 17 _ 150 _ Raw
+5023 _ 287 _ 150 _ Raw
+5023 _ 10 _ 150 _ Raw
+5023 _ 10 _ 150 _ Raw
+5023 _ 10 _ 150 _ Raw
+5023 _ 10 _ 150 _ Ryrker
+5023 _ 10 _ 150 _ Ryrker
+537 _ 86 _ 195 _ Water
+537 _ 10 _ 195 _ Process
+537 _ 5 _ 195 _ Process
+537 _ 10 _ 195 _ Process
+537 _ 5 _ 195 _ Process
+537 _ 2 _ 195 _ Nurseshemp
+20549 _ 1 _ 10000 _ Pac
+23145 _ 1 _ 400000 _ Infi
+20057 _ 1 _ 20000 _ Kota
+537 _ 26 _ 190 _ Silver Power
+537 _ 100 _ 190 _ Silver Power
+537 _ 183 _ 190 _ Silver Power
+537 _ 35 _ 190 _ Fap2loot
+23061 _ 1 _ 60000 _ Echo Mafiia
+20057 _ 1 _ 10000 _ Burgess32
+5023 _ 24 _ 105 _ Burgess32
+5023 _ 10 _ 105 _ Padee
+5023 _ 10 _ 105 _ Padee
+5023 _ 10 _ 105 _ Padee
+5023 _ 100 _ 105 _ Padee
+5023 _ 903 _ 105 _ Padee
+20057 _ 1 _ 10000 _ Senpai Vape
+23077 _ 1 _ 45000 _ Deluxe
+23052 _ 1 _ 20000 _ Poundcake
+23037 _ 1 _ 100000 _ Way2lucky
+23035 _ 1 _ 400000 _ Way2lucky
+537 _ 10 _ 70 _ Master Flex
+537 _ 10 _ 70 _ Master Flex
+537 _ 10 _ 70 _ Master Flex
+537 _ 10 _ 70 _ Master Flex
+537 _ 10 _ 70 _ Master Flex
+537 _ 10 _ 70 _ Master Flex
+537 _ 10 _ 70 _ Master Flex
+537 _ 5 _ 70 _ Master Flex
+537 _ 10 _ 70 _ Master Flex
+537 _ 5 _ 70 _ Master Flex
+537 _ 1 _ 70 _ Master Flex
+537 _ 1 _ 70 _ Master Flex
+537 _ 12 _ 70 _ Tic Is Fake
+5023 _ 10 _ 94 _ Jack Ma
+5023 _ 10 _ 94 _ Jack Ma
+5023 _ 10 _ 94 _ Jack Ma
+5023 _ 1 _ 94 _ Jack Ma
+5023 _ 227 _ 94 _ Jack Ma
+537 _ 11 _ 70 _ Jpker
+537 _ 10 _ 70 _ Jpker
+537 _ 10 _ 70 _ Jpker
+537 _ 10 _ 70 _ Jpker
+537 _ 5 _ 70 _ Jpker
+537 _ 10 _ 70 _ Jpker
+537 _ 4 _ 70 _ Jpker
+18785 _ 1 _ 10000 _ Dux
+537 _ 1 _ 70 _ Vim
+18785 _ 1 _ 10000 _ Dinks1024
+23094 _ 1 _ 300000 _ Gnawlije
+19163 _ 1 _ 3000 _ Schaduwmanz
+19163 _ 1 _ 3000 _ Anti
+19163 _ 1 _ 3000 _ Daddy Nacho
+19163 _ 1 _ 3000 _ Silva
+19163 _ 1 _ 3000 _ Jack Ma
+18629 _ 1 _ 50000 _ Dawg
+23046 _ 1 _ 20000 _ Ritz
+23046 _ 1 _ 20000 _ Shegy
+23068 _ 1 _ 80000 _ Money
+5023 _ 33 _ 75 _ Xeric
+5023 _ 26 _ 75 _ Darktul
+5023 _ 26 _ 75 _ Darktul
+5023 _ 36 _ 75 _ Darktul
+5023 _ 26 _ 75 _ Darktul
+5023 _ 26 _ 75 _ Darktul
+5023 _ 26 _ 75 _ Darktul
+5023 _ 25 _ 75 _ Darktul
+5023 _ 50 _ 75 _ Darktul
+5023 _ 50 _ 75 _ Darktul
+5023 _ 50 _ 75 _ Darktul
+5023 _ 100 _ 75 _ Darktul
+5023 _ 50 _ 75 _ Darktul
+5023 _ 5 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 8 _ 75 _ Darktul
+5023 _ 817 _ 75 _ S7even
+5023 _ 143 _ 75 _ Pvp2max
+5023 _ 10 _ 75 _ Pvp2max
+5023 _ 33 _ 75 _ S7even
+5023 _ 275 _ 75 _ Xeric
+2026 _ 1 _ 1000 _ Billy Bob
+536 _ 5 _ 75 _ Billy Bob
+536 _ 10 _ 75 _ Billy Bob
+536 _ 4 _ 75 _ Bdubs
+536 _ 300 _ 75 _ Bdubs
+536 _ 22 _ 75 _ Efficient Xp
+536 _ 10 _ 75 _ Efficient Xp
+536 _ 100 _ 75 _ Efficient Xp
+5010 _ 1 _ 125000 _ Luie Donder
+536 _ 1 _ 75 _ Vet Pooh
+536 _ 25 _ 75 _ Vet Pooh
+536 _ 10 _ 75 _ Vet Pooh
+536 _ 283 _ 75 _ Vet Pooh

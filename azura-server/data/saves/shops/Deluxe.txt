@@ -1,0 +1,78 @@
+185000
+19114 - 3 - 2500 - 6
+History:
+19114 _ 1 _ 5000 _ 25x
+19114 _ 1 _ 5000 _ Dorothy
+19114 _ 3 _ 5000 _ Dorothy
+5023 _ 33 _ 50 _ Fap2loot
+5023 _ 452 _ 50 _ Fap2loot
+19114 _ 1 _ 5000 _ Reaper
+19114 _ 5 _ 5000 _ Slothsniffer
+19114 _ 6 _ 5000 _ Slothsniffer
+19114 _ 1 _ 5000 _ Perfect
+19114 _ 1 _ 5000 _ Perfect
+19114 _ 1 _ 5000 _ Perfect
+5023 _ 2000 _ 75 _ Business7man
+5023 _ 560 _ 75 _ Novodka
+5023 _ 27 _ 50 _ Cmplx6
+5023 _ 200 _ 50 _ Cmplx6
+5023 _ 250 _ 50 _ Cmplx6
+5023 _ 250 _ 50 _ Cmplx6
+5023 _ 250 _ 50 _ Cmplx6
+5023 _ 250 _ 50 _ Cmplx6
+5023 _ 539 _ 50 _ Terence
+20173 _ 1 _ 15000 _ Steve
+19114 _ 1 _ 3000 _ Bladesurge
+19114 _ 1 _ 3000 _ Avenger
+19114 _ 5 _ 3000 _ Avenger
+19114 _ 2 _ 3000 _ Avenger
+19114 _ 1 _ 3000 _ Avenger
+5023 _ 829 _ 75 _ Number Two
+19114 _ 10 _ 2500 _ Pencil
+19114 _ 10 _ 2500 _ Pencil
+5023 _ 27 _ 75 _ Darktul
+5023 _ 100 _ 75 _ Darktul
+5023 _ 100 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 20 _ 75 _ Darktul
+5023 _ 20 _ 75 _ Darktul
+5023 _ 20 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+5023 _ 10 _ 75 _ Darktul
+23077 _ 1 _ 75000 _ Murv
+5023 _ 1 _ 75 _ K3n7
+5023 _ 1 _ 75 _ K3n7
+5023 _ 1290 _ 75 _ K3n7
+5023 _ 19 _ 75 _ Cmplx6
+5023 _ 140 _ 75 _ Cmplx6
+19114 _ 10 _ 2500 _ Kick99
+19114 _ 1 _ 2500 _ Kick99
+19114 _ 1 _ 2500 _ Kick99
+19114 _ 1 _ 2500 _ Kick99
+19114 _ 1 _ 2500 _ Kick99
+5023 _ 1 _ 75 _ Pvp2max
+19114 _ 10 _ 2500 _ That Guy
+19114 _ 1 _ 2500 _ That Guy
+19114 _ 1 _ 2500 _ Invoke Sorin
+19114 _ 1 _ 2500 _ Invoke Sorin
+19114 _ 1 _ 2500 _ Invoke Sorin
+5023 _ 780 _ 75 _ Ritz
+23042 _ 1 _ 50000 _ Klink
+23086 _ 9 _ 15000 _ Nick

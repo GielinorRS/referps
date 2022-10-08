@@ -1,0 +1,124 @@
+0
+15006 - 10 - 50 - 14
+15100 - 10 - 50 - 22
+15007 - 2 - 50 - 7
+15005 - 4 - 50 - 5
+11423 - 4 - 1000 - 6
+11421 - 4 - 1000 - 5
+23105 - 3 - 3500 - 4
+19163 - 2 - 3000 - 5
+19161 - 9 - 3000 - 12
+19164 - 7 - 3000 - 7
+History:
+15101 _ 1 _ 90 _ Beerus
+15006 _ 1 _ 90 _ Beerus
+15007 _ 1 _ 90 _ Beerus
+15200 _ 1 _ 90 _ Beerus
+15201 _ 1 _ 90 _ Not Hippie
+15006 _ 1 _ 90 _ Toxication
+15100 _ 1 _ 90 _ Toxication
+15200 _ 1 _ 90 _ Toxication
+15201 _ 1 _ 90 _ Toxication
+15005 _ 1 _ 90 _ Toxication
+15006 _ 1 _ 90 _ Ztayli
+15007 _ 1 _ 90 _ Ztayli
+15200 _ 1 _ 90 _ Ztayli
+15200 _ 1 _ 90 _ Ztayli
+15007 _ 1 _ 90 _ Number Two
+15005 _ 1 _ 90 _ Number Two
+15007 _ 1 _ 90 _ Thyzu
+15200 _ 1 _ 90 _ Thyzu
+15006 _ 1 _ 90 _ Thyzu
+15005 _ 1 _ 90 _ Thyzu
+15100 _ 1 _ 90 _ Thyzu
+19114 _ 4 _ 5500 _ Slothsniffer
+19114 _ 1 _ 6000 _ Dorothy
+15007 _ 1 _ 90 _ Absolute
+15201 _ 1 _ 90 _ Absolute
+11421 _ 1 _ 2000 _ Beastthao
+19114 _ 1 _ 6500 _ That Guy
+11421 _ 1 _ 2000 _ Not Hippie
+11423 _ 1 _ 2000 _ Not Hippie
+15007 _ 1 _ 90 _ 98
+15201 _ 1 _ 90 _ 98
+15101 _ 1 _ 90 _ 98
+11421 _ 1 _ 2000 _ 98
+15007 _ 1 _ 90 _ Jack Ma
+15005 _ 1 _ 90 _ Jack Ma
+20549 _ 1 _ 10000 _ Smashadabass
+20549 _ 1 _ 10000 _ Retchyy
+11421 _ 1 _ 2000 _ Unlucky Af
+23020 _ 1 _ 12000 _ Ellithea
+11423 _ 1 _ 2000 _ Powdingow
+15100 _ 1 _ 90 _ Raw
+23104 _ 1 _ 10000 _ Rexxx
+15100 _ 1 _ 90 _ Lightfrag
+11422 _ 1 _ 2000 _ Er1k
+22084 _ 2 _ 30000 _ Dorothy
+19114 _ 7 _ 3500 _ Slothsniffer
+15200 _ 1 _ 90 _ Murv
+15201 _ 1 _ 90 _ Murv
+19114 _ 1 _ 4000 _ Reaper
+19114 _ 1 _ 4000 _ Reaper
+19114 _ 9 _ 4000 _ Slothsniffer
+19161 _ 1 _ 4000 _ Anti
+5023 _ 1 _ 88 _ Gm2
+5023 _ 5 _ 88 _ Echo Mafiia
+5023 _ 5 _ 88 _ Echo Mafiia
+5023 _ 10 _ 88 _ Echo Mafiia
+5023 _ 500 _ 88 _ Masterwolf
+5023 _ 200 _ 88 _ Masterwolf
+5023 _ 600 _ 88 _ Azn Turtle
+19163 _ 1 _ 4000 _ Cam
+19114 _ 7 _ 4000 _ Slothsniffer
+5023 _ 900 _ 55 _ Terence
+5023 _ 48 _ 55 _ Darktul
+15201 _ 1 _ 90 _ Steve
+19161 _ 1 _ 4000 _ Steve
+19163 _ 1 _ 4000 _ Steve
+19161 _ 1 _ 4000 _ Yo Boy Salty
+23106 _ 1 _ 3500 _ Yo Boy Salty
+23105 _ 1 _ 3500 _ Yo Boy Salty
+15201 _ 1 _ 90 _ Astah
+15201 _ 1 _ 90 _ Xeric
+15200 _ 1 _ 90 _ Xeric
+5023 _ 4 _ 55 _ Brabble
+15201 _ 1 _ 90 _ Newb Game
+5023 _ 25 _ 59 _ Loaf Man
+23106 _ 1 _ 3500 _ Yo Boy Salty
+5023 _ 500 _ 59 _ Xeric
+5023 _ 300 _ 59 _ Xeric
+5023 _ 465 _ 59 _ Xeric
+5023 _ 28 _ 59 _ Miazhu
+19114 _ 42 _ 2800 _ Slothsniffer
+5023 _ 300 _ 75 _ Xeric
+5023 _ 100 _ 75 _ Xeric
+5023 _ 50 _ 75 _ Xeric
+5023 _ 20 _ 75 _ Xeric
+5023 _ 10 _ 75 _ Xeric
+15100 _ 1 _ 50 _ Stick1styll
+5023 _ 178 _ 75 _ Lucky
+2734 _ 5 _ 11500 _ Brabble
+2734 _ 5 _ 11500 _ Brabble
+2734 _ 5 _ 11500 _ Brabble
+5023 _ 10 _ 70 _ Lucky
+23104 _ 10 _ 3500 _ Padee
+23104 _ 1 _ 3500 _ Padee
+23104 _ 1 _ 3500 _ Padee
+23104 _ 1 _ 3500 _ Padee
+5023 _ 120 _ 70 _ Kaleb
+5023 _ 4 _ 70 _ Boss3412
+5023 _ 50 _ 70 _ Boss3412
+5023 _ 654 _ 70 _ Boss3412
+5023 _ 304 _ 70 _ Shadow
+5023 _ 100 _ 70 _ Kaleb
+19114 _ 4 _ 3500 _ Repent
+19163 _ 1 _ 3000 _ Lingsu
+19161 _ 1 _ 3000 _ Lingsu
+19161 _ 1 _ 3000 _ S7even
+19163 _ 1 _ 3000 _ S7even
+5023 _ 106 _ 70 _ Dieter
+5023 _ 62 _ 70 _ K3n7
+5023 _ 500 _ 70 _ K3n7
+19161 _ 1 _ 3000 _ Yulles
+23114 _ 1 _ 150000 _ Bryson

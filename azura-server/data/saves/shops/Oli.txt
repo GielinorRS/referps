@@ -1,0 +1,160 @@
+0
+23031 - 7 - 35000 - 7
+23032 - 2 - 35000 - 2
+23028 - 2 - 75000 - 4
+History:
+22084 _ 1 _ 15000 _ Cpfuzzy
+23145 _ 1 _ 350000 _ Ego
+23077 _ 1 _ 20000 _ Swisherman
+23121 _ 1 _ 15000 _ Cryptic
+23026 _ 1 _ 800000 _ Darksadico
+23039 _ 1 _ 1000000 _ Not Wingz
+5023 _ 600 _ 150 _ Rumi
+5023 _ 275 _ 150 _ Pensilvester
+5023 _ 10 _ 150 _ Got Boost
+5023 _ 320 _ 150 _ Got Boost
+5023 _ 35 _ 150 _ Daddyshi
+5023 _ 41 _ 150 _ Daddyshi
+23137 _ 1 _ 50000 _ Spadow
+23087 _ 1 _ 30000 _ Arianiello
+11137 _ 1 _ 2500 _ Arianiello
+14061 _ 1 _ 35000 _ Ketaminion
+23136 _ 1 _ 75000 _ Ellithea
+23134 _ 1 _ 75000 _ Ellithea
+23135 _ 1 _ 75000 _ Stiffyman
+537 _ 15 _ 150 _ Soft
+537 _ 100 _ 150 _ Soft
+537 _ 27 _ 150 _ Soft
+537 _ 50 _ 150 _ Soft
+537 _ 14 _ 150 _ Tomzi
+537 _ 252 _ 150 _ Tomzi
+537 _ 74 _ 150 _ Tomzi
+11137 _ 3 _ 2500 _ Astronaut
+23136 _ 1 _ 75000 _ Winn
+23135 _ 1 _ 75000 _ Dirty Hippie
+23134 _ 1 _ 75000 _ Winn
+23136 _ 1 _ 75000 _ Dirty Hippie
+23137 _ 1 _ 50000 _ Winn
+23138 _ 1 _ 50000 _ Dirty Hippie
+23137 _ 1 _ 50000 _ Dirty Hippie
+23087 _ 1 _ 30000 _ Winn
+11137 _ 1 _ 2500 _ Hecticz
+11137 _ 1 _ 2500 _ Hecticz
+11137 _ 10 _ 2500 _ Nederlander
+14061 _ 1 _ 35000 _ Johnnyapple
+537 _ 25 _ 150 _ Oblige
+23029 _ 1 _ 200000 _ Helio
+23066 _ 1 _ 250000 _ Nigelow
+537 _ 27 _ 150 _ Vegeto
+537 _ 273 _ 150 _ Vegeto
+537 _ 26 _ 150 _ Vegeto
+537 _ 500 _ 150 _ Vegeto
+537 _ 265 _ 150 _ Vegeto
+537 _ 18 _ 150 _ Shadow Elite
+537 _ 10 _ 150 _ Shadow Elite
+537 _ 25 _ 150 _ Winn
+537 _ 40 _ 150 _ Shadow Elite
+537 _ 25 _ 150 _ Winn
+537 _ 10 _ 150 _ Shadow Elite
+537 _ 10 _ 150 _ Shadow Elite
+537 _ 100 _ 150 _ Winn
+537 _ 5 _ 150 _ Shadow Elite
+537 _ 5 _ 150 _ Shadow Elite
+537 _ 27 _ 150 _ Winn
+537 _ 100 _ 150 _ Winn
+537 _ 100 _ 150 _ Winn
+537 _ 1 _ 150 _ Draconic
+23087 _ 1 _ 30000 _ 420
+537 _ 10 _ 150 _ Dante
+537 _ 10 _ 150 _ Dante
+537 _ 6 _ 150 _ Ely
+537 _ 8 _ 150 _ Dante
+14061 _ 1 _ 35000 _ Dante
+14064 _ 1 _ 35000 _ Dante
+14062 _ 1 _ 35000 _ Dante
+14063 _ 1 _ 35000 _ Dante
+23135 _ 1 _ 75000 _ Kakor2
+23135 _ 1 _ 75000 _ Sasha
+23135 _ 1 _ 75000 _ Panic
+23137 _ 1 _ 50000 _ Panic
+23138 _ 1 _ 50000 _ Panic
+14062 _ 1 _ 35000 _ Johnnyapple
+23138 _ 1 _ 50000 _ Jonkie
+23137 _ 1 _ 50000 _ Jonkie
+23137 _ 1 _ 50000 _ Cpfuzzy
+23138 _ 1 _ 50000 _ Cpfuzzy
+23138 _ 1 _ 50000 _ Cpfuzzy
+5023 _ 1118 _ 150 _ Cam
+5023 _ 348 _ 150 _ Liam
+23077 _ 1 _ 175000 _ Red
+23027 _ 1 _ 250000 _ Lewis L76
+19909 _ 1 _ 175000 _ Aspect
+5023 _ 22 _ 150 _ Got Boost
+5023 _ 1998 _ 150 _ Got Boost
+23144 _ 1 _ 350000 _ Golden Power
+23037 _ 1 _ 80000 _ Pacific
+23145 _ 1 _ 350000 _ Gnawlije
+23066 _ 1 _ 150000 _ Suave
+23021 _ 1 _ 350000 _ Crown
+23025 _ 1 _ 90000 _ Crown
+23027 _ 1 _ 250000 _ Crown
+23096 _ 1 _ 50000 _ Ellithea
+23035 _ 1 _ 400000 _ Rukozi
+23039 _ 1 _ 675000 _ Dora
+23039 _ 1 _ 675000 _ Way2lucky
+23038 _ 1 _ 250000 _ Way2lucky
+23034 _ 1 _ 375000 _ Way2lucky
+23020 _ 10 _ 15000 _ Ellithea
+23020 _ 10 _ 15000 _ Ellithea
+23020 _ 1 _ 15000 _ Ellithea
+23020 _ 1 _ 15000 _ Ellithea
+23020 _ 1 _ 15000 _ Ellithea
+23020 _ 5 _ 20000 _ Golden Power
+23114 _ 1 _ 1 _ Dorothy
+5023 _ 10 _ 99 _ Business7man
+5023 _ 10 _ 99 _ Business7man
+5023 _ 10 _ 99 _ Business7man
+23077 _ 1 _ 49000 _ Umma
+23112 _ 1 _ 1200000 _ Spaztiik
+5023 _ 1 _ 85 _ Lano
+5023 _ 700 _ 85 _ Lano
+5023 _ 31 _ 85 _ Lano
+5023 _ 10 _ 85 _ Er1k
+5023 _ 100 _ 85 _ Er1k
+5023 _ 10 _ 85 _ Er1k
+5023 _ 5 _ 85 _ Er1k
+5023 _ 1 _ 85 _ Er1k
+5023 _ 1 _ 85 _ Er1k
+5023 _ 1321 _ 85 _ Burgess32
+5023 _ 6 _ 85 _ Texown
+5023 _ 10 _ 85 _ Texown
+5023 _ 750 _ 85 _ Texown
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 10 _ 85 _ Excaliber
+5023 _ 5 _ 85 _ Kakor2
+5023 _ 5 _ 85 _ Kakor2
+5023 _ 10 _ 85 _ Kakor2
+5023 _ 43 _ 85 _ Kakor2
+5023 _ 10 _ 85 _ Bryson
+5023 _ 58 _ 85 _ Bryson
+23030 _ 1 _ 75000 _ Well Hi Ther
+23110 _ 1 _ 195000 _ Ryrker
+23037 _ 1 _ 100000 _ Ryrker
+23022 _ 1 _ 350000 _ Not Hippie
+23110 _ 1 _ 195000 _ Rmtank
+23028 _ 1 _ 75000 _ 2girls1ags
+23028 _ 1 _ 75000 _ Senpai Vape

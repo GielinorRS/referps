@@ -1,0 +1,46 @@
+23680
+214 - 6 - 2500 - 12
+History:
+23020 _ 1 _ 7000 _ Disconnect
+23020 _ 1 _ 7000 _ Disconnect
+11137 _ 10 _ 5000 _ Gnawlije
+11137 _ 10 _ 5000 _ Gnawlije
+11137 _ 4 _ 5000 _ Gnawlije
+11137 _ 2 _ 3000 _ Fesea
+22083 _ 1 _ 10000 _ Dorothy
+20549 _ 1 _ 11000 _ Julian
+22084 _ 1 _ 6000 _ Cat
+23020 _ 1 _ 15000 _ Cam
+23020 _ 1 _ 15000 _ Cam
+11137 _ 10 _ 2000 _ Froggers
+11137 _ 10 _ 2000 _ Froggers
+11137 _ 10 _ 2000 _ Froggers
+11137 _ 10 _ 2000 _ Froggers
+11137 _ 9 _ 2000 _ Froggers
+11137 _ 10 _ 2500 _ Caribouu
+11137 _ 1 _ 2500 _ Caribouu
+11137 _ 1 _ 2500 _ Caribouu
+22092 _ 1 _ 4000 _ Xxooxx
+22092 _ 1 _ 4000 _ Business7man
+23020 _ 1 _ 14000 _ Beast M8
+23020 _ 1 _ 14000 _ Beast M8
+23020 _ 1 _ 14000 _ Chinwag
+11137 _ 10 _ 3900 _ Holy
+11137 _ 7 _ 3900 _ Holy
+11137 _ 2 _ 3900 _ Luke
+11137 _ 10 _ 4400 _ Luke
+11137 _ 10 _ 4400 _ Luke
+11137 _ 1 _ 4400 _ Stick1styll
+23020 _ 2 _ 15000 _ Disconnect
+20549 _ 1 _ 9000 _ Stick1styll
+5023 _ 100 _ 80 _ Kaleb
+5023 _ 200 _ 80 _ Kaleb
+5023 _ 687 _ 80 _ Dieter
+5023 _ 53 _ 80 _ Dieter
+5023 _ 21 _ 80 _ Dieter
+5023 _ 175 _ 80 _ Dieter
+5023 _ 5 _ 80 _ Cmplx6
+5023 _ 10 _ 80 _ Pvp2max
+5023 _ 10 _ 80 _ Pvp2max
+5023 _ 1 _ 80 _ Pvp2max
+5023 _ 270 _ 80 _ Xeric

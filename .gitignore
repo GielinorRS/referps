@@ -1,5 +1,5 @@
 # Compiled class file
-*.class
+
 
 # Log file
 *.log
@@ -8,10 +8,12 @@
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
-.mtj.tmp/
+
+
+#saves
+
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -20,5 +22,17 @@
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+
+
+# Eclipse Specific
+
+
+
+# Intellij Specific
+
+
+# Module Specific Directories
+
+
+
+

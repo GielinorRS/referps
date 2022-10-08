@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="referps-runelite" />
-        <module name="referps-client" />
-        <module name="referps-server" />
+        <module name="azura-client" />
+        <module name="azura-server" />
+        <module name="azura-runelite" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="referps" target="1.8" />
-      <module name="referps-client" target="1.8" />
-      <module name="referps-runelite" target="1.8" />
-      <module name="referps-server" target="1.8" />
+      <module name="azura" target="1.5" />
+      <module name="azura-client" target="1.8" />
+      <module name="azura-runelite" target="1.8" />
+      <module name="azura-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,34 @@
+0
+15007 - 5 - 400 - 8
+15005 - 4 - 400 - 5
+18802 - 1 - 39000 - 1
+23124 - 1 - 20000 - 1
+23021 - 1 - 375000 - 1
+History:
+15100 _ 1 _ 400 _ Topbarros
+15007 _ 1 _ 400 _ Inceptionz
+15005 _ 1 _ 400 _ Inceptionz
+15201 _ 1 _ 400 _ Kakor2
+15005 _ 1 _ 400 _ Lion
+23071 _ 1 _ 18500 _ Lion
+11421 _ 1 _ 4000 _ Retchyy
+22092 _ 1 _ 7400 _ Retchyy
+15006 _ 1 _ 400 _ Billy
+15100 _ 1 _ 400 _ Billy
+15007 _ 1 _ 400 _ Billy
+15201 _ 1 _ 400 _ Billy
+15200 _ 1 _ 400 _ Billy
+15006 _ 1 _ 400 _ Wealth
+20591 _ 1 _ 74000 _ Jonkie
+15005 _ 1 _ 400 _ Spartanbrah
+15100 _ 1 _ 400 _ Spartanbrah
+15006 _ 1 _ 400 _ Spartanbrah
+15200 _ 1 _ 400 _ Spartanbrah
+15201 _ 1 _ 400 _ Spartanbrah
+15201 _ 1 _ 400 _ Andest
+15200 _ 1 _ 400 _ Andest
+15007 _ 1 _ 400 _ Andest
+15100 _ 1 _ 400 _ Rix
+23041 _ 1 _ 175000 _ Spaceman
+15201 _ 1 _ 400 _ Ztayli
+23076 _ 1 _ 73900 _ Niksi Ei

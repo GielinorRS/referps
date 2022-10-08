@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/referps.iml" filepath="$PROJECT_DIR$/referps.iml" />
-      <module fileurl="file://$PROJECT_DIR$/referps-client/referps-client.iml" filepath="$PROJECT_DIR$/referps-client/referps-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/referps-runelite/referps-runelite.iml" filepath="$PROJECT_DIR$/referps-runelite/referps-runelite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/referps-server/referps-server.iml" filepath="$PROJECT_DIR$/referps-server/referps-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azura.iml" filepath="$PROJECT_DIR$/azura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Azura-Client/azura-client.iml" filepath="$PROJECT_DIR$/Azura-Client/azura-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azura-runelite/azura-runelite.iml" filepath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azura-server/azura-server.iml" filepath="$PROJECT_DIR$/azura-server/azura-server.iml" />
     </modules>
   </component>
 </project>

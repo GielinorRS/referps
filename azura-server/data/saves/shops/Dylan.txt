@@ -1,0 +1,75 @@
+40000
+703 - 1 - 2000 - 1
+704 - 1 - 2000 - 1
+705 - 1 - 2000 - 1
+11421 - 3 - 7000 - 5
+15005 - 2 - 1400 - 3
+19163 - 4 - 15000 - 5
+19161 - 3 - 15000 - 5
+23101 - 1 - 25000 - 1
+23100 - 1 - 15000 - 1
+History:
+8809 _ 1 _ 20000 _ Dahmonstah
+19114 _ 1 _ 8500 _ Misery Ave
+19114 _ 7 _ 8500 _ Cryptic
+11423 _ 1 _ 7000 _ Cryptic
+11423 _ 1 _ 7000 _ Neonownz
+19114 _ 1 _ 8500 _ Misery Ave
+19114 _ 1 _ 8500 _ Gm2
+11423 _ 1 _ 4500 _ Infi
+15200 _ 1 _ 400 _ Infi
+15201 _ 1 _ 1400 _ Infi
+15005 _ 1 _ 1400 _ Thewisebirch
+15006 _ 1 _ 1400 _ Thewisebirch
+15007 _ 1 _ 1400 _ Thewisebirch
+15007 _ 1 _ 1400 _ Thewisebirch
+11422 _ 1 _ 4500 _ Notalent
+23087 _ 1 _ 50000 _ Cyb0rg
+15007 _ 1 _ 1400 _ Pacific
+15100 _ 1 _ 1400 _ Azn Turtle
+5023 _ 95 _ 300 _ Suicune
+5023 _ 10 _ 300 _ Kasu
+5023 _ 1 _ 300 _ Kasu
+11137 _ 1 _ 2500 _ Gin N Juice
+5023 _ 1 _ 299 _ Draconic
+5023 _ 71 _ 299 _ Draconic
+11137 _ 1 _ 1950 _ Brad
+11137 _ 1 _ 1950 _ Brad
+5023 _ 9 _ 299 _ Neonownz
+5023 _ 18 _ 299 _ Zarron6
+5023 _ 82 _ 299 _ Zarron6
+5023 _ 14 _ 299 _ Hoffmans
+5023 _ 118 _ 299 _ Hoffmans
+11137 _ 18 _ 1900 _ Ignite
+11137 _ 9 _ 1900 _ Ignite
+4685 _ 1 _ 35000 _ Cyb0rg
+20591 _ 1 _ 20000 _ Cyb0rg
+11421 _ 1 _ 7000 _ Itsmeyaboi
+14061 _ 1 _ 25000 _ Fapsack
+537 _ 40 _ 125 _ Hey Girl
+5023 _ 868 _ 140 _ 25x
+537 _ 20 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 10 _ 125 _ Thenurd
+537 _ 3 _ 125 _ Thenurd
+537 _ 40 _ 125 _ Windtail
+20591 _ 1 _ 30000 _ Piethon
+537 _ 26 _ 125 _ Zino
+537 _ 99 _ 125 _ Zino
+23045 _ 1 _ 10000 _ Yeli
+537 _ 34 _ 125 _ Sonya
+20591 _ 1 _ 30000 _ Cryptic
+11421 _ 1 _ 7000 _ Sixx
+19161 _ 1 _ 15000 _ Shadow
+19161 _ 1 _ 15000 _ Golden Power
+19163 _ 1 _ 15000 _ Golden Power
+23137 _ 1 _ 40000 _ Pencil
+23102 _ 1 _ 45000 _ Sloppy
+23102 _ 1 _ 40000 _ Rip

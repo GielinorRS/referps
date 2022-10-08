@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.ryleykimmel:Alertify4J:master">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/ryleykimmel/Alertify4J/master/Alertify4J-master.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/ryleykimmel/Alertify4J/master/Alertify4J-master-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/ryleykimmel/Alertify4J/master/Alertify4J-master-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

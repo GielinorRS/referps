@@ -1,0 +1,52 @@
+570
+19946 - 7 - 40 - 9
+704 - 2 - 40 - 4
+19945 - 2 - 40 - 3
+19944 - 3 - 40 - 5
+14919 - 1 - 150 - 3
+14915 - 1 - 150 - 4
+705 - 1 - 40 - 2
+History:
+11422 _ 1 _ 4800 _ Dahmonstah
+537 _ 24 _ 450 _ Meme
+537 _ 76 _ 450 _ Meme
+11422 _ 1 _ 4800 _ Fissker
+537 _ 10 _ 450 _ Bloody
+537 _ 10 _ 450 _ Bloody
+537 _ 127 _ 450 _ Bloody
+537 _ 10 _ 450 _ Roket
+537 _ 93 _ 450 _ Roket
+19946 _ 1 _ 40 _ Royalgammer
+704 _ 1 _ 40 _ Royalgammer
+703 _ 1 _ 40 _ Royalgammer
+19945 _ 1 _ 40 _ Royalgammer
+19944 _ 1 _ 40 _ Royalgammer
+14919 _ 1 _ 150 _ Royalgammer
+14924 _ 1 _ 100 _ Royalgammer
+15006 _ 1 _ 800 _ Royalgammer
+537 _ 10 _ 250 _ Fuk
+537 _ 8 _ 250 _ Fuk
+537 _ 5 _ 250 _ Kebbit
+537 _ 25 _ 250 _ Ibc
+537 _ 25 _ 250 _ Ibc
+537 _ 1 _ 300 _ Lucky
+537 _ 24 _ 300 _ Griezman
+537 _ 24 _ 300 _ Griezman
+537 _ 1 _ 300 _ Griezman
+537 _ 1 _ 300 _ Griezman
+22083 _ 1 _ 15000 _ Razta
+14919 _ 1 _ 150 _ Yoshi
+537 _ 7 _ 300 _ English Zak
+537 _ 29 _ 300 _ English Zak
+19944 _ 1 _ 40 _ Don Diego
+537 _ 27 _ 300 _ Suicune
+537 _ 5 _ 300 _ Suicune
+537 _ 10 _ 300 _ Tye
+537 _ 27 _ 300 _ Ao
+537 _ 126 _ 300 _ Ao
+14915 _ 1 _ 150 _ Deebo
+14915 _ 1 _ 150 _ M I K E
+14915 _ 1 _ 150 _ Iikke
+705 _ 1 _ 40 _ Iikke
+704 _ 1 _ 40 _ Iikke
+19946 _ 1 _ 40 _ Iikke

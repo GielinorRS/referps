@@ -1,0 +1,10 @@
+37500
+History:
+23020 _ 6 _ 7500 _ Zino
+23020 _ 4 _ 7500 _ Disconnect
+11137 _ 9 _ 3000 _ Kingredarrow
+23020 _ 2 _ 7500 _ Ellithea
+23020 _ 3 _ 12500 _ Panic
+23020 _ 2 _ 12500 _ Cam
+23020 _ 1 _ 12500 _ Ellithea
+23020 _ 2 _ 12500 _ Ellithea
