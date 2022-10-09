@@ -1,0 +1,100 @@
+[4/7/22 06:41PM] Player dropped item: Slayer helm (T2), id: 23069, amount: 1	
+[4/7/22 06:44PM] Player dropped item: Aspect Tokens, id: 10835, amount: 10	
+[4/7/22 07:35PM] Player dropped item: Custom Extreme owner cape, id: 21613, amount: 1	
+[4/7/22 07:38PM] Player dropped item: Custom Extreme owner cape, id: 21613, amount: 1	
+[4/7/22 07:38PM] Player dropped item: Dark cape, id: 15100, amount: 1	
+[4/7/22 07:41PM] Player dropped item: Custom Extreme owner cape, id: 21613, amount: 1	
+[4/7/22 07:41PM] Player dropped item: Custom Extreme owner cape, id: 21613, amount: 1	
+[4/7/22 07:41PM] Player dropped item: Custom Extreme owner cape, id: 21613, amount: 1	
+[4/7/22 07:48PM] Player dropped item: Custom Extreme owner cape, id: 21613, amount: 1	
+[4/9/22 12:10AM] Player dropped item: Aura (T5), id: 23048, amount: 1	
+[4/9/22 12:10AM] Player dropped item: Aura (T3), id: 23046, amount: 1	
+[4/9/22 12:59AM] Player dropped item: Slayer helm (T4), id: 23074, amount: 1	
+[4/9/22 12:59AM] Player dropped item: Donator's Aura, id: 12630, amount: 1	
+[4/9/22 01:02AM] Player dropped item: Aura (T2), id: 23045, amount: 1	
+[4/9/22 12:25PM] Player dropped item: Raids [1] Key, id: 13591, amount: 2	
+[4/14/22 10:23PM] Player dropped item: None, id: 24001, amount: 1	
+[4/15/22 06:05PM] Player dropped item: Shattered cape, id: 20591, amount: 1	
+[4/15/22 07:23PM] Player dropped item: BIS Body, id: 24002, amount: 1	
+[4/18/22 08:51AM] Player dropped item: Bronze Token ($10), id: 23057, amount: 1	
+[4/18/22 11:35AM] Player dropped item: Vault token, id: 12852, amount: 1	
+[4/18/22 12:17PM] Player dropped item: Mage Aura (T1), id: 24000, amount: 1	
+[4/18/22 01:51PM] Player dropped item: Universal Partyhat, id: 18419, amount: 1	
+[4/18/22 10:11PM] Player dropped item: Mystical Strength, id: 24020, amount: 1	
+[4/18/22 10:11PM] Player dropped item: Mystical Strength, id: 24020, amount: 1	
+[4/18/22 10:11PM] Player dropped item: Sharpshooter Strength, id: 24021, amount: 1	
+[4/18/22 10:11PM] Player dropped item: Warrior Strength, id: 24022, amount: 1	
+[4/18/22 10:11PM] Player dropped item: Warrior Strength, id: 24022, amount: 1	
+[4/18/22 10:11PM] Player dropped item: Ultimate Strength, id: 24023, amount: 1	
+[4/18/22 10:12PM] Player dropped item: Ultimate Strength, id: 24023, amount: 1	
+[4/18/22 11:15PM] Player dropped item: Inferno Cape, id: 10638, amount: 1	
+[4/19/22 09:26AM] Player dropped item: None, id: 24030, amount: 1	
+[4/19/22 09:38AM] Player dropped item: Aspect Tokens, id: 10835, amount: 4179	
+[4/19/22 09:47AM] Player dropped item: Raids[2] Box, id: 18404, amount: 1	
+[4/19/22 10:01AM] Player dropped item: Raids[2] Box, id: 18404, amount: 959	
+[4/19/22 11:00AM] Player dropped item: Lucien Axe, id: 17714, amount: 1	
+[4/19/22 11:00AM] Player dropped item: Lucien Crypt wings, id: 17686, amount: 1	
+[4/19/22 11:04AM] Player dropped item: Angelic helm, id: 17638, amount: 1	
+[4/19/22 11:05AM] Player dropped item: Angelic body, id: 17640, amount: 1	
+[4/19/22 11:05AM] Player dropped item: Angelic platelegs, id: 15593, amount: 1	
+[4/19/22 11:05AM] Player dropped item: Angels Flamethrower, id: 17712, amount: 1	
+[4/19/22 11:05AM] Player dropped item: Shikruu Katana, id: 20549, amount: 1	
+[4/19/22 11:06AM] Player dropped item: Angels Flamethrower, id: 17712, amount: 1	
+[4/19/22 11:08AM] Player dropped item: Satanic hellblade, id: 20542, amount: 1	
+[4/19/22 11:08AM] Player dropped item: Satanic hellblade, id: 20542, amount: 1	
+[4/19/22 11:08AM] Player dropped item: Satanic hellblade, id: 20542, amount: 1	
+[4/19/22 11:10AM] Player dropped item: Groudon-flame power, id: 15448, amount: 1	
+[4/19/22 11:21AM] Player dropped item: Lord longsword, id: 676, amount: 1	
+[4/19/22 11:49AM] Player dropped item: Fury shark, id: 17818, amount: 20	
+[4/19/22 11:49AM] Player dropped item: Crystal key, id: 989, amount: 1	
+[4/19/22 01:27PM] Player dropped item: Rusted G. legs, id: 21022, amount: 1	
+[4/19/22 02:12PM] Player dropped item: Ice amulet, id: 14596, amount: 1	
+[4/20/22 04:19PM] Player dropped item: Cursed cape, id: 20099, amount: 1	
+[4/20/22 04:19PM] Player dropped item: Cursed cape, id: 20099, amount: 1	
+[4/20/22 04:47PM] Player dropped item: Double DR Scroll (30 Minutes), id: 15358, amount: 1	
+[4/22/22 10:51PM] Player dropped item: None, id: 24045, amount: 1	
+[4/22/22 10:52PM] Player dropped item: None, id: 24045, amount: 1	
+[4/22/22 10:54PM] Player dropped item: None, id: 24046, amount: 1	
+[4/22/22 11:14PM] Player dropped item: None, id: 24045, amount: 1	
+[4/22/22 11:59PM] Player dropped item: None, id: 24053, amount: 1	
+[4/22/22 11:59PM] Player dropped item: None, id: 24053, amount: 1	
+[4/22/22 11:59PM] Player dropped item: None, id: 24053, amount: 1	
+[4/22/22 11:59PM] Player dropped item: None, id: 24052, amount: 1	
+[4/23/22 12:13AM] Player dropped item: Cursed body, id: 678, amount: 1	
+[4/23/22 12:13AM] Player dropped item: Cursed helm, id: 677, amount: 1	
+[4/23/22 12:31AM] Player dropped item: None, id: 24058, amount: 1	
+[4/23/22 12:31AM] Player dropped item: None, id: 24058, amount: 1	
+[4/23/22 12:34AM] Player dropped item: None, id: 24062, amount: 1	
+[4/23/22 12:36AM] Player dropped item: None, id: 24062, amount: 1	
+[4/23/22 12:37AM] Player dropped item: None, id: 24062, amount: 1	
+[4/23/22 12:37AM] Player dropped item: None, id: 24062, amount: 1	
+[4/24/22 09:45AM] Player dropped item: Boss Event Box, id: 19624, amount: 1	
+[4/24/22 10:06AM] Player dropped item: Picture, id: 2062, amount: 1	
+[4/24/22 10:37AM] Player dropped item: None, id: 24050, amount: 1	
+[4/24/22 10:37AM] Player dropped item: Molten legs, id: 4686, amount: 1	
+[4/24/22 11:08AM] Player dropped item: Aspect Coins, id: 995, amount: 38686	
+[4/24/22 12:28PM] Player dropped item: Shattered bow, id: 5010, amount: 1	
+[4/24/22 12:36PM] Player dropped item: Molten Cape, id: 24066, amount: 1	
+[4/24/22 12:37PM] Player dropped item: Lightning helm, id: 23050, amount: 1	
+[4/24/22 12:38PM] Player dropped item: Lightning helm, id: 23050, amount: 1	
+[4/24/22 12:39PM] Player dropped item: Bone in vinegar, id: 7840, amount: 1	
+[4/24/22 12:39PM] Player dropped item: Ninja robebottom, id: 18836, amount: 1	
+[4/24/22 12:42PM] Player dropped item: Vindicta body, id: 23076, amount: 1	
+[4/24/22 12:42PM] Player dropped item: Silver Token ($25), id: 23058, amount: 1	
+[4/24/22 12:42PM] Player dropped item: Gold Token ($50), id: 23059, amount: 1	
+[4/24/22 12:46PM] Player dropped item: Slayer helm (T6), id: 23073, amount: 1	
+[4/24/22 12:51PM] Player dropped item: Imbuement Scroll, id: 607, amount: 1	
+[4/24/22 12:53PM] Player dropped item: None, id: 24075, amount: 1	
+[4/24/22 02:30PM] Player dropped item: None, id: 23514, amount: 1	
+[4/24/22 02:35PM] Player dropped item: Box of artefacts, id: 14691, amount: 1	
+[4/24/22 02:47PM] Player dropped item: None, id: 24078, amount: 1	
+[4/30/22 03:22PM] Player dropped item: Molten Cape, id: 24066, amount: 1	
+[4/30/22 03:22PM] Player dropped item: Molten Cape, id: 24066, amount: 1	
+[4/30/22 03:26PM] Player dropped item: Molten Cape, id: 24066, amount: 1	
+[4/30/22 03:32PM] Player dropped item: Shikruu wings, id: 8821, amount: 1	
+[4/30/22 03:32PM] Player dropped item: Shikruu Cape, id: 24069, amount: 1	
+[4/30/22 03:45PM] Player dropped item: Choc saturday, id: 2074, amount: 1	
+[4/30/22 04:18PM] Player dropped item: Owner's Attachment, id: 11000, amount: 1	
+[4/30/22 04:18PM] Player dropped item: Member Token (50), id: 24012, amount: 1	
+[5/1/22 09:52AM] Player dropped item: Armoured Bunny Pet, id: 23018, amount: 1	
+[5/1/22 10:38AM] Player dropped item: Box of Armour, id: 23172, amount: 1	

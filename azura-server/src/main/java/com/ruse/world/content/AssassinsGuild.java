@@ -210,7 +210,7 @@ public class AssassinsGuild {
 
 
                                 DiscordMessager.sendWebhook(player.getUsername() + " - tier " + tier, Color.CYAN,
-                                        "https://discord.com/api/webhooks/959301658939121704/lbuXqGJHSCQkc2F53hcYeyGXJjME8f0PpbrPoc2-1xbtrz1YBAZhs7IOTYVUNoWfkGP0");
+                                        "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
                             }
                         } else {
                             player.sendMessage("You need at least two Dark weapons to do this.");
@@ -241,7 +241,7 @@ public class AssassinsGuild {
 
 
                                 DiscordMessager.sendWebhook(player.getUsername() + " - tier " + tier, Color.CYAN,
-                                        "https://discord.com/api/webhooks/959301658939121704/lbuXqGJHSCQkc2F53hcYeyGXJjME8f0PpbrPoc2-1xbtrz1YBAZhs7IOTYVUNoWfkGP0");
+                                        "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
                             }
                         } else {
                             player.sendMessage("You need at least one Blood weapon to do this.");
@@ -259,7 +259,7 @@ public class AssassinsGuild {
                             player.getTitlesManager().unlock(Titles.ASSASSIN);
 
                             DiscordMessager.sendWebhook(player.getUsername() + " - tier " + tier, Color.CYAN,
-                                    "https://discord.com/api/webhooks/959301658939121704/lbuXqGJHSCQkc2F53hcYeyGXJjME8f0PpbrPoc2-1xbtrz1YBAZhs7IOTYVUNoWfkGP0");
+                                    "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
                         } else {
                             player.sendMessage("You need at least 250M Upgrade Tokens to do this.");
                         }
@@ -294,7 +294,7 @@ public class AssassinsGuild {
                                 TeleportHandler.teleportPlayer(player, new Position(2589, 5269, 1), player.getSpellbook().getTeleportType());
 
                                 DiscordMessager.sendWebhook(player.getUsername() + " - tier " + tier, Color.CYAN,
-                                        "https://discord.com/api/webhooks/959301658939121704/lbuXqGJHSCQkc2F53hcYeyGXJjME8f0PpbrPoc2-1xbtrz1YBAZhs7IOTYVUNoWfkGP0");
+                                        "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
                             }
                         } else {
                             player.sendMessage("You need at least three Light weapons to do this.");

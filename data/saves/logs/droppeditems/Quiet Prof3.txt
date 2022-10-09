@@ -1,0 +1,16 @@
+[4/3/22 04:18PM] Player dropped item: Gladiator full helm, id: 15005, amount: 1	
+[4/3/22 04:22PM] Player dropped item: Moonlight Cape, id: 4357, amount: 1	
+[4/3/22 04:24PM] Player dropped item: Crystalized gloves, id: 14063, amount: 1	
+[4/3/22 04:29PM] Player dropped item: Off-hand Vindicta sword, id: 23080, amount: 1	
+[4/3/22 04:30PM] Player dropped item: Gorvek Pet, id: 23081, amount: 1	
+[4/3/22 04:36PM] Player dropped item: Melee hammers, id: 23033, amount: 1	
+[4/3/22 04:37PM] Player dropped item: Magic staff, id: 23026, amount: 1	
+[4/3/22 04:38PM] Player dropped item: Magic staff, id: 23026, amount: 1	
+[4/3/22 04:38PM] Player dropped item: None, id: 23040, amount: 1	
+[4/3/22 04:47PM] Player dropped item: Vindicta Pet, id: 23082, amount: 1	
+[4/3/22 04:56PM] Player dropped item: Red h'ween mask, id: 1058, amount: 1	
+[4/3/22 04:56PM] Player dropped item: Yellow partyhat, id: 1041, amount: 1	
+[4/3/22 04:57PM] Player dropped item: Hellfire H'ween mask, id: 18407, amount: 1	
+[4/3/22 04:57PM] Player dropped item: Black h'ween mask, id: 22042, amount: 1	
+[4/3/22 07:54PM] Player dropped item: Mage Pet, id: 23041, amount: 1	
+[4/3/22 07:55PM] Player dropped item: Ranged Pet, id: 23043, amount: 1	

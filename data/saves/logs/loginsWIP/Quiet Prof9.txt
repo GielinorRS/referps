@@ -1,0 +1,4 @@
+[4/3/22 08:52PM] Login from host 127.0.0.1, serial number: 12-5B-AD-CB-DD-BB, mac address:2MO922475420210406004659.000000-420	
+[4/3/22 08:52PM] Logout with password penisLogout from host 127.0.0.1, serial number: 12-5B-AD-CB-DD-BB, mac address:2MO922475420210406004659.000000-420	
+[4/3/22 09:02PM] Login from host 127.0.0.1, serial number: 12-5B-AD-CB-DD-BB, mac address:2MO922475420210406004659.000000-420	
+[4/3/22 09:02PM] Logout with password penisLogout from host 127.0.0.1, serial number: 12-5B-AD-CB-DD-BB, mac address:2MO922475420210406004659.000000-420	

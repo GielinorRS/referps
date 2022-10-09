@@ -8,6 +8,7 @@ import com.ruse.util.Misc
  * Represents a single movement direction.
  * @author Graham
  */
+@Suppress("NON_EXHAUSTIVE_WHEN_STATEMENT")
 enum class DirectionFace
 /**
  * Creates the direction.

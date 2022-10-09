@@ -1,16 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="azura-client:jar" />
+      <artifact name="azura-runelite:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="961c16c7-79d8-42d7-8b11-3c55dfa993a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/azura_client_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/azura_runelite_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_DV8FromTheWorld_JDA_v4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtubeAnalytics_v1_rev14_1_13_2_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtubereporting_v1_rev1_1_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20200518.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_maven_plugin_1_18_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_build_api_0_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azura-server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azura-server/azura-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azura-server/libs/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_opus_java_api_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_opus_java_natives_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_1_25_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtubeAnalytics_v2_rev20210510_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtube_v3_rev20220926_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtube_v3_rev212_1_25_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtubereporting_v1_rev20220319_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_42_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_25_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_apache_v2_1_42_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_42_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_25_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_34_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_25_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_149.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_59.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_27_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_31_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_http_util_0_31_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_8_5_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_8_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_dv8tion_JDA_4_2_0_228.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_7_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_7_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_7_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_7_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_7_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20220924.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/resources/net/runelite/client/runelite.properties" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/resources/net/runelite/client/runelite.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/api/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/api/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/callback/ClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/callback/ClientThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Alpha.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Alpha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ChatColorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ChatColorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItemDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ExpandResizeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ExpandResizeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/FlashNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/FlashNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/FontType.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/FontType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Keybind.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Keybind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ModifierlessKeybind.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ModifierlessKeybind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Range.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/RuneLiteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/RuneLiteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/TooltipPositionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/TooltipPositionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Units.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Units.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/WarningOnExit.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/WarningOnExit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$Subscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$SubscriberMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$SubscriberMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/Subscribe.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/Subscribe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ClientShutdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ClientShutdown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ConfigChanged.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ConfigChanged.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonAdded.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonAdded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonRemoved.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonRemoved.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/PluginChanged.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/PluginChanged.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseWheelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseWheelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/Plugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/Plugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDependencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDependencies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDependency.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDependency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginInstantiationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginInstantiationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/FixedWidthPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/FixedWidthPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/HotkeyButton$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/HotkeyButton$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/HotkeyButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/HotkeyButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginConfigurationDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginConfigurationDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginToggleButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginToggleButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatterFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/discord/DiscordPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/discord/DiscordPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/rs/ClientLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/rs/ClientLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/runelite.properties" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/runelite.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Schedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Schedule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/ScheduledMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/ScheduledMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Scheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Scheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPluginToolbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPluginToolbar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientToolbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientToolbar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ColorScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ColorScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame$Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame$Mode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/DynamicGridLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/DynamicGridLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/FontManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/FontManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/JagexColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/JagexColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/MultiplexingPluginPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/MultiplexingPluginPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton$NavigationButtonBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton$NavigationButtonBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/PluginPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/PluginPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ComboBoxListRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ComboBoxListRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/CustomScrollBarUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/CustomScrollBarUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/DimmableJPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/DimmableJPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$Icon.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$Icon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/PluginErrorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/PluginErrorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ProgressBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ProgressBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ThinProgressBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ThinProgressBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPickerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPickerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/PreviewPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/PreviewPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTabGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTabGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/shadowlabel/JShadowedLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/shadowlabel/JShadowedLabel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/shadowlabel/JShadowedLabelUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/shadowlabel/JShadowedLabelUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/ObsidianSkin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/ObsidianSkin$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/ObsidianSkin.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/ObsidianSkin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/SubstanceRuneLiteLookAndFeel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/SubstanceRuneLiteLookAndFeel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/CallableExceptionLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/CallableExceptionLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ColorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ColorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/DeferredEventBus.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/DeferredEventBus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ExecutorServiceExceptionLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ExecutorServiceExceptionLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/HotkeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/HotkeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ImageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/JagexPrintableCharMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/JagexPrintableCharMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/LinkBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/LinkBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/OSType.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/OSType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ReflectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ReflectUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/RunnableExceptionLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/RunnableExceptionLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/TransferableBufferedImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/TransferableBufferedImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Excaliber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Excaliber.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/posHistory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/posHistory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/prices.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/prices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/shops/Excaliber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/shops/Excaliber.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/shops/Golden Power.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/shops/Golden Power.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/shops/Jano.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/shops/Jano.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/model/container/ItemContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/model/container/ItemContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/mysql/Voting.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/mysql/Voting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/PlayerSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/PlayerSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/ScratchCardEndPacketListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/ScratchCardEndPacketListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/webhooks/discord/DiscordMessager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/webhooks/discord/DiscordMessager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/AssassinsGuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/AssassinsGuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/DonationRaffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/DonationRaffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/PerksRaffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/PerksRaffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/VotingRaffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/VotingRaffle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/seasonpass/SeasonPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/seasonpass/SeasonPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/impl/player/PlayerProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/impl/player/PlayerProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/updating/PlayerUpdateSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/updating/PlayerUpdateSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/world/content/globalBoss/CelestialZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/world/content/globalBoss/CelestialZone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +281,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -47,18 +297,48 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/grim/Documents/GitHub/Lunite Full Package/azura-server"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/grim/referps/pom.xml",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15136719",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RunManager" selected="Application.GameServer">
     <configuration name="GameServer" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_202\jre" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.ruse.GameServer" />
       <module name="azura-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ruse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuneLite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="net.runelite.client.RuneLite" />
+      <module name="azura-runelite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.runelite.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,16 +390,45 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="mvgate3.jar" type="JarApplication" temporary="true">
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <option name="JAR_PATH" value="$PROJECT_DIR$/azura-server/target/classes/mvgate3.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.GameServer" />
+      <item itemvalue="Application.RuneLite" />
+      <item itemvalue="Application.hashCharacterJson" />
+      <item itemvalue="Application.TestAPI" />
+      <item itemvalue="JAR Application.mvgate3.jar" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RuneLite" />
         <item itemvalue="Application.TestAPI" />
         <item itemvalue="JAR Application.mvgate3.jar" />
         <item itemvalue="Application.hashCharacterJson" />

@@ -87,7 +87,7 @@ public class Voting implements Runnable {
                     World.sendStaffMessage("<col=FF0066><img=2> [VOTE ABUSE]<col=6600FF> " + player.getUsername()
                             + " tried to claim @red@" + amount + " votes <col=6600FF>- Message Nucky on Discord");
                     DiscordMessager.sendWebhook(player.getUsername() + " - tried to claim " + amount + " votes <@782919638291447819>",
-                            Color.RED, "https://discord.com/api/webhooks/982793751053352970/mgBDJJ-q6sHm-gl98Ixk5kS_CVTvSfYRjUkDJEJGHplVfIn_Qpd8WHq9YBaNwR_yBd7Q");
+                            Color.RED, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
                 }else {
                     for (int i = 0; i < amount / 2; i++) {
                         Cases.grantCasket(player, 2);
