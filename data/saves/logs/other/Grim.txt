@@ -1,0 +1,8 @@
+[10/9/22 12:58PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 01:02PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 01:03PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 01:04PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 01:07PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 01:30PM]  teleported out of level 60 wildy. Were in combat? false	
+[10/9/22 01:31PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 01:31PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
