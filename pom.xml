@@ -22,8 +22,8 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
-        </repositories>
-        <build>
+    </repositories>
+    <build>
         <pluginManagement>
             <plugins>
                 <plugin>
