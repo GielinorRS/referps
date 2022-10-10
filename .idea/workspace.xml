@@ -52,8 +52,23 @@
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/updating/PlayerUpdateSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/updating/PlayerUpdateSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/world/content/globalBoss/CelestialZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/world/content/globalBoss/CelestialZone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/azura-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/azura-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/azura-runelite.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/azura-runelite.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Grim.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/characters/Quiet Prof.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/info/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/info/accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/info/uniqueips.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/boss_slayer_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/boss_slayer_tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/collection_logs_completed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/collection_logs_completed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/daily_tasks_completed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/daily_tasks_completed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/donated.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/donated.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/easy_slayer_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/easy_slayer_tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/hard_slayer_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/hard_slayer_tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/med_slayer_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/med_slayer_tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/npc_killcount.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/npc_killcount.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/sanctum_of_death.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/sanctum_of_death.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/time_played.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/time_played.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/titles_unlocked.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/titles_unlocked.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/treasure_hunter.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/treasure_hunter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +79,7 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/azura-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

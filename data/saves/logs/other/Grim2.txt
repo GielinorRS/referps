@@ -1,0 +1,10 @@
+[10/9/22 03:38PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:38PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:40PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:40PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:42PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:47PM] Grim2 received  <col=ff4f4f>Upgrade Token pack (100k) from Hanto Warrior!	
+[10/9/22 03:47PM] Grim2 received  <col=ff4f4f>$1 Scroll from Hanto Warrior!	
+[10/9/22 03:49PM] Grim2 received  <col=ff4f4f>Upgrade Token pack (100k) from Hanto Warrior!	
+[10/9/22 03:56PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:56PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	

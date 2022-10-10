@@ -6,3 +6,14 @@
 [10/9/22 01:30PM]  teleported out of level 60 wildy. Were in combat? false	
 [10/9/22 01:31PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
 [10/9/22 01:31PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 02:04PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 02:04PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:32PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:33PM] Grim received  <col=ff4f4f>$1 Scroll from Hanto Warrior!	
+[10/9/22 03:33PM] Has just redeemed a $1 Scroll successfully!	
+[10/9/22 03:33PM] Has just redeemed a $1 Scroll successfully!	
+[10/9/22 03:35PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:42PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[10/9/22 03:45PM] Has just redeemed a $100 Bond successfully!	
+[10/9/22 03:49PM] Grim received  <col=ff4f4f>Silver Casket from Lunite Guardian!	
+[10/9/22 03:56PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	

@@ -39,7 +39,7 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 
 			t.getSession().handleQueuedMessages();
 			if (t!= null && System.currentTimeMillis() - firstTime > 75) {
-				sessionlag=  true;
+				//sessionlag=  true;
 				firstTime = System.currentTimeMillis();
 			}
 
@@ -71,7 +71,7 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 			NpcAggression.target(t);
 
 
-			if (t!= null && System.currentTimeMillis() - lastTime > 100 && !sessionlag) {
+			/*if (t!= null && System.currentTimeMillis() - lastTime > 100 && !sessionlag) {
 				System.out.println(t.getUsername() + " - time took: " + (System.currentTimeMillis() - lastTime) + " ms");
 
 				if (System.currentTimeMillis() - lastTime > 200){
@@ -83,7 +83,7 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 					DiscordMessager.sendWebhook(t.getUsername() + " - " + (System.currentTimeMillis() - lastTime) + " ms",
 							Color.YELLOW, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
 				}
-			}
+			}*/
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -95,7 +95,7 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 	public void executeUpdate(Player t) {
 		updateExecutor.execute(() -> {
 			try {
-				synchronized (t) {
+				synchronized (t) {;
 					PlayerUpdating.update(t);
 					NPCUpdating.update(t);
 				}

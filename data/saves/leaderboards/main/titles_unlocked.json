@@ -1,3 +1,12 @@
 {
-  "data": []
+  "data": [
+    {
+      "name": "Nucky",
+      "value": 1
+    },
+    {
+      "name": "Grim",
+      "value": 2
+    }
+  ]
 }

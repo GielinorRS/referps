@@ -1,6 +1,6 @@
 {
-  "total-play-time-ms": 18080832,
-  "username": "Grim",
+  "total-play-time-ms": 371926062,
+  "username": "Grim2",
   "password": "grim",
   "email": "null",
   "staff-rights": "DEVELOPER",
@@ -8,9 +8,9 @@
   "player-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2999,
-    "y": 2764,
-    "z": 1
+    "x": 2850,
+    "y": 4572,
+    "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
@@ -18,7 +18,7 @@
   "has-pin2": true,
   "saved-pin2": "0099",
   "saved-ip": "127.0.0.1",
-  "donated": -1853461760,
+  "donated": 10001152,
   "current-boss-task": 0,
   "current-boss-amount": 0,
   "global-rate": 0,
@@ -362,7 +362,7 @@
   "timeUntilNextReward": 0,
   "current-voting-streak": 0,
   "entriesCurrency": 0.0,
-  "amount-donated-today": -1853461760,
+  "amount-donated-today": 10001152,
   "claimed-first": false,
   "claimed-second": false,
   "claimed-third": false,
@@ -384,19 +384,19 @@
   "minutes-voting-dmg": -1,
   "total-gained-exp": 2015723462,
   "barrows-points": 0,
-  "member-points": -1853717470,
+  "member-points": 9745442,
   "Skilling-points": 0,
   "prestige-points": 0,
   "achievement-points": 0,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 8718,
-  "total-loyalty-points": 8718.0,
+  "loyalty-points": 8721,
+  "total-loyalty-points": 8721.0,
   "godmodetime": 0,
   "voting-points": 100000000,
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 24,
+  "npc-killcount": 25,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -412,7 +412,7 @@
   "mini-lucifer-killcount": 0,
   "lucifer-killcount": 0,
   "event-points": 0,
-  "boss-points": 6,
+  "boss-points": 7,
   "shilling-rate": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -431,7 +431,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 435179756,
+  "last-veng": 435179707,
   "fight-type": "BSOAT_ACCURATE",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -604,13 +604,13 @@
   ],
   "skills": {
     "level": [
-      14958,
-      14958,
-      14958,
-      149920,
-      14958,
-      145949,
-      14958,
+      14957,
+      14957,
+      14957,
+      149202,
+      14957,
+      150000,
+      14957,
       120,
       120,
       120,
@@ -728,7 +728,7 @@
     },
     {
       "id": 12855,
-      "amount": 702975612,
+      "amount": 704013263,
       "slot": 0
     },
     {
@@ -753,17 +753,17 @@
     },
     {
       "id": 23569,
-      "amount": 1999999000,
+      "amount": 1999998250,
       "slot": 0
     },
     {
-      "id": 15359,
-      "amount": 5,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 23456,
-      "amount": 199999870,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -1109,7 +1109,7 @@
     },
     {
       "id": 15003,
-      "amount": 64,
+      "amount": 63,
       "slot": 0
     },
     {
@@ -1144,7 +1144,7 @@
     },
     {
       "id": 11137,
-      "amount": 48423,
+      "amount": 48443,
       "slot": 0
     },
     {
@@ -1169,7 +1169,7 @@
     },
     {
       "id": 10946,
-      "amount": 435,
+      "amount": 436,
       "slot": 0
     },
     {
@@ -1199,7 +1199,7 @@
     },
     {
       "id": 15288,
-      "amount": 7314,
+      "amount": 7316,
       "slot": 0
     },
     {
@@ -1229,7 +1229,7 @@
     },
     {
       "id": 19114,
-      "amount": 89901,
+      "amount": 89908,
       "slot": 0
     },
     {
@@ -1285,6 +1285,11 @@
     {
       "id": 23049,
       "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23456,
+      "amount": 199999970,
       "slot": 0
     },
     {
@@ -1604,7 +1609,7 @@
     },
     {
       "id": 23215,
-      "amount": 12,
+      "amount": 19,
       "slot": 0
     },
     {
@@ -1731,10 +1736,10 @@
       "boss": false
     },
     {
-      "runningTotal": 4,
+      "runningTotal": 10,
       "npcId": 9895,
       "npcName": "Hanto Warrior",
-      "amount": 4,
+      "amount": 10,
       "boss": false
     },
     {
@@ -1743,13 +1748,6 @@
       "npcName": "Tanzanite",
       "amount": 2,
       "boss": true
-    },
-    {
-      "runningTotal": 2,
-      "npcId": 9880,
-      "npcName": "Lunite Guardian",
-      "amount": 2,
-      "boss": false
     }
   ],
   "drops": [],
@@ -4089,25 +4087,25 @@
   "sacrificed-owner": false,
   "celestial": false,
   "unlocked-rammernaut": false,
-  "travelling-day": 282,
+  "travelling-day": 281,
   "travelling-merchant": [
     {
       "id": 23755,
-      "amount": 1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 23782,
-      "amount": 5,
+      "id": 23753,
+      "amount": 0,
       "slot": 0
     },
     {
       "id": 23776,
-      "amount": 5,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 15359,
+      "id": 21218,
       "amount": 0,
       "slot": 0
     },

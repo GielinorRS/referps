@@ -1,12 +1,14 @@
 {
-  "2022-10-09": 1,
+  "2022-10-09": 3,
   "data": [
     {
       "epochDay": 19274,
       "day": "2022-10-09",
-      "total": 1,
+      "total": 3,
       "accounts": [
-        "Grim"
+        "Grim",
+        "Nucky",
+        "Grim2"
       ]
     }
   ]
