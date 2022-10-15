@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 11623865,
+  "total-play-time-ms": 7335095,
   "username": "Grim",
   "password": "grim",
   "email": "null",
@@ -8,8 +8,8 @@
   "player-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2660,
-    "y": 4015,
+    "x": 1696,
+    "y": 4266,
     "z": 0
   },
   "online-status": "ON",
@@ -18,7 +18,7 @@
   "has-pin2": true,
   "saved-pin2": "0099",
   "saved-ip": "127.0.0.1",
-  "donated": 10001150,
+  "donated": 10001015,
   "current-boss-task": 0,
   "current-boss-amount": 0,
   "global-rate": 0,
@@ -292,7 +292,7 @@
         2500
       ],
       "progress": [
-        77,
+        76,
         0,
         0
       ],
@@ -349,7 +349,7 @@
         25000
       ],
       "progress": [
-        77,
+        76,
         0,
         0
       ],
@@ -362,7 +362,7 @@
   "timeUntilNextReward": 0,
   "current-voting-streak": 0,
   "entriesCurrency": 0.0,
-  "amount-donated-today": 10001150,
+  "amount-donated-today": 10001015,
   "claimed-first": false,
   "claimed-second": false,
   "claimed-third": false,
@@ -379,19 +379,19 @@
   "day5claimed": false,
   "day6claimed": false,
   "day7claimed": false,
-  "minutes-bonus-exp": 499999909,
+  "minutes-bonus-exp": 499999975,
   "minutes-voting-dr": -1,
   "minutes-voting-dmg": -1,
   "total-gained-exp": 539684610,
   "barrows-points": 0,
-  "member-points": 9745440,
+  "member-points": 9995305,
   "Skilling-points": 0,
   "prestige-points": 0,
   "achievement-points": 0,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 6720,
-  "total-loyalty-points": 6720.0,
+  "loyalty-points": 3996,
+  "total-loyalty-points": 3996.0,
   "godmodetime": 0,
   "voting-points": 100000000,
   "total-prestiges": 0,
@@ -431,8 +431,8 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 1664913894618,
-  "fight-type": "TWOHANDEDSWORD_CHOP",
+  "last-veng": 1664911670924,
+  "fight-type": "STAFF_BASH",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -461,7 +461,7 @@
   "process-farming": false,
   "clanchat": "null",
   "autocast": false,
-  "autocast-spell": -1,
+  "autocast-spell": 1154,
   "dfs-charges": 0,
   "coins-gambled": 0,
   "slayer-master1": "EASY",
@@ -604,13 +604,13 @@
   ],
   "skills": {
     "level": [
-      14941,
-      14941,
-      14941,
+      14990,
+      14990,
+      14990,
       150000,
-      14941,
+      14990,
       150000,
-      14941,
+      14990,
       120,
       120,
       120,
@@ -687,27 +687,7 @@
   },
   "inventory": [
     {
-      "id": 5022,
-      "amount": 224112500,
-      "slot": 0
-    },
-    {
-      "id": 5010,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 19114,
-      "amount": 10,
-      "slot": 0
-    },
-    {
-      "id": 23888,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 23842,
+      "id": 23127,
       "amount": 1,
       "slot": 0
     },
@@ -717,13 +697,33 @@
       "slot": 0
     },
     {
-      "id": 773,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 773,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -829,13 +829,13 @@
   ],
   "equipment": [
     {
-      "id": 23827,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 23884,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -844,7 +844,7 @@
       "slot": 0
     },
     {
-      "id": 23840,
+      "id": 22114,
       "amount": 1,
       "slot": 0
     },
@@ -869,8 +869,8 @@
       "slot": 0
     },
     {
-      "id": 23651,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -1069,7 +1069,7 @@
     },
     {
       "id": 4278,
-      "amount": 3500,
+      "amount": 3300,
       "slot": 0
     },
     {
@@ -1084,12 +1084,12 @@
     },
     {
       "id": 20488,
-      "amount": 10583,
+      "amount": 4594,
       "slot": 0
     },
     {
       "id": 6769,
-      "amount": 0,
+      "amount": 5,
       "slot": 0
     },
     {
@@ -1109,7 +1109,7 @@
     },
     {
       "id": 15003,
-      "amount": 63,
+      "amount": 18,
       "slot": 0
     },
     {
@@ -1124,12 +1124,12 @@
     },
     {
       "id": 10942,
-      "amount": 4,
+      "amount": 0,
       "slot": 0
     },
     {
       "id": 15290,
-      "amount": 2321,
+      "amount": 2021,
       "slot": 0
     },
     {
@@ -1139,12 +1139,12 @@
     },
     {
       "id": 23478,
-      "amount": 9975,
+      "amount": 9982,
       "slot": 0
     },
     {
       "id": 11137,
-      "amount": 48383,
+      "amount": 14700,
       "slot": 0
     },
     {
@@ -1154,22 +1154,22 @@
     },
     {
       "id": 23002,
-      "amount": 5,
+      "amount": 3,
       "slot": 0
     },
     {
       "id": 10935,
-      "amount": 4,
+      "amount": 3,
       "slot": 0
     },
     {
       "id": 10934,
-      "amount": 7,
+      "amount": 5,
       "slot": 0
     },
     {
       "id": 10946,
-      "amount": 434,
+      "amount": 331,
       "slot": 0
     },
     {
@@ -1194,12 +1194,12 @@
     },
     {
       "id": 23211,
-      "amount": 1900,
+      "amount": 900,
       "slot": 0
     },
     {
       "id": 15288,
-      "amount": 7314,
+      "amount": 2885,
       "slot": 0
     },
     {
@@ -1209,32 +1209,32 @@
     },
     {
       "id": 9083,
-      "amount": 4,
+      "amount": 3,
       "slot": 0
     },
     {
       "id": 3578,
-      "amount": 10,
+      "amount": 8,
       "slot": 0
     },
     {
       "id": 23515,
-      "amount": 4176,
+      "amount": 3926,
       "slot": 0
     },
     {
       "id": 23516,
-      "amount": 9500,
+      "amount": 7500,
       "slot": 0
     },
     {
       "id": 19114,
-      "amount": 89880,
+      "amount": 33873,
       "slot": 0
     },
     {
       "id": 15002,
-      "amount": 9,
+      "amount": 6,
       "slot": 0
     },
     {
@@ -1244,32 +1244,32 @@
     },
     {
       "id": 12535,
-      "amount": 4,
+      "amount": 2,
       "slot": 0
     },
     {
       "id": 22114,
-      "amount": 3,
+      "amount": 1,
       "slot": 0
     },
     {
       "id": 5022,
-      "amount": 0,
+      "amount": 103980000,
       "slot": 0
     },
     {
       "id": 12630,
-      "amount": 4,
+      "amount": 2,
       "slot": 0
     },
     {
       "id": 21218,
-      "amount": 430,
+      "amount": 275,
       "slot": 0
     },
     {
       "id": 5012,
-      "amount": 3,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -1279,7 +1279,7 @@
     },
     {
       "id": 12855,
-      "amount": 803890000,
+      "amount": 1046975000,
       "slot": 0
     },
     {
@@ -1289,7 +1289,7 @@
     },
     {
       "id": 23456,
-      "amount": 199999970,
+      "amount": 199999920,
       "slot": 0
     },
     {
@@ -1299,22 +1299,22 @@
     },
     {
       "id": 22006,
-      "amount": 2790,
+      "amount": 1340,
       "slot": 0
     },
     {
       "id": 23514,
-      "amount": 9000,
+      "amount": 4000,
       "slot": 0
     },
     {
       "id": 15359,
-      "amount": 631,
+      "amount": 181,
       "slot": 0
     },
     {
       "id": 23464,
-      "amount": 199991000,
+      "amount": 199999000,
       "slot": 0
     },
     {
@@ -1324,37 +1324,37 @@
     },
     {
       "id": 8088,
-      "amount": 91,
+      "amount": 27,
       "slot": 0
     },
     {
       "id": 4446,
-      "amount": 81,
+      "amount": 24,
       "slot": 0
     },
     {
       "id": 8089,
-      "amount": 85,
+      "amount": 30,
       "slot": 0
     },
     {
       "id": 15358,
-      "amount": 591,
+      "amount": 173,
       "slot": 0
     },
     {
       "id": 7956,
-      "amount": 3297700,
+      "amount": 997700,
       "slot": 0
     },
     {
       "id": 23534,
-      "amount": 8240,
+      "amount": 1080,
       "slot": 0
     },
     {
       "id": 20489,
-      "amount": 630,
+      "amount": 175,
       "slot": 0
     },
     {
@@ -1364,12 +1364,12 @@
     },
     {
       "id": 8087,
-      "amount": 89,
+      "amount": 28,
       "slot": 0
     },
     {
       "id": 19886,
-      "amount": 78,
+      "amount": 23,
       "slot": 0
     },
     {
@@ -1394,7 +1394,7 @@
     },
     {
       "id": 22083,
-      "amount": 3,
+      "amount": 2,
       "slot": 0
     },
     {
@@ -1474,7 +1474,7 @@
     },
     {
       "id": 23776,
-      "amount": 75,
+      "amount": 70,
       "slot": 0
     },
     {
@@ -1515,91 +1515,6 @@
     {
       "id": 19888,
       "amount": 2,
-      "slot": 0
-    },
-    {
-      "id": 18883,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 23471,
-      "amount": 3,
-      "slot": 0
-    },
-    {
-      "id": 23210,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": 23472,
-      "amount": 2,
-      "slot": 0
-    },
-    {
-      "id": 19810,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 23120,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 23753,
-      "amount": 10,
-      "slot": 0
-    },
-    {
-      "id": 23755,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 18404,
-      "amount": 49979,
-      "slot": 0
-    },
-    {
-      "id": 22084,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 8800,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 8806,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 19136,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 8330,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 8802,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 8808,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 6936,
-      "amount": 1,
       "slot": 0
     }
   ],
@@ -2744,421 +2659,421 @@
   ],
   "achievements-completed": [
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ],
     [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
     ]
   ],
-  "achievements-daily": 281,
+  "achievements-daily": 277,
   "starter-task-amount": [
     0,
     0,
     0,
     0,
-    77,
+    76,
     0,
     0,
     0,
@@ -3176,26 +3091,26 @@
     0
   ],
   "starter-task-completed": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
   ],
   "progression-zones": [
     0,
@@ -3206,17 +3121,17 @@
     0
   ],
   "zones-complete": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
   ],
   "gamble-banned": false,
-  "lucifers-unlocked": true,
-  "dark-supremes-unlocked": true,
-  "blood-odin-unlocked": true,
+  "lucifers-unlocked": false,
+  "dark-supremes-unlocked": false,
+  "blood-odin-unlocked": false,
   "currency-pouch": {
     "upgradeTokens": 0,
     "pvmTickets": 0,
@@ -3237,21 +3152,21 @@
   "group-ironman-locked": false,
   "lastInstanceNpc": -1,
   "seasonpass-tier": 1,
-  "seasonpass-xp": 6,
+  "seasonpass-xp": 2,
   "seasonpass-member": true,
-  "seasonpass-season": 1,
-  "seasonpass-received-500-kc-xp": true,
+  "seasonpass-season": 0,
+  "seasonpass-received-500-kc-xp": false,
   "turkeys-mutated": [
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true,
-    true
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
   ],
   "afk-caught": 0,
   "dissembler-charges": 0,
@@ -3259,218 +3174,218 @@
   "troll-day": 0,
   "sanctum-kc": 0,
   "sanctum-drop-rate": 0,
-  "sanctum-key-opened": 38438952,
+  "sanctum-key-opened": 38430952,
   "cosmetic-override": true,
-  "crest-creation": true,
+  "crest-creation": false,
   "collection-log": [
     {
       "name": "ICE",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "PREDATOR",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "CYAN",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "BULWARK",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "MINI_LUCI",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "DRAGONSTONE_DRAGON",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "ONYX_DRAGON",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "HYDRIX_DRAGON",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "AVIANSE",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "IMP",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "LORD",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "DEMON",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "DRAGON",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "BEAST",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "TROLLKING",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "AVATAR",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "ANGEL",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "LUCIEN",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "HERCULES",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SATAN",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "ZEUS",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "GROUDON",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "RED_FENRIR",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "GREEN_FENRIR1",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "BLUE_FENRIR2",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "BORK",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "FRIEZA",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "PERFECT_CELL",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SUPER_BUU",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SCARLET",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "HERBAL",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "AZURE",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "JOKER",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "CRYSTAL",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SUPREME",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "VASA",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "ELITE",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "MEGA",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "INFERNAL",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "LUCIFER",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "DARK",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "ODIN",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
@@ -3497,68 +3412,53 @@
     },
     {
       "name": "VORKATH",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SILVERHAWK",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "VOTING_MINIGAME",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SANCTUM_OF_DEATH",
-      "completed": 9000,
+      "completed": 1000,
       "obtainedItems": [
         {
           "id": 23475,
-          "amount": 2,
+          "amount": 1,
           "slot": 0
         },
         {
           "id": 15288,
-          "amount": 4827,
+          "amount": 498,
           "slot": 0
         },
         {
           "id": 23470,
           "amount": 1,
           "slot": 0
-        },
-        {
-          "id": 23471,
-          "amount": 3,
-          "slot": 0
-        },
-        {
-          "id": 23210,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 23472,
-          "amount": 2,
-          "slot": 0
         }
       ]
     },
     {
       "name": "TREASURE_HUNTER",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "HALLS_OF_AMMO",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "PEST_CONTROL",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
@@ -3574,27 +3474,27 @@
     },
     {
       "name": "MYSTERY_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "PVM_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "PVM_BOX_T2",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SUPER_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "EXTREME_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
@@ -3675,101 +3575,45 @@
     },
     {
       "name": "OP_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "VOTING_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "PROGRESSIVE_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SLAYER_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "SLAYER_BOX_UPGRADED",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "DRAGONBALL_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "RAIDS_TWO_BOX",
-      "completed": 20000021,
-      "obtainedItems": [
-        {
-          "id": 12855,
-          "amount": 60000,
-          "slot": 0
-        },
-        {
-          "id": 19114,
-          "amount": 2,
-          "slot": 0
-        },
-        {
-          "id": 22084,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 8800,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 8806,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 19136,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 8330,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 8802,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 8808,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 6936,
-          "amount": 1,
-          "slot": 0
-        }
-      ]
+      "completed": 0,
+      "obtainedItems": []
     },
     {
       "name": "LAUNCH_CHEST",
-      "completed": 2,
+      "completed": 1,
       "obtainedItems": [
         {
           "id": 18753,
-          "amount": 1,
-          "slot": 0
-        },
-        {
-          "id": 22083,
           "amount": 1,
           "slot": 0
         }
@@ -3777,28 +3621,17 @@
     },
     {
       "name": "SILVER_CHEST",
-      "completed": 3,
-      "obtainedItems": [
-        {
-          "id": 5022,
-          "amount": 25000,
-          "slot": 0
-        },
-        {
-          "id": 20489,
-          "amount": 4,
-          "slot": 0
-        }
-      ]
+      "completed": 0,
+      "obtainedItems": []
     },
     {
       "name": "RUBY_CHEST",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "DIAMOND_CHEST",
-      "completed": 9,
+      "completed": 6,
       "obtainedItems": [
         {
           "id": 3578,
@@ -3822,7 +3655,7 @@
         },
         {
           "id": 20488,
-          "amount": 12,
+          "amount": 3,
           "slot": 0
         },
         {
@@ -3834,7 +3667,7 @@
     },
     {
       "name": "ONYX_CHEST",
-      "completed": 11,
+      "completed": 10,
       "obtainedItems": [
         {
           "id": 3578,
@@ -3860,17 +3693,12 @@
           "id": 19888,
           "amount": 2,
           "slot": 0
-        },
-        {
-          "id": 19810,
-          "amount": 1,
-          "slot": 0
         }
       ]
     },
     {
       "name": "ZENYTE_CHEST",
-      "completed": 13,
+      "completed": 12,
       "obtainedItems": [
         {
           "id": 12630,
@@ -3911,32 +3739,27 @@
           "id": 23204,
           "amount": 2,
           "slot": 0
-        },
-        {
-          "id": 15004,
-          "amount": 2,
-          "slot": 0
         }
       ]
     },
     {
       "name": "ANGELIC_CASE",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "DIVINE_CASE",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "MONEY_CASE",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     },
     {
       "name": "AUTUMN_BOX",
-      "completed": 20000000,
+      "completed": 0,
       "obtainedItems": []
     }
   ],
@@ -3987,26 +3810,26 @@
   "sacrificed-owner": false,
   "celestial": false,
   "unlocked-rammernaut": false,
-  "travelling-day": 281,
+  "travelling-day": 277,
   "travelling-merchant": [
     {
       "id": 23755,
-      "amount": 0,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": 23753,
-      "amount": 0,
+      "id": 15358,
+      "amount": 5,
       "slot": 0
     },
     {
-      "id": 23776,
-      "amount": 0,
+      "id": 15359,
+      "amount": 5,
       "slot": 0
     },
     {
-      "id": 21218,
-      "amount": 0,
+      "id": 22006,
+      "amount": 25,
       "slot": 0
     },
     {
@@ -5273,8 +5096,8 @@
     false
   ],
   "daily-reward-day": 0,
-  "daily-reward-epoch": 281,
-  "curse-of-arrav-progress": 1,
+  "daily-reward-epoch": 277,
+  "curse-of-arrav-progress": 0,
   "unlocked-titles": [
     "NONE",
     "MAXED"
@@ -5294,25 +5117,13 @@
   "daily-task-slots": [
     [
       {
-        "task": "SUMMON_A_PET",
-        "progressOnTask": 1,
-        "completed": true,
-        "claimedReward": true
-      },
-      {
-        "task": "DEFEAT_100_SUPREME_BOSS",
+        "task": "OPEN_A_CLUE_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "EQUIP_COLLECTOR_NECKLACE_AND_CREEPER_CAPE",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "CLAIM_4_VOTE_SCROLLS",
+        "task": "OPEN_A_CLUE_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5322,29 +5133,41 @@
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
-      }
-    ],
-    [
-      {
-        "task": "REACH_WAVE_10_GOLD_GRINDER",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
       },
       {
-        "task": "SUMMON_A_VOTE_GOKU_OR_RAICHU_PET",
-        "progressOnTask": 1,
+        "task": "OPEN_10_BOXES_OR_CASKETS",
+        "progressOnTask": 78,
         "completed": true,
         "claimedReward": true
       },
       {
-        "task": "DEFEAT_100_ELITE_DRAGONS",
+        "task": "OPEN_A_CLUE_CASKET",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      }
+    ],
+    [
+      {
+        "task": "COMPLETE_5_BOSS_SLAYER_TASKS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "DEFEAT_250_DBZ_BOSSES",
+        "task": "COMPLETE_5_ISLAND_RAIDS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DEFEAT_2500_ZONE_NPCS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "COMPLETE_5_HALLS_OF_AMMO_RUNS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5353,20 +5176,20 @@
     ],
     [
       {
-        "task": "EQUIP_A_COSTUME_WITH_AT_LEAST_10_DAMAGE_BONUS",
-        "progressOnTask": 1,
-        "completed": true,
-        "claimedReward": true
-      },
-      {
-        "task": "DEAL_10M_DAMAGE",
+        "task": "DEFEAT_750_LUCIFER_MOBS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "CREATE_ANY_120_INVENTION_ITEM",
+        "task": "DEFEAT_500_MEGA_AVATAR_MOBS",
         "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DEAL_10M_DAMAGE",
+        "progressOnTask": 2875350,
         "completed": false,
         "claimedReward": false
       },
@@ -5381,7 +5204,7 @@
         "claimedReward": false
       },
       {
-        "task": "DEFEAT_500_RAMMERNAUT_MOBS",
+        "task": "DONATE_10M_TO_SERVER_PERKS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5392,7 +5215,7 @@
     ],
     [
       {
-        "task": "COMPLETE_25_HARD_ISLES_OF_THE_GODS",
+        "task": "WIN_10_GAMES_OF_PEST_CONTROL",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5403,7 +5226,7 @@
       null
     ]
   ],
-  "daily-tasks-completed": 4,
+  "daily-tasks-completed": 1,
   "anima-kc": 0,
   "anima-drop-rate": 0,
   "anima-key-opened": 2021,

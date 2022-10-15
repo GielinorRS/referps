@@ -39,14 +39,14 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 
 			t.getSession().handleQueuedMessages();
 			if (t!= null && System.currentTimeMillis() - firstTime > 75) {
-				//sessionlag=  true;
+				sessionlag=  true;
 				firstTime = System.currentTimeMillis();
 			}
 
 			t.process();
 			if (t!= null && System.currentTimeMillis() - firstTime > 75) {
 				DiscordMessager.sendWebhook(t.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - process",
-						Color.YELLOW, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+						Color.YELLOW, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
 				firstTime = System.currentTimeMillis();
 			}
 			if (t.getWalkToTask() != null)
@@ -55,7 +55,7 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 
 				if (t!= null && System.currentTimeMillis() - firstTime > 75) {
 					DiscordMessager.sendWebhook(t.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - walking",
-							Color.YELLOW, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+							Color.YELLOW, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
 					firstTime = System.currentTimeMillis();
 				}
 
@@ -63,7 +63,7 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 
 			if (t!= null && System.currentTimeMillis() - firstTime > 75) {
 				DiscordMessager.sendWebhook(t.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - movement",
-						Color.YELLOW, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+						Color.YELLOW, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
 				firstTime = System.currentTimeMillis();
 			}
 
@@ -71,19 +71,19 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 			NpcAggression.target(t);
 
 
-			/*if (t!= null && System.currentTimeMillis() - lastTime > 100 && !sessionlag) {
+			if (t!= null && System.currentTimeMillis() - lastTime > 100 && !sessionlag) {
 				System.out.println(t.getUsername() + " - time took: " + (System.currentTimeMillis() - lastTime) + " ms");
 
 				if (System.currentTimeMillis() - lastTime > 200){
 					World.sendStaffMessage("<col=FF0066><img=2> [PLAYER-LAG]<col=6600FF> " + t.getUsername()
 							+ " created lag @red@" + (System.currentTimeMillis() - lastTime) + "ms <col=6600FF>- Message Nucky on Discord");
 					DiscordMessager.sendWebhook(t.getUsername() + " - " + (System.currentTimeMillis() - lastTime) + " ms <@782919638291447819>",
-							Color.RED, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+							Color.RED, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
 				}else if (t!= null && System.currentTimeMillis() - lastTime > 100) {
 					DiscordMessager.sendWebhook(t.getUsername() + " - " + (System.currentTimeMillis() - lastTime) + " ms",
-							Color.YELLOW, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+							Color.YELLOW, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
 				}
-			}*/
+			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -95,7 +95,7 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
 	public void executeUpdate(Player t) {
 		updateExecutor.execute(() -> {
 			try {
-				synchronized (t) {;
+				synchronized (t) {
 					PlayerUpdating.update(t);
 					NPCUpdating.update(t);
 				}

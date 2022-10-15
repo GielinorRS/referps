@@ -10,10 +10,12 @@
 17600 - 2 - 200000 - Feed My Ego
 19114 - 1 - 3000 - Badmuts
 537 - 25 - 200 - Golden Power
+23120 - 1 - 1000000 - Golden Power
 23067 - 1 - 350000 - Spaztiik
 23028 - 1 - 60000 - Kana
 20549 - 1 - 10000 - Luie Donder
 20173 - 1 - 16000 - Luie Donder
+11137 - 1 - 5000 - Jano
 23097 - 1 - 250000 - Golden Power
 23020 - 6 - 13999 - Dieter
 23066 - 1 - 290000 - Spaztiik
@@ -51,6 +53,7 @@
 23092 - 1 - 650000 - Gin
 23094 - 1 - 250000 - I0wnzbr
 11137 - 251 - 7500 - Luke
+5010 - 1 - 115000 - Excaliber
 23148 - 1 - 850000 - Feed My Ego
 15006 - 1 - 4000 - Synnn
 15100 - 1 - 4000 - Synnn

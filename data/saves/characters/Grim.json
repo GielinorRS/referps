@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 18080832,
+  "total-play-time-ms": 20510739,
   "username": "Grim",
   "password": "grim",
   "email": "null",
@@ -8,9 +8,9 @@
   "player-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2999,
-    "y": 2764,
-    "z": 1
+    "x": 3745,
+    "y": 3577,
+    "z": 4
   },
   "online-status": "ON",
   "given-starter": true,
@@ -379,7 +379,7 @@
   "day5claimed": false,
   "day6claimed": false,
   "day7claimed": false,
-  "minutes-bonus-exp": 499999837,
+  "minutes-bonus-exp": 499999804,
   "minutes-voting-dr": -1,
   "minutes-voting-dmg": -1,
   "total-gained-exp": 2015723462,
@@ -390,8 +390,8 @@
   "achievement-points": 0,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 8718,
-  "total-loyalty-points": 8718.0,
+  "loyalty-points": 9576,
+  "total-loyalty-points": 9576.0,
   "godmodetime": 0,
   "voting-points": 100000000,
   "total-prestiges": 0,
@@ -431,8 +431,8 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 435179756,
-  "fight-type": "BSOAT_ACCURATE",
+  "last-veng": 440229926,
+  "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -604,13 +604,13 @@
   ],
   "skills": {
     "level": [
-      14958,
-      14958,
-      14958,
+      14932,
+      14932,
+      14932,
       149920,
-      14958,
+      14932,
       145949,
-      14958,
+      14932,
       120,
       120,
       120,
@@ -698,7 +698,7 @@
     },
     {
       "id": 19114,
-      "amount": 10,
+      "amount": 15,
       "slot": 0
     },
     {
@@ -707,7 +707,7 @@
       "slot": 0
     },
     {
-      "id": 23888,
+      "id": 23840,
       "amount": 1,
       "slot": 0
     },
@@ -717,7 +717,7 @@
       "slot": 0
     },
     {
-      "id": 23840,
+      "id": 5010,
       "amount": 1,
       "slot": 0
     },
@@ -844,7 +844,7 @@
       "slot": 0
     },
     {
-      "id": 5010,
+      "id": 23888,
       "amount": 1,
       "slot": 0
     },
@@ -1626,6 +1626,11 @@
       "id": 13849,
       "amount": 1,
       "slot": 0
+    },
+    {
+      "id": 1,
+      "amount": 12398,
+      "slot": 0
     }
   ],
   "bank-1": [],
@@ -1668,10 +1673,24 @@
   ],
   "kills": [
     {
-      "runningTotal": 0,
-      "npcId": 1265,
-      "npcName": "Lunite Lion",
-      "amount": 0,
+      "runningTotal": 6,
+      "npcId": 6692,
+      "npcName": "Revenant Tarragon",
+      "amount": 6,
+      "boss": false
+    },
+    {
+      "runningTotal": 4,
+      "npcId": 9895,
+      "npcName": "Hanto Warrior",
+      "amount": 4,
+      "boss": false
+    },
+    {
+      "runningTotal": 4,
+      "npcId": 13469,
+      "npcName": "Revenant Goblin",
+      "amount": 4,
       "boss": false
     },
     {
@@ -1690,6 +1709,13 @@
     },
     {
       "runningTotal": 2,
+      "npcId": 9880,
+      "npcName": "Lunite Guardian",
+      "amount": 2,
+      "boss": false
+    },
+    {
+      "runningTotal": 2,
       "npcId": 3830,
       "npcName": "Optimus Prime",
       "amount": 2,
@@ -1703,10 +1729,10 @@
       "boss": false
     },
     {
-      "runningTotal": 6,
-      "npcId": 6692,
-      "npcName": "Revenant Tarragon",
-      "amount": 6,
+      "runningTotal": 2,
+      "npcId": 13465,
+      "npcName": "Revenant Impling",
+      "amount": 2,
       "boss": false
     },
     {
@@ -1718,37 +1744,16 @@
     },
     {
       "runningTotal": 2,
-      "npcId": 13465,
-      "npcName": "Revenant Impling",
-      "amount": 2,
-      "boss": false
-    },
-    {
-      "runningTotal": 4,
-      "npcId": 13469,
-      "npcName": "Revenant Goblin",
-      "amount": 4,
-      "boss": false
-    },
-    {
-      "runningTotal": 4,
-      "npcId": 9895,
-      "npcName": "Hanto Warrior",
-      "amount": 4,
-      "boss": false
-    },
-    {
-      "runningTotal": 2,
       "npcId": 10014,
       "npcName": "Tanzanite",
       "amount": 2,
       "boss": true
     },
     {
-      "runningTotal": 2,
-      "npcId": 9880,
-      "npcName": "Lunite Guardian",
-      "amount": 2,
+      "runningTotal": 0,
+      "npcId": 1265,
+      "npcName": "Lunite Lion",
+      "amount": 0,
       "boss": false
     }
   ],
@@ -3254,7 +3259,7 @@
       true
     ]
   ],
-  "achievements-daily": 282,
+  "achievements-daily": 284,
   "starter-task-amount": [
     0,
     0,
@@ -3338,8 +3343,8 @@
   },
   "group-ironman-locked": false,
   "lastInstanceNpc": -1,
-  "seasonpass-tier": 1,
-  "seasonpass-xp": 8,
+  "seasonpass-tier": 2,
+  "seasonpass-xp": 0,
   "seasonpass-member": true,
   "seasonpass-season": 1,
   "seasonpass-received-500-kc-xp": true,
@@ -5375,7 +5380,7 @@
     false
   ],
   "daily-reward-day": 0,
-  "daily-reward-epoch": 282,
+  "daily-reward-epoch": 284,
   "curse-of-arrav-progress": 1,
   "unlocked-titles": [
     "NONE",
@@ -5396,31 +5401,31 @@
   "daily-task-slots": [
     [
       {
-        "task": "DISSOLVE_100_ITEMS",
+        "task": "OPEN_A_CLUE_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "DEFEAT_1K_ZONE_NPCS",
+        "task": "EQUIP_COLLECTOR_NECKLACE_AND_CREEPER_CAPE",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "CLAIM_4_VOTE_SCROLLS",
+        "task": "DEFEAT_100_SUPREME_BOSS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "OPEN_10_BOXES_OR_CASKETS",
+        "task": "COMPLETE_5_MEDIUM_SLAYER_TASKS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "CLAIM_A_PET_RETURN",
+        "task": "OPEN_A_CLUE_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5428,19 +5433,7 @@
     ],
     [
       {
-        "task": "WIN_A_GAME_OF_PEST_CONTROL",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "COMPLETE_5_HALLS_OF_AMMO_RUNS",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "COMPLETE_5_HALLS_OF_AMMO_RUNS",
+        "task": "SIP_FROM_AN_INFINITE_OVERLOAD_POT_OR_STRONGER",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5451,9 +5444,27 @@
         "completed": false,
         "claimedReward": false
       },
+      {
+        "task": "WIN_A_GAME_OF_PEST_CONTROL",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "PARTICIPATE_IN_15_GLOBAL_BOSSES",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
       null
     ],
     [
+      {
+        "task": "DEFEAT_750_LUCIFER_MOBS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
       {
         "task": "COMPLETE_5_HARD_SOD_RUNS",
         "progressOnTask": 0,
@@ -5461,13 +5472,7 @@
         "claimedReward": false
       },
       {
-        "task": "COMPLETE_5_HARD_SOD_RUNS",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "RECEIVE_A_UNIQUE_DROP_FROM_VASA_NISTIRIO",
+        "task": "DEFEAT_750_LUCIFER_MOBS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5477,16 +5482,16 @@
     ],
     [
       {
-        "task": "RECEIVE_A_UNIQUE_BLOOD_ODIN_DROP",
+        "task": "DEAL_250K_DAMAGE",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "RECEIVE_AN_ANNOUNCED_DROP",
-        "progressOnTask": 1,
-        "completed": true,
-        "claimedReward": true
+        "task": "OPEN_A_MONEY_ANGELIC_DIVINE_CASE",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
       },
       null,
       null,
@@ -5494,7 +5499,7 @@
     ],
     [
       {
-        "task": "COMPLETE_A_SANCTUM_OF_DEATH_RUN_IN_UNDER_3_MINS",
+        "task": "RECEIVE_1_PIECE_OF_SACRIFICIAL_ARMOUR_AS_A_DROP",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5505,7 +5510,7 @@
       null
     ]
   ],
-  "daily-tasks-completed": 5,
+  "daily-tasks-completed": 6,
   "anima-kc": 0,
   "anima-drop-rate": 0,
   "anima-key-opened": 2021,

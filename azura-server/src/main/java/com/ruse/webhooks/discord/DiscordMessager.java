@@ -61,7 +61,7 @@ public class DiscordMessager extends JSONObject {
 
 	public static boolean active = false;
 
-	private static String testhook = "https://discord.com/api/webhooks/1028736487744864378/3yKHcXzBf5ChM5QKiEqDk6FjaOO7lVWT8xZU5-U310SHKc3Qx6WC7yZAD8l0Yt3gJmiB";
+	private static String testhook = "https://discordapp.com/api/webhooks/749432787479560212/LdggLt4y-t6L1t20Ni7-508DfES0H-4IdyLsngxE3k_x9w92r4LgSZ-Wa5MzN-tyiSsn";
 	private static String announcementhook = "https://discordapp.com/api/webhooks/264978407408795648/xEBWbkd51PIrM_Bv8xuYCWnTWonLAbVGcz_mNH62m0xfwSFnc62To2u_Q82vcp2G_oEo";
 	private static String staffhook = "https://discordapp.com/api/webhooks/264978499528294420/XXkZF8s6k3f5MTgvJ8mAiok3W_ushBbSVaFfbo1UULqvmFtYfw0KNJFSpA85gh3Y7gws";
 	private static String ingamehook = "https://discordapp.com/api/webhooks/264978586488930304/09Ondbuw6zvWtH9dltOZq30nLnRYp-y9xMPkPDa1xs4MyELl3kmftdiUFnyHzsx-ciGt";

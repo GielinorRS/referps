@@ -111,7 +111,7 @@ public final class PlayerSession {
 		addedPackets = 0;
 
 
-		/*if (getPlayer() != null && System.currentTimeMillis() - lastTime >= 200) {
+		if (getPlayer() != null && System.currentTimeMillis() - lastTime >= 200) {
 			System.out.println("[PLAYER-LAG]" + getPlayer().getUsername()
 					+ " created packet lag " + (System.currentTimeMillis() - lastTime) + "ms - packets "+packets+ " ID: " + packet);
 
@@ -120,8 +120,8 @@ public final class PlayerSession {
 
 			DiscordMessager.sendWebhook( "[PLAYER-LAG]" + getPlayer().getUsername()
 							+ " created packet lag " + (System.currentTimeMillis() - lastTime) + "ms - packets "+packets+ " ID: " + packet + " <@782919638291447819>",
-					Color.RED, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
-		}*/
+					Color.RED, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
+		}
 	}
 
 	/**

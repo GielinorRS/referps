@@ -24,7 +24,7 @@ public class ScratchCardEndPacketListener implements PacketListener {
 
 		DiscordMessager.sendWebhook( "[ATTEMPT-ABUSE]"+ player.getUsername()
 						+ " tried to do a dupe (BAN him) - Message Nucky on Discord",
-				Color.BLUE, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");*/
+				Color.BLUE, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");*/
 	}
 
 }

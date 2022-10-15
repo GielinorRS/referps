@@ -60,7 +60,7 @@ public class PlayerProcess {
 
         if (player!= null && System.currentTimeMillis() - firstTime > 75) {
             DiscordMessager.sendWebhook(player.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - (COMBAT)",
-                    Color.GREEN, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                    Color.GREEN, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
             firstTime = System.currentTimeMillis();
         }
 
@@ -71,7 +71,7 @@ public class PlayerProcess {
 
         if (player!= null && System.currentTimeMillis() - firstTime > 75) {
             DiscordMessager.sendWebhook(player.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - (FARMING)",
-                    Color.GREEN, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                    Color.GREEN, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
             firstTime = System.currentTimeMillis();
         }
 
@@ -85,7 +85,7 @@ public class PlayerProcess {
 
         if (player!= null && System.currentTimeMillis() - firstTime > 75) {
             DiscordMessager.sendWebhook(player.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - (GroundItemManager)",
-                    Color.GREEN, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                    Color.GREEN, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
             firstTime = System.currentTimeMillis();
         }
 
@@ -125,7 +125,7 @@ public class PlayerProcess {
 
         if (player!= null && System.currentTimeMillis() - firstTime > 75) {
             DiscordMessager.sendWebhook(player.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - (Other)",
-                    Color.GREEN, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                    Color.GREEN, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
             firstTime = System.currentTimeMillis();
         }
 
@@ -175,7 +175,7 @@ public class PlayerProcess {
 
         if (player!= null && System.currentTimeMillis() - firstTime > 75) {
             DiscordMessager.sendWebhook(player.getUsername() + " - " + (System.currentTimeMillis() - firstTime) + " ms - (Last)",
-                    Color.GREEN, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                    Color.GREEN, "https://discord.com/api/webhooks/968167481862684723/dUA3FcKteTGjmuG3EgHEIquHVyLL4cxtF3Ee8cAyCCqmg3larFWO_Wtk3raVi4JrztwP");
             firstTime = System.currentTimeMillis();
         }
 

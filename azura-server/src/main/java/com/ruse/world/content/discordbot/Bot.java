@@ -16,7 +16,6 @@ import java.util.Map;
 import java.util.Objects;
 
 public class Bot extends ListenerAdapter {
-
     private static String TOKEN = "OTI4MTczNTkzNzI3MjA5NDcy.YdU7BQ.3gDt66MJMRef-8v6ZtgIks6ayzU";
     public static String PREFIX = "::";
     public static String OWNER_ROLE = "707331223382523932";

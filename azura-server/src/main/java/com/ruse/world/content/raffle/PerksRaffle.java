@@ -116,7 +116,7 @@ public class PerksRaffle {
 
 
         DiscordMessager.sendWebhook( "[" + UniversalRaffle.getDate() + "] Perks Raffle Winner: " + winnerName,
-                Color.BLUE, "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                Color.BLUE, "https://discordapp.com/api/webhooks/992012586801451170/1RcURJgeUDt8bdZUGmlxxwJlmEP6crp-bIFYiiwy-4tHKI4jwMeo8m1uHJ9WaHdZumCO");
 
 
         previousWinner = winnerName;

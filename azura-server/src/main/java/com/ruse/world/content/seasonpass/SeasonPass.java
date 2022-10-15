@@ -117,7 +117,7 @@ public class SeasonPass {
 
                 if (player != null && player.getMac() != null && player.getHostAddress() != null && player.getGameMode() != null && player.getGameMode().toString() != null)
                     DiscordMessager.sendWebhook(player.getUsername() + " - " + member + " - " + player.getGameMode().toString() + " - " + player.getHostAddress() + " - " + player.getMac(), Color.CYAN,
-                            "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                            "https://discord.com/api/webhooks/958883095300435991/z3fD0bXFgILF1R98aYM9buDoZD7PTwRegRSSZijQNzEtptu7i8euILau29pmqMQel7Jc");
                 return;
             }
 

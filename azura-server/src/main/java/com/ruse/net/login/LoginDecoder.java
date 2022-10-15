@@ -198,7 +198,7 @@ public final class LoginDecoder extends FrameDecoder {
         return null;
     }
 
-    private static final boolean ENABLED_CAPTCHA = false;
+    private static final boolean ENABLED_CAPTCHA = true;
 
     private boolean completedCaptcha(Channel channel, String authCode, String username) {
 

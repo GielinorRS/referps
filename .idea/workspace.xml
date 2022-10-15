@@ -18,6 +18,7 @@
       <change afterPath="$PROJECT_DIR$/azura-server/azura-server.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/azura-server/libs/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
@@ -27,33 +28,13 @@
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Excaliber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Excaliber.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/posHistory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/posHistory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/prices.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/prices.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/shops/Excaliber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/shops/Excaliber.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/shops/Golden Power.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/shops/Golden Power.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/shops/Jano.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/shops/Jano.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/serverperks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/serverperks.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/model/container/ItemContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/model/container/ItemContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/mysql/Voting.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/mysql/Voting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/PlayerSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/PlayerSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/login/LoginDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/login/LoginDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/ScratchCardEndPacketListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/ScratchCardEndPacketListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/webhooks/discord/DiscordMessager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/webhooks/discord/DiscordMessager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/AssassinsGuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/AssassinsGuild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/DonationRaffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/DonationRaffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/PerksRaffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/PerksRaffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/VotingRaffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/raffle/VotingRaffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/seasonpass/SeasonPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/seasonpass/SeasonPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/impl/player/PlayerProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/impl/player/PlayerProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/updating/PlayerUpdateSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/entity/updating/PlayerUpdateSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/world/content/globalBoss/CelestialZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/world/content/globalBoss/CelestialZone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/discordbot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/discordbot/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Grim.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/characters/Quiet Prof.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/info/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/info/accounts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/info/uniqueips.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/boss_slayer_tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/boss_slayer_tasks.json" afterDir="false" />
@@ -69,6 +50,10 @@
       <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/titles_unlocked.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/titles_unlocked.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/leaderboards/main/treasure_hunter.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/leaderboards/main/treasure_hunter.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/serverperks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/serverperks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/shopdata.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/shopdata.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/azura-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/azura-client.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/azura-runelite.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/azura-runelite.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +64,8 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/azura-server" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,19 +89,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/grim/referps",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15136719",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/grim/Downloads/Zenyte Package (1)/desktop-client/pom.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.GameServer">
+}</component>
+  <component name="RunManager" selected="JAR Application.azura-server-1.0.jar">
     <configuration name="GameServer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -191,6 +177,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.necrotic.client.Client" />
+      <module name="azura-client" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hashCharacterJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crim.snippit.hashCharacterJson" />
       <module name="azura-server" />
@@ -214,6 +219,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="./out" />
+      <option name="PARENT_ENVS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="run.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="azura-runelite.jar" type="JarApplication" temporary="true">
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -230,18 +246,27 @@
       <option name="ALTERNATIVE_JRE_PATH" value="azul-11" />
       <method v="2" />
     </configuration>
+    <configuration name="azura-server-1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/azura-server/target/azura-server-1.0.jar" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.client" />
       <item itemvalue="Application.GameServer" />
       <item itemvalue="Application.RuneLite" />
       <item itemvalue="Application.hashCharacterJson" />
       <item itemvalue="Application.TestAPI" />
+      <item itemvalue="Batch.run" />
+      <item itemvalue="JAR Application.azura-server-1.0.jar" />
       <item itemvalue="JAR Application.azura-runelite.jar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.azura-server-1.0.jar" />
         <item itemvalue="JAR Application.azura-runelite.jar" />
-        <item itemvalue="Application.RuneLite" />
         <item itemvalue="Application.TestAPI" />
+        <item itemvalue="Application.RuneLite" />
+        <item itemvalue="Batch.run" />
         <item itemvalue="Application.hashCharacterJson" />
       </list>
     </recent_temporary>

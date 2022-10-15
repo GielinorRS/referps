@@ -183,7 +183,7 @@ public class CelestialZone {
                             World.sendMessage("@blu@<img=856>[Celestial]<img=856><col=29a7cc>" + player.getUsername() + " is now a Celestial!");
 
                             DiscordMessager.sendWebhook(player.getUsername() + " - CELESTIAL " , Color.magenta,
-                                    "https://discord.com/api/webhooks/1028736550755909642/7mtff90Se6VHJV6d50l-6yqjh93ft1tFfWaN7qv7VJWRWcOnxzsFH3nAz6JUDMAhqpcs");
+                                    "https://discord.com/api/webhooks/959301658939121704/lbuXqGJHSCQkc2F53hcYeyGXJjME8f0PpbrPoc2-1xbtrz1YBAZhs7IOTYVUNoWfkGP0");
 
                             player.getTitlesManager().unlock(Titles.CELESTIAL);
                             player.setCelestial(true);
