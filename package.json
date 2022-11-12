@@ -1,0 +1,20 @@
+{
+  "name": "referps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plong95/referps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plong95/referps/issues"
+  },
+  "homepage": "https://github.com/plong95/referps#readme"
+}
