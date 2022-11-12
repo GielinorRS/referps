@@ -55,7 +55,7 @@ public @interface PluginDescriptor
 	 */
 	boolean hidden() default false;
 
-	boolean developerPlugin() default false;
+	boolean developerPlugin() default true;
 
-	boolean loadWhenOutdated() default false;
+	boolean loadWhenOutdated() default true;
 }

@@ -12,8 +12,7 @@ enum class DirectionFace
 /**
  * Creates the direction.
  * @param intValue The direction as an integer.
- */
-private constructor(
+ */(
         /**
          * The direction as an integer.
          */

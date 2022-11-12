@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="7000" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -12,12 +13,11 @@
         <module name="azura-runelite" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="azura" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="azura" target="11" />
       <module name="azura-client" target="1.8" />
-      <module name="azura-runelite" target="1.8" />
+      <module name="azura-runelite" target="11" />
       <module name="azura-server" target="1.8" />
-      <module name="Lunite Full Package by grim" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

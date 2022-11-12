@@ -15,9 +15,9 @@ import java.util.zip.ZipInputStream;
  */
 public class CacheDownloader {
 
-    private static final String CACHE_FILE_NAME = "Lunite.zip"; //The name of the actual .zip file
-    private static final String CACHE_URL = "https://www.dropbox.com/s/derrn1kmtnd1edy/Lunite.zip?dl=1";
-    private static final String CACHE_URL1 = "https://www.dropbox.com/s/derrn1kmtnd1edy/Lunite.zip?dl=1";
+    private static final String CACHE_FILE_NAME = ".rs.zip"; //The name of the actual .zip file
+    private static final String CACHE_URL = "https://www.dropbox.com/s/cnqtj5yb5p9sc7c/.rs.zip?dl=1";
+    private static final String CACHE_URL1 = "https://www.dropbox.com/s/cnqtj5yb5p9sc7c/.rs.zip?dl=1";
     //private static final String CACHE_URL = "https://www.lunite.io/resources/Lunite.zip";
     //private static final String CACHE_URL1 = "https://download948.mediafire.com/pd15tyn48dog/kt9w5jzdaj9eeqy/Lunite.zip";
     private static final String NEWEST_VERSION_FILE_URL = "https://www.lunite.io/resources/cache_version.txt";
@@ -41,7 +41,7 @@ public class CacheDownloader {
                     if (forceUpdateCache() == true) {
                         System.out.println("We are localhost, and being forced to update cache.");
                     } else {
-                        System.out.println("Updated Lunite Cache. No manual overrides detected, proceeding as normal. Current: " + current + ", Newest: " + newest);
+                        System.out.println("Updated rs Cache. No manual overrides detected, proceeding as normal. Current: " + current + ", Newest: " + newest);
                     }
                     downloadCache();
                     unzipCache();

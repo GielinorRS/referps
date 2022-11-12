@@ -53,7 +53,7 @@ public class AddedCommands {
     }
 
 
-    public static void load() {
+    /*public static void load() {
         try (FileReader fileReader = new FileReader("./data/saves/added-commands.json")) {
             JsonParser fileParser = new JsonParser();
             JsonObject reader = (JsonObject) fileParser.parse(fileReader);
@@ -64,7 +64,7 @@ public class AddedCommands {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
 
 }

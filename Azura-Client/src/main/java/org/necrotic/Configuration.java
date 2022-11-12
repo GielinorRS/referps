@@ -8,13 +8,13 @@ package org.necrotic;
 
 public class Configuration {
 	public final static int CLIENT_VERSION = 40;
-	public static boolean localHost = true;
+	public static boolean localHost = false;
 	public static boolean beta = false;
-	public static final boolean FORCE_CACHE_UPDATE = false;
+	public static final boolean FORCE_CACHE_UPDATE = true;
 	public static final boolean STOP_CACHE_UPDATES = false;
 	public static final boolean DROPBOX_MODE = false;
-	public final static String CLIENT_NAME = "Lunite";
-	public final static String CACHE_DIRECTORY_NAME = "Lunite";
+	public final static String CLIENT_NAME = "rs";
+	public final static String CACHE_DIRECTORY_NAME = ".rs";
 	public static final String SETTINGS_DIRECTORY_NAME = "Lunite_settings";
 	public final static boolean JAGCACHED_ENABLED = false;
 	public final static String JAGCACHED_HOST = "";
