@@ -120,9 +120,21 @@ enum class DirectionFace
                 NORTH_WEST -> return arrayOf(NORTH, WEST)
                 SOUTH_EAST -> return arrayOf(SOUTH, EAST)
                 SOUTH_WEST -> return arrayOf(SOUTH, WEST)
+                else -> throw IllegalArgumentException("Must provide a diagonal direction.")
             }
 
-            throw IllegalArgumentException("Must provide a diagonal direction.")
+        }
+
+        override fun equals(other: Any?): Boolean {
+            return super.equals(other)
+        }
+
+        override fun hashCode(): Int {
+            return super.hashCode()
+        }
+
+        override fun toString(): String {
+            return super.toString()
         }
 
         var DIRECTIONS = values()
