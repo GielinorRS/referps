@@ -142,7 +142,7 @@ public final class GameLoader {
 		serviceLoader.execute(AccountsCreated::load);
 		serviceLoader.execute(UniqueAccountsCreated::load);
 
-		//serviceLoader.execute(AddedCommands::load);
+		serviceLoader.execute(AddedCommands::load);
 		serviceLoader.execute(ServerPerks.getInstance()::load);
 		serviceLoader.execute(PlayerCompletions::load);
 

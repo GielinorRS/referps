@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="BUILD_PROCESS_HEAP_SIZE" value="7000" />
-    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" procOnly="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <module name="azura.azura-runelite" />
-        <module name="azura.azura-client" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="azura-client" />
+        <module name="azura-server" />
+        <module name="azura-runelite" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
+    <bytecodeTargetLevel>
       <module name="azura" target="1.5" />
       <module name="azura-client" target="1.8" />
       <module name="azura-runelite" target="1.8" />
       <module name="azura-server" target="1.8" />
-      <module name="azura.azura-client" target="1.8" />
-      <module name="azura.azura-runelite" target="1.8" />
-      <module name="azura.azura-server" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="RmicSettings">
-    <option name="IS_EANABLED" value="true" />
-    <option name="GENERATE_IIOP_STUBS" value="true" />
   </component>
 </project>

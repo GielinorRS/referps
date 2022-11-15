@@ -2141,6 +2141,7 @@ public class CommandPacketListener implements PacketListener {
             }
             Position position = GameSettings.EDGE_CORDS;
             TeleportHandler.teleportPlayer(player, position, TeleportType.NORMAL);
+            ;
             player.getPacketSender().sendMessage("Welcome to Edgeville.");
         }
         if (command[0].equalsIgnoreCase("chill") || command[0].equalsIgnoreCase("trade") || command[0].equalsIgnoreCase("ge")

@@ -1,325 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="azura-client:jar" />
-      <artifact name="azura-runelite:jar" />
-    </artifacts-to-build>
-  </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961c16c7-79d8-42d7-8b11-3c55dfa993a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/azura-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/azura-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/azura-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/azura-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/libs/everythingrs-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/libs/everythingrs-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/server/service/ServiceImpl.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/azura.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+    <list default="true" id="30203da7-02fd-4853-b6ef-643d678a731e" name="Default Changelist" comment="vps hotfixes">
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1308.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1308.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1309.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1309.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1489.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1489.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1546.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1546.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1547.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1547.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1554.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1554.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1555.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1555.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1585.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1585.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/1586.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/1586.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/clipping/maps/217.gz" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/clipping/maps/217.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/refer/referral_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/refer/referral_data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/refer/total.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/refer/total.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/data/serverperks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/serverperks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/GameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/GameSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/model/definitions/NPCDrops.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/model/definitions/NPCDrops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/impl/CommandPacketListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/impl/CommandPacketListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/impl/MagicOnItemsPacketListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/net/packet/impl/MagicOnItemsPacketListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/VoteBossDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/VoteBossDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/skill/impl/hunter/JarData.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/skill/impl/hunter/JarData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/mysql/impl/FoxVote.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/mysql/impl/FoxVote.java" afterDir="false" />
     </list>
-    <option name="SHOW_DIALOG" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="PARALLEL_COMPILATION" value="true" />
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="a0d6b4c3-46cc-4ff6-9520-6dbf3eea74e8" />
+    <option name="defaultAccountId" value="5acaeb78-f996-48c6-9d56-95f2db5bdda8" />
   </component>
-  <component name="KotlinCompilerWorkspaceSettings">
-    <option name="enableDaemon" value="false" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="checksumPolicy" value="WARN" />
-        <option name="failureBehavior" value="NEVER" />
-        <option name="outputLevel" value="DEBUG" />
-        <option name="printErrorStackTraces" value="true" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="createModuleGroups" value="true" />
-        <option name="downloadAnnotationsAutomatically" value="true" />
-        <option name="downloadDocsAutomatically" value="true" />
-        <option name="downloadSourcesAutomatically" value="true" />
-        <option name="excludeTargetFolder" value="false" />
-        <option name="importToTreeStructure" value="true" />
-        <option name="lookForNested" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectId" id="2FjKXV066AkWQpttLtcX6fkaXAf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1osmQsieVZK1lh9FYB4DgSKkkF3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "false",
-    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
-    "last_opened_file_path": "C:/Users/grim/referps",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15136719",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "nele.options"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="com.server.service" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/azura-server" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn compile" />
-      <command value="mvn deploy" />
-      <command value="mvn clean" />
-    </option>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
-  <component name="RunManager" selected="Application.GameServer">
-    <configuration name="GameServer" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.ruse.GameServer" />
-      <module name="azura-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ruse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RuneLite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="azul-11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="net.runelite.client.RuneLite" />
-      <module name="azura-runelite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="net.runelite.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.motivoters.motivote.TestAPI" />
-      <module name="azura-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.motivoters.motivote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="client" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.necrotic.client.Client" />
-      <module name="azura-client" />
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hashCharacterJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crim.snippit.hashCharacterJson" />
-      <module name="azura-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crim.snippit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="./out" />
-      <option name="PARENT_ENVS" value="true" />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="run.bat" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="azura-runelite.jar" type="JarApplication" temporary="true">
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </extension>
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/azura-runelite.jar" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="azul-11" />
-      <method v="2" />
-    </configuration>
-    <configuration name="azura-server-1.0.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/azura-server/target/azura-server-1.0.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="azura" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="azura" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.client" />
-      <item itemvalue="Application.GameServer" />
-      <item itemvalue="Application.RuneLite" />
-      <item itemvalue="Application.hashCharacterJson" />
-      <item itemvalue="Application.TestAPI" />
-      <item itemvalue="Batch.run" />
-      <item itemvalue="JAR Application.azura-server-1.0.jar" />
-      <item itemvalue="JAR Application.azura-runelite.jar" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JAR Application.azura-server-1.0.jar" />
-        <item itemvalue="JAR Application.azura-runelite.jar" />
-        <item itemvalue="Application.TestAPI" />
-        <item itemvalue="Application.RuneLite" />
-        <item itemvalue="Application.hashCharacterJson" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager">
-    <option name="remove_strategy" value="true" />
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="961c16c7-79d8-42d7-8b11-3c55dfa993a8" name="Changes" comment="" />
-      <created>1665000092814</created>
+      <changelist id="30203da7-02fd-4853-b6ef-643d678a731e" name="Default Changelist" comment="" />
+      <created>1614083658493</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665000092814</updated>
+      <updated>1614083658493</updated>
     </task>
-    <servers>
-      <GitHub url="https://github.com">
-        <option name="repoAuthor" value="plong95" />
-        <option name="repoName" value="referps" />
-      </GitHub>
-    </servers>
+    <task id="LOCAL-00001" summary="vps hotfixes">
+      <created>1616083290715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616083290715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -331,14 +99,60 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/azura-server" />
-    </ignored-roots>
+    <MESSAGE value="vps hotfixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="vps hotfixes" />
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="WindowStateProjectService">
+    <state x="188" y="9" key="DiffContextDialog" timestamp="1625566262934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="188" y="9" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625566262934" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614111460379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614111460379" />
+    <state x="629" y="324" key="Github.Dialog.Accounts.Choose" timestamp="1614110274590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="629" y="324" key="Github.Dialog.Accounts.Choose/0.0.1536.824@0.0.1536.824" timestamp="1614110274590" />
+    <state x="714" y="145" key="RollbackChangesDialog" timestamp="1626318585609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616623986260" />
+    <state x="714" y="145" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626318585609" />
+    <state x="-4" y="58" key="SettingsEditor" timestamp="1621261993364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-4" y="58" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621261993364" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1616083297625">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616083297625" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626469096852">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1626469096852" />
+    <state x="605" y="84" width="731" height="740" key="find.popup" timestamp="1616100319152">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="605" y="84" width="731" height="740" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1616100319152" />
+    <state x="499" y="100" width="585" height="592" key="find.popup/0.0.1584.734@0.0.1584.734" timestamp="1616086877065" />
+    <state x="739" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1622146073034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622146073034" />
+    <state x="638" y="254" key="git4idea.merge.GitPullDialog" timestamp="1626318590423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="510" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1616624002251" />
+    <state x="638" y="254" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626318590423" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1626465550515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614211910124" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626465550515" />
   </component>
 </project>

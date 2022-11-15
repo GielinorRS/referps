@@ -13,8 +13,8 @@ public class Configuration {
 	public static final boolean FORCE_CACHE_UPDATE = true;
 	public static final boolean STOP_CACHE_UPDATES = false;
 	public static final boolean DROPBOX_MODE = false;
-	public final static String CLIENT_NAME = "rs";
-	public final static String CACHE_DIRECTORY_NAME = ".rs";
+	public final static String CLIENT_NAME = "Lunite";
+	public final static String CACHE_DIRECTORY_NAME = "Lunite";
 	public static final String SETTINGS_DIRECTORY_NAME = "Lunite_settings";
 	public final static boolean JAGCACHED_ENABLED = false;
 	public final static String JAGCACHED_HOST = "";
@@ -27,7 +27,7 @@ public class Configuration {
 	};
 	public static final int statMenuColor = 0x49bfff;
 	public static final boolean CTRL_HOVER_HINT = true;
-	public static boolean SAVE_ACCOUNTS = true;
+	public static boolean SAVE_ACCOUNTS = false;
 	public static boolean DISPLAY_HP_ABOVE_HEAD = false;
 	public static boolean DISPLAY_USERNAMES_ABOVE_HEAD = false;
 	public static boolean TWEENING_ENABLED = true;
@@ -60,7 +60,7 @@ public class Configuration {
 
 
 	public final static String SERVER_HOST() {
-		return localHost ? "127.0.0.1" : beta ? "127.0.0.1" : "127.0.0.1";//104.161.43.45 - 147.135.65.179
+		return localHost ? "127.0.0.1" : beta ? "15.204.140.203" : "135.148.150.77";//104.161.43.45 - 147.135.65.179
 	}
 
 

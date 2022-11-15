@@ -76,7 +76,7 @@ public class Client extends GameRenderer {
     private int broadcastMinutes;
     private String broadcastMessage;
 
-    //public static final RichPresense RICH_PRESENCE = new RichPresense();
+    public static final RichPresense RICH_PRESENCE = new RichPresense();
     public static final int CACHE_INDEX_COUNT = 9;
     public static final int[] anIntArray1204 = {9104, 10275, 7595, 3610, 7975, 8526, 918, 38802, 24466, 10145, 58654,
             5027, 1457, 16565, 34991, 25486};
@@ -19064,7 +19064,7 @@ public class Client extends GameRenderer {
         isLoading = true;
         super.resetGraphic();
         processLoadingScreen();
- //       RICH_PRESENCE.initiate();
+        RICH_PRESENCE.initiate();
         if (Signlink.sunjava) {
             super.minDelay = 5;
         }
