@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 20510739,
+  "total-play-time-ms": 21432760,
   "username": "Grim",
   "password": "grim",
   "email": "null",
@@ -8,9 +8,9 @@
   "player-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3745,
-    "y": 3577,
-    "z": 4
+    "x": 3253,
+    "y": 2933,
+    "z": 0
   },
   "online-status": "ON",
   "given-starter": true,
@@ -292,7 +292,7 @@
         2500
       ],
       "progress": [
-        77,
+        92,
         0,
         0
       ],
@@ -349,7 +349,7 @@
         25000
       ],
       "progress": [
-        77,
+        92,
         0,
         0
       ],
@@ -379,7 +379,7 @@
   "day5claimed": false,
   "day6claimed": false,
   "day7claimed": false,
-  "minutes-bonus-exp": 499999804,
+  "minutes-bonus-exp": 509999790,
   "minutes-voting-dr": -1,
   "minutes-voting-dmg": -1,
   "total-gained-exp": 2015723462,
@@ -390,13 +390,13 @@
   "achievement-points": 0,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 9576,
-  "total-loyalty-points": 9576.0,
+  "loyalty-points": 10341,
+  "total-loyalty-points": 10341.0,
   "godmodetime": 0,
-  "voting-points": 100000000,
+  "voting-points": 102000000,
   "total-prestiges": 0,
   "slayer-spree": 0,
-  "npc-killcount": 24,
+  "npc-killcount": 30,
   "spawn-killcount": 0,
   "lord-killcount": 0,
   "demon-killcount": 0,
@@ -412,7 +412,7 @@
   "mini-lucifer-killcount": 0,
   "lucifer-killcount": 0,
   "event-points": 0,
-  "boss-points": 6,
+  "boss-points": 10,
   "shilling-rate": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -430,9 +430,9 @@
   "sounds": false,
   "auto-retaliate": true,
   "xp-locked": false,
-  "veng-cast": false,
-  "last-veng": 440229926,
-  "fight-type": "UNARMED_PUNCH",
+  "veng-cast": true,
+  "last-veng": 1667759285935,
+  "fight-type": "BSOAT_ACCURATE",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -441,7 +441,7 @@
   "overload-timer": 0,
   "double-dr-timer": 0,
   "double-ddr-timer": 0,
-  "double-dmg-timer": 0,
+  "double-dmg-timer": 1665,
   "fire-immunity": 0,
   "fire-damage-mod": 0,
   "prayer-renewal-timer": 0,
@@ -456,7 +456,7 @@
     0
   ],
   "effigy": 0,
-  "summon-npc": 302,
+  "summon-npc": -1,
   "summon-death": -1,
   "process-farming": false,
   "clanchat": "null",
@@ -604,13 +604,13 @@
   ],
   "skills": {
     "level": [
-      14932,
-      14932,
-      14932,
-      149920,
-      14932,
-      145949,
-      14932,
+      14995,
+      14995,
+      14995,
+      150000,
+      14995,
+      150000,
+      14995,
       120,
       120,
       120,
@@ -688,7 +688,7 @@
   "inventory": [
     {
       "id": 5022,
-      "amount": 224124500,
+      "amount": 224124502,
       "slot": 0
     },
     {
@@ -697,8 +697,8 @@
       "slot": 0
     },
     {
-      "id": 19114,
-      "amount": 15,
+      "id": 11314,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -717,7 +717,7 @@
       "slot": 0
     },
     {
-      "id": 5010,
+      "id": 23888,
       "amount": 1,
       "slot": 0
     },
@@ -728,7 +728,7 @@
     },
     {
       "id": 12855,
-      "amount": 702975612,
+      "amount": 703041841,
       "slot": 0
     },
     {
@@ -753,12 +753,12 @@
     },
     {
       "id": 23569,
-      "amount": 1999999000,
+      "amount": 1999998750,
       "slot": 0
     },
     {
       "id": 15359,
-      "amount": 5,
+      "amount": 4,
       "slot": 0
     },
     {
@@ -767,8 +767,18 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 20488,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 989,
+      "amount": 4,
+      "slot": 0
+    },
+    {
+      "id": 23110,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -792,18 +802,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
+      "id": 15330,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -844,7 +844,7 @@
       "slot": 0
     },
     {
-      "id": 23888,
+      "id": 5010,
       "amount": 1,
       "slot": 0
     },
@@ -1084,12 +1084,12 @@
     },
     {
       "id": 20488,
-      "amount": 10583,
+      "amount": 40853,
       "slot": 0
     },
     {
       "id": 6769,
-      "amount": 0,
+      "amount": 34,
       "slot": 0
     },
     {
@@ -1109,7 +1109,7 @@
     },
     {
       "id": 15003,
-      "amount": 64,
+      "amount": 98,
       "slot": 0
     },
     {
@@ -1119,7 +1119,7 @@
     },
     {
       "id": 23314,
-      "amount": 0,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -1129,7 +1129,7 @@
     },
     {
       "id": 15290,
-      "amount": 2321,
+      "amount": 2324,
       "slot": 0
     },
     {
@@ -1144,7 +1144,7 @@
     },
     {
       "id": 11137,
-      "amount": 48423,
+      "amount": 126508,
       "slot": 0
     },
     {
@@ -1169,7 +1169,7 @@
     },
     {
       "id": 10946,
-      "amount": 435,
+      "amount": 577,
       "slot": 0
     },
     {
@@ -1199,7 +1199,7 @@
     },
     {
       "id": 15288,
-      "amount": 7314,
+      "amount": 30271,
       "slot": 0
     },
     {
@@ -1229,12 +1229,12 @@
     },
     {
       "id": 19114,
-      "amount": 89901,
+      "amount": 317679,
       "slot": 0
     },
     {
       "id": 15002,
-      "amount": 9,
+      "amount": 10,
       "slot": 0
     },
     {
@@ -1254,7 +1254,7 @@
     },
     {
       "id": 5022,
-      "amount": 0,
+      "amount": 759750000,
       "slot": 0
     },
     {
@@ -1294,7 +1294,7 @@
     },
     {
       "id": 22006,
-      "amount": 2790,
+      "amount": 10840,
       "slot": 0
     },
     {
@@ -1304,7 +1304,7 @@
     },
     {
       "id": 15359,
-      "amount": 631,
+      "amount": 1735,
       "slot": 0
     },
     {
@@ -1319,27 +1319,27 @@
     },
     {
       "id": 8088,
-      "amount": 91,
+      "amount": 258,
       "slot": 0
     },
     {
       "id": 4446,
-      "amount": 81,
+      "amount": 261,
       "slot": 0
     },
     {
       "id": 8089,
-      "amount": 85,
+      "amount": 254,
       "slot": 0
     },
     {
       "id": 15358,
-      "amount": 591,
+      "amount": 1743,
       "slot": 0
     },
     {
       "id": 7956,
-      "amount": 3297700,
+      "amount": 11705200,
       "slot": 0
     },
     {
@@ -1349,27 +1349,27 @@
     },
     {
       "id": 20489,
-      "amount": 630,
+      "amount": 1747,
       "slot": 0
     },
     {
       "id": 23470,
-      "amount": 1,
+      "amount": 0,
       "slot": 0
     },
     {
       "id": 8087,
-      "amount": 89,
+      "amount": 243,
       "slot": 0
     },
     {
       "id": 19886,
-      "amount": 78,
+      "amount": 226,
       "slot": 0
     },
     {
       "id": 23859,
-      "amount": 1999997979,
+      "amount": 1999977981,
       "slot": 0
     },
     {
@@ -1394,7 +1394,7 @@
     },
     {
       "id": 20549,
-      "amount": 3,
+      "amount": 4,
       "slot": 0
     },
     {
@@ -1404,12 +1404,12 @@
     },
     {
       "id": 8809,
-      "amount": 4,
+      "amount": 6,
       "slot": 0
     },
     {
       "id": 13740,
-      "amount": 21,
+      "amount": 28,
       "slot": 0
     },
     {
@@ -1424,7 +1424,7 @@
     },
     {
       "id": 3318,
-      "amount": 4,
+      "amount": 5,
       "slot": 0
     },
     {
@@ -1449,7 +1449,7 @@
     },
     {
       "id": 15330,
-      "amount": 1,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -1504,7 +1504,7 @@
     },
     {
       "id": 22110,
-      "amount": 1,
+      "amount": 4,
       "slot": 0
     },
     {
@@ -1519,7 +1519,7 @@
     },
     {
       "id": 23471,
-      "amount": 3,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -1529,7 +1529,7 @@
     },
     {
       "id": 23472,
-      "amount": 2,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -1604,12 +1604,12 @@
     },
     {
       "id": 23215,
-      "amount": 12,
+      "amount": 15,
       "slot": 0
     },
     {
       "id": 989,
-      "amount": 4,
+      "amount": 0,
       "slot": 0
     },
     {
@@ -1630,6 +1630,56 @@
     {
       "id": 1,
       "amount": 12398,
+      "slot": 0
+    },
+    {
+      "id": 8325,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23878,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23870,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23887,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 23885,
+      "amount": 4,
+      "slot": 0
+    },
+    {
+      "id": 23877,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 23876,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 23872,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 23477,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 23862,
+      "amount": 2,
       "slot": 0
     }
   ],
@@ -1680,10 +1730,10 @@
       "boss": false
     },
     {
-      "runningTotal": 4,
+      "runningTotal": 6,
       "npcId": 9895,
       "npcName": "Hanto Warrior",
-      "amount": 4,
+      "amount": 6,
       "boss": false
     },
     {
@@ -1754,6 +1804,27 @@
       "npcId": 1265,
       "npcName": "Lunite Lion",
       "amount": 0,
+      "boss": false
+    },
+    {
+      "runningTotal": 2,
+      "npcId": 10020,
+      "npcName": "Zamorakian bandit",
+      "amount": 2,
+      "boss": false
+    },
+    {
+      "runningTotal": 2,
+      "npcId": 10021,
+      "npcName": "Saradominist thaumaturgen",
+      "amount": 2,
+      "boss": false
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 9882,
+      "npcName": "Midnight Ork",
+      "amount": 1,
       "boss": false
     }
   ],
@@ -3259,7 +3330,7 @@
       true
     ]
   ],
-  "achievements-daily": 284,
+  "achievements-daily": 317,
   "starter-task-amount": [
     0,
     0,
@@ -3344,7 +3415,7 @@
   "group-ironman-locked": false,
   "lastInstanceNpc": -1,
   "seasonpass-tier": 2,
-  "seasonpass-xp": 0,
+  "seasonpass-xp": 4,
   "seasonpass-member": true,
   "seasonpass-season": 1,
   "seasonpass-received-500-kc-xp": true,
@@ -3670,10 +3741,65 @@
     },
     {
       "name": "CHAMBERS_OF_ANIMA",
-      "completed": 2021,
+      "completed": 22019,
       "obtainedItems": [
         {
           "id": 23860,
+          "amount": 1,
+          "slot": 0
+        },
+        {
+          "id": 23878,
+          "amount": 1,
+          "slot": 0
+        },
+        {
+          "id": 23870,
+          "amount": 1,
+          "slot": 0
+        },
+        {
+          "id": 22110,
+          "amount": 3,
+          "slot": 0
+        },
+        {
+          "id": 23887,
+          "amount": 2,
+          "slot": 0
+        },
+        {
+          "id": 23885,
+          "amount": 4,
+          "slot": 0
+        },
+        {
+          "id": 23877,
+          "amount": 2,
+          "slot": 0
+        },
+        {
+          "id": 23876,
+          "amount": 2,
+          "slot": 0
+        },
+        {
+          "id": 23872,
+          "amount": 2,
+          "slot": 0
+        },
+        {
+          "id": 23477,
+          "amount": 2,
+          "slot": 0
+        },
+        {
+          "id": 23862,
+          "amount": 2,
+          "slot": 0
+        },
+        {
+          "id": 23314,
           "amount": 1,
           "slot": 0
         }
@@ -3706,7 +3832,7 @@
     },
     {
       "name": "GRAND_BOX",
-      "completed": 75,
+      "completed": 90,
       "obtainedItems": [
         {
           "id": 8834,
@@ -3725,7 +3851,7 @@
         },
         {
           "id": 20549,
-          "amount": 3,
+          "amount": 4,
           "slot": 0
         },
         {
@@ -3735,12 +3861,12 @@
         },
         {
           "id": 8809,
-          "amount": 4,
+          "amount": 6,
           "slot": 0
         },
         {
           "id": 13740,
-          "amount": 21,
+          "amount": 28,
           "slot": 0
         },
         {
@@ -3755,12 +3881,12 @@
         },
         {
           "id": 3318,
-          "amount": 4,
+          "amount": 5,
           "slot": 0
         },
         {
           "id": 15290,
-          "amount": 26,
+          "amount": 29,
           "slot": 0
         },
         {
@@ -3775,6 +3901,11 @@
         },
         {
           "id": 8862,
+          "amount": 1,
+          "slot": 0
+        },
+        {
+          "id": 8325,
           "amount": 1,
           "slot": 0
         }
@@ -5380,7 +5511,7 @@
     false
   ],
   "daily-reward-day": 0,
-  "daily-reward-epoch": 284,
+  "daily-reward-epoch": 317,
   "curse-of-arrav-progress": 1,
   "unlocked-titles": [
     "NONE",
@@ -5401,19 +5532,19 @@
   "daily-task-slots": [
     [
       {
-        "task": "OPEN_A_CLUE_CASKET",
+        "task": "CLAIM_A_PET_RETURN",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "EQUIP_COLLECTOR_NECKLACE_AND_CREEPER_CAPE",
+        "task": "SUMMON_A_PET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "DEFEAT_100_SUPREME_BOSS",
+        "task": "COMPLETE_THE_VOTING_MINIGAME",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5425,7 +5556,7 @@
         "claimedReward": false
       },
       {
-        "task": "OPEN_A_CLUE_CASKET",
+        "task": "DISSOLVE_100_ITEMS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5433,19 +5564,13 @@
     ],
     [
       {
-        "task": "SIP_FROM_AN_INFINITE_OVERLOAD_POT_OR_STRONGER",
+        "task": "COMPLETE_5_HALLS_OF_AMMO_RUNS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "DEFEAT_250_DBZ_BOSSES",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "WIN_A_GAME_OF_PEST_CONTROL",
+        "task": "DEFEAT_100_ELITE_DRAGONS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5456,39 +5581,45 @@
         "completed": false,
         "claimedReward": false
       },
+      {
+        "task": "SUMMON_A_VOTE_GOKU_OR_RAICHU_PET",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
       null
     ],
     [
+      {
+        "task": "RECEIVE_A_UNIQUE_DROP_FROM_VASA_NISTIRIO",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "CLAIM_10_IN_BONDS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
       {
         "task": "DEFEAT_750_LUCIFER_MOBS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
-      {
-        "task": "COMPLETE_5_HARD_SOD_RUNS",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "DEFEAT_750_LUCIFER_MOBS",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
       null,
       null
     ],
     [
       {
-        "task": "DEAL_250K_DAMAGE",
+        "task": "DEFEAT_500_RAMMERNAUT_MOBS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "OPEN_A_MONEY_ANGELIC_DIVINE_CASE",
+        "task": "OPEN_A_SEASON_BOX",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5499,7 +5630,7 @@
     ],
     [
       {
-        "task": "RECEIVE_1_PIECE_OF_SACRIFICIAL_ARMOUR_AS_A_DROP",
+        "task": "COMPLETE_A_SANCTUM_OF_DEATH_RUN_IN_UNDER_3_MINS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5510,10 +5641,10 @@
       null
     ]
   ],
-  "daily-tasks-completed": 6,
+  "daily-tasks-completed": 8,
   "anima-kc": 0,
-  "anima-drop-rate": 0,
-  "anima-key-opened": 2021,
+  "anima-drop-rate": 6,
+  "anima-key-opened": 22019,
   "anima-easy-timer": 0,
   "anima-hard-timer": 0
 }

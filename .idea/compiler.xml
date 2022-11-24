@@ -2,14 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="azura-client" />
-        <module name="azura-server" />
-        <module name="azura-runelite" />
+        <module name="Azura-Client1" />
+        <module name="azura-runelite1" />
+        <module name="azura-server1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="azura" target="1.5" />
+      <module name="Azura-Client" target="1.8" />
+      <module name="Azura-Client1" target="1.8" />
+      <module name="azura-runelite" target="1.8" />
+      <module name="azura-runelite1" target="1.8" />
+      <module name="azura-server" target="1.8" />
+      <module name="azura-server1" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,12 +1,18 @@
 {
-  "raffle-end": 19281,
-  "rewards": [],
-  "entries": [
+  "raffle-end": 19288,
+  "rewards": [
     {
-      "name": "Grim",
-      "entries": 100000000
+      "id": 10935,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 23210,
+      "amount": 1,
+      "slot": 0
     }
   ],
+  "entries": [],
   "winner-rewards": [],
-  "previousWinner": "N/A"
+  "previousWinner": "Grim"
 }

@@ -420,20 +420,20 @@ public class GameSettings {
     public static boolean FridayThe13th = false;
 
 
-    public static boolean LOG_CHAT = true;
-    public static boolean LOG_NPCDROPS = true;
-    public static boolean LOG_TRADE = true;
-    public static boolean LOG_DUEL = true;
-    public static boolean LOG_COMMANDS = true;
-    public static boolean LOG_KILLS = true;
-    public static boolean LOG_LOGINS = true;
-    public static boolean LOG_LOGINSWIP = true;
-    public static boolean LOG_BONDS = true;
-    public static boolean LOG_SPINSWIP = true;
-    public static boolean LOG_POS = true;
-    public static boolean LOG_PICKUPS = true;
-    public static boolean LOG_DROPPED = true;
-    public static boolean LOG_DONATIONS = true;
-    public static boolean LOG_CLAN = true;
+    public static boolean LOG_CHAT = false;
+    public static boolean LOG_NPCDROPS = false;
+    public static boolean LOG_TRADE = false;
+    public static boolean LOG_DUEL = false;
+    public static boolean LOG_COMMANDS = false;
+    public static boolean LOG_KILLS = false;
+    public static boolean LOG_LOGINS = false;
+    public static boolean LOG_LOGINSWIP = false;
+    public static boolean LOG_BONDS = false;
+    public static boolean LOG_SPINSWIP = false;
+    public static boolean LOG_POS = false;
+    public static boolean LOG_PICKUPS = false;
+    public static boolean LOG_DROPPED = false;
+    public static boolean LOG_DONATIONS = false;
+    public static boolean LOG_CLAN = false;
 
 }
