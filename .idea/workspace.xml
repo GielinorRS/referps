@@ -4,97 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b6f3b62-9005-49f7-a18a-c481b20a584d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+    <list default="true" id="cc0eaddc-a5a4-4c42-8f4b-9bdfaeb395db" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/azura-server/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/azura-server/azura-server.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/azura-server/libs/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Azura_Client1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/azura_runelite1_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_discord_rpc_release_v3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Azura_Client1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_DV8FromTheWorld_JDA_v4_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_MinnDevelopment_java_discord_rpc_v2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_cage_cage_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ryleykimmel_Alertify4J_master.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_1_25_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtubeAnalytics_v1_rev14_1_13_2_beta.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtube_v3_rev212_1_25_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_youtubereporting_v1_rev1_1_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_25_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_25_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_25_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_unimi_dsi_fastutil_8_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_runelite_pushingpixels_substance_8_0_02.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_runelite_pushingpixels_trident_1_5_00.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20200518.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mindrot_jbcrypt_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_maven_plugin_1_18_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_build_api_0_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/azura_client_jar1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/azura_server1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/azura_server_1_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/out1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/azura_runelite1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/characters.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/out.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/shops.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azura-Client/azura-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/azura-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/bin/azura-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/bin/azura-client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/azura-runelite-1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/api/Constants.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLite.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteModule.class" beforeDir="false" />
@@ -244,9 +187,6 @@
       <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/Text.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/TransferableBufferedImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
@@ -254,6 +194,7 @@
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/bin/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" afterDir="false" />
@@ -264,24 +205,53 @@
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/discordbot/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/discordbot/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/server/service/login/LoginService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/server/service/login/LoginService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Grim.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Azura_Client1_jar/Azura-Client1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Azura_Client1_jar/Azura-Client1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/azura_runelite1_jar/azura-runelite1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/azura_runelite1_jar/azura-runelite1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/out/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Azura_Client1_jar/Azura-Client1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/azura_runelite1_jar/azura-runelite1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/azura-client.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/azura-runelite.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azura-Client1/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azura-Client1/aurelienribon/tweenengine.gwt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azura-Client1/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azura-Client1/main/java/aurelienribon/tweenengine.gwt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azura-Client1/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Azura-Client1/main/resources/org/necrotic/client/ui/skin/RuneLite.colorschemes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/config_back_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/config_edit_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/config_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/pluginhub_configure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/pluginhub_help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/pluginhub_missingicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/star_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/config/switcher_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/discord/discord.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/plugins/discord/store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/runelite.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/components/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/components/loading_spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/components/loading_spinner_darker.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/components/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/open_rs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/runescape.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/runescape_bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/runescape_small.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/net/runelite/client/ui/skin/RuneLite.colorschemes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/azura-runelite1/main/resources/runelite.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="COMPILER_PROCESS_ADDITIONAL_VM_OPTIONS" value="-server -Xmx8000m -Xms132m" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -289,26 +259,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="alwaysUpdateSnapshots" value="true" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="downloadAnnotationsAutomatically" value="true" />
-        <option name="downloadDocsAutomatically" value="true" />
-        <option name="downloadSourcesAutomatically" value="true" />
-        <option name="lookForNested" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="MavenRunner">
-    <option name="delegateBuildToMaven" value="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2HyfcxXjTtN64AhgaFeYk1Zsa4Y" />
+  <component name="ProjectId" id="2I4fkD2Du9lSCwgiGrHdhAck5Ll" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -317,20 +275,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.kotlinCompiler"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b6f3b62-9005-49f7-a18a-c481b20a584d" name="Changes" comment="" />
-      <created>1669262328907</created>
+      <changelist id="cc0eaddc-a5a4-4c42-8f4b-9bdfaeb395db" name="Changes" comment="" />
+      <created>1669445920826</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669262328907</updated>
+      <updated>1669445920826</updated>
     </task>
     <servers />
   </component>
