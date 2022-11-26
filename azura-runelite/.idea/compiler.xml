@@ -10,8 +10,5 @@
         <module name="azura-runelite" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="azura-runelite" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

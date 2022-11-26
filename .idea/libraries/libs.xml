@@ -1,10 +1,11 @@
 <component name="libraryTable">
   <library name="libs">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/azura-server/libs" />
+      <root url="jar://$PROJECT_DIR$/azura-server/libs/everythingrs-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/azura-server/libs/teamgames-api-v1.02.jar!/" />
+      <root url="jar://$PROJECT_DIR$/azura-server/libs/mvgate3.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/azura-server/libs" recursive="false" />
   </library>
 </component>

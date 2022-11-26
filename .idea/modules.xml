@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Azura-Client/Azura-Client1.iml" filepath="$PROJECT_DIR$/Azura-Client/Azura-Client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Azura-Client/Azura-Client.iml" filepath="$PROJECT_DIR$/Azura-Client/Azura-Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/azura.iml" filepath="$PROJECT_DIR$/azura.iml" />
-      <module fileurl="file://$PROJECT_DIR$/azura-runelite/azura-runelite1.iml" filepath="$PROJECT_DIR$/azura-runelite/azura-runelite1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/azura-server/azura-server1.iml" filepath="$PROJECT_DIR$/azura-server/azura-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Azura-Client/bin/azura-client.iml" filepath="$PROJECT_DIR$/Azura-Client/bin/azura-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azura-runelite/azura-runelite.iml" filepath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azura-server/azura-server.iml" filepath="$PROJECT_DIR$/azura-server/azura-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Azura-Client/target/maven-archiver/maven-archiver.iml" filepath="$PROJECT_DIR$/Azura-Client/target/maven-archiver/maven-archiver.iml" />
     </modules>
   </component>
 </project>

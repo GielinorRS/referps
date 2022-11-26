@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="out1">
+  <library name="out">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/out/azura-runelite.jar!/" />
       <root url="jar://$PROJECT_DIR$/out/azura-client.jar!/" />

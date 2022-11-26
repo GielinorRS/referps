@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="azura-server1">
+  <library name="azura-server">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/azura-server/bin/artifacts/azura_server_jar/azura-server.jar!/" />
     </CLASSES>

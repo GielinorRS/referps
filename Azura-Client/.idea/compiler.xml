@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="azura-client" />
-        <module name="Azura-Client" />
       </profile>
     </annotationProcessing>
   </component>

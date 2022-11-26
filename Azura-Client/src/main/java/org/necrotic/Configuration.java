@@ -22,7 +22,7 @@ public class Configuration {
 	public final static boolean DISPLAY_GAMEWORLD_ON_LOGIN = false;
 	public final static int NPC_BITS = 18;
 	public static final boolean SEND_HASH = true;
-	public static final int[] REPACK_INDICIES = {
+	public static final int[] REPACK_INDICIES = {4
 			//4 // 6, 7, 8 //4  // 1
 	};
 	public static final int statMenuColor = 0x49bfff;

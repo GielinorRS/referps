@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 21432760,
+  "total-play-time-ms": 21834050,
   "username": "Grim",
   "password": "grim",
   "email": "null",
@@ -8,8 +8,8 @@
   "player-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 3253,
-    "y": 2933,
+    "x": 2848,
+    "y": 4573,
     "z": 0
   },
   "online-status": "ON",
@@ -292,7 +292,7 @@
         2500
       ],
       "progress": [
-        92,
+        93,
         0,
         0
       ],
@@ -349,7 +349,7 @@
         25000
       ],
       "progress": [
-        92,
+        93,
         0,
         0
       ],
@@ -379,10 +379,10 @@
   "day5claimed": false,
   "day6claimed": false,
   "day7claimed": false,
-  "minutes-bonus-exp": 509999790,
+  "minutes-bonus-exp": 509999784,
   "minutes-voting-dr": -1,
   "minutes-voting-dmg": -1,
-  "total-gained-exp": 2015723462,
+  "total-gained-exp": 3282038187,
   "barrows-points": 0,
   "member-points": -1853717470,
   "Skilling-points": 0,
@@ -390,8 +390,8 @@
   "achievement-points": 0,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 10341,
-  "total-loyalty-points": 10341.0,
+  "loyalty-points": 10644,
+  "total-loyalty-points": 10644.0,
   "godmodetime": 0,
   "voting-points": 102000000,
   "total-prestiges": 0,
@@ -431,17 +431,17 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 1667759285935,
+  "last-veng": 1501120105,
   "fight-type": "BSOAT_ACCURATE",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
   "poison-damage": 0,
   "poison-immunity": 0,
-  "overload-timer": 0,
+  "overload-timer": 98250,
   "double-dr-timer": 0,
   "double-ddr-timer": 0,
-  "double-dmg-timer": 1665,
+  "double-dmg-timer": 996,
   "fire-immunity": 0,
   "fire-damage-mod": 0,
   "prayer-renewal-timer": 0,
@@ -604,13 +604,13 @@
   ],
   "skills": {
     "level": [
-      14995,
-      14995,
-      14995,
+      165,
+      165,
+      165,
+      149800,
+      165,
       150000,
-      14995,
-      150000,
-      14995,
+      165,
       120,
       120,
       120,
@@ -664,7 +664,7 @@
       2000000000,
       2000000000,
       13034431,
-      305477464,
+      1571792189,
       104273167,
       104273167,
       104273167,
@@ -753,7 +753,7 @@
     },
     {
       "id": 23569,
-      "amount": 1999998750,
+      "amount": 1999998500,
       "slot": 0
     },
     {
@@ -767,7 +767,7 @@
       "slot": 0
     },
     {
-      "id": 20488,
+      "id": 22084,
       "amount": 1,
       "slot": 0
     },
@@ -782,8 +782,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 20488,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -3330,7 +3330,7 @@
       true
     ]
   ],
-  "achievements-daily": 317,
+  "achievements-daily": 327,
   "starter-task-amount": [
     0,
     0,
@@ -3415,7 +3415,7 @@
   "group-ironman-locked": false,
   "lastInstanceNpc": -1,
   "seasonpass-tier": 2,
-  "seasonpass-xp": 4,
+  "seasonpass-xp": 6,
   "seasonpass-member": true,
   "seasonpass-season": 1,
   "seasonpass-received-500-kc-xp": true,
@@ -3913,8 +3913,14 @@
     },
     {
       "name": "OP_BOX",
-      "completed": 20000000,
-      "obtainedItems": []
+      "completed": 20000001,
+      "obtainedItems": [
+        {
+          "id": 22084,
+          "amount": 1,
+          "slot": 0
+        }
+      ]
     },
     {
       "name": "VOTING_BOX",
@@ -4194,7 +4200,7 @@
     false
   ],
   "unlocked-crown": false,
-  "hanto-dr": 0,
+  "hanto-dr": 250,
   "discord-user": 0,
   "discord-points": 0,
   "received-shark-costume": false,
@@ -5511,7 +5517,7 @@
     false
   ],
   "daily-reward-day": 0,
-  "daily-reward-epoch": 317,
+  "daily-reward-epoch": 327,
   "curse-of-arrav-progress": 1,
   "unlocked-titles": [
     "NONE",
@@ -5532,31 +5538,31 @@
   "daily-task-slots": [
     [
       {
-        "task": "CLAIM_A_PET_RETURN",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "SUMMON_A_PET",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
         "task": "COMPLETE_THE_VOTING_MINIGAME",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "COMPLETE_5_MEDIUM_SLAYER_TASKS",
+        "task": "DEAL_100K_DAMAGE",
+        "progressOnTask": 1318230,
+        "completed": true,
+        "claimedReward": true
+      },
+      {
+        "task": "PURCHASE_ITEM_FROM_TRAVELING_MERCHANT",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "DISSOLVE_100_ITEMS",
+        "task": "CLAIM_4_VOTE_SCROLLS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DEFEAT_100_SUPREME_BOSS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5564,19 +5570,7 @@
     ],
     [
       {
-        "task": "COMPLETE_5_HALLS_OF_AMMO_RUNS",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "DEFEAT_100_ELITE_DRAGONS",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "PARTICIPATE_IN_15_GLOBAL_BOSSES",
+        "task": "WIN_A_GAME_OF_PEST_CONTROL",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5587,23 +5581,35 @@
         "completed": false,
         "claimedReward": false
       },
+      {
+        "task": "WIN_A_GAME_OF_PEST_CONTROL",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "REACH_WAVE_10_GOLD_GRINDER",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
       null
     ],
     [
       {
-        "task": "RECEIVE_A_UNIQUE_DROP_FROM_VASA_NISTIRIO",
+        "task": "DONATE_5M_TO_SERVER_PERKS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "CLAIM_10_IN_BONDS",
+        "task": "OPEN_ANY_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "DEFEAT_750_LUCIFER_MOBS",
+        "task": "COMPLETE_5_HARD_SOD_RUNS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5613,13 +5619,13 @@
     ],
     [
       {
-        "task": "DEFEAT_500_RAMMERNAUT_MOBS",
+        "task": "COMPLETE_5_HARD_ISLES_OF_THE_GODS_RUNS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "OPEN_A_SEASON_BOX",
+        "task": "RECEIVE_A_UNIQUE_BLOOD_ODIN_DROP",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5630,7 +5636,7 @@
     ],
     [
       {
-        "task": "COMPLETE_A_SANCTUM_OF_DEATH_RUN_IN_UNDER_3_MINS",
+        "task": "COMPLETE_25_HARD_SOD_RUNS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5641,7 +5647,7 @@
       null
     ]
   ],
-  "daily-tasks-completed": 8,
+  "daily-tasks-completed": 9,
   "anima-kc": 0,
   "anima-drop-rate": 6,
   "anima-key-opened": 22019,

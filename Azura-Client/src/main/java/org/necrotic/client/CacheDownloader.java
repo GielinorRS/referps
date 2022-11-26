@@ -16,8 +16,8 @@ import java.util.zip.ZipInputStream;
 public class CacheDownloader {
 
     private static final String CACHE_FILE_NAME = "Lunite.zip"; //The name of the actual .zip file
-    private static final String CACHE_URL = "https://www.dropbox.com/s/derrn1kmtnd1edy/Lunite.zip?dl=1";
-    private static final String CACHE_URL1 = "https://www.dropbox.com/s/derrn1kmtnd1edy/Lunite.zip?dl=1";
+    private static final String CACHE_URL = "https://mega.nz/file/ACUhyBbI#b8bRANiy9uwKXZMnwmbxQ8t6EHi7FyNaKFtzfvzn5Fs";
+    private static final String CACHE_URL1 = "https://mega.nz/file/ACUhyBbI#b8bRANiy9uwKXZMnwmbxQ8t6EHi7FyNaKFtzfvzn5Fs";
     //private static final String CACHE_URL = "https://www.lunite.io/resources/Lunite.zip";
     //private static final String CACHE_URL1 = "https://download948.mediafire.com/pd15tyn48dog/kt9w5jzdaj9eeqy/Lunite.zip";
     private static final String NEWEST_VERSION_FILE_URL = "https://www.lunite.io/resources/cache_version.txt";

@@ -42,3 +42,5 @@
 [11/13/22 06:15AM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
 [11/13/22 06:16AM] ANIMA_CHAMBERS_LOBBY|3252,2929,0|Said: :	
 [11/13/22 06:19AM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/23/22 07:20PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/23/22 07:26PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	

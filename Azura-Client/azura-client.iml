@@ -11,15 +11,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="azura-server" level="project" />
+    <orderEntry type="library" name="azura_client_jar" level="project" />
+    <orderEntry type="library" name="azura-runelite1" level="project" />
+    <orderEntry type="library" name="Azura-Client1" level="project" />
     <orderEntry type="library" name="out" level="project" />
     <orderEntry type="library" name="libs" level="project" />
-    <orderEntry type="library" name="azura-runelite" level="project" />
-    <orderEntry type="library" name="azura_client_jar" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: com.github.MinnDevelopment:java-discord-rpc:v2.0.1" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.4.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: club.minnced:discord-rpc-release:v3.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
     <orderEntry type="library" name="Maven: com.github.ryleykimmel:Alertify4J:master" level="project" />
     <orderEntry type="library" name="Maven: net.runelite.pushingpixels:substance:8.0.02" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: net.runelite.pushingpixels:trident:1.5.00" level="project" />
