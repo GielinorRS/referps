@@ -4,40 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf4616f6-b917-46d8-87ed-98d318291d5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Grim.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/info/uniqueips.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/logs/other/Excaliber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/other/Excaliber.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/other/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/posHistory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/posHistory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/prices.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/prices.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/shops/Excaliber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/shops/Excaliber.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/shops/Golden Power.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/shops/Golden Power.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/shops/Jano.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/shops/Jano.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/worldlogs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/worldlogs/commands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crim/snippit/hashCharacterJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crim/snippit/hashCharacterJson.java" afterDir="false" />
-    </list>
+    <list default="true" id="5fdaa768-2f23-4c28-bbcf-9ee5f00b26c1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Amazon Corretto/jdk1.8.0_342/src.zip!/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,8 +19,19 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2Fs0mdi3xVw47sLoLJI2Iz18GhM" />
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="2FmF9vRQezrnVreOrjEw3gcQgSf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,11 +40,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/grim/Lunite Full Package by grim/Azura-Client",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "C:/Users/grim/Lunite Full Package by grim/azura-server/pom.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GameServer">
     <configuration name="GameServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ruse.GameServer" />
       <module name="azura-server" />
@@ -76,32 +61,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="azura-server-1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/azura-server-1.0.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GameServer" />
+        <item itemvalue="JAR Application.azura-server-1.0.jar" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf4616f6-b917-46d8-87ed-98d318291d5f" name="Changes" comment="" />
-      <created>1665265648085</created>
+      <changelist id="5fdaa768-2f23-4c28-bbcf-9ee5f00b26c1" name="Changes" comment="" />
+      <created>1665089206795</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665265648085</updated>
+      <updated>1665089206795</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

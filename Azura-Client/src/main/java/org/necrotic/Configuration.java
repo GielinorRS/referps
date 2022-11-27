@@ -9,8 +9,8 @@ package org.necrotic;
 public class Configuration {
 	public final static int CLIENT_VERSION = 40;
 	public static boolean localHost = true;
-	public static boolean beta = false;
-	public static final boolean FORCE_CACHE_UPDATE = false;
+	public static boolean beta = true;
+	public static final boolean FORCE_CACHE_UPDATE = true;
 	public static final boolean STOP_CACHE_UPDATES = false;
 	public static final boolean DROPBOX_MODE = false;
 	public final static String CLIENT_NAME = "Lunite";
@@ -22,7 +22,7 @@ public class Configuration {
 	public final static boolean DISPLAY_GAMEWORLD_ON_LOGIN = false;
 	public final static int NPC_BITS = 18;
 	public static final boolean SEND_HASH = true;
-	public static final int[] REPACK_INDICIES = {4
+	public static final int[] REPACK_INDICIES = {
 			//4 // 6, 7, 8 //4  // 1
 	};
 	public static final int statMenuColor = 0x49bfff;

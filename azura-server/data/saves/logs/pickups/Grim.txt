@@ -1,0 +1,2 @@
+[8/2/22 08:03AM] Player picked up item: Solak Coins, id: 995, amount: 3405098, owner: Grim	
+[8/2/22 08:03AM] Player picked up item: Dragon bones, id: 537, amount: 50, owner: Grim	

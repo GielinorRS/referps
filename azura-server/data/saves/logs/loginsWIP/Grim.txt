@@ -1,0 +1,7 @@
+[8/2/22 07:11AM] Login from host 127.0.0.1, serial number: 0A-00-27-00-00-09, mac address:DTVMWAA002712026CD960020220702191704.000000-420	
+[8/2/22 07:11AM] Logout with password grimLogout from host 127.0.0.1, serial number: 0A-00-27-00-00-09, mac address:DTVMWAA002712026CD960020220702191704.000000-420	
+[8/2/22 07:11AM] Login from host 127.0.0.1, serial number: 0A-00-27-00-00-09, mac address:DTVMWAA002712026CD960020220702191704.000000-420	
+[8/2/22 07:12AM] Logout with password grimLogout from host 127.0.0.1, serial number: 0A-00-27-00-00-09, mac address:DTVMWAA002712026CD960020220702191704.000000-420	
+[8/2/22 07:12AM] Login from host 127.0.0.1, serial number: 0A-00-27-00-00-09, mac address:DTVMWAA002712026CD960020220702191704.000000-420	
+[8/2/22 07:12AM] Logout with password grimLogout from host 127.0.0.1, serial number: 0A-00-27-00-00-09, mac address:DTVMWAA002712026CD960020220702191704.000000-420	
+[8/2/22 07:13AM] Login from host 127.0.0.1, serial number: 0A-00-27-00-00-09, mac address:DTVMWAA002712026CD960020220702191704.000000-420	

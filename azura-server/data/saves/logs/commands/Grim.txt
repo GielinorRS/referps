@@ -1,0 +1,13 @@
+[8/2/22 07:11AM] Grim used command ::ownerup | Player rights = PLAYER	
+[8/2/22 07:12AM] Grim used command ::ownerup | Player rights = PLAYER	
+[8/2/22 07:18AM] Grim used command ::god | Player rights = DEVELOPER	
+[8/2/22 07:18AM] Grim used command ::item 773 1 | Player rights = DEVELOPER	
+[8/2/22 07:18AM] Grim used command ::bis | Player rights = DEVELOPER	
+[8/2/22 07:19AM] Grim used command ::find owner | Player rights = DEVELOPER	
+[8/2/22 07:22AM] Grim used command ::find twisted | Player rights = DEVELOPER	
+[8/2/22 07:28AM] Grim used command ::find coll | Player rights = DEVELOPER	
+[8/2/22 07:50AM] Grim used command ::master | Player rights = DEVELOPER	
+[8/2/22 07:50AM] Grim used command ::global | Player rights = DEVELOPER	
+[8/2/22 07:51AM] Grim used command ::item 22113 | Player rights = DEVELOPER	
+[8/2/22 07:51AM] Grim used command ::item 22114 | Player rights = DEVELOPER	
+[8/2/22 07:52AM] Grim used command ::onehit | Player rights = DEVELOPER	

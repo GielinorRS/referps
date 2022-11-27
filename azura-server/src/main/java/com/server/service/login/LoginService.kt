@@ -25,8 +25,6 @@ class LoginService: Service {
 
     private var threadCount = 1
 
-    constructor()
-
     override fun init() {
         val executorService = Executors
                 .newFixedThreadPool(threadCount, ThreadFactoryBuilder()
@@ -61,9 +59,5 @@ class LoginService: Service {
 
             World.getLoginQueue().offer(session.player)
         }
-    }
-
-    override fun toString(): String {
-        return "LoginService(logger=$logger, requests=$requests, threadCount=$threadCount)"
     }
 }

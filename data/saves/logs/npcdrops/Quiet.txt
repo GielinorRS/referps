@@ -1,2 +1,0 @@
-[4/9/22 12:33PM] Player received drop: x1 Infinite healing potion (T3), id: 23120, amount: 1, from: Mr. Morningstar	
-[5/1/22 05:31PM] Player received drop: x1 Dregg legs, id: 21030, amount: 1, from: Malevolent Bird	

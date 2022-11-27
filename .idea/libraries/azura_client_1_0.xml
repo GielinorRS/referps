@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="azura-client-1.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/Azura-Client/target/azura-client-1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
