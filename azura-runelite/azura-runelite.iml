@@ -10,6 +10,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="azura-client" />
     <orderEntry type="library" name="Maven: net.azura:azura-client:1.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: com.github.MinnDevelopment:java-discord-rpc:v2.0.1" level="project" />

@@ -8,15 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="azura-client" />
-        <module name="azura-server" />
         <module name="azura-runelite" />
+        <module name="azura-server" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="azura-client" target="1.8" />
-      <module name="azura-runelite" target="1.8" />
-      <module name="azura-server" target="1.8" />
-      <module name="Lunite Full Package by grim" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

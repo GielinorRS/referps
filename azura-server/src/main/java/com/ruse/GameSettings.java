@@ -15,6 +15,8 @@ public class GameSettings {
     public static boolean B2GO = false;
     public static boolean DOUBLEVOTE = false;
 
+    public static boolean BETA_ENABLED = true;
+
     public static final String[] CLIENT_HASH = {"d41d8cd98f00b204e9800998ecf8427e"};
 
     public static final String RSPS_NAME = "Lunite";

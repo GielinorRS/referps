@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961c16c7-79d8-42d7-8b11-3c55dfa993a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/characters/Grim.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/logs/other/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" afterDir="false" />
-    </list>
+    <list default="true" id="82bd213b-4d1c-4753-9bdc-141d94783d1c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,18 +13,20 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/azura-server" />
   </component>
+  <component name="GitLabServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -43,13 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/grim/Documents/GitHub/Lunite Full Package/azura-server"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/grim/Documents/GitHub/Lunite Full Package/azura-server&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.GameServer">
     <configuration name="GameServer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_202\jre" />
@@ -129,11 +123,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="961c16c7-79d8-42d7-8b11-3c55dfa993a8" name="Changes" comment="" />
-      <created>1665000092814</created>
+      <changelist id="82bd213b-4d1c-4753-9bdc-141d94783d1c" name="Changes" comment="" />
+      <created>1669816774749</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665000092814</updated>
+      <updated>1669816774749</updated>
     </task>
     <servers />
   </component>
