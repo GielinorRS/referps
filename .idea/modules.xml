@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/azura.iml" filepath="$PROJECT_DIR$/azura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Azura-Client/azura-client.iml" filepath="$PROJECT_DIR$/Azura-Client/azura-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azura-runelite/azura-runelite.iml" filepath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/azura-server/azura-server.iml" filepath="$PROJECT_DIR$/azura-server/azura-server.iml" />
+    </modules>
+  </component>
+</project>

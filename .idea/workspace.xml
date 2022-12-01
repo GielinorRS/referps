@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82bd213b-4d1c-4753-9bdc-141d94783d1c" name="Changes" comment="" />
+    <list default="true" id="82bd213b-4d1c-4753-9bdc-141d94783d1c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/GitlabLint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitlabLint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +22,7 @@
     <splitter proportion="0.5" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/azura-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLabServerManager">
     <selected>-1</selected>

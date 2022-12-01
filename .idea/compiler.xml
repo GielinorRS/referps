@@ -12,5 +12,11 @@
         <module name="azura-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="azura" target="1.5" />
+      <module name="azura-client" target="1.8" />
+      <module name="azura-runelite" target="1.8" />
+      <module name="azura-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
