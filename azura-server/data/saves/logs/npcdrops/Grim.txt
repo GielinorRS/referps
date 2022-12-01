@@ -1,0 +1,1 @@
+[11/27/22 10:29AM] Player received drop:  <col=ff4f4f>Upgrade Token pack (100k), id: 15288, amount: 1, from: Tanzanite	

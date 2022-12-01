@@ -1,0 +1,30 @@
+[11/27/22 10:01AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/27/22 10:01AM] Login 	
+[11/27/22 10:07AM] Grim used command ::bank | Player rights = DEVELOPER	
+[11/27/22 10:08AM] Grim used command ::find owner | Player rights = DEVELOPER	
+[11/27/22 10:09AM] Grim used command ::item 23353 4 | Player rights = DEVELOPER	
+[11/27/22 10:09AM] Grim used command ::assassin | Player rights = DEVELOPER	
+[11/27/22 10:10AM] Logout with password grimLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/27/22 10:10AM] Logout 	
+[11/27/22 10:21AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/27/22 10:21AM] Login 	
+[11/27/22 10:29AM] Player received drop:  <col=ff4f4f>Upgrade Token pack (100k), id: 15288, amount: 1, from: Tanzanite	
+[11/27/22 10:31AM] Grim used command ::update index4 | Player rights = DEVELOPER	
+[11/27/22 10:31AM] Grim used command ::repack index4 | Player rights = DEVELOPER	
+[11/27/22 10:32AM] Grim used command ::tele 2529 4061 | Player rights = DEVELOPER	
+[11/27/22 10:32AM] Grim used command ::noclip | Player rights = DEVELOPER	
+[11/27/22 10:33AM] Grim used command ::noclip | Player rights = DEVELOPER	
+[11/27/22 10:33AM] Logout with password grimLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/27/22 10:33AM] Logout 	
+[11/27/22 10:33AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/27/22 10:33AM] Login 	
+[11/27/22 10:35AM] Grim used command ::repackindex4 | Player rights = DEVELOPER	
+[11/27/22 10:36AM] Grim used command ::debug | Player rights = DEVELOPER	
+[11/27/22 10:36AM] Grim used command ::repackindex4 | Player rights = DEVELOPER	
+[11/27/22 10:36AM] Logout with password grimLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/27/22 10:36AM] Logout 	
+[11/27/22 10:36AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/27/22 10:36AM] Login 	
+[11/27/22 10:36AM] Grim used command ::afk | Player rights = DEVELOPER	
+[11/27/22 10:40AM] Logout 	
+[11/27/22 10:40AM] Logout with password grimLogout from host 127.0.0.1, serial number: null000, mac address:null000	
