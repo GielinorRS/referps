@@ -1,0 +1,48 @@
+[PATCH]
+patch: 0
+stage: 0
+minute: 14
+hour: 12
+day: 196
+year: 2021
+END PATCH
+
+[PATCH]
+patch: 1
+stage: 3
+minute: 0
+hour: 12
+day: 196
+year: 2021
+END PATCH
+
+[PATCH]
+patch: 2
+stage: 3
+minute: 1
+hour: 12
+day: 196
+year: 2021
+END PATCH
+
+[PATCH]
+patch: 3
+stage: 3
+minute: 3
+hour: 12
+day: 196
+year: 2021
+END PATCH
+
+[PLANT]
+patch: 2
+plant: 15
+stage: 4
+watered: -1
+harvested: 0
+minute: 1
+hour: 12
+day: 196
+year: 2021
+END PLANT
+

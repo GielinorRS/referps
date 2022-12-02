@@ -1,0 +1,64 @@
+[4/7/22 06:41PM] Player picked up item: Slayer helm (T2), id: 23069, amount: 1, owner: Quiet	
+[4/7/22 06:44PM] Player picked up item: Aspect Tokens, id: 10835, amount: 10, owner: Quiet	
+[4/7/22 08:32PM] Player picked up item: Mystery Box, id: 6199, amount: 15, owner: Iron	
+[4/9/22 12:15PM] Player picked up item: PVM ticket, id: 5022, amount: 1, owner: Quiet	
+[4/9/22 12:25PM] Player picked up item: Raids [1] Key, id: 13591, amount: 2, owner: Quiet	
+[4/9/22 12:33PM] Player picked up item: Aspect Coins, id: 995, amount: 1073304, owner: Quiet	
+[4/9/22 12:33PM] Player picked up item: Infinite healing potion (T3), id: 23120, amount: 1, owner: Quiet	
+[4/9/22 12:49PM] Player picked up item: Aspect Coins, id: 995, amount: 3050338, owner: Quiet	
+[4/9/22 01:30PM] Player picked up item: PVM ticket, id: 5022, amount: 1, owner: Quiet	
+[4/10/22 12:53AM] Player picked up item: Raids [1] Key, id: 13591, amount: 5, owner: Mr. Morningstar	
+[4/10/22 12:55AM] Player picked up item: Aspect Coins, id: 995, amount: 2491409, owner: Quiet	
+[4/10/22 01:03AM] Player picked up item: Aspect Coins, id: 995, amount: 4006752, owner: Quiet	
+[4/14/22 10:23PM] Player picked up item: None, id: 24001, amount: 1, owner: Quiet	
+[4/15/22 06:05PM] Player picked up item: Shattered cape, id: 20591, amount: 1, owner: Quiet	
+[4/15/22 07:23PM] Player picked up item: BIS Body, id: 24002, amount: 1, owner: Quiet	
+[4/18/22 08:51AM] Player picked up item: Bronze Token ($10), id: 23057, amount: 1, owner: Quiet	
+[4/18/22 11:35AM] Player picked up item: Vault token, id: 12852, amount: 1, owner: Quiet	
+[4/18/22 12:18PM] Player picked up item: Mage Aura (T1), id: 24000, amount: 1, owner: Quiet	
+[4/18/22 10:11PM] Player picked up item: Mystical Strength, id: 24020, amount: 1, owner: Quiet	
+[4/18/22 10:11PM] Player picked up item: Warrior Strength, id: 24022, amount: 1, owner: Quiet	
+[4/18/22 10:11PM] Player picked up item: Ultimate Strength, id: 24023, amount: 1, owner: Quiet	
+[4/18/22 10:12PM] Player picked up item: Mystical Strength, id: 24020, amount: 1, owner: Quiet	
+[4/18/22 10:12PM] Player picked up item: Sharpshooter Strength, id: 24021, amount: 1, owner: Quiet	
+[4/18/22 10:12PM] Player picked up item: Warrior Strength, id: 24022, amount: 1, owner: Quiet	
+[4/18/22 10:12PM] Player picked up item: Ultimate Strength, id: 24023, amount: 1, owner: Quiet	
+[4/18/22 10:41PM] Player picked up item: Lil Bones, id: 2023, amount: 2, owner: Quiet	
+[4/18/22 10:42PM] Player picked up item: Lil Bones, id: 2023, amount: 2, owner: Quiet	
+[4/18/22 11:16PM] Player picked up item: Inferno Cape, id: 10638, amount: 1, owner: Quiet	
+[4/19/22 09:26AM] Player picked up item: None, id: 24030, amount: 1, owner: Quiet	
+[4/19/22 09:38AM] Player picked up item: Aspect Tokens, id: 10835, amount: 4179, owner: Quiet	
+[4/19/22 09:47AM] Player picked up item: Raids[2] Box, id: 18404, amount: 1, owner: Quiet	
+[4/19/22 10:01AM] Player picked up item: Raids[2] Box, id: 18404, amount: 959, owner: Quiet	
+[4/19/22 11:00AM] Player picked up item: Lucien Axe, id: 17714, amount: 1, owner: Quiet	
+[4/19/22 11:08AM] Player picked up item: Satanic hellblade, id: 20542, amount: 1, owner: Quiet	
+[4/19/22 11:08AM] Player picked up item: Satanic hellblade, id: 20542, amount: 1, owner: Quiet	
+[4/19/22 11:10AM] Player picked up item: Groudon-flame power, id: 15448, amount: 1, owner: Quiet	
+[4/20/22 04:19PM] Player picked up item: Cursed cape, id: 20099, amount: 1, owner: Quiet	
+[4/20/22 04:19PM] Player picked up item: Cursed cape, id: 20099, amount: 1, owner: Quiet	
+[4/20/22 04:47PM] Player picked up item: Double DR Scroll (30 Minutes), id: 15358, amount: 1, owner: Quiet	
+[4/22/22 10:52PM] Player picked up item: None, id: 24045, amount: 1, owner: Quiet	
+[4/22/22 10:52PM] Player picked up item: None, id: 24045, amount: 1, owner: Quiet	
+[4/22/22 10:54PM] Player picked up item: None, id: 24046, amount: 1, owner: Quiet	
+[4/22/22 11:15PM] Player picked up item: None, id: 24045, amount: 1, owner: Quiet	
+[4/22/22 11:59PM] Player picked up item: None, id: 24053, amount: 1, owner: Quiet	
+[4/23/22 12:00AM] Player picked up item: None, id: 24052, amount: 1, owner: Quiet	
+[4/23/22 12:31AM] Player picked up item: None, id: 24058, amount: 1, owner: Quiet	
+[4/23/22 12:37AM] Player picked up item: None, id: 24062, amount: 1, owner: Quiet	
+[4/24/22 07:57AM] Player picked up item: Aspect Tokens, id: 10835, amount: 120, owner: Quiet	
+[4/24/22 07:57AM] Player picked up item: Aspect Tokens, id: 10835, amount: 120, owner: Quiet	
+[4/24/22 07:57AM] Player picked up item: Aspect Tokens, id: 10835, amount: 120, owner: Quiet	
+[4/24/22 07:57AM] Player picked up item: PVM ticket, id: 5022, amount: 202, owner: Quiet	
+[4/24/22 09:45AM] Player picked up item: Boss Event Box, id: 19624, amount: 1, owner: Quiet	
+[4/24/22 12:28PM] Player picked up item: Shattered bow, id: 5010, amount: 1, owner: Quiet	
+[4/24/22 12:36PM] Player picked up item: Molten Cape, id: 24066, amount: 1, owner: Quiet	
+[4/24/22 12:38PM] Player picked up item: Lightning helm, id: 23050, amount: 1, owner: Quiet	
+[4/24/22 12:52PM] Player picked up item: Imbuement Scroll, id: 607, amount: 1, owner: Quiet	
+[4/24/22 12:53PM] Player picked up item: None, id: 24075, amount: 1, owner: Quiet	
+[4/24/22 02:30PM] Player picked up item: None, id: 23514, amount: 1, owner: Quiet	
+[4/24/22 02:47PM] Player picked up item: None, id: 24078, amount: 1, owner: Quiet	
+[4/30/22 03:22PM] Player picked up item: Molten Cape, id: 24066, amount: 1, owner: Quiet	
+[4/30/22 03:22PM] Player picked up item: Molten Cape, id: 24066, amount: 1, owner: Quiet	
+[5/1/22 09:52AM] Player picked up item: Armoured Bunny Pet, id: 23018, amount: 1, owner: Quiet	
+[5/1/22 05:31PM] Player picked up item: Dregg legs, id: 21030, amount: 1, owner: Quiet	
+[5/1/22 05:31PM] Player picked up item: Dregg legs, id: 21030, amount: 1, owner: Quiet	

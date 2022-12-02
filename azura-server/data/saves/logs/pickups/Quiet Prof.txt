@@ -1,0 +1,23 @@
+[12/16/21 07:37PM] Player picked up item: Solak Tokens, id: 10835, amount: 10000, owner: Quiet Prof	
+[12/19/21 11:32AM] Player picked up item: Master max cape, id: 23176, amount: 1, owner: Quiet Prof	
+[12/19/21 12:59PM] Player picked up item: Master max cape, id: 23176, amount: 1, owner: Quiet Prof	
+[12/19/21 05:52PM] Player picked up item: COL Torva body, id: 18001, amount: 1, owner: Quiet Prof	
+[12/26/21 09:23PM] Player picked up item: COL Torva body, id: 18001, amount: 1, owner: Quiet Prof	
+[12/26/21 11:44PM] Player picked up item: Solak Coins, id: 995, amount: 19237, owner: Quiet Prof	
+[12/26/21 11:44PM] Player picked up item: Gladiator full helm, id: 15005, amount: 1, owner: Quiet Prof	
+[12/26/21 11:44PM] Player picked up item: Solak Coins, id: 995, amount: 8992, owner: Quiet Prof	
+[12/27/21 01:22PM] Player picked up item: Solak Coins, id: 995, amount: 8398, owner: Quiet Prof	
+[12/27/21 01:22PM] Player picked up item: Copper ore, id: 437, amount: 29, owner: Quiet Prof	
+[12/28/21 04:25PM] Player picked up item: COL Torva body, id: 18001, amount: 1, owner: Quiet Prof	
+[12/28/21 04:52PM] Player picked up item: Riddler's body, id: 4556, amount: 1, owner: Quiet Prof	
+[1/2/22 12:06AM] Player picked up item: Golem Pet, id: 23163, amount: 1, owner: Quiet Prof	
+[1/5/22 04:29PM] Player picked up item: Riddler's legs, id: 4557, amount: 1, owner: Quiet Prof	
+[1/6/22 07:50PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 07:52PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 07:54PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 08:01PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 08:01PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 08:03PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 08:05PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 08:06PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	
+[1/6/22 08:12PM] Player picked up item: Super Box, id: 19659, amount: 1, owner: Quiet Prof	

@@ -1,6 +1,3 @@
 Manifest-Version: 1.0
 Main-Class: org.necrotic.client.Client
-Class-Path: substance-8.0.02.jar trident-1.5.00.jar jna-4.4.0.jar java-d
- iscord-rpc-v2.0.1.jar gson-2.8.6.jar commons-lang3-3.9.jar Alertify4J-m
- aster.jar discord-rpc-release-v3.3.0.jar
 

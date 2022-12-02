@@ -19,7 +19,7 @@ public class hashCharacterJson {
 		for (int i = 0; i < args.length; i++) {
 			if (args[i].startsWith("dir:")) {
 				DIR = args[i].substring("dir:".length());
-				 System.out.println("Set directory to: " + DIR);
+				// System.out.println("Set directory to: " + DIR);
 			}
 		}
 
@@ -33,7 +33,7 @@ public class hashCharacterJson {
 			return;
 		}
 
-		 System.out.println("We are working in the directory: " + new File(DIR).getAbsolutePath());
+		// System.out.println("We are working in the directory: " + new File(DIR).getAbsolutePath());
 
 		for (int i = 0; i < files.length; i++) {
 			getResult(files[i].getName());

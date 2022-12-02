@@ -1,0 +1,2 @@
+[3/16/22 05:20PM] Login from host 127.0.0.1, serial number: 00-FF-4F-27-9B-EF, mac address:5CD1482K2P20220302041459.000000-480	
+[3/16/22 05:20PM] Logout with password penisLogout from host 127.0.0.1, serial number: 00-FF-4F-27-9B-EF, mac address:5CD1482K2P20220302041459.000000-480	

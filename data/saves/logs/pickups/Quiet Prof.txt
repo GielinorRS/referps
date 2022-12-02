@@ -1,0 +1,45 @@
+[3/16/22 05:33PM] Player picked up item: Adamant spear (p), id: 1260, amount: 1, owner: Quiet Prof	
+[3/19/22 12:16PM] Player picked up item: Salarumai body, id: 17648, amount: 1, owner: Quiet Prof	
+[3/19/22 12:44PM] Player picked up item: Salarumai body, id: 17648, amount: 1, owner: Quiet Prof	
+[3/20/22 08:00AM] Player picked up item: Arcnum helm, id: 17594, amount: 1, owner: Quiet Prof	
+[3/20/22 10:17AM] Player picked up item: Eternal dragon egg, id: 463, amount: 1, owner: Quiet Prof	
+[3/20/22 10:30AM] Player picked up item: Solak Coins, id: 995, amount: 32411, owner: Quiet Prof	
+[3/20/22 10:30AM] Player picked up item: Dragon bones, id: 536, amount: 1, owner: Quiet Prof	
+[3/20/22 10:31AM] Player picked up item: Solak Coins, id: 995, amount: 35624, owner: Quiet Prof	
+[3/20/22 10:31AM] Player picked up item: Solak Coins, id: 995, amount: 33332, owner: Quiet Prof	
+[3/20/22 10:31AM] Player picked up item: Dragon bones, id: 536, amount: 1, owner: Quiet Prof	
+[3/25/22 07:46AM] Player picked up item: Solak Coins, id: 995, amount: 40252, owner: Quiet Prof	
+[3/25/22 07:46AM] Player picked up item: Special Bones, id: 2026, amount: 1, owner: Quiet Prof	
+[3/25/22 07:47AM] Player picked up item: Solak Coins, id: 995, amount: 53621, owner: Quiet Prof	
+[3/25/22 07:47AM] Player picked up item: Grimy cadantine, id: 216, amount: 22, owner: Quiet Prof	
+[3/25/22 07:47AM] Player picked up item: Special Bones, id: 2026, amount: 1, owner: Quiet Prof	
+[3/27/22 01:12PM] Player picked up item: Solak Coins, id: 995, amount: 3899312, owner: Quiet Prof	
+[3/27/22 01:12PM] Player picked up item: Dragon bones, id: 537, amount: 50, owner: Quiet Prof	
+[3/29/22 09:57PM] Player picked up item: Yellow bell, id: 6847, amount: 1, owner: Quiet Prof	
+[4/3/22 09:16AM] Player picked up item: $10 Bond, id: 23057, amount: 1, owner: Quiet Prof	
+[4/3/22 09:22AM] Player picked up item: Aspect Coins, id: 995, amount: 28962, owner: Quiet Prof	
+[4/3/22 09:22AM] Player picked up item: Lazycat Bones, id: 2023, amount: 1, owner: Quiet Prof	
+[4/3/22 11:04AM] Player picked up item: Aspect Coins, id: 995, amount: 46139, owner: Quiet Prof	
+[4/3/22 11:04AM] Player picked up item: Dragonballz Bones, id: 2025, amount: 1, owner: Quiet Prof	
+[4/3/22 11:05AM] Player picked up item: Aspect Coins, id: 995, amount: 109559, owner: Quiet Prof	
+[4/3/22 11:05AM] Player picked up item: Dragonballz Bones, id: 2025, amount: 2, owner: Quiet Prof	
+[4/3/22 11:06AM] Player picked up item: Aspect Coins, id: 995, amount: 9605, owner: Quiet Prof	
+[4/3/22 11:06AM] Player picked up item: Lazycat Bones, id: 2023, amount: 2, owner: Quiet Prof	
+[4/3/22 11:09AM] Player picked up item: Aspect Coins, id: 995, amount: 46356, owner: Quiet Prof	
+[4/3/22 11:09AM] Player picked up item: Dragonballz Bones, id: 2025, amount: 2, owner: Quiet Prof	
+[4/3/22 11:09AM] Player picked up item: Aspect Coins, id: 995, amount: 58422, owner: Quiet Prof	
+[4/3/22 11:09AM] Player picked up item: Dragonballz Bones, id: 2025, amount: 1, owner: Quiet Prof	
+[4/3/22 01:13PM] Player picked up item: Aspect Coins, id: 995, amount: 26292, owner: Quiet Prof	
+[4/3/22 01:13PM] Player picked up item: Dragonballz Bones, id: 2025, amount: 1, owner: Quiet Prof	
+[4/3/22 02:23PM] Player picked up item: Magic attachement, id: 23148, amount: 1, owner: Quiet Prof	
+[4/3/22 02:23PM] Player picked up item: Owner's Attachment, id: 11000, amount: 1, owner: Quiet Prof	
+[4/3/22 02:35PM] Player picked up item: Halls of Valor Key, id: 23086, amount: 1, owner: Quiet Prof	
+[4/3/22 02:35PM] Player picked up item: Halls of Valor Key, id: 23086, amount: 1, owner: Quiet Prof	
+[4/3/22 02:35PM] Player picked up item: Halls of Valor Key, id: 23086, amount: 1, owner: Quiet Prof	
+[4/3/22 02:54PM] Player picked up item: Ruby Exclusive Casket, id: 15002, amount: 1, owner: Quiet Prof	
+[4/6/22 09:28PM] Player picked up item: Aspect Coins, id: 995, amount: 8911, owner: Quiet Prof	
+[4/6/22 09:28PM] Player picked up item: Lil Bones, id: 2023, amount: 1, owner: Quiet Prof	
+[4/6/22 09:41PM] Player picked up item: Aspect Coins, id: 995, amount: 7331, owner: Quiet Prof	
+[4/6/22 09:41PM] Player picked up item: Dark fighterbody, id: 15006, amount: 1, owner: Quiet Prof	
+[4/6/22 09:41PM] Player picked up item: Lil Bones, id: 2023, amount: 1, owner: Quiet Prof	
+[4/6/22 11:21PM] Player picked up item: Vindicta staff, id: 17600, amount: 1, owner: Quiet Prof	
