@@ -1,0 +1,25 @@
+19225
+20549 - 1 - 14000 - 1
+11422 - 1 - 3000 - 1
+History:
+23020 _ 2 _ 10000 _ Caribouu
+23020 _ 4 _ 15000 _ Golden Power
+5023 _ 23 _ 75 _ Toxication
+5023 _ 10 _ 75 _ Toxication
+5023 _ 300 _ 75 _ Toxication
+5023 _ 7 _ 75 _ Toxication
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 10 _ 75 _ Respire
+5023 _ 3 _ 75 _ Respire
+11421 _ 1 _ 3000 _ Scoll
+23054 _ 1 _ 7000 _ Kick99

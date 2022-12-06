@@ -1,0 +1,6 @@
+[12/5/22 09:27PM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/5/22 09:34PM] Grim used command ::shutdown | Player rights = DEVELOPER	
+[12/5/22 09:34PM] Grim used command ::update | Player rights = DEVELOPER	
+[12/5/22 09:34PM] Grim used command ::update 30 | Player rights = DEVELOPER	
+[12/5/22 09:35PM] Logout with password grimLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/5/22 09:35PM] Logout 	

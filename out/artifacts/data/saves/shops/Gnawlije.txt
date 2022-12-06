@@ -1,0 +1,420 @@
+816460
+23061 - 2 - 60000 - 3
+8809 - 1 - 25000 - 1
+23054 - 3 - 10000 - 4
+23050 - 2 - 10000 - 4
+8273 - 2 - 5000 - 4
+14060 - 8 - 10000 - 15
+23053 - 3 - 20000 - 4
+23075 - 1 - 35000 - 4
+8274 - 3 - 5000 - 4
+23052 - 1 - 30000 - 1
+536 - 288 - 80 - 425
+23034 - 1 - 200000 - 1
+History:
+23066 _ 1 _ 150000 _ Cosmos
+23068 _ 1 _ 200000 _ Panic
+18629 _ 1 _ 70000 _ Way2lucky
+23055 _ 1 _ 100000 _ Pacific
+17600 _ 1 _ 150000 _ Hector
+17600 _ 1 _ 150000 _ Golden Power
+23061 _ 1 _ 100000 _ Pup
+23068 _ 1 _ 200000 _ Aboriginal
+19114 _ 33 _ 5000 _ Chinwag
+19114 _ 9 _ 5000 _ Slothsniffer
+19114 _ 4 _ 5000 _ Dorothy
+18830 _ 1 _ 1000 _ Slothsniffer
+18830 _ 1 _ 1000 _ Slothsniffer
+18830 _ 1 _ 1000 _ Slothsniffer
+23037 _ 1 _ 100000 _ Gandalf
+18830 _ 1 _ 500 _ Inceptionz
+18830 _ 1 _ 500 _ Inceptionz
+18830 _ 1 _ 500 _ Inceptionz
+18830 _ 1 _ 500 _ Inceptionz
+18830 _ 1 _ 500 _ Inceptionz
+18830 _ 1 _ 500 _ Inceptionz
+4685 _ 1 _ 10000 _ Dadsbelt
+18830 _ 1 _ 500 _ Turboz86
+18830 _ 1 _ 500 _ Turboz86
+18830 _ 1 _ 500 _ Chicken
+18830 _ 5 _ 500 _ Chicken
+18830 _ 5 _ 500 _ Chicken
+18830 _ 5 _ 500 _ Chicken
+19114 _ 2 _ 5000 _ Cringeworld
+19114 _ 1 _ 5000 _ Cringeworld
+19114 _ 4 _ 5000 _ 25x
+18830 _ 1 _ 500 _ Caribouu
+18830 _ 22 _ 500 _ Caribouu
+18830 _ 22 _ 500 _ Caribouu
+18830 _ 22 _ 500 _ Caribouu
+18830 _ 1 _ 500 _ Caribouu
+18830 _ 1 _ 500 _ Caribouu
+18830 _ 1 _ 500 _ Caribouu
+23053 _ 1 _ 30000 _ Ivoe
+18830 _ 1 _ 500 _ Lmaowtflol
+23068 _ 1 _ 200000 _ Jonkie
+23067 _ 1 _ 200000 _ Aspect
+23068 _ 1 _ 200000 _ Luke
+18830 _ 10 _ 500 _ Abdula
+23067 _ 1 _ 200000 _ 4
+23067 _ 1 _ 200000 _ Padee
+18830 _ 5 _ 500 _ Abdula
+18830 _ 1 _ 500 _ Abdula
+19909 _ 1 _ 30000 _ Dorothy
+19909 _ 1 _ 30000 _ Dorothy
+23068 _ 1 _ 150000 _ Dorothy
+20057 _ 1 _ 15000 _ Spaztiik
+23063 _ 1 _ 100000 _ Echo Mafiia
+19909 _ 1 _ 30000 _ Not Wingz
+23098 _ 1 _ 200000 _ Dorothy
+9939 _ 1 _ 20000 _ Golden Power
+23030 _ 1 _ 125000 _ Spaztiik
+23028 _ 1 _ 25000 _ Murv
+23063 _ 1 _ 100000 _ Echo Mafiia
+23068 _ 1 _ 150000 _ Echo Mafiia
+23051 _ 1 _ 25000 _ Murv
+14060 _ 1 _ 20000 _ Pgag Str
+5023 _ 10 _ 80 _ Number Two
+5023 _ 10 _ 80 _ Number Two
+5023 _ 8 _ 80 _ Panic
+5023 _ 100 _ 80 _ Panic
+5023 _ 500 _ 80 _ Panic
+5023 _ 13 _ 80 _ Panic
+5023 _ 71 _ 80 _ Liam
+5023 _ 25 _ 80 _ Jonkie
+5023 _ 475 _ 80 _ Jonkie
+5023 _ 103 _ 80 _ Murv
+5023 _ 100 _ 80 _ Kakor2
+5023 _ 300 _ 80 _ Kakor2
+5023 _ 88 _ 80 _ Kakor2
+5023 _ 10 _ 80 _ Kakor2
+5023 _ 12 _ 80 _ Kakor2
+5023 _ 626 _ 80 _ Arianiello
+5023 _ 1784 _ 80 _ Fap2loot
+20057 _ 1 _ 15000 _ The Boss
+9939 _ 1 _ 20000 _ That Guy
+9939 _ 1 _ 20000 _ Draconic
+20057 _ 1 _ 8000 _ Beerus
+5010 _ 1 _ 50000 _ Spartanbrah
+12535 _ 1 _ 30000 _ Holy
+23055 _ 1 _ 100000 _ Puresmoove
+23076 _ 1 _ 50000 _ Toxication
+23055 _ 1 _ 100000 _ Astronaut
+12535 _ 1 _ 30000 _ Pencil
+5023 _ 672 _ 80 _ Toxication
+5010 _ 1 _ 50000 _ Unlucky Af
+14064 _ 1 _ 5000 _ Unlucky Af
+14061 _ 1 _ 20000 _ Unlucky Af
+5023 _ 293 _ 80 _ Defuze
+5023 _ 1159 _ 80 _ I Pusk Nx I
+14064 _ 1 _ 5000 _ Bladesurge
+20057 _ 1 _ 8000 _ Kakor2
+17600 _ 1 _ 100000 _ Sex On Acid
+11137 _ 5 _ 3000 _ Suave
+18629 _ 1 _ 50000 _ Senpai Vape
+23076 _ 1 _ 50000 _ Air
+23077 _ 1 _ 50000 _ Air
+18629 _ 1 _ 50000 _ Shadow
+536 _ 23 _ 80 _ Dream
+536 _ 500 _ 80 _ Dream
+536 _ 13 _ 80 _ Mrvet
+536 _ 400 _ 80 _ Mrvet
+536 _ 21 _ 80 _ Mrvet
+23122 _ 1 _ 10000 _ Air
+23122 _ 1 _ 10000 _ Deluxe
+2026 _ 6 _ 500 _ Air
+2026 _ 10 _ 500 _ Air
+2026 _ 1 _ 500 _ Air
+2026 _ 1 _ 500 _ Air
+9939 _ 1 _ 20000 _ Gin
+14062 _ 1 _ 20000 _ Suave
+14062 _ 1 _ 20000 _ Chrisydon
+9939 _ 1 _ 20000 _ Poundcake
+8274 _ 1 _ 10000 _ Poundcake
+8273 _ 1 _ 10000 _ Poundcake
+23054 _ 1 _ 10000 _ Poundcake
+23050 _ 1 _ 20000 _ Poundcake
+23051 _ 1 _ 25000 _ Poundcake
+18802 _ 1 _ 10000 _ Shadow
+18785 _ 1 _ 10000 _ Shadow
+23068 _ 1 _ 150000 _ Ellithea
+23067 _ 3 _ 150000 _ Ellithea
+23068 _ 2 _ 150000 _ Ellithea
+2026 _ 1 _ 500 _ Rmtank
+2026 _ 1 _ 500 _ Iamnick
+2026 _ 5 _ 500 _ Iamnick
+2026 _ 2 _ 500 _ Anonymous
+2026 _ 100 _ 500 _ Anonymous
+2026 _ 26 _ 500 _ Anonymous
+2026 _ 76 _ 500 _ Anonymous
+18629 _ 1 _ 50000 _ Jinxstalock
+18629 _ 1 _ 50000 _ Umma
+2026 _ 26 _ 500 _ Jack
+2026 _ 36 _ 500 _ Jack
+2026 _ 16 _ 500 _ Nagakona
+536 _ 20 _ 80 _ Nagakona
+14061 _ 1 _ 20000 _ Andest
+23098 _ 1 _ 250000 _ Golden Power
+23096 _ 1 _ 250000 _ Golden Power
+23097 _ 1 _ 250000 _ Golden Power
+23076 _ 1 _ 50000 _ Freya
+23077 _ 1 _ 50000 _ Freya
+23075 _ 1 _ 50000 _ Freya
+18830 _ 1 _ 500 _ Tic Is Fake
+18830 _ 24 _ 500 _ Tic Is Fake
+18830 _ 74 _ 500 _ Tic Is Fake
+14062 _ 1 _ 20000 _ Bladesurge
+14061 _ 1 _ 20000 _ Bladesurge
+11137 _ 5 _ 3000 _ Solos
+11137 _ 10 _ 3000 _ Solos
+23076 _ 1 _ 50000 _ Esp
+23077 _ 1 _ 50000 _ Esp
+23096 _ 1 _ 250000 _ Ellithea
+2026 _ 10 _ 500 _ Gorgrim
+536 _ 11 _ 80 _ Daddyshi
+11137 _ 26 _ 3000 _ Got Boost
+11137 _ 10 _ 3000 _ Got Boost
+11137 _ 10 _ 3000 _ Got Boost
+11137 _ 9 _ 3000 _ Got Boost
+19909 _ 1 _ 30000 _ Succ
+19909 _ 1 _ 30000 _ King
+536 _ 13 _ 80 _ Cube
+536 _ 506 _ 80 _ Cube
+5023 _ 1 _ 80 _ Master Flex
+5023 _ 27 _ 80 _ Dux
+5023 _ 700 _ 80 _ Dux
+5023 _ 89 _ 80 _ Dux
+536 _ 100 _ 80 _ Cerebro
+20591 _ 1 _ 20000 _ Ryxn
+20591 _ 1 _ 20000 _ Tomzi
+18802 _ 1 _ 10000 _ Dab
+20591 _ 1 _ 20000 _ Bladesurge
+23165 _ 1 _ 650000 _ Peccs
+23068 _ 1 _ 150000 _ Peccs
+14062 _ 1 _ 20000 _ Ryxn
+20591 _ 1 _ 20000 _ Sticky1styll
+23068 _ 1 _ 150000 _ Texown
+14062 _ 1 _ 20000 _ Spartanbrah
+2026 _ 9 _ 500 _ Hedo
+2026 _ 10 _ 500 _ Hedo
+2026 _ 5 _ 500 _ White Rhino
+2026 _ 5 _ 500 _ Tyler97f
+2026 _ 1 _ 500 _ Tyler97f
+2026 _ 5 _ 500 _ Tyler97f
+537 _ 11 _ 80 _ Vet Pooh
+537 _ 214 _ 80 _ Vet Pooh
+536 _ 148 _ 80 _ Vet Pooh
+2026 _ 1 _ 500 _ February
+2026 _ 10 _ 500 _ February
+2026 _ 10 _ 500 _ February
+2026 _ 10 _ 500 _ February
+2026 _ 10 _ 500 _ February
+2026 _ 10 _ 500 _ February
+2026 _ 10 _ 500 _ February
+2026 _ 10 _ 500 _ February
+2026 _ 10 _ 500 _ February
+18629 _ 1 _ 50000 _ February
+23039 _ 1 _ 800000 _ Red Bull
+23087 _ 1 _ 30000 _ Vim
+536 _ 6 _ 75 _ Vim
+536 _ 394 _ 75 _ Vim
+23087 _ 1 _ 30000 _ Umma
+536 _ 9 _ 75 _ Vim
+536 _ 91 _ 75 _ Vim
+536 _ 27 _ 75 _ Schaduwmanz
+536 _ 10 _ 75 _ Schaduwmanz
+536 _ 10 _ 75 _ Schaduwmanz
+536 _ 10 _ 75 _ Schaduwmanz
+536 _ 10 _ 75 _ Schaduwmanz
+536 _ 10 _ 75 _ Schaduwmanz
+536 _ 7 _ 75 _ Schaduwmanz
+2026 _ 5 _ 300 _ Hyena
+2026 _ 100 _ 300 _ Hyena
+11137 _ 10 _ 3000 _ Gin N Juice
+536 _ 52 _ 80 _ Sidorovich
+23055 _ 1 _ 75000 _ Swifter
+11137 _ 3 _ 3000 _ 4
+11137 _ 1 _ 50000 _ Beast M8
+2026 _ 21 _ 300 _ Peccs
+2026 _ 50 _ 300 _ Peccs
+2026 _ 10 _ 300 _ Valanor
+537 _ 10 _ 80 _ Valanor
+537 _ 10 _ 80 _ Valanor
+537 _ 10 _ 80 _ Valanor
+537 _ 10 _ 80 _ Valanor
+537 _ 118 _ 80 _ Valanor
+14064 _ 1 _ 10000 _ Valanor
+23122 _ 1 _ 25000 _ Feed My Ego
+23055 _ 1 _ 75000 _ Suave
+23102 _ 1 _ 150000 _ Suave
+2026 _ 10 _ 300 _ Ssg Rudy
+2026 _ 10 _ 300 _ Ssg Rudy
+2026 _ 10 _ 300 _ Inceptionz
+2026 _ 8 _ 300 _ Inceptionz
+18785 _ 1 _ 10000 _ Xxooxx
+23122 _ 1 _ 25000 _ Fapsack
+2026 _ 5 _ 300 _ Andest
+2026 _ 10 _ 300 _ Andest
+14060 _ 1 _ 10000 _ Mintrsps
+23061 _ 1 _ 60000 _ Mintrsps
+11137 _ 10 _ 3000 _ Fesea
+11137 _ 5 _ 3000 _ Fesea
+11137 _ 3 _ 3000 _ Fesea
+23096 _ 1 _ 250000 _ Beast M8
+536 _ 90 _ 80 _ Denn1277
+2026 _ 10 _ 300 _ Masterwolf
+2026 _ 10 _ 300 _ Masterwolf
+23122 _ 1 _ 25000 _ Riku
+536 _ 50 _ 80 _ Aurelion
+536 _ 24 _ 80 _ Vet Pooh
+536 _ 597 _ 80 _ Vet Pooh
+537 _ 23 _ 80 _ Vet Pooh
+537 _ 212 _ 80 _ Vet Pooh
+5023 _ 175 _ 80 _ Money
+5023 _ 21 _ 80 _ Solos
+5023 _ 60 _ 80 _ Dinks1024
+5023 _ 19 _ 80 _ Dinks1024
+23122 _ 1 _ 25000 _ Well Hi Ther
+23175 _ 1 _ 50000 _ Well Hi Ther
+18785 _ 1 _ 10000 _ Well Hi Ther
+536 _ 7 _ 80 _ Lingsu
+537 _ 6 _ 80 _ Lingsu
+536 _ 10 _ 80 _ Lingsu
+536 _ 1 _ 80 _ Lingsu
+5023 _ 1000 _ 80 _ Dawg
+5023 _ 10 _ 80 _ Dawg
+5023 _ 100 _ 80 _ Dawg
+5023 _ 87 _ 80 _ Dawg
+5023 _ 35 _ 80 _ Bobparr
+18785 _ 1 _ 10000 _ Bobparr
+23068 _ 1 _ 175000 _ Thenurd
+5023 _ 22 _ 80 _ Thenurd
+5023 _ 1228 _ 80 _ Thenurd
+11137 _ 10 _ 4000 _ Luke
+11137 _ 1 _ 4000 _ Luke
+5023 _ 200 _ 80 _ Tic Is Fake
+5023 _ 10 _ 80 _ Toxication
+5023 _ 500 _ 80 _ Toxication
+5023 _ 100 _ 80 _ Toxication
+5023 _ 10 _ 80 _ Toxication
+5023 _ 10 _ 80 _ Toxication
+5023 _ 130 _ 80 _ Anti
+5023 _ 170 _ 80 _ Eileen
+23024 _ 1 _ 50000 _ Deluxe
+5023 _ 258 _ 80 _ Mohammed
+536 _ 10 _ 80 _ Dinks1024
+536 _ 10 _ 80 _ Dinks1024
+536 _ 10 _ 80 _ Dinks1024
+18785 _ 1 _ 10000 _ Pencil
+5023 _ 912 _ 80 _ February
+5023 _ 100 _ 80 _ Hoss493
+5023 _ 2 _ 80 _ Hoss493
+23032 _ 1 _ 15000 _ Bryson
+5023 _ 1332 _ 80 _ Gm2
+2026 _ 27 _ 300 _ Poundcake
+2026 _ 50 _ 300 _ Poundcake
+2026 _ 50 _ 300 _ Poundcake
+2026 _ 50 _ 300 _ Poundcake
+2026 _ 50 _ 300 _ Poundcake
+2026 _ 50 _ 300 _ Poundcake
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 10 _ 300 _ Spaztiik
+2026 _ 5 _ 300 _ Spaztiik
+23050 _ 1 _ 20000 _ 420
+23053 _ 1 _ 20000 _ 420
+23036 _ 1 _ 300000 _ Bladesurge
+14062 _ 1 _ 10000 _ Hyena
+14061 _ 1 _ 10000 _ Hyena
+14061 _ 1 _ 10000 _ B53
+14062 _ 1 _ 10000 _ B53
+14060 _ 1 _ 10000 _ Falco
+536 _ 26 _ 80 _ Blm
+536 _ 100 _ 80 _ Blm
+536 _ 10 _ 80 _ Blm
+536 _ 10 _ 80 _ Blm
+536 _ 10 _ 80 _ Blm
+536 _ 10 _ 80 _ Blm
+536 _ 10 _ 80 _ Blm
+536 _ 10 _ 80 _ Blm
+536 _ 5 _ 80 _ Blm
+536 _ 26 _ 80 _ Yo Boy Salty
+536 _ 50 _ 80 _ Yo Boy Salty
+536 _ 43 _ 80 _ Yo Boy Salty
+536 _ 8 _ 80 _ Fear
+536 _ 10 _ 80 _ Fear
+536 _ 10 _ 80 _ Fear
+536 _ 10 _ 80 _ Fear
+536 _ 10 _ 80 _ Fear
+536 _ 10 _ 80 _ Fear
+23075 _ 1 _ 50000 _ Senpai Vape
+23175 _ 1 _ 50000 _ Senpai Vape
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 10 _ 80 _ Andest
+536 _ 97 _ 80 _ Afriend
+536 _ 16 _ 80 _ Afriend
+536 _ 10 _ 80 _ Afriend
+536 _ 10 _ 80 _ Afriend
+536 _ 10 _ 80 _ Afriend
+536 _ 10 _ 80 _ Afriend
+536 _ 10 _ 80 _ Afriend
+537 _ 8 _ 80 _ Denn1277
+536 _ 50 _ 80 _ Afriend
+536 _ 20 _ 80 _ Afriend
+536 _ 6 _ 80 _ White Rhino
+536 _ 20 _ 80 _ White Rhino
+536 _ 20 _ 80 _ White Rhino
+536 _ 40 _ 80 _ White Rhino
+537 _ 5 _ 80 _ White Rhino
+537 _ 40 _ 80 _ White Rhino
+537 _ 40 _ 80 _ White Rhino
+14063 _ 1 _ 20000 _ Lmaowtflol
+537 _ 10 _ 80 _ Yo Boy Salty
+537 _ 10 _ 80 _ Yo Boy Salty
+536 _ 2 _ 80 _ Afriend
+14060 _ 1 _ 10000 _ Mullin
+18785 _ 1 _ 10000 _ Ritz
+14060 _ 1 _ 10000 _ Fighter
+14063 _ 1 _ 20000 _ Fighter
+23068 _ 1 _ 135000 _ Toxication
+23175 _ 1 _ 50000 _ Ritz
+23075 _ 1 _ 50000 _ Masterwolf
+23175 _ 1 _ 50000 _ Shadow
+18785 _ 1 _ 10000 _ Shadow
+8273 _ 1 _ 10000 _ Cmplx6
+14060 _ 1 _ 10000 _ Hi Bro Men
+11137 _ 6 _ 4500 _ Fighter
+11137 _ 10 _ 4500 _ Fighter
+11137 _ 10 _ 4500 _ Fighter
+11137 _ 10 _ 4500 _ Fighter
+11137 _ 5 _ 4500 _ Fighter
+14060 _ 1 _ 10000 _ Avenger
+11137 _ 2 _ 4500 _ Shadow
+11137 _ 1 _ 4500 _ Avenger
+11137 _ 5 _ 4500 _ T7g
+11137 _ 10 _ 4500 _ T7g
+11137 _ 5 _ 4500 _ T7g
+11137 _ 10 _ 4500 _ Shadow
+11137 _ 3 _ 4500 _ Shadow
+536 _ 23 _ 80 _ Murv
+536 _ 10 _ 80 _ Murv
+536 _ 10 _ 80 _ Murv
+536 _ 10 _ 80 _ Murv
+23035 _ 1 _ 349000 _ Senpai Vape
+23068 _ 1 _ 100000 _ Retchyy
+536 _ 21 _ 80 _ Kensas
+536 _ 50 _ 80 _ Kensas
+536 _ 13 _ 80 _ Kensas

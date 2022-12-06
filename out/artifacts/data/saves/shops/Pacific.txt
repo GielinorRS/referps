@@ -1,0 +1,95 @@
+130000
+History:
+15100 _ 1 _ 800 _ Tony666
+537 _ 10 _ 150 _ Tony666
+537 _ 10 _ 150 _ Tony666
+537 _ 10 _ 150 _ Lost
+537 _ 26 _ 150 _ Kebbit
+537 _ 10 _ 150 _ Kebbit
+537 _ 34 _ 150 _ Kebbit
+537 _ 10 _ 150 _ Kebbit
+537 _ 10 _ 150 _ Kebbit
+537 _ 5 _ 150 _ Kebbit
+537 _ 1 _ 150 _ Kebbit
+537 _ 1 _ 150 _ Kebbit
+537 _ 1 _ 150 _ Kebbit
+15006 _ 1 _ 800 _ Astry
+537 _ 1 _ 150 _ Kebbit
+15100 _ 1 _ 800 _ Astry
+537 _ 10 _ 150 _ Ao
+537 _ 10 _ 150 _ Ao
+537 _ 10 _ 150 _ Ao
+537 _ 10 _ 150 _ Ao
+537 _ 10 _ 150 _ Ao
+537 _ 10 _ 150 _ Ao
+537 _ 10 _ 150 _ Ao
+537 _ 8 _ 150 _ Ao
+11137 _ 1 _ 2500 _ Gnawlije
+15006 _ 1 _ 800 _ Yulles
+11422 _ 1 _ 3000 _ Tanqe
+11137 _ 1 _ 2500 _ Kazmatic
+11137 _ 1 _ 2500 _ Kazmatic
+11137 _ 1 _ 2500 _ Golden Power
+11423 _ 1 _ 5000 _ Dirty Hippie
+2026 _ 10 _ 750 _ Slothsniffer
+2026 _ 10 _ 750 _ Slothsniffer
+2026 _ 10 _ 750 _ Slothsniffer
+2026 _ 8 _ 750 _ Slothsniffer
+23052 _ 1 _ 25000 _ 420
+23038 _ 1 _ 100000 _ Cam
+11137 _ 7 _ 2500 _ Caribouu
+5023 _ 312 _ 110 _ Griezman
+5023 _ 10 _ 110 _ Texown
+5023 _ 10 _ 110 _ Texown
+5023 _ 1 _ 110 _ Texown
+5023 _ 1 _ 110 _ Texown
+5023 _ 10 _ 110 _ Texown
+5023 _ 250 _ 110 _ Texown
+5023 _ 10 _ 110 _ Leigh
+5023 _ 10 _ 110 _ Leigh
+5023 _ 10 _ 110 _ Leigh
+5023 _ 10 _ 110 _ Leigh
+5023 _ 3 _ 110 _ Leigh
+11137 _ 1 _ 2500 _ Caribouu
+537 _ 1 _ 180 _ Mr Skillz
+537 _ 50 _ 180 _ Mr Skillz
+537 _ 10 _ 180 _ Mr Skillz
+11137 _ 1 _ 2500 _ Hector
+11137 _ 1 _ 2500 _ Cpfuzzy
+11137 _ 1 _ 2500 _ Cpfuzzy
+537 _ 27 _ 180 _ Andest
+537 _ 5 _ 180 _ Andest
+537 _ 10 _ 180 _ Andest
+15006 _ 1 _ 800 _ Lordcharlie
+15005 _ 1 _ 800 _ Lordcharlie
+23110 _ 1 _ 200000 _ Spaceman
+537 _ 12 _ 180 _ Boozer
+537 _ 10 _ 180 _ Boozer
+537 _ 10 _ 180 _ Boozer
+537 _ 100 _ 180 _ Boozer
+23044 _ 1 _ 3000 _ Iamnick
+537 _ 26 _ 180 _ Bobparr
+537 _ 280 _ 180 _ Bobparr
+23066 _ 1 _ 210000 _ Horsetranqs
+23028 _ 1 _ 35000 _ Gin
+23032 _ 1 _ 35000 _ Gin
+18802 _ 1 _ 10000 _ Dieter
+23037 _ 1 _ 130000 _ Kakor2
+11137 _ 10 _ 1900 _ Chris
+11137 _ 10 _ 1900 _ Chris
+11137 _ 5 _ 1900 _ Chris
+23137 _ 1 _ 90000 _ Anonymous
+23068 _ 1 _ 290000 _ Got Boost
+23027 _ 1 _ 200000 _ Beast M8
+537 _ 1 _ 150 _ February
+537 _ 10 _ 150 _ February
+537 _ 10 _ 150 _ February
+537 _ 10 _ 150 _ February
+537 _ 10 _ 150 _ February
+537 _ 10 _ 150 _ February
+537 _ 10 _ 150 _ February
+537 _ 18 _ 150 _ February
+536 _ 2 _ 150 _ February
+536 _ 33 _ 150 _ February
+536 _ 18 _ 150 _ February
+23138 _ 1 _ 130000 _ Toxication

@@ -1,0 +1,51 @@
+100000
+23021 - 1 - 275000 - 1
+History:
+22092 _ 1 _ 40000 _ Dora
+4686 _ 1 _ 45000 _ Pacific
+4686 _ 1 _ 45000 _ Gm2
+8809 _ 1 _ 48000 _ Custompope
+17600 _ 1 _ 270000 _ Gnawlije
+5023 _ 98 _ 150 _ Sideshowbob
+5023 _ 326 _ 150 _ Sideshowbob
+5023 _ 27 _ 150 _ Sayouri
+5023 _ 10 _ 150 _ Sayouri
+5023 _ 25 _ 150 _ Sayouri
+5023 _ 10 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 5 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 4 _ 150 _ Sayouri
+5023 _ 10 _ 150 _ Sayouri
+5023 _ 10 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 1 _ 150 _ Sayouri
+5023 _ 5 _ 150 _ Sayouri
+5023 _ 7 _ 150 _ Daddyshi
+5023 _ 1 _ 150 _ Daddyshi
+5023 _ 1 _ 150 _ Daddyshi
+5023 _ 47 _ 150 _ Daddyshi
+5023 _ 10 _ 150 _ Clawsrips
+5023 _ 10 _ 150 _ Clawsrips
+5023 _ 10 _ 150 _ Clawsrips
+5023 _ 10 _ 150 _ Clawsrips
+5023 _ 10 _ 150 _ Clawsrips
+5023 _ 10 _ 150 _ Clawsrips
+5023 _ 10 _ 150 _ Clawsrips
+5023 _ 1 _ 150 _ Clawsrips
+5023 _ 1 _ 150 _ Clawsrips
+5023 _ 296 _ 150 _ Ryrker
+23116 _ 1 _ 400000 _ Dylan
+23115 _ 1 _ 150000 _ Echo Mafiia
+23047 _ 1 _ 100000 _ Golden Power

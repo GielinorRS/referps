@@ -1,0 +1,9 @@
+52500
+History:
+15200 _ 1 _ 50 _ Wealth
+15007 _ 1 _ 100 _ Wealth
+23020 _ 4 _ 12000 _ Panic
+15200 _ 1 _ 80 _ Jack Ma
+23020 _ 1 _ 24000 _ Beast M8
+23020 _ 1 _ 24000 _ Golden Power
+22092 _ 1 _ 4500 _ Anti

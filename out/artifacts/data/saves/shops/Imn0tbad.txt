@@ -1,0 +1,49 @@
+48800
+11422 - 1 - 1000 - 1
+19164 - 4 - 4500 - 6
+19163 - 4 - 4000 - 5
+5023 - 1062 - 85 - 1442
+History:
+11423 _ 1 _ 1500 _ Rumi
+11423 _ 1 _ 1500 _ Dahmonstah
+20173 _ 1 _ 40000 _ Goharu
+5023 _ 26 _ 88 _ Drshemp
+5023 _ 10 _ 88 _ Drshemp
+5023 _ 89 _ 88 _ Drshemp
+5023 _ 500 _ 88 _ Ellithea
+5023 _ 60 _ 88 _ Ellithea
+5023 _ 300 _ 88 _ Ellisarmor
+5023 _ 27 _ 88 _ Drshemp
+5023 _ 201 _ 88 _ Drshemp
+5023 _ 900 _ 100 _ Kakor2
+5023 _ 22 _ 100 _ Kakor2
+5023 _ 19 _ 100 _ Got Boost
+5023 _ 176 _ 100 _ Got Boost
+23118 _ 1 _ 5000 _ 420
+20173 _ 1 _ 25000 _ Drshemp
+8809 _ 1 _ 36000 _ Valren
+22084 _ 1 _ 30000 _ Slothsniffer
+8809 _ 1 _ 36000 _ Ichigo99
+11423 _ 1 _ 1000 _ High Bridge
+20173 _ 1 _ 30000 _ Dream
+11423 _ 1 _ 1000 _ Dream
+11423 _ 1 _ 1000 _ Boozer
+11423 _ 1 _ 1000 _ Not Hippie
+23020 _ 4 _ 10500 _ Ellithea
+11423 _ 1 _ 1000 _ Beastthao
+8809 _ 1 _ 10000 _ Senpai Vape
+19161 _ 1 _ 5000 _ Sex On Acid
+19164 _ 1 _ 5000 _ Shaun
+19161 _ 1 _ 5000 _ Shaun
+19161 _ 1 _ 5000 _ Murv
+20173 _ 1 _ 22000 _ Golden Power
+19164 _ 1 _ 4500 _ Zhost
+19161 _ 1 _ 5000 _ Zhost
+19161 _ 1 _ 5000 _ Daddy Nacho
+19161 _ 1 _ 5000 _ Mohammed
+19163 _ 1 _ 5500 _ Bad
+19163 _ 1 _ 5500 _ Realism
+5023 _ 380 _ 85 _ Xeric
+20057 _ 1 _ 8000 _ Kensas
+19164 _ 1 _ 4500 _ Synnn
+19163 _ 1 _ 4000 _ Synnn

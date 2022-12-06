@@ -1,0 +1,142 @@
+350000
+15007 - 4 - 100 - 11
+15006 - 2 - 100 - 12
+23044 - 1 - 5000 - 1
+11422 - 1 - 5000 - 1
+23139 - 1 - 10000 - 1
+23140 - 1 - 10000 - 1
+23141 - 1 - 10000 - 1
+23032 - 1 - 49000 - 1
+15359 - 1 - 100000 - 1
+History:
+15200 _ 1 _ 90 _ Bigboy Bazza
+15006 _ 1 _ 300 _ Bigboy Bazza
+14924 _ 1 _ 85 _ Bray
+15200 _ 1 _ 90 _ Bray
+15200 _ 1 _ 90 _ Szn
+23057 _ 1 _ 200000 _ Windtail
+14915 _ 4 _ 25 _ Disconnect
+14924 _ 1 _ 25 _ Disconnect
+14915 _ 2 _ 25 _ Disconnect
+14919 _ 3 _ 25 _ Disconnect
+15006 _ 1 _ 100 _ Mydkisfurry
+15007 _ 1 _ 100 _ Mydkisfurry
+15200 _ 1 _ 50 _ Mydkisfurry
+15201 _ 1 _ 50 _ Mydkisfurry
+20549 _ 1 _ 13000 _ Mydkisfurry
+15201 _ 1 _ 50 _ 420
+22092 _ 1 _ 4000 _ Rix
+22092 _ 1 _ 4000 _ 808killah
+15006 _ 1 _ 100 _ Pgag Str
+15100 _ 1 _ 75 _ Pgag Str
+15007 _ 1 _ 100 _ Pgag Str
+15200 _ 1 _ 50 _ Pgag Str
+15201 _ 1 _ 50 _ Pgag Str
+15005 _ 1 _ 50 _ Arianiello
+15100 _ 1 _ 75 _ Arianiello
+15200 _ 1 _ 50 _ Arianiello
+15201 _ 1 _ 50 _ Arianiello
+15100 _ 1 _ 75 _ Smoove
+15201 _ 1 _ 50 _ Smoove
+15200 _ 1 _ 50 _ Kakor2
+15200 _ 1 _ 50 _ Puresmoove
+15007 _ 1 _ 100 _ Puresmoove
+15100 _ 1 _ 75 _ Puresmoove
+15100 _ 1 _ 75 _ Dirty Hippie
+15005 _ 1 _ 50 _ Drew
+15100 _ 1 _ 75 _ Drew
+15005 _ 1 _ 50 _ Kayn
+15200 _ 1 _ 50 _ Kayn
+15006 _ 1 _ 100 _ Kayn
+15005 _ 1 _ 50 _ Kage Okami
+15200 _ 1 _ 50 _ Kage Okami
+15100 _ 1 _ 75 _ Gorgrim
+15005 _ 1 _ 50 _ Dracky
+15006 _ 1 _ 100 _ Dracky
+15007 _ 1 _ 100 _ Dracky
+15006 _ 1 _ 100 _ Lion
+15006 _ 1 _ 100 _ Hoss493
+15007 _ 1 _ 100 _ Hoss493
+15200 _ 1 _ 50 _ Hoss493
+15200 _ 1 _ 50 _ Defuze
+15006 _ 1 _ 100 _ Defuze
+5023 _ 15 _ 90 _ Fap2loot
+5023 _ 113 _ 90 _ Defuze
+23124 _ 1 _ 5000 _ Itsmyteddy
+12535 _ 1 _ 80000 _ Shadow
+15100 _ 1 _ 50 _ Jolt
+23118 _ 1 _ 5000 _ Fap2loot
+23121 _ 1 _ 5000 _ Fap2loot
+15100 _ 1 _ 50 _ Cera
+15200 _ 1 _ 50 _ Cera
+15200 _ 1 _ 50 _ Not Hippie
+15100 _ 1 _ 50 _ Not Hippie
+5023 _ 112 _ 90 _ High Bridge
+15006 _ 1 _ 100 _ Denn1277
+15005 _ 1 _ 50 _ Denn1277
+15200 _ 1 _ 50 _ Denn1277
+9939 _ 1 _ 15000 _ Denn1277
+5023 _ 50 _ 90 _ Kota
+5023 _ 10 _ 90 _ Kota
+5023 _ 10 _ 90 _ Kota
+5023 _ 10 _ 90 _ Kota
+5023 _ 5 _ 90 _ Kota
+5023 _ 10 _ 90 _ Kota
+14915 _ 1 _ 10 _ Iamnick
+15006 _ 1 _ 100 _ Iamnick
+15200 _ 1 _ 50 _ Iamnick
+15005 _ 1 _ 50 _ Iamnick
+15100 _ 1 _ 50 _ Iamnick
+15007 _ 1 _ 100 _ Iamnick
+5023 _ 471 _ 90 _ Lmaowtflol
+15100 _ 1 _ 50 _ Andest
+15005 _ 1 _ 50 _ Ztayli
+15100 _ 1 _ 50 _ Ztayli
+15005 _ 1 _ 50 _ Absolute
+5023 _ 2 _ 90 _ Business7man
+20057 _ 1 _ 7500 _ Excaliber
+20057 _ 1 _ 7500 _ Kakor2
+5023 _ 11 _ 90 _ Kakor2
+5023 _ 273 _ 90 _ Kakor2
+23039 _ 1 _ 700000 _ Brokeboi
+18629 _ 1 _ 70000 _ Esp
+23063 _ 1 _ 30000 _ Powdingow
+5023 _ 100 _ 90 _ Miazhu
+5023 _ 1 _ 90 _ Senpai Vape
+5023 _ 1 _ 90 _ Senpai Vape
+5023 _ 370 _ 90 _ Bladesurge
+5023 _ 307 _ 90 _ Bladesurge
+14063 _ 1 _ 10000 _ Steroid
+5023 _ 129 _ 90 _ Dux
+5023 _ 402 _ 90 _ Thenurd
+15006 _ 1 _ 100 _ Lightfrag
+15007 _ 1 _ 100 _ Lightfrag
+14064 _ 1 _ 10000 _ Rmtank
+20591 _ 1 _ 40000 _ Rmtank
+5023 _ 10 _ 90 _ Cerebro
+5023 _ 100 _ 90 _ Cerebro
+5023 _ 100 _ 90 _ Cerebro
+5023 _ 100 _ 90 _ Cerebro
+5023 _ 100 _ 90 _ Cerebro
+5023 _ 100 _ 90 _ Cerebro
+5023 _ 200 _ 90 _ Cerebro
+5023 _ 270 _ 90 _ Cerebro
+5023 _ 1 _ 90 _ Cerebro
+5023 _ 10 _ 90 _ Kakor2
+5023 _ 10 _ 90 _ Kakor2
+5023 _ 14 _ 90 _ February
+18802 _ 1 _ 10000 _ Dinks1024
+23030 _ 1 _ 54000 _ Loveyou
+23033 _ 1 _ 700000 _ Gnawlije
+23031 _ 1 _ 24000 _ Stiffyman
+5023 _ 22 _ 90 _ Bladesurge
+5023 _ 230 _ 90 _ Bladesurge
+5023 _ 10 _ 90 _ February
+5023 _ 100 _ 90 _ February
+5023 _ 15 _ 90 _ February
+5023 _ 60 _ 90 _ Cerebro
+5023 _ 70 _ 90 _ Bad
+12535 _ 1 _ 50000 _ Andest
+19114 _ 1 _ 5000 _ That Guy
+5023 _ 835 _ 90 _ Respire
+23166 _ 1 _ 350000 _ Lust

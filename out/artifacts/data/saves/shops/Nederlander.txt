@@ -1,0 +1,28 @@
+0
+22092 - 1 - 8900 - 1
+2026 - 109 - 2200 - 109
+23063 - 1 - 190000 - 1
+History:
+11137 _ 1 _ 1300 _ Nurseshemp
+11137 _ 1 _ 1300 _ Nurseshemp
+22083 _ 1 _ 9500 _ Cyriocosmus
+11137 _ 1 _ 1300 _ Nurseshemp
+11137 _ 1 _ 1300 _ Nurseshemp
+11137 _ 1 _ 1300 _ Nurseshemp
+11137 _ 2 _ 1300 _ Itsmyteddy
+11137 _ 6 _ 1300 _ Itsmyteddy
+22083 _ 1 _ 9500 _ Swifter
+23020 _ 4 _ 9250 _ Zino
+22084 _ 1 _ 35000 _ Dorothy
+22083 _ 1 _ 9500 _ Dorothy
+5010 _ 1 _ 100000 _ Johnnyapple
+9939 _ 1 _ 30000 _ Spaceman
+5023 _ 10 _ 99 _ Dead
+5023 _ 10 _ 99 _ Dead
+5023 _ 11 _ 99 _ Ellisarmor
+5023 _ 3 _ 99 _ Dead
+5023 _ 1000 _ 99 _ Ellisarmor
+5023 _ 600 _ 99 _ Ellisarmor
+5023 _ 93 _ 99 _ Ellisarmor
+23025 _ 1 _ 80000 _ Madness
+9939 _ 1 _ 30000 _ Riku

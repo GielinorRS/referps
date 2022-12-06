@@ -1,0 +1,35 @@
+17300
+5023 - 158 - 280 - 168
+History:
+15006 _ 1 _ 1500 _ Pigeon
+15200 _ 1 _ 1500 _ Pigeon
+15100 _ 1 _ 1500 _ Pigeon
+15100 _ 1 _ 1500 _ Draconic
+15201 _ 1 _ 1500 _ Draconic
+15200 _ 1 _ 400 _ Aa
+15006 _ 1 _ 400 _ Yarning
+15005 _ 1 _ 400 _ Yarning
+15100 _ 1 _ 400 _ Yarning
+19114 _ 1 _ 8000 _ Chinwag
+15200 _ 1 _ 400 _ Mreoka
+15100 _ 1 _ 400 _ Mreoka
+19114 _ 1 _ 8000 _ Sonya
+19114 _ 1 _ 8000 _ Meme
+15007 _ 1 _ 400 _ Jowzo
+19114 _ 2 _ 7000 _ Chrisydon
+15006 _ 1 _ 300 _ Cpfuzzy
+15007 _ 1 _ 400 _ Cpfuzzy
+15200 _ 1 _ 400 _ Ley
+11421 _ 1 _ 4000 _ Royalgammer
+15007 _ 1 _ 400 _ Royalgammer
+19114 _ 2 _ 6000 _ Suicune
+11421 _ 1 _ 1300 _ Jxhin V2
+5023 _ 10 _ 280 _ Bigboy Bazza
+11421 _ 1 _ 700 _ Sonya
+23071 _ 1 _ 1000 _ Sonya
+11421 _ 1 _ 700 _ Beast M8
+11421 _ 1 _ 700 _ Afksham
+15005 _ 1 _ 100 _ Yoshi
+23020 _ 1 _ 11000 _ Sasha
+23044 _ 1 _ 3000 _ Rxnex
+15005 _ 1 _ 100 _ Rxnex
