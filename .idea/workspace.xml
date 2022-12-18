@@ -12,49 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d00d57a-3430-41ac-b4fb-651efcbd276a" name="Changes" comment="push fixes">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/azura-client-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/azura-client-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/Configuration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CacheDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CacheDownloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameShell.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameShell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Signlink.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Signlink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/FixedDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/FixedDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomInterfaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomInterfaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/util/CharacterBackup.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/util/CharacterBackup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/azura-server-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/azura-server-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/characters/Grim.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/info/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/info/accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/info/unique_accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/info/unique_accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/info/uniqueips.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/commands/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/commands/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/logins/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/logins/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/loginsWIP/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/loginsWIP/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/other/Grim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/posHistory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/posHistory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/chat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/chat.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/commands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/logins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/logins.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/loginsWIP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/loginsWIP.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/news.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/news.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/staff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/staff.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/data/serverperks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/serverperks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/azura-server.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/refer_client_jar/azura-client.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/callback/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/callback/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/api/Constants.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +161,7 @@
       <workItem from="1670341829001" duration="1637000" />
       <workItem from="1670356450323" duration="427000" />
       <workItem from="1671357409638" duration="1753000" />
-      <workItem from="1671359212866" duration="1206000" />
+      <workItem from="1671359212866" duration="1405000" />
     </task>
     <servers />
   </component>
