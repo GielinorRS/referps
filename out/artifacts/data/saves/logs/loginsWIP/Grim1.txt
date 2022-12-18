@@ -1,0 +1,4 @@
+[12/14/22 10:24PM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/14/22 10:25PM] Logout with password grimLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/14/22 10:25PM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/14/22 10:25PM] Logout with password grimLogout from host 127.0.0.1, serial number: null000, mac address:null000	

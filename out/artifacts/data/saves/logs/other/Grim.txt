@@ -56,5 +56,3 @@
 [10/4/22 05:41PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
 [10/4/22 05:47PM] Player destroying item: -1, amount: 0	
 [10/4/22 06:06PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
-[12/5/22 09:27PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
-[12/5/22 09:35PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	

@@ -12,58 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d00d57a-3430-41ac-b4fb-651efcbd276a" name="Changes" comment="push fixes">
-      <change afterPath="$PROJECT_DIR$/Azura-Client/azura-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Azura-Client/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/kotlinScripting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__club_minnced_discord_rpc_release_v3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_github_MinnDevelopment_java_discord_rpc_v2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_github_ryleykimmel_Alertify4J_master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_google_guava_guava_23_2_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__net_azura_azura_client_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__net_java_dev_jna_jna_4_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__net_runelite_pushingpixels_substance_8_0_02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__net_runelite_pushingpixels_trident_1_5_00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__org_apache_commons_commons_text_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/azura-runelite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-runelite/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azura-server/.idea/azura-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/GameRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/GameRenderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/Signlink.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/Signlink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/FixedDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/FixedDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDef5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDefMisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDefMisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDefMisc2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDefMisc2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/cache/definition/ItemDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/src/main/java/org/necrotic/client/CacheDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azura-Client/target/azura-client-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/azura-client-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/Configuration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CacheDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CacheDownloader.class" afterDir="false" />
@@ -83,201 +35,26 @@
       <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefinition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomInterfaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomInterfaces.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azura-Client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/azura-runelite-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/azura-runelite-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLite.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteModule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/callback/ClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/callback/ClientThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItemDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItemDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Keybind.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Keybind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ModifierlessKeybind.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ModifierlessKeybind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$Subscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$Subscriber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ClientShutdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ClientShutdown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ConfigChanged.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ConfigChanged.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonAdded.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonAdded.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonRemoved.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonRemoved.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/PluginChanged.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/PluginChanged.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginConfigurationDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginConfigurationDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Scheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Scheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPluginToolbar.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPluginToolbar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/DynamicGridLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/DynamicGridLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/FontManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/FontManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/MultiplexingPluginPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/MultiplexingPluginPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/PluginPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/PluginPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/DimmableJPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/DimmableJPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ProgressBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ProgressBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/PreviewPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/PreviewPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTabGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTabGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/CallableExceptionLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/CallableExceptionLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ColorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ColorUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ImageUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/LinkBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/LinkBrowser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/OSType.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/OSType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ReflectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ReflectUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/RunnableExceptionLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/RunnableExceptionLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/Text.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/TransferableBufferedImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/TransferableBufferedImage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/libraries/azura_server_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/103456.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/103456.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/2ez.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/2ez.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Atomic.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Atomic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Avengers.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Avengers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/BAMF.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/BAMF.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Bald.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Bald.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Bandito.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Bandito.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Bmth.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Bmth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Caribou.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Caribou.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Defiant.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Defiant.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Degenerates.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Degenerates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Elite.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Elite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Excellence.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Excellence.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Fckers.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Fckers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Free the Gnaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Free the Gnaw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Friend4hire.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Friend4hire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Gayz.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Gayz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Group Name.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Group Name.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/HCforever.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/HCforever.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Hash1.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Hash1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Iron Treumer.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Iron Treumer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/JAMAL.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/JAMAL.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/KOF.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/KOF.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/LargeNans.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/LargeNans.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Legends.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Legends.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Lost Tribe.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Lost Tribe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Misfitz.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Misfitz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Netherlands.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Netherlands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Never Lucky.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Never Lucky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Number 1.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Number 1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Peeners.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Peeners.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Reap.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Reap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Salad.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Salad.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Sins.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Sins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Slayers.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Slayers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Spoon4days.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Spoon4days.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Suh.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Suh.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Super Hot Fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Super Hot Fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/SuperHotFire.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/SuperHotFire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Team Snek.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Team Snek.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/The Amigos.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/The Amigos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/The Bois.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/The Bois.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Thpecial Men.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Thpecial Men.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Ugh.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Ugh.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Unholy.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Unholy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/WalrusBros.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/WalrusBros.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Whales.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/Whales.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/bizzy.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/bizzy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/chill.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/chill.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/didddyy.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/didddyy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/didy.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/didy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/dixeys boys.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/dixeys boys.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/england.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/england.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/ezpz.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/ezpz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/family.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/family.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/gim.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/gim.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/grinding.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/grinding.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/haze.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/haze.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/hell.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/hell.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/huoihuihuipo.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/huoihuihuipo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/iron.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/iron.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/kippslane.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/kippslane.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/kja.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/kja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/kosova.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/kosova.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/laviathan.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/laviathan.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/leave.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/leave.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/losers.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/losers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/lucky.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/lucky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/master.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/master.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/nicky.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/nicky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/panicattacks.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/panicattacks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/pink.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/pink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/rogue.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/rogue.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/rrustem.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/rrustem.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/sons.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/sons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/sss.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/sss.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/stk.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/stk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/sus.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/sus.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/the best eve.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/the best eve.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/typical.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/typical.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/groupiron/valor.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/groupiron/valor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/info/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/info/accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/info/unique_accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/info/unique_accounts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/info/uniqueips.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/posHistory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/posHistory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/chat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/chat.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/commands.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/logins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/logins.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/loginsWIP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/loginsWIP.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/news.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/saves/worldlogs/news.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/data/serverperks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/data/serverperks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/clip/region/DirectionFace.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/AddedCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/AddedCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/CustomTeleportInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/world/content/CustomTeleportInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/crim/snippit/hashCharacterJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/kotlin/service/Service.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/kotlin/service/login/LoginService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/kotlin/service/login/LoginServiceRequest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/kotlin/service/login/LoginWorker.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/kotlin/service/login/ServiceManager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/util/CharacterBackup.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/ruse/util/CharacterBackup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/target/azura-server-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/azura-server-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/META-INF/azura-server.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/META-INF/azura-server.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace$Companion$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace$Companion$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace$WhenMappings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/clip/region/DirectionFace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/content/AddedCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/content/AddedCommands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/content/CustomTeleportInterface$Bosses.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/ruse/world/content/CustomTeleportInterface$Bosses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginService$init$executorService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginServiceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginServiceRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginWorker$run$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginWorker$run$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/LoginWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/ServiceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/com/server/service/login/ServiceManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/classes/crim/snippit/hashCharacterJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/classes/crim/snippit/hashCharacterJson.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/characters/Grim.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/characters/Grim.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/info/accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/info/accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/info/unique_accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/info/unique_accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/info/uniqueips.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/info/uniqueips.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/commands/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/commands/Grim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/logins/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/logins/Grim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/loginsWIP/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/loginsWIP/Grim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/logs/other/Grim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/logs/other/Grim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/posHistory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/posHistory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/chat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/chat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/logins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/logins.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/loginsWIP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/loginsWIP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/news.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/news.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/staff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/saves/worldlogs/staff.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/data/serverperks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/data/serverperks.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,25 +107,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/smoke/IdeaProjects/referps&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.zeroturnaround.javarebel.idea.plugin.settings.AdvancedConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/smoke/IdeaProjects/referps",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "com.zeroturnaround.javarebel.idea.plugin.settings.AdvancedConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
@@ -360,13 +137,26 @@
       <recent name="com.server.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Batch.server">
+  <component name="RunManager" selected="Application.GameServer">
     <configuration name="GameServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ruse.GameServer" />
       <module name="azura-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ruse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="charcterBackUps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ruse.engine.charcterBackUps" />
+      <module name="azura-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruse.engine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,6 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.charcterBackUps" />
         <item itemvalue="Batch.server" />
         <item itemvalue="JAR Application.azura-server.jar" />
         <item itemvalue="Application.GameServer" />
@@ -408,6 +199,7 @@
       <workItem from="1670341829001" duration="1637000" />
       <workItem from="1670356450323" duration="427000" />
       <workItem from="1671357409638" duration="1753000" />
+      <workItem from="1671359212866" duration="1206000" />
     </task>
     <servers />
   </component>

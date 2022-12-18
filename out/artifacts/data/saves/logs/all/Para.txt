@@ -1,0 +1,43 @@
+[11/15/22 09:34AM] Login 	
+[11/15/22 09:56AM] Logout 	
+[11/15/22 09:56AM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 11:21AM] Login 	
+[11/15/22 11:21AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 11:21AM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 11:21AM] Logout 	
+[11/15/22 11:22AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 11:22AM] Login 	
+[11/15/22 11:22AM] Para used command ::interface 48270 | Player rights = DEVELOPER	
+[11/15/22 11:22AM] HOME_BANK|2655,4015,0|Said: Kl	
+[11/15/22 11:22AM] Para used command ::interface 48270 | Player rights = DEVELOPER	
+[11/15/22 11:22AM] Para used command ::interface 57210 | Player rights = DEVELOPER	
+[11/15/22 11:22AM] Para used command ::interface 57150 | Player rights = DEVELOPER	
+[11/15/22 11:22AM] Logout 	
+[11/15/22 11:22AM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 11:22AM] Login 	
+[11/15/22 11:22AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 11:23AM] Para used command ::interface 57265 | Player rights = DEVELOPER	
+[11/15/22 11:23AM] Para used command ::handlerewards | Player rights = DEVELOPER	
+[11/15/22 11:23AM] Para used command ::handlerewards | Player rights = DEVELOPER	
+[11/15/22 11:27AM] Dissolved x1 Dragon longsword for x15 Upgrade Tokens	
+[11/15/22 11:27AM] Dissolved x1 Icey staff of festive for x500 Upgrade Tokens	
+[11/15/22 11:27AM] Dissolved x1 Dragon spear for x15 Upgrade Tokens	
+[11/15/22 11:28AM] Para used command ::master | Player rights = DEVELOPER	
+[11/15/22 11:28AM] Para used command ::item 23846 1 | Player rights = DEVELOPER	
+[11/15/22 11:29AM] Para used command ::item 23841 1 | Player rights = DEVELOPER	
+[11/15/22 11:32AM] Para used command ::upgrade | Player rights = DEVELOPER	
+[11/15/22 11:33AM] HOME_BANK|2659,4013,0|Said: U::interface 30330	
+[11/15/22 11:33AM] Para used command ::interface 30330 | Player rights = DEVELOPER	
+[11/15/22 11:34AM] Para used command ::interface 30330 | Player rights = DEVELOPER	
+[11/15/22 11:34AM] Para used command ::interface 19700 | Player rights = DEVELOPER	
+[11/15/22 11:34AM] Para used command ::interface 30330 | Player rights = DEVELOPER	
+[11/15/22 11:35AM] Para used command ::interface 62200 | Player rights = DEVELOPER	
+[11/15/22 12:01PM] Logout 	
+[11/15/22 12:01PM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/15/22 09:09PM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/15/22 09:09PM] Login 	
+[12/15/22 09:11PM] Para used command ::tele 2529 4061 | Player rights = DEVELOPER	
+[12/15/22 09:14PM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/15/22 09:14PM] Logout 	
+[12/15/22 09:14PM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[12/15/22 09:14PM] Login 	

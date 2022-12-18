@@ -15,10 +15,10 @@ import java.util.zip.ZipInputStream;
  */
 public class CacheDownloader {
 
-    private static final String CACHE_FILE_NAME = "Lunite.zip"; //The name of the actual .zip file
+    private static final String CACHE_FILE_NAME = "Refer.zip"; //The name of the actual .zip file
 
-    private static final String CACHE_URL = "https://www.lunite.io/resources/Lunite.zip";
-    private static final String CACHE_URL1 = "https://download948.mediafire.com/pd15tyn48dog/kt9w5jzdaj9eeqy/Lunite.zip";
+    private static final String CACHE_URL = "https://www.dropbox.com/s/5l7ixn0sdi6ux8q/refer.zip?dl=1";
+    private static final String CACHE_URL1 = "https://www.dropbox.com/s/5l7ixn0sdi6ux8q/refer.zip?dl=1";
     private static final String NEWEST_VERSION_FILE_URL = "https://www.lunite.io/resources/cache_version.txt";
     private static final String NEWEST_VERSION_FILE_URL1 = "https://download1501.mediafire.com/xa8bmoogb7cg/ia96cpttjuqjoir/cache_version.txt";
 

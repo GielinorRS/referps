@@ -1,1 +1,4 @@
-[12/5/22 09:34PM] <col=FF0066><img=2> [PUNISHMENTS]<col=6600FF> Grim just started an update in 30 ticks.	
+[11/15/22 08:24AM] <col=FF0066><img=2> [PLAYER-LAG]<col=6600FF> Test lag @red@314ms <col=6600FF>- amt: @red@2<col=6600FF> ID: @red@11<col=6600FF> - Message Nucky on Discord	
+[11/15/22 08:34AM] <col=FF0066><img=2> [PLAYER-LAG]<col=6600FF> Test created lag @red@297ms <col=6600FF>- Message Nucky on Discord	
+[11/15/22 11:21AM] <col=FF0066><img=2> [PLAYER-LAG]<col=6600FF> Tre lag @red@361ms <col=6600FF>- amt: @red@5<col=6600FF> ID: @red@185<col=6600FF> - Message Nucky on Discord	
+[11/15/22 11:27AM] <col=FF0066><img=2> [PLAYER-LAG]<col=6600FF> Para created lag @red@342ms <col=6600FF>- Message Nucky on Discord	

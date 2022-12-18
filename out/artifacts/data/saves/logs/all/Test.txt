@@ -1,0 +1,21 @@
+[11/15/22 08:23AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:23AM] Login 	
+[11/15/22 08:31AM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:31AM] Logout 	
+[11/15/22 08:31AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:31AM] Login 	
+[11/15/22 08:31AM] Logout 	
+[11/15/22 08:31AM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:31AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:31AM] Login 	
+[11/15/22 08:34AM] Logout 	
+[11/15/22 08:34AM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:34AM] Login 	
+[11/15/22 08:34AM] Login from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:45AM] Test used command ::ie | Player rights = PLAYER	
+[11/15/22 08:45AM] Test used command ::::ie | Player rights = PLAYER	
+[11/15/22 08:45AM] Test used command ::::ie | Player rights = PLAYER	
+[11/15/22 08:46AM] Test used command ::::ie | Player rights = PLAYER	
+[11/15/22 08:46AM] Test used command ::::interface | Player rights = PLAYER	
+[11/15/22 08:46AM] Logout with password lolLogout from host 127.0.0.1, serial number: null000, mac address:null000	
+[11/15/22 08:46AM] Logout 	

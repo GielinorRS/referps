@@ -27,8 +27,8 @@ public class CharacterBackup {
                 new Thread(() -> {
                     GroupManager.saveGroups();
                     World.savePlayers();
-                    backup("./data/saves/characters/", "E:\\backups/characters/Backup " + getDate() + ".zip", "Characters");
-                    backup("./data/saves/shops/", "E:\\backups/shops/Backup " + getDate() + ".zip", "Shops");
+                    backup("./data/saves/characters/", "D:\\backups/characters/Backup " + getDate() + ".zip", "Characters");
+                    backup("./data/saves/shops/", "D:\\backups/shops/Backup " + getDate() + ".zip", "Shops");
                     timer.reset();
                 }).start();
             }

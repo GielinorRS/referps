@@ -1,0 +1,4 @@
+[12/14/22 10:24PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[12/14/22 10:25PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[12/14/22 10:25PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[12/14/22 10:25PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	

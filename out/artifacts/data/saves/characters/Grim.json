@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 7812484,
+  "total-play-time-ms": 7335095,
   "username": "Grim",
   "password": "grim",
   "email": "null",
@@ -8,8 +8,8 @@
   "player-title": "NONE",
   "yellhexcolor": "ffffff",
   "position": {
-    "x": 2655,
-    "y": 4017,
+    "x": 1696,
+    "y": 4266,
     "z": 0
   },
   "online-status": "ON",
@@ -379,7 +379,7 @@
   "day5claimed": false,
   "day6claimed": false,
   "day7claimed": false,
-  "minutes-bonus-exp": 499999968,
+  "minutes-bonus-exp": 499999975,
   "minutes-voting-dr": -1,
   "minutes-voting-dmg": -1,
   "total-gained-exp": 539684610,
@@ -390,8 +390,8 @@
   "achievement-points": 0,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 4227,
-  "total-loyalty-points": 4227.0,
+  "loyalty-points": 3996,
+  "total-loyalty-points": 3996.0,
   "godmodetime": 0,
   "voting-points": 100000000,
   "total-prestiges": 0,
@@ -431,7 +431,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": true,
-  "last-veng": 5393232180,
+  "last-veng": 1664911670924,
   "fight-type": "STAFF_BASH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -604,13 +604,13 @@
   ],
   "skills": {
     "level": [
-      14984,
-      14984,
-      14984,
+      14990,
+      14990,
+      14990,
       150000,
-      14984,
+      14990,
       150000,
-      14984,
+      14990,
       120,
       120,
       120,
@@ -3067,7 +3067,7 @@
       false
     ]
   ],
-  "achievements-daily": 339,
+  "achievements-daily": 277,
   "starter-task-amount": [
     0,
     0,
@@ -3152,9 +3152,9 @@
   "group-ironman-locked": false,
   "lastInstanceNpc": -1,
   "seasonpass-tier": 1,
-  "seasonpass-xp": 0,
-  "seasonpass-member": false,
-  "seasonpass-season": 1,
+  "seasonpass-xp": 2,
+  "seasonpass-member": true,
+  "seasonpass-season": 0,
   "seasonpass-received-500-kc-xp": false,
   "turkeys-mutated": [
     false,
@@ -5096,7 +5096,7 @@
     false
   ],
   "daily-reward-day": 0,
-  "daily-reward-epoch": 339,
+  "daily-reward-epoch": 277,
   "curse-of-arrav-progress": 0,
   "unlocked-titles": [
     "NONE",
@@ -5117,19 +5117,13 @@
   "daily-task-slots": [
     [
       {
-        "task": "ENTER_AN_INSTANCE",
+        "task": "OPEN_A_CLUE_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "PURCHASE_ITEM_FROM_TRAVELING_MERCHANT",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "DEFEAT_100_SUPREME_BOSS",
+        "task": "OPEN_A_CLUE_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5141,7 +5135,13 @@
         "claimedReward": false
       },
       {
-        "task": "DISSOLVE_100_ITEMS",
+        "task": "OPEN_10_BOXES_OR_CASKETS",
+        "progressOnTask": 78,
+        "completed": true,
+        "claimedReward": true
+      },
+      {
+        "task": "OPEN_A_CLUE_CASKET",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5149,25 +5149,25 @@
     ],
     [
       {
+        "task": "COMPLETE_5_BOSS_SLAYER_TASKS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
         "task": "COMPLETE_5_ISLAND_RAIDS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "WIN_A_GAME_OF_PEST_CONTROL",
+        "task": "DEFEAT_2500_ZONE_NPCS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "WIN_A_GAME_OF_PEST_CONTROL",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
-      {
-        "task": "WIN_A_GAME_OF_PEST_CONTROL",
+        "task": "COMPLETE_5_HALLS_OF_AMMO_RUNS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5175,12 +5175,6 @@
       null
     ],
     [
-      {
-        "task": "EQUIP_A_WEAPON_WITH_AT_LEAST_40_DR_BONUS",
-        "progressOnTask": 0,
-        "completed": false,
-        "claimedReward": false
-      },
       {
         "task": "DEFEAT_750_LUCIFER_MOBS",
         "progressOnTask": 0,
@@ -5188,8 +5182,14 @@
         "claimedReward": false
       },
       {
-        "task": "DONATE_5M_TO_SERVER_PERKS",
+        "task": "DEFEAT_500_MEGA_AVATAR_MOBS",
         "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DEAL_10M_DAMAGE",
+        "progressOnTask": 2875350,
         "completed": false,
         "claimedReward": false
       },
@@ -5198,13 +5198,13 @@
     ],
     [
       {
-        "task": "DEAL_250K_DAMAGE",
+        "task": "DEFEAT_100_SEASON_PASS_MOBS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
       },
       {
-        "task": "DEAL_250K_DAMAGE",
+        "task": "DONATE_10M_TO_SERVER_PERKS",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false
@@ -5215,7 +5215,7 @@
     ],
     [
       {
-        "task": "COMPLETE_25_HARD_ISLES_OF_THE_GODS",
+        "task": "WIN_10_GAMES_OF_PEST_CONTROL",
         "progressOnTask": 0,
         "completed": false,
         "claimedReward": false

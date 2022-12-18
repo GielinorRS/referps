@@ -11,6 +11,3 @@
 [8/2/22 07:51AM] Grim used command ::item 22113 | Player rights = DEVELOPER	
 [8/2/22 07:51AM] Grim used command ::item 22114 | Player rights = DEVELOPER	
 [8/2/22 07:52AM] Grim used command ::onehit | Player rights = DEVELOPER	
-[12/5/22 09:34PM] Grim used command ::shutdown | Player rights = DEVELOPER	
-[12/5/22 09:34PM] Grim used command ::update | Player rights = DEVELOPER	
-[12/5/22 09:34PM] Grim used command ::update 30 | Player rights = DEVELOPER	
