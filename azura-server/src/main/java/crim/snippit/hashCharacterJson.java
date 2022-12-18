@@ -13,7 +13,7 @@ import com.google.gson.JsonParser;
 
 public class hashCharacterJson {
 
-	public static String DIR = "C:/Users/smoke/IdeaProjects/referps/azura-server/data/saves/characters";
+	public static String DIR = "E:/NecroticRepo/Source/data/saves/characters/";
 
 	public static void main(String[] args) {
 		for (int i = 0; i < args.length; i++) {

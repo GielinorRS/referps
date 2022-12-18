@@ -9,25 +9,24 @@ package org.necrotic;
 public class Configuration {
 	public final static int CLIENT_VERSION = 40;
 	public static boolean localHost = true;
-	public static boolean beta = true;
-	public static final boolean FORCE_CACHE_UPDATE = true;
+	public static boolean beta = false;
+	public static final boolean FORCE_CACHE_UPDATE = false;
 	public static final boolean STOP_CACHE_UPDATES = false;
 	public static final boolean DROPBOX_MODE = false;
-	public final static String CLIENT_NAME = "Lunite";
-	public final static String CACHE_DIRECTORY_NAME = "Lunite";
-	public static final String SETTINGS_DIRECTORY_NAME = "Lunite_settings";
+	public final static String CLIENT_NAME = "Paragon2";
+	public final static String CACHE_DIRECTORY_NAME = "Paragon2";
+	public static final String SETTINGS_DIRECTORY_NAME = "Paragon2_settings";
 	public final static boolean JAGCACHED_ENABLED = false;
 	public final static String JAGCACHED_HOST = "";
 	public final static int SERVER_PORT = 9421;
 	public final static boolean DISPLAY_GAMEWORLD_ON_LOGIN = false;
 	public final static int NPC_BITS = 18;
 	public static final boolean SEND_HASH = true;
-	public static final int[] REPACK_INDICIES = {
-			//4 // 6, 7, 8 //4  // 1
+	public static final int[] REPACK_INDICIES = {//4
 	};
 	public static final int statMenuColor = 0x49bfff;
 	public static final boolean CTRL_HOVER_HINT = true;
-	public static boolean SAVE_ACCOUNTS = true;
+	public static boolean SAVE_ACCOUNTS = false;
 	public static boolean DISPLAY_HP_ABOVE_HEAD = false;
 	public static boolean DISPLAY_USERNAMES_ABOVE_HEAD = false;
 	public static boolean TWEENING_ENABLED = true;
@@ -60,7 +59,7 @@ public class Configuration {
 
 
 	public final static String SERVER_HOST() {
-		return localHost ? "127.0.0.1" : beta ? "127.0.0.1" : "127.0.0.1";//104.161.43.45 - 147.135.65.179
+		return localHost ? "127.0.0.1" : beta ? "15.204.140.203" : "135.148.150.77";//104.161.43.45 - 147.135.65.179
 	}
 
 

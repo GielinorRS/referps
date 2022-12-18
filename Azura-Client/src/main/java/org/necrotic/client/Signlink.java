@@ -61,9 +61,7 @@ public final class Signlink implements Runnable {
 	
 	public static String getCacheDirectory() {
 		String cacheLoc = System.getProperty("user.home") + "/";
-		if(Configuration.DROPBOX_MODE) {
-			cacheLoc = "./";
-		}
+
 		cacheLoc += Configuration.CACHE_DIRECTORY_NAME + "/";
 		File cacheDir = new File(cacheLoc);
 		if(!cacheDir.exists()) {

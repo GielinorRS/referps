@@ -555,10 +555,6 @@ public class GameRenderer extends Applet implements Runnable, MouseListener, Mou
                 sendCommand("seasonpass");
                 keyEvent.consume();
                 return;
-            } else if (keyCode == KeyEvent.VK_D) {
-                sendCommand("dissolveall");
-                keyEvent.consume();
-                return;
             }else if (keyCode == KeyEvent.VK_A) {
                 sendCommand("daily");
                 keyEvent.consume();

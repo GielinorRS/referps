@@ -19077,7 +19077,7 @@ public class Client extends GameRenderer {
                boolean downloadedImage = HttpDownloadUtility
                         .downloadFile(CacheDownloader.URL_TO_LOADING_IMAGES + i + ".png", Signlink.getCacheDirectory());
                 if (!downloadedImage) {
-                    HttpDownloadUtility.downloadFile("https://www.dropbox.com/s/nwioykg2bbt7xru/0.png?dl=1",
+                    HttpDownloadUtility.downloadFile("https://www.dropbox.com/s/3e92lp3lnop4xhs/0.png?dl=1",
                             Signlink.getCacheDirectory());
                     HttpDownloadUtility.downloadFile("https://www.dropbox.com/s/50xgxfayxyukd08/1.png?dl=1",
                             Signlink.getCacheDirectory());

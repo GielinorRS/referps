@@ -56,7 +56,7 @@ public class FixedDefinitions {
             case 20000:
             case 20001:
             case 20002:
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 break;
 
 

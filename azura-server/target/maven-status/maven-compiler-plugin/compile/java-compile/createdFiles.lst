@@ -1000,7 +1000,6 @@ com\ruse\world\content\dialogue\impl\Tutorial.class
 com\ruse\world\content\AfkStallSystem.class
 com\ruse\world\content\combat\effect\EquipmentBonus.class
 com\ruse\util\infologs\AccountsCreated.class
-com\ruse\world\content\LoyaltyProgramme$1.class
 com\ruse\world\content\properscratchcard\ScratchcardGame.class
 com\ruse\world\content\skill\impl\slayer\BossSlayerDialogues$6.class
 com\ruse\model\input\impl\EnterSyntaxToBankSearchFor.class
@@ -1027,7 +1026,6 @@ com\ruse\net\packet\impl\MovementPacketListener.class
 com\arlania\world\content\itemcombiner\CombinerData.class
 com\ruse\world\content\zombie\ZombieRaids$7$1.class
 com\ruse\world\content\minigames\impl\FightCave.class
-com\ruse\model\Locations$1.class
 com\ruse\world\content\skill\impl\crafting\tanningData.class
 com\ruse\world\content\skill\impl\agility\ObstacleData$23.class
 com\ruse\net\packet\ScratchCardEndPacketListener.class

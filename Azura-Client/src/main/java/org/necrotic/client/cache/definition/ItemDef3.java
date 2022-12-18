@@ -278,7 +278,7 @@ public class ItemDef3 {
                 itemDef.rdc = 127;
                 itemDef.modelOffsetY = -2;
                 itemDef.actions = new String[]{null, null, null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 23225:
                 itemDef.copyItem(12159);
@@ -732,17 +732,17 @@ public class ItemDef3 {
             case 1377:
             case 1434:
             case 7158:
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 17043:
                 itemDef.name = "Leafy coif";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 18332:
                 itemDef.name = "Leafy Longbow";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 13591:
                 itemDef.name = "@yel@Raids [1] Key";
@@ -757,52 +757,52 @@ public class ItemDef3 {
 
 
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 17321:
                 itemDef.name = "Leafy chaps";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 10696:
                 itemDef.name = "Leafy boots";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 15026:
                 itemDef.name = "Leafy gloves";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14733:
                 itemDef.name = "Sorcery hat";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14732:
                 itemDef.name = "Sorcery robe top";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14734:
                 itemDef.name = "Sorcery robe bottom";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14377:
                 itemDef.name = "Sorcery Staff";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 10865:
                 itemDef.name = "Sorcery boots";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 12864:
                 itemDef.name = "Sorcery gloves";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 4367:
                 itemDef.name = "Art's cape";
@@ -820,7 +820,7 @@ public class ItemDef3 {
                 itemDef.modelOffsetY = 24;
                 itemDef.rotationY = 279;
                 itemDef.rotationX = 948;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 7996:
                 itemDef.name = "robin's cape";
@@ -984,7 +984,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100339;
                 itemDef.femaleEquip1 = 100339;
                 itemDef.modelZoom = 900;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11321:
                 itemDef.copyItem(4712);
@@ -994,7 +994,7 @@ public class ItemDef3 {
                 itemDef.femaleEquip1 = 100347;
                 itemDef.modelZoom = 1500;
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11322:
                 itemDef.copyItem(4714);
@@ -1003,7 +1003,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100349;
                 itemDef.femaleEquip1 = 100349;
                 itemDef.modelZoom = 1800;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 18819:
                 itemDef.name = "<shad=1><col=FF0000>Infinity Slayer Ring";
@@ -1017,7 +1017,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100328;
                 itemDef.femaleEquip1 = 100328;
                 itemDef.modelZoom = 900;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11422:
                 itemDef.copyItem(4712);
@@ -1026,7 +1026,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100336;
                 itemDef.femaleEquip1 = 100336;
                 itemDef.modelZoom = 1500;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11423:
                 itemDef.copyItem(4714);
@@ -1035,7 +1035,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100332;
                 itemDef.femaleEquip1 = 100332;
                 itemDef.modelZoom = 1800;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11340:
                 itemDef.copyItem(4708);
@@ -1044,7 +1044,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100360;
                 itemDef.femaleEquip1 = 100360;
                 itemDef.modelZoom = 900;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 22121:
                 itemDef.name = "@yel@Golden Scratch Card";
@@ -1065,7 +1065,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100364;
                 itemDef.femaleEquip1 = 100364;
                 itemDef.modelZoom = 1500;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11342:
                 itemDef.copyItem(4714);
@@ -1074,7 +1074,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100362;
                 itemDef.femaleEquip1 = 100362;
                 itemDef.modelZoom = 1800;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
             case 8087:
@@ -1089,7 +1089,7 @@ public class ItemDef3 {
                 itemDef.modelOffsetX = 0;
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
             case 8088:
@@ -1104,7 +1104,7 @@ public class ItemDef3 {
                 itemDef.modelOffsetX = 0;
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 8001:
                 itemDef.name = "Bryce's crossbow";
@@ -1139,18 +1139,18 @@ public class ItemDef3 {
                 itemDef.modelOffsetX = 0;
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 19888:
                 itemDef.name = "Collector necklace @cya@II";
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 18823:
 
                 itemDef.name = "Collector ring @cya@II";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 break;
             case 18888:
@@ -1294,7 +1294,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = itemdefedit.actions;
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14916:
                 itemDef.name = "Nature pernix cowl";
@@ -1362,7 +1362,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = itemdefedit.actions;
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14920:
                 itemDef.name = "Nature cape";
@@ -1453,7 +1453,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14925:
                 itemDef.name = "Icey shield";
@@ -1574,7 +1574,7 @@ public class ItemDef3 {
                 itemDef.modelID = itemdefedit.modelID;
                 itemDef.maleEquip1 = itemdefedit.maleEquip1;
                 itemDef.femaleEquip1 = itemdefedit.femaleEquip1;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.modelOffsetX = itemdefedit.modelOffsetX;
                 //	itemDef.modelOffsetX = itemdefedit.modelOffsetX;
                 itemDef.modelOffsetY = itemdefedit.modelOffsetY;
@@ -1587,7 +1587,7 @@ public class ItemDef3 {
                 break;
             case 15448:
                 itemDef.name = "Groudon-flame power";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 15449:
                 itemDef.name = "Extreme Aura";
@@ -1597,15 +1597,15 @@ public class ItemDef3 {
                 break;
             case 3107:
                 itemDef.name = "Groudon-flame boots";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 13640:
                 itemDef.name = "Groudon-flame staff";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 13964:
                 itemDef.name = "Groudon-flame shield";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             //case 13964:itemDef.name = "Groudon-flame shield";break;
             case 11317:
@@ -1652,7 +1652,7 @@ public class ItemDef3 {
                 itemDef.oldColors[0] = 40; // the texture that it currently has
                 itemDef.newColors[0] = 40; // the new texture u want it to have
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 // itemDef.setTexture(matid, textureid);
                 // itemDef.applyTexturing(model, id);
                 // itemDef.rdc2 = 8822;
@@ -1676,7 +1676,7 @@ public class ItemDef3 {
                 itemDef.oldColors[0] = 40; // the texture that it currently has
                 itemDef.newColors[0] = 40; // the new texture u want it to have
                 // itemDef.rdc2 = 8822;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 19913:
                 itemDef.name = "Groudon-flame legs";
@@ -1697,7 +1697,7 @@ public class ItemDef3 {
                 itemDef.newColors[0] = 40; // the new texture u want it to have
                 itemDef.stackable = false;
                 // itemDef.rdc2 = 8822;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 20060:
                 itemDef.name = "Lytsu void helm";
@@ -2056,7 +2056,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //itemDef.rdc2 = 8423432;
                 break;
@@ -2074,7 +2074,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //	itemDef.rdc2 = 8423432;
                 break;
@@ -2092,7 +2092,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 // itemDef.rdc2 = 23945;
                 //	itemDef.rdc2 = 8423432;
@@ -2115,7 +2115,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //	itemDef.rdc2 = 8423432;
                 break;
@@ -2137,7 +2137,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //	itemDef.rdc2 = 8423432;
                 break;
@@ -2155,7 +2155,7 @@ public class ItemDef3 {
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
                 //itemDef.rdc2 = 8423432;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
 
@@ -2172,7 +2172,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
             case 9480:
@@ -2188,7 +2188,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 //	itemDef.rdc2 = 8423432;
                 break;
             case 9481:
@@ -2204,7 +2204,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //itemDef.rdc2 = 8423432;
                 break;
@@ -2222,7 +2222,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //	itemDef.rdc2 = 8423432;
                 break;
@@ -2240,7 +2240,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 // itemDef.rdc2 = 23945;
                 //	itemDef.rdc2 = 8423432;
@@ -2324,7 +2324,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit1.rotationX;
                 itemDef.stackable = false;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 7544:
@@ -2341,7 +2341,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit1.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 8410:
@@ -2405,7 +2405,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit1.rotationX;
                 itemDef.stackable = false;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 3738:
@@ -2421,7 +2421,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit1.rotationX;
                 itemDef.stackable = false;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //	itemDef.rdc2  = 20483;
                 break;
@@ -2438,7 +2438,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit1.rotationX;
                 itemDef.stackable = false;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 7545:
@@ -2456,7 +2456,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit1.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 6545:
@@ -2500,17 +2500,17 @@ public class ItemDef3 {
                 break;
             case 16249:
                 itemDef.name = "Super buu Staff";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 16265:
                 itemDef.name = "Super buu boots";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 15832:
                 itemDef.name = "Super buu ward";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 1485:
@@ -2548,7 +2548,7 @@ public class ItemDef3 {
                 itemDef.oldColors[0] = 40; // the texture that it currently has
                 itemDef.newColors[0] = 97;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 3740:
@@ -2657,7 +2657,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 //itemDef.rdc =1931;
                 break;
@@ -2675,7 +2675,7 @@ public class ItemDef3 {
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
                 //itemDef.rdc2= 1931;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 3722:
@@ -2691,7 +2691,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 3726:
                 itemDef.name = "Azure helm";
@@ -2706,7 +2706,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 3728:
@@ -2722,7 +2722,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 3730:
@@ -2738,7 +2738,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 3723:
                 itemDef.name = "Herbal helm";
@@ -2753,7 +2753,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 3724:
                 itemDef.name = "Herbal body";
@@ -2768,7 +2768,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 3725:
@@ -2784,7 +2784,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 8100:
                 itemDef.name = "Light guild helmet";
@@ -3165,7 +3165,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
 
                 break;
@@ -3184,7 +3184,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
 
@@ -3201,7 +3201,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
 
@@ -3223,7 +3223,7 @@ public class ItemDef3 {
                 itemDef.oldColors[0] = 40; // the texture that it currently has
                 itemDef.newColors[0] = 65;
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 5072:
                 itemDef.name = "Joker boots";
@@ -3238,7 +3238,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 5073:
@@ -3249,7 +3249,7 @@ public class ItemDef3 {
                 itemDef.femaleEquip1 = 64507;
                 itemDef.maleEquip1 = 64507;
                 itemDef.modelOffsetX = itemdefedit.modelOffsetX;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.modelOffsetY = itemdefedit.modelOffsetY;
                 itemDef.modelZoom = 1000;
                 itemDef.rotationY = itemdefedit.rotationY;
@@ -3274,7 +3274,7 @@ public class ItemDef3 {
                 itemDef.rotationX = 200;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
 
                 break;
@@ -3293,7 +3293,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
 
@@ -3310,7 +3310,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
 
@@ -3331,7 +3331,7 @@ public class ItemDef3 {
                 itemDef.oldColors[0] = 40;
                 itemDef.newColors[0] = 65;
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 14064:
@@ -3347,7 +3347,7 @@ public class ItemDef3 {
                 itemDef.rotationX = 2000;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 14065:
@@ -3367,7 +3367,7 @@ public class ItemDef3 {
                 itemDef.actions = new String[5];
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14066:
                 itemDef.name = "Crystalized wings";
@@ -3386,7 +3386,7 @@ public class ItemDef3 {
                 itemDef.actions = new String[5];
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 //itemDef.rdc2 = 2412432;
                 break;
             case 9054:
@@ -3403,7 +3403,7 @@ public class ItemDef3 {
                 itemDef.rotationX = 200;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 5523329;
                 break;
 
@@ -3421,7 +3421,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 5523329;
                 break;
 
@@ -3438,7 +3438,7 @@ public class ItemDef3 {
                 itemDef.rotationX = itemdefedit.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 5523329;
                 break;
 
@@ -3461,7 +3461,7 @@ public class ItemDef3 {
                 itemDef.newColors[0] = 65;
                 itemDef.stackable = false;
                 itemDef.rdc2 = 5523329;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 9058:
                 itemDef.name = "Creeper boots";
@@ -3477,7 +3477,7 @@ public class ItemDef3 {
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
                 itemDef.rdc2 = 5523329;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 9059:
                 itemDef.name = "Creeper sword";
@@ -3652,7 +3652,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 123829;//77777
                 break;
 
@@ -3674,7 +3674,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 123829;
                 break;
             case 21609:
@@ -3695,7 +3695,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 123829;
                 break;
             case 21610:
@@ -3733,7 +3733,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 123829;
                 break;
             case 21612:
@@ -3754,7 +3754,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 123829;
                 break;
             case 21613:
@@ -3913,7 +3913,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100280;
                 itemDef.femaleEquip1 = 100280;
                 itemDef.modelZoom = 800;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 20087:
                 itemDef.copyItem(4712);
@@ -3922,7 +3922,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100273;
                 itemDef.femaleEquip1 = 100273;
                 itemDef.modelZoom = 1500;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 20088:
                 itemDef.copyItem(4714);
@@ -3931,7 +3931,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100278;
                 itemDef.femaleEquip1 = 100278;
                 itemDef.modelZoom = 1800;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 20090:
                 itemDef.name = "Cursed spirit shield";
@@ -3951,7 +3951,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 44322;
                 break;
 
@@ -3962,7 +3962,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100276;
                 itemDef.femaleEquip1 = 100276;
                 itemDef.modelZoom = 700;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 20089:
                 itemDef.copyItem(4708);
@@ -3971,7 +3971,7 @@ public class ItemDef3 {
                 itemDef.maleEquip1 = 100274;
                 itemDef.femaleEquip1 = 100274;
                 itemDef.modelZoom = 700;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 20092:
                 itemDef.name = "Cursed amulet";
@@ -3991,7 +3991,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 44322;
                 break;
             case 20093:
@@ -4012,7 +4012,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 44322;
                 break;
             case 20098:
@@ -4033,7 +4033,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 44322;
                 break;
             case 20099:
@@ -4054,7 +4054,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 44322;
                 break;
             case 20100:
@@ -4075,7 +4075,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 44322;
                 break;
             case 21062:
@@ -4096,7 +4096,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21063:
@@ -4117,7 +4117,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21064:
@@ -4138,7 +4138,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21065:
@@ -4159,7 +4159,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
 
@@ -4181,7 +4181,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21067:
@@ -4202,7 +4202,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21068:
@@ -4223,7 +4223,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21069:
@@ -4244,7 +4244,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21070:
@@ -4265,7 +4265,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21071:
@@ -4286,7 +4286,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 23662;
                 break;
             case 21072:
@@ -4307,7 +4307,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 77743;
                 break;
             case 21073:
@@ -4324,7 +4324,7 @@ public class ItemDef3 {
                 itemDef.groundActions = new String[]{null, null, "Take", null, null};
                 itemDef.actions = new String[]{null, "Wear", null, "Upgrade", "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 12124;
                 break;
             case 13263:
@@ -4345,7 +4345,7 @@ public class ItemDef3 {
                 itemDef.groundActions = new String[]{null, null, "Take", null, null};
                 itemDef.actions = new String[]{null, "Wear", null, "Upgrade", "Destroy"};
                 itemDef.stackable = false;
-                //	itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                //	
                 itemDef.rdc2 = 35363;
                 break;
             case 21076:
@@ -4362,7 +4362,7 @@ public class ItemDef3 {
                 itemDef.groundActions = new String[]{null, null, "Take", null, null};
                 itemDef.actions = new String[]{null, "Wear", null, "Upgrade", "Destroy"};
                 itemDef.stackable = false;
-                //itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                //
                 itemDef.rdc2 = 444444;
                 break;
             case 21077:
@@ -4379,7 +4379,7 @@ public class ItemDef3 {
                 itemDef.groundActions = new String[]{null, null, "Take", null, null};
                 itemDef.actions = new String[]{null, "Wear", null, "Upgrade", "Destroy"};
                 itemDef.stackable = false;
-                //itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                //
                 itemDef.rdc2 = 8858;
                 break;
 
@@ -4397,7 +4397,7 @@ public class ItemDef3 {
                 itemDef.groundActions = new String[]{null, null, "Take", null, null};
                 itemDef.actions = new String[]{null, "Wear", null, "Upgrade", "Destroy"};
                 itemDef.stackable = false;
-                //itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                //
                 itemDef.rdc2 = 8808080;//8808080
                 break;
             case 21079:
@@ -4414,7 +4414,7 @@ public class ItemDef3 {
                 itemDef.groundActions = new String[]{null, null, "Take", null, null};
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                //itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                //
                 itemDef.rdc2 = 74623;
                 break;
             case 15230:
@@ -4435,7 +4435,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{73};
                 break;
@@ -4457,7 +4457,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{73};
                 break;
@@ -4479,7 +4479,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{73};
                 break;
@@ -4499,7 +4499,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{73};
                 break;
@@ -4521,7 +4521,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{73};
                 break;
@@ -4541,7 +4541,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{73};
                 break;
@@ -4563,7 +4563,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{73};
                 break;
@@ -4585,7 +4585,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 2724624;
                 break;
             case 21032:
@@ -4606,7 +4606,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 2724624;
                 break;
             case 21033:
@@ -4627,7 +4627,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 2724624;
                 break;
             case 21034:
@@ -4646,7 +4646,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 99957;
                 break;
             case 21035:
@@ -4667,7 +4667,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 2724624;
                 break;
             case 15235:
@@ -4688,7 +4688,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 15236:
                 itemDef.name = "Electric boots";
@@ -4708,7 +4708,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11305:
                 itemDef.name = "Earthquake full helm";
@@ -4728,7 +4728,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 3462;
                 break;
             case 11306:
@@ -4749,7 +4749,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 3462;
                 break;
 
@@ -4771,7 +4771,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 3462;
                 break;
             case 11308:
@@ -4788,7 +4788,7 @@ public class ItemDef3 {
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
                 itemDef.rdc2 = 3462;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11300:
                 itemDef.name = "Defender full helm";
@@ -4808,7 +4808,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{58};
                 break;
@@ -4830,7 +4830,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{58};
                 break;
@@ -4852,7 +4852,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{58};
                 break;
@@ -4874,7 +4874,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{58};
                 break;
@@ -4896,7 +4896,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.oldColors = new int[]{40};
                 itemDef.newColors = new int[]{58};
                 break;
@@ -5108,7 +5108,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14818:
                 itemDef.name = "American pernix body";
@@ -5128,20 +5128,20 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 15441:
             case 15442:
             case 15443:
             case 15444:
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 13953:
             case 13954:
             case 13955:
             case 13956:
             case 13957:
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14820:
                 itemDef.name = "American pernix legs";
@@ -5161,7 +5161,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 21050:
                 itemDef.name = "Slayermaster hood";
@@ -5181,7 +5181,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 21051:
                 itemDef.name = "Slayermaster body";
@@ -5201,7 +5201,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 21052:
                 itemDef.name = "Slayermaster legs";
@@ -5221,7 +5221,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 21025:
                 itemDef.name = "Samurai head";
@@ -5241,7 +5241,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 21026:
                 itemDef.name = "Samurai body";
@@ -5261,7 +5261,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 21027:
                 itemDef.name = "Samurai legs";
@@ -5281,7 +5281,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 21028:
                 itemDef.name = "eSamurai head";
@@ -5301,7 +5301,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 923295;
                 break;
             case 21029:
@@ -5322,7 +5322,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 923295;
                 break;
             case 21030:
@@ -5343,7 +5343,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 923295;
                 break;
             case 11009:
@@ -5364,7 +5364,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11010:
                 itemDef.name = "Hotshot body";
@@ -5384,7 +5384,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11011:
                 itemDef.name = "Hotshot legs";
@@ -5404,7 +5404,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11012:
                 itemDef.name = "Hotshot wings";
@@ -5424,7 +5424,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11001:
                 itemDef.name = "Hiddenvally coif";
@@ -5444,7 +5444,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11002:
                 itemDef.name = "Hiddenvally leatherbody";
@@ -5464,12 +5464,12 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
             case 2575:
                 itemDef.name = "Goku Watch";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11003:
                 itemDef.name = "Hiddenvally leatherchaps";
@@ -5489,7 +5489,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 11006:
                 itemDef.name = "Forbidden coif";
@@ -5509,7 +5509,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 29592;
                 break;
             case 11007:
@@ -5530,7 +5530,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 29592;
                 break;
             case 11008:
@@ -5551,7 +5551,7 @@ public class ItemDef3 {
                 itemDef.actions[1] = "Wear";
                 itemDef.actions[4] = "Destroy";
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 29592;
                 break;
             case 11314:
@@ -5838,7 +5838,7 @@ public class ItemDef3 {
                 itemDef.rotationX = def.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
 
                 break;
             case 20505:
@@ -5854,7 +5854,7 @@ public class ItemDef3 {
                 itemDef.rotationX = def.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                //itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                //
 
                 break;
             case 5424:
@@ -5870,7 +5870,7 @@ public class ItemDef3 {
                 itemDef.rotationX = def.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                //itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                //
 
                 break;
             case 21261:
@@ -5886,7 +5886,7 @@ public class ItemDef3 {
                 itemDef.rotationX = def.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 464646;
                 break;
             case 21262:
@@ -5902,7 +5902,7 @@ public class ItemDef3 {
                 itemDef.rotationX = def.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 85722;
                 break;
             case 21263:
@@ -5918,7 +5918,7 @@ public class ItemDef3 {
                 itemDef.rotationX = def.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.rdc2 = 43722;
                 break;
             case 455:

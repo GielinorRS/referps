@@ -169,8 +169,7 @@ public class ItemDef4 {
             case 11862:
             case 19580:
 
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
-
+                
                 break;
 
             case 17815:
@@ -697,7 +696,7 @@ public class ItemDef4 {
                 itemDef.rotationX = itemDef21.rotationX;
                 itemDef.actions = new String[]{null, "Wear", null, null, "Destroy"};
                 itemDef.stackable = false;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 14829:
                 itemDef.name = "Hidden flagcape";

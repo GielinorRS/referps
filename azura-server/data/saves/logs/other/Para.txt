@@ -1,0 +1,13 @@
+[11/15/22 09:34AM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/15/22 09:56AM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/15/22 11:21AM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/15/22 11:21AM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/15/22 11:22AM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/15/22 11:22AM] HOME_BANK|2655,4015,0|Said: Kl	
+[11/15/22 11:22AM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/15/22 11:22AM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[11/15/22 11:33AM] HOME_BANK|2659,4013,0|Said: U::interface 30330	
+[11/15/22 12:01PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[12/15/22 09:09PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	
+[12/15/22 09:14PM] Logout. ip: 127.0.0.1, mac: null000, uuid: null000	
+[12/15/22 09:14PM] Login. ip: 127.0.0.1, mac: null000, uuid: null000	

@@ -2,19 +2,33 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <groupId>net.azura</groupId>
-        <artifactId>azura</artifactId>
-        <version>1.0</version>
-    </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.azura</groupId>
     <artifactId>azura-client</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+
     <repositories>
+        <repository>
+            <id>runelite</id>
+            <name>RuneLite</name>
+            <url>https://repo.runelite.net</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -47,13 +61,10 @@
             <version>1.5.00</version>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>11</version>
+        </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

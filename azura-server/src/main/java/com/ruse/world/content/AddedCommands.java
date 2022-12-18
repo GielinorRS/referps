@@ -58,7 +58,7 @@ public class AddedCommands {
             JsonParser fileParser = new JsonParser();
             JsonObject reader = (JsonObject) fileParser.parse(fileReader);
 
-            for (String ok : reader.keySet()){
+            for (String ok : COMMANDS.keySet()){
                 COMMANDS.put(ok, reader.get(ok).getAsString());
             }
         } catch (Exception e) {

@@ -8,17 +8,17 @@ public class ItemDefMisc {
         switch (customId) {
             case 15900:
                 itemDef.name = "Zilyana hood";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.rdc2 = 87295;
                 break;
             case 15845:
                 itemDef.name = "Zilyana robe top";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.rdc2 = 87295;
                 break;
             case 15805:
                 itemDef.name = "Zilyana robe bottom";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.rdc2 = 87295;
                 break;
             case 18796:
@@ -34,7 +34,7 @@ public class ItemDefMisc {
                 itemDef.rotationY = itemSara1.rotationY;
                 itemDef.rotationX = itemSara1.rotationX;
                 itemDef.actions = itemSara1.actions;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.name = "Zilyana godsword";
                 itemDef.rdc2 = 53633;
                 break;
@@ -53,7 +53,7 @@ public class ItemDefMisc {
                 itemDef.actions = itemZammy.actions;
 
                 itemDef.name = "Tsutsaroth spear";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.rdc2 = 11332;
                 break;
             case 18789:
@@ -70,7 +70,7 @@ public class ItemDefMisc {
                 itemDef.rotationX = itemZammy1.rotationX;
                 itemDef.actions = itemZammy1.actions;
                 itemDef.name = "Tsutsaroth godsword";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.rdc2 = 33333;
                 break;
             case 18791:
@@ -88,7 +88,7 @@ public class ItemDefMisc {
                 itemDef.actions = itemZammy11.actions;
                 itemDef.name = itemZammy11.name;
                 itemDef.rdc2 = 55555;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.name = "Tsutsaroth halo";
                 break;
             case 18787:
@@ -105,7 +105,7 @@ public class ItemDefMisc {
                 itemDef.rotationX = itemZammy111.rotationX;
                 itemDef.actions = itemZammy111.actions;
                 itemDef.name = "Tsutsaroth boots";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.rdc2 = 77777;
                 break;
             case 5021:
@@ -133,7 +133,7 @@ public class ItemDefMisc {
                 itemDef.actions = new String[5];
                 itemDef.actions[0] = "Convert-to-coin";
                 itemDef.actions[2] = "Open-all";
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+
                 itemDef.stackable = true;
                 break;
             case 5022:

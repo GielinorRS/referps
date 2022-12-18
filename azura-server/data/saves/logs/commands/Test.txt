@@ -1,0 +1,5 @@
+[11/15/22 08:45AM] Test used command ::ie | Player rights = PLAYER	
+[11/15/22 08:45AM] Test used command ::::ie | Player rights = PLAYER	
+[11/15/22 08:45AM] Test used command ::::ie | Player rights = PLAYER	
+[11/15/22 08:46AM] Test used command ::::ie | Player rights = PLAYER	
+[11/15/22 08:46AM] Test used command ::::interface | Player rights = PLAYER	

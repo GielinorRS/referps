@@ -517,7 +517,7 @@ public final class ItemDefinition {
             itemDef.modelOffsetY = -4;
             itemDef.name = "Gilded helmet";
             itemDef.description = "A full-face helmet of Gilded.".getBytes();
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
         }
         if (customId == 13997) {
@@ -782,7 +782,7 @@ public final class ItemDefinition {
             itemDef.modelZoom = 4000;
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
             itemDef.stackable = false;
             itemDef.rdc2 = 14432;
         }
@@ -801,7 +801,7 @@ public final class ItemDefinition {
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
             itemDef.rdc2 = 78525;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
         }
         if (customId == 22075) { // sword
@@ -898,7 +898,7 @@ public final class ItemDefinition {
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
             itemDef.rdc2 = 5662;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
         }
         if (customId == 22078) { // weapon
@@ -915,7 +915,7 @@ public final class ItemDefinition {
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
         }
         if (customId == 12284) { // Darkcrab
@@ -935,7 +935,7 @@ public final class ItemDefinition {
             itemDef.rotationX = 400;
             itemDef.stackable = false;
 
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
         }
         if (customId == 20553) { // Darkcrab
             itemDef.actions = new String[5];
@@ -971,7 +971,7 @@ public final class ItemDefinition {
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
             //	itemDef.rdc2 = 272356;
         }
@@ -991,7 +991,7 @@ public final class ItemDefinition {
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
             //itemDef.rdc2 = 272356;
         }
@@ -1063,7 +1063,7 @@ public final class ItemDefinition {
             itemDef.modelZoom = itemDef2.modelZoom;
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
             itemDef.stackable = false;
         }
         if (customId == 19137) { // weapon
@@ -1106,7 +1106,7 @@ public final class ItemDefinition {
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
         }
         if (customId == 19136) { // weapon
 
@@ -1129,13 +1129,13 @@ public final class ItemDefinition {
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
         }
         if (customId == 22079) { // weapon
             itemDef.name = "ankoue maul";
             ItemDefinition itemDef2 = ItemDefinition.get(20538);
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
             itemDef.modelID = 65014;
             itemDef.femaleEquip1 = 65015;
             itemDef.maleEquip1 = 65015;
@@ -1162,7 +1162,7 @@ public final class ItemDefinition {
             itemDef.rotationY = itemDef2.rotationY;
             itemDef.rotationX = itemDef2.rotationX;
             itemDef.stackable = false;
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
 
         }
         if (customId == 22081) { // weapon
@@ -1198,7 +1198,7 @@ public final class ItemDefinition {
             // itemDef.rdc2 = 2364622;
         }
         if (customId == 22083) { // weapon
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
             itemDef.copyItem(4710);
             itemDef.name = "Blast bow";
             itemDef.modelID = 100110;
@@ -1218,7 +1218,7 @@ public final class ItemDefinition {
             itemDef.stackable = false;
             itemDef.oldColors = new int[]{52};
             itemDef.newColors = new int[]{52};
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
         }
         if (customId == 22085) { // weapon
             itemDef.name = "Karos Scimitar";
@@ -1341,7 +1341,7 @@ public final class ItemDefinition {
             itemDef.stackable = false;
             itemDef.oldColors = new int[]{52};
             itemDef.newColors = new int[]{79};
-            itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+            
         }
         if (customId == 22093) { // sword
             itemDef.name = "Darklight long";

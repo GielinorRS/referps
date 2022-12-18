@@ -447,9 +447,7 @@ public class CustomTeleportInterface {
         updateInterface(true);
 
         return true;
-    }
-
-    public enum Bosses {
+    } public enum Bosses {
 
         FRIEZA(1000, 252, "Frieza", "Melee", "Range/Melee", new Position(2516, 3042, 0), Locations.Location.FRIEZA, 6),
         PERFECT_CELL(1000, 449, "Perfect Cell", "Range", "Melee", new Position(3000, 2511, 0), Locations.Location.PERFECT_CELL, 6),
@@ -514,6 +512,8 @@ public class CustomTeleportInterface {
         }
 
     }
+
+
 
     public enum Monsters {
 

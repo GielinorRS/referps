@@ -1331,7 +1331,7 @@ public class ItemDef5 {
                 itemDef.rdc = 20;
                 itemDef.modelOffsetY = -2;
                 itemDef.actions = new String[]{null, null, null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 23518:
                 itemDef.copyItem(4082);
@@ -1339,7 +1339,7 @@ public class ItemDef5 {
                 itemDef.rdc = 946;
                 itemDef.modelOffsetY = -2;
                 itemDef.actions = new String[]{null, null, null, null, "Destroy"};
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
 
@@ -1577,7 +1577,7 @@ public class ItemDef5 {
                 itemDef.copyItem(1145);
                 itemDef.rs3 = true;
                 itemDef.name = "Rose petals";
-                itemDef.actions = new String[]{"Claim", null, "Dissolve", null, null};
+                itemDef.actions = new String[]{"Claim", null, null, null, null};
                 itemDef.modelID = 102044;
                 itemDef.modelZoom = 307;
                 itemDef.rotationX = 0;
@@ -3851,7 +3851,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 0;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
 
@@ -3869,7 +3869,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 0;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 23692:
                 itemDef.rs3 = true;
@@ -3885,7 +3885,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 0;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
 
@@ -3903,7 +3903,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 2;
                 itemDef.modelOffsetY = 3;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
             case 23694:
@@ -3920,7 +3920,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 7;
                 itemDef.modelOffsetY = -12;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
             case 23695:
@@ -5066,7 +5066,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 4;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
             case 23777:
                 itemDef.rs3 = true;
@@ -5185,7 +5185,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 4;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 break;
 
 
@@ -5657,7 +5657,7 @@ public class ItemDef5 {
                 itemDef.rotationZ = 0;
                 itemDef.modelOffsetX = 4;
                 itemDef.modelOffsetY = 0;
-                itemDef.actions[3] = "<col=C3C0B2>Dissolve";
+                
                 itemDef.colorChange = new double[]{1.7, 0.9, 0};
                 break;
             case 23813:

@@ -1,0 +1,4468 @@
+{
+  "total-play-time-ms": 1349278,
+  "username": "Test",
+  "password": "lol",
+  "email": "null",
+  "staff-rights": "PLAYER",
+  "game-mode": "EXTREME_MODE",
+  "player-title": "NONE",
+  "yellhexcolor": "ffffff",
+  "position": {
+    "x": 2653,
+    "y": 4008,
+    "z": 0
+  },
+  "online-status": "ON",
+  "given-starter": true,
+  "money-pouch": 0,
+  "has-pin2": true,
+  "saved-pin2": "0510",
+  "saved-ip": "127.0.0.1",
+  "donated": 0,
+  "current-boss-task": 0,
+  "current-boss-amount": 0,
+  "global-rate": 0,
+  "peng-rate": 0,
+  "slayer-rate": 0,
+  "has-completed-boss-task": false,
+  "current-daily-task-amount": 0,
+  "current-daily-task-x-pos": 0,
+  "current-daily-task-y-pos": 0,
+  "current-daily-task-z-pos": 0,
+  "current-daily-task-reward": 0,
+  "uim-bank": {},
+  "progression-task-progress": [
+    {
+      "progressionName": "The Newbie",
+      "taskNames": [
+        "Finish a Slayer task",
+        "Teleport to ::home",
+        "Kill 10 Lunite lions"
+      ],
+      "taskAmounts": [
+        1,
+        1,
+        10
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Slayer Recruit",
+      "taskNames": [
+        "Kill 50 Lunite Lions",
+        "Finish 2 slayer task",
+        "Kill 10 assigned tasks"
+      ],
+      "taskAmounts": [
+        50,
+        2,
+        10
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "XP Grinder",
+      "taskNames": [
+        "Claim zara xp lamp",
+        "Kill 150 Dark bloodvelds",
+        "Kill 150 Rusted Gargoyles"
+      ],
+      "taskAmounts": [
+        1,
+        150,
+        150
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Finishing Touch",
+      "taskNames": [
+        "Finish 3 slayer tasks",
+        "Kill 100 Imps",
+        "Kill 250 Crazy Witch"
+      ],
+      "taskAmounts": [
+        3,
+        100,
+        250
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Demon Crusher",
+      "taskNames": [
+        "Kill 50 Ice Demons",
+        " Kill 100 Ice Demon",
+        " Kill 100 assigned tasks"
+      ],
+      "taskAmounts": [
+        100,
+        100,
+        100
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Hidden Valley",
+      "taskNames": [
+        "Kill 200 Predator",
+        "Kill 200 Cyantrix ",
+        "Kill 100 Bulwark"
+      ],
+      "taskAmounts": [
+        200,
+        200,
+        100
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Venoms Bite",
+      "taskNames": [
+        "Kill 200 Lords",
+        "Finish 5 slayer tasks",
+        "Claim 5 Zara xp lamps"
+      ],
+      "taskAmounts": [
+        200,
+        5,
+        5
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Teleporter",
+      "taskNames": [
+        "Teleport to 10 tasks",
+        "Kill 300 Ice Demon",
+        "Finish 10 slayer tasks"
+      ],
+      "taskAmounts": [
+        10,
+        300,
+        10
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Dragon Balls",
+      "taskNames": [
+        "Kill 5 Frieza",
+        "Kill 5 Perfect Cell",
+        "Kill 5 Super buu"
+      ],
+      "taskAmounts": [
+        5,
+        5,
+        5
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Upgradable",
+      "taskNames": [
+        "Upgrade any item",
+        "Dissolve any item",
+        "Finish 25 Slayer tasks"
+      ],
+      "taskAmounts": [
+        1,
+        1,
+        25
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Spree Master",
+      "taskNames": [
+        "Get 10 slayer spree",
+        "Kill 400 Dragons",
+        "Kill 500 Beasts"
+      ],
+      "taskAmounts": [
+        10,
+        400,
+        500
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Permanent",
+      "taskNames": [
+        "Finish 50 Slayer Tasks",
+        "Vote once",
+        "Kill 1K King"
+      ],
+      "taskAmounts": [
+        50,
+        1,
+        1000
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Legion Master",
+      "taskNames": [
+        "Finish 100 Slayer task",
+        "Kill 1200 Titans",
+        "Kill 1500 Angel"
+      ],
+      "taskAmounts": [
+        100,
+        1200,
+        1500
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Looterbooter",
+      "taskNames": [
+        "Open 1K+ Boxes",
+        "Finish 250 Slayer Task",
+        "Kill 2.5k Luciens"
+      ],
+      "taskAmounts": [
+        1000,
+        250,
+        2500
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Pet master",
+      "taskNames": [
+        "Unlock Superstar Pet",
+        "Unlock Zorbaks pet",
+        " Unlock Unlock Raichus pet"
+      ],
+      "taskAmounts": [
+        1,
+        1,
+        1
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Supreme Master",
+      "taskNames": [
+        "Kill 3.5K Hercules",
+        "Kill 5K Satans",
+        "Kill 15K Zeus"
+      ],
+      "taskAmounts": [
+        3500,
+        5000,
+        15000
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    },
+    {
+      "progressionName": "Grand Master",
+      "taskNames": [
+        "Open 10K+ Boxes",
+        "Finish 500 Slayer Task",
+        "Kill 25K Groudons"
+      ],
+      "taskAmounts": [
+        10000,
+        500,
+        25000
+      ],
+      "progress": [
+        0,
+        0,
+        0
+      ],
+      "hasCompleted": false
+    }
+  ],
+  "daysVoted": 0,
+  "totalTimesClaimed": 0,
+  "longestDaysVoted": 0,
+  "timeUntilNextReward": 0,
+  "current-voting-streak": 0,
+  "entriesCurrency": 0.0,
+  "amount-donated-today": 0,
+  "claimed-first": false,
+  "claimed-second": false,
+  "claimed-third": false,
+  "last-donation": 0,
+  "last-time-reset": 0,
+  "lastlogin": 0,
+  "lastdailyclaim": 0,
+  "lastvotetime": 0,
+  "hasvotedtoday": false,
+  "day1claimed": false,
+  "day2claimed": false,
+  "day3claimed": false,
+  "day4claimed": false,
+  "day5claimed": false,
+  "day6claimed": false,
+  "day7claimed": false,
+  "minutes-bonus-exp": -1,
+  "minutes-voting-dr": -1,
+  "minutes-voting-dmg": -1,
+  "total-gained-exp": 0,
+  "barrows-points": 0,
+  "member-points": 0,
+  "Skilling-points": 0,
+  "prestige-points": 0,
+  "achievement-points": 0,
+  "dung-tokens": 0,
+  "commendations": 0,
+  "loyalty-points": 1116,
+  "total-loyalty-points": 1116.0,
+  "godmodetime": 0,
+  "voting-points": 0,
+  "total-prestiges": 0,
+  "slayer-spree": 0,
+  "npc-killcount": 0,
+  "spawn-killcount": 0,
+  "lord-killcount": 0,
+  "demon-killcount": 0,
+  "dragon-killcount": 0,
+  "beast-killcount": 0,
+  "king-killcount": 0,
+  "avatar-killcount": 0,
+  "angel-killcount": 0,
+  "lucien-killcount": 0,
+  "hercules-killcount": 0,
+  "satan-killcount": 0,
+  "zeus-killcount": 0,
+  "mini-lucifer-killcount": 0,
+  "lucifer-killcount": 0,
+  "event-points": 0,
+  "boss-points": 0,
+  "shilling-rate": 0,
+  "slayer-points": 0,
+  "pk-points": 0,
+  "player-kills": 0,
+  "player-killstreak": 0,
+  "player-deaths": 0,
+  "target-percentage": 0,
+  "bh-rank": -1,
+  "gender": "MALE",
+  "spell-book": "NORMAL",
+  "prayer-book": "NORMAL",
+  "running": true,
+  "run-energy": 100,
+  "music": false,
+  "sounds": false,
+  "auto-retaliate": false,
+  "xp-locked": false,
+  "veng-cast": false,
+  "last-veng": 772337,
+  "fight-type": "UNARMED_PUNCH",
+  "sol-effect": 0,
+  "skull-timer": 0,
+  "accept-aid": false,
+  "poison-damage": 0,
+  "poison-immunity": 0,
+  "overload-timer": 0,
+  "double-dr-timer": 0,
+  "double-ddr-timer": 0,
+  "double-dmg-timer": 0,
+  "fire-immunity": 0,
+  "fire-damage-mod": 0,
+  "prayer-renewal-timer": 0,
+  "teleblock-timer": 0,
+  "special-amount": 100,
+  "entered-gwd-room": false,
+  "gwd-altar-delay": 0,
+  "gwd-killcount": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "effigy": 0,
+  "summon-npc": -1,
+  "summon-death": -1,
+  "process-farming": false,
+  "clanchat": "null",
+  "autocast": false,
+  "autocast-spell": -1,
+  "dfs-charges": 0,
+  "coins-gambled": 0,
+  "slayer-master1": "BOSS_SLAYER",
+  "slayer-task1": "NO_TASK",
+  "prev-slayer-task1": "NO_TASK",
+  "task-amount1": 0,
+  "task-streak": 0,
+  "duo-partner": "null",
+  "double-slay-xp": false,
+  "easy-task-kc": 0,
+  "med-task-kc": 0,
+  "hard-task-kc": 0,
+  "boss-task-kc": 0,
+  "recoil-deg": 0,
+  "blowpipe-deg": 0,
+  "brawlers-deg": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ancient-deg": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "killed-players": [],
+  "killed-gods": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "barrows-brother": [
+    [
+      2030,
+      0
+    ],
+    [
+      2029,
+      0
+    ],
+    [
+      2028,
+      0
+    ],
+    [
+      2027,
+      0
+    ],
+    [
+      2026,
+      0
+    ],
+    [
+      2025,
+      0
+    ]
+  ],
+  "random-coffin": 0,
+  "barrows-killcount": 0,
+  "nomad": [
+    false,
+    false
+  ],
+  "recipe-for-disaster": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "recipe-for-disaster-wave": 0,
+  "clue-progress": 0,
+  "dung-items-bound": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "rune-ess": 0,
+  "pure-ess": 0,
+  "has-bank-pin": false,
+  "last-pin-attempt": 0,
+  "invalid-pin-attempts": 0,
+  "bank-pin": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "appearance": [
+    0,
+    0,
+    18,
+    26,
+    33,
+    36,
+    42,
+    10,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "agility-obj": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "skills": {
+    "level": [
+      1,
+      1,
+      1,
+      100,
+      1,
+      10,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "maxLevel": [
+      1,
+      1,
+      1,
+      100,
+      1,
+      10,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "experience": [
+      0,
+      0,
+      0,
+      1184,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "inventory": [
+    {
+      "id": 13281,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 1153,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 1115,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 1067,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 15272,
+      "amount": 400,
+      "slot": 0
+    },
+    {
+      "id": 18365,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 16879,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 13641,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 20054,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 1478,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 10499,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 459,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 290,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 6199,
+      "amount": 4,
+      "slot": 0
+    },
+    {
+      "id": 11732,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 6570,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 757,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "equipment": [
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "preset-equipment": [
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "bank-0": [],
+  "bank-1": [],
+  "bank-2": [],
+  "bank-3": [],
+  "bank-4": [],
+  "bank-5": [],
+  "bank-6": [],
+  "bank-7": [],
+  "bank-8": [],
+  "ge-slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "charm-imp": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "friends": [],
+  "ignores": [],
+  "loyalty-titles": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "kills": [
+    {
+      "runningTotal": 0,
+      "npcId": 1265,
+      "npcName": "Lunite Lion",
+      "amount": 0,
+      "boss": false
+    }
+  ],
+  "drops": [],
+  "achievements-completion": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "achievements-progress": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "fri13may16": false,
+  "spiritdebug": false,
+  "reffered": false,
+  "indung": false,
+  "toggledglobalmessages": false,
+  "flying": false,
+  "canfly": false,
+  "ghostwalking": false,
+  "canghostwalk": false,
+  "barrowschests": 0,
+  "cluesteps": 0,
+  "difficulty": "MODERN",
+  "hween2016": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "donehween2016": false,
+  "bosspets": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "christmas2016": 0,
+  "newYear2017": 0,
+  "easter2017": 0,
+  "hcimdunginventory": [
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "hcimdungequipment": [
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "bonecrusheffect": true,
+  "p-tps": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "yell-tit": "null",
+  "afkstall1": 0,
+  "afkstall2": 0,
+  "afkstall3": 0,
+  "achievements-points": 0,
+  "achievements-amount": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "achievements-completed": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "achievements-daily": 319,
+  "starter-task-amount": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "starter-task-completed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "progression-zones": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "zones-complete": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "gamble-banned": false,
+  "lucifers-unlocked": false,
+  "dark-supremes-unlocked": false,
+  "blood-odin-unlocked": false,
+  "currency-pouch": {
+    "upgradeTokens": 0,
+    "pvmTickets": 0,
+    "afkTickets": 0,
+    "slayerTickets": 0,
+    "voteScrolls": 0,
+    "petFragments": 0,
+    "instanceTokens": 0,
+    "goldCharms": 0,
+    "greenCharms": 0,
+    "crimsonCharms": 0,
+    "blueCharms": 0,
+    "bossSlayerTickets": 0,
+    "instanceTokenUntradeable": 0,
+    "celestialEnergy": 0,
+    "highTierTickets": 0
+  },
+  "group-ironman-locked": false,
+  "lastInstanceNpc": -1,
+  "seasonpass-tier": 1,
+  "seasonpass-xp": 0,
+  "seasonpass-member": false,
+  "seasonpass-season": 0,
+  "seasonpass-received-500-kc-xp": false,
+  "turkeys-mutated": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "afk-caught": 0,
+  "dissembler-charges": 0,
+  "last-voted": 0,
+  "troll-day": 0,
+  "sanctum-kc": 0,
+  "sanctum-drop-rate": 0,
+  "sanctum-key-opened": 0,
+  "cosmetic-override": true,
+  "crest-creation": false,
+  "collection-log": [
+    {
+      "name": "ICE",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "PREDATOR",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "CYAN",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "BULWARK",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "MINI_LUCI",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "DRAGONSTONE_DRAGON",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ONYX_DRAGON",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "HYDRIX_DRAGON",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "AVIANSE",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "IMP",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "LORD",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "DEMON",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "DRAGON",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "BEAST",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "TROLLKING",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "AVATAR",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ANGEL",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "LUCIEN",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "HERCULES",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SATAN",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ZEUS",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "GROUDON",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "RED_FENRIR",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "GREEN_FENRIR1",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "BLUE_FENRIR2",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "BORK",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "FRIEZA",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "PERFECT_CELL",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SUPER_BUU",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SCARLET",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "HERBAL",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "AZURE",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "JOKER",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "CRYSTAL",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SUPREME",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "VASA",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ELITE",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "MEGA",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "INFERNAL",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "LUCIFER",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "DARK",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ODIN",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SARADOMIN",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ZAMORAK",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "VORKATH",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SILVERHAWK",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "VOTING_MINIGAME",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SANCTUM_OF_DEATH",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "TREASURE_HUNTER",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "HALLS_OF_AMMO",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "PEST_CONTROL",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "CHAMBERS_OF_ANIMA",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "MYSTERY_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "PVM_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "PVM_BOX_T2",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SUPER_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "EXTREME_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "GRAND_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "OP_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "VOTING_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "PROGRESSIVE_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SLAYER_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SLAYER_BOX_UPGRADED",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "DRAGONBALL_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "RAIDS_TWO_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "LAUNCH_CHEST",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "SILVER_CHEST",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "RUBY_CHEST",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "DIAMOND_CHEST",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ONYX_CHEST",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ZENYTE_CHEST",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "ANGELIC_CASE",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "DIVINE_CASE",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "MONEY_CASE",
+      "completed": 0,
+      "obtainedItems": []
+    },
+    {
+      "name": "AUTUMN_BOX",
+      "completed": 0,
+      "obtainedItems": []
+    }
+  ],
+  "claimed-logs": [],
+  "vday-love": 0,
+  "vday-hate": 0,
+  "unlocked-love": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "unlocked-hate": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "unlocked-crown": false,
+  "hanto-dr": 0,
+  "discord-user": 0,
+  "discord-points": 0,
+  "received-shark-costume": false,
+  "easy-isle-god-kc": 0,
+  "med-isle-god-kc": 0,
+  "hard-isle-god-kc": 0,
+  "sanctum-easy-timer": 0,
+  "sanctum-hard-timer": 0,
+  "isle-easy-timer": 0,
+  "isle-med-timer": 0,
+  "isle-hard-timer": 0,
+  "isle-dr": 0.0,
+  "gods-coffer": [],
+  "assassin-tier": 0,
+  "deleted-billz": true,
+  "default-tped": true,
+  "sacrificed-owner": false,
+  "celestial": false,
+  "unlocked-rammernaut": false,
+  "travelling-day": 319,
+  "travelling-merchant": [
+    {
+      "id": 23755,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 15356,
+      "amount": 2,
+      "slot": 0
+    },
+    {
+      "id": 15359,
+      "amount": 5,
+      "slot": 0
+    },
+    {
+      "id": 23752,
+      "amount": 3,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    }
+  ],
+  "days-voted": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "daily-reward-day": 0,
+  "daily-reward-epoch": 319,
+  "curse-of-arrav-progress": 0,
+  "unlocked-titles": [
+    "NONE"
+  ],
+  "slayer-fav": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "slayer-blocked": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "daily-task-slots": [
+    [
+      {
+        "task": "CLAIM_A_PET_RETURN",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DEFEAT_1K_ZONE_NPCS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "SUMMON_A_PET",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "CLAIM_A_PET_RETURN",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "CLAIM_A_PET_RETURN",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      }
+    ],
+    [
+      {
+        "task": "COMPLETE_5_HALLS_OF_AMMO_RUNS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DEFEAT_2500_ZONE_NPCS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "WIN_A_GAME_OF_PEST_CONTROL",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "PARTICIPATE_IN_15_GLOBAL_BOSSES",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      null
+    ],
+    [
+      {
+        "task": "DEFEAT_500_MEGA_AVATAR_MOBS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DEFEAT_500_MEGA_AVATAR_MOBS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DONATE_5M_TO_SERVER_PERKS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      null,
+      null
+    ],
+    [
+      {
+        "task": "DEFEAT_100_SEASON_PASS_MOBS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      {
+        "task": "DONATE_10M_TO_SERVER_PERKS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      null,
+      null,
+      null
+    ],
+    [
+      {
+        "task": "COMPLETE_A_SANCTUM_OF_DEATH_RUN_IN_UNDER_3_MINS",
+        "progressOnTask": 0,
+        "completed": false,
+        "claimedReward": false
+      },
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "daily-tasks-completed": 0,
+  "anima-kc": 0,
+  "anima-drop-rate": 0,
+  "anima-key-opened": 0,
+  "anima-easy-timer": 0,
+  "anima-hard-timer": 0
+}

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="everythingrs-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/everythingrs-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mvgate3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/teamgames-api-v1.02.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
