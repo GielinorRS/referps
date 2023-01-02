@@ -24,111 +24,92 @@
  */
 package net.runelite.client.ui;
 
-import java.awt.CardLayout;
+import java.awt.*;
 
-public class MultiplexingPluginPanel extends PluginPanel
-{
-	private final CardLayout layout;
-	private boolean active = false;
-	private PluginPanel current;
+public class MultiplexingPluginPanel extends PluginPanel {
+    private final CardLayout layout;
+    private boolean active = false;
+    private PluginPanel current;
 
-	public MultiplexingPluginPanel(PluginPanel root)
-	{
-		super(false);
+    public MultiplexingPluginPanel(PluginPanel root) {
+        super(false);
 
-		layout = new CardLayout();
-		setLayout(layout);
-		pushState(root);
-	}
+        layout = new CardLayout();
+        setLayout(layout);
+        pushState(root);
+    }
 
-	public void destroy()
-	{
-		for (int i = getComponentCount() - 1; i > 0; i--)
-		{
-			onRemove((PluginPanel) getComponent(i));
-			remove(i);
-		}
-	}
+    public void destroy() {
+        for (int i = getComponentCount() - 1; i > 0; i--) {
+            onRemove((PluginPanel) getComponent(i));
+            remove(i);
+        }
+    }
 
-	public void pushState(PluginPanel subpanel)
-	{
-		int index = -1;
-		for (int i = getComponentCount() - 1; i >= 0; i--)
-		{
-			if (getComponent(i) == subpanel)
-			{
-				index = i;
-				break;
-			}
-		}
+    public void pushState(PluginPanel subpanel) {
+        int index = -1;
+        for (int i = getComponentCount() - 1; i >= 0; i--) {
+            if (getComponent(i) == subpanel) {
+                index = i;
+                break;
+            }
+        }
 
-		if (active)
-		{
-			current.onDeactivate();
-			subpanel.onActivate();
-		}
-		current = subpanel;
+        if (active) {
+            current.onDeactivate();
+            subpanel.onActivate();
+        }
+        current = subpanel;
 
-		String name = System.identityHashCode(subpanel) + "";
+        String name = System.identityHashCode(subpanel) + "";
 
-		if (index != -1)
-		{
-			for (int i = getComponentCount() - 1; i > index; i--)
-			{
-				popState();
-			}
-		}
-		else
-		{
-			add(subpanel, name);
-			onAdd(subpanel);
-		}
+        if (index != -1) {
+            for (int i = getComponentCount() - 1; i > index; i--) {
+                popState();
+            }
+        } else {
+            add(subpanel, name);
+            onAdd(subpanel);
+        }
 
-		layout.show(this, name);
-		revalidate();
-	}
+        layout.show(this, name);
+        revalidate();
+    }
 
-	public void popState()
-	{
-		int count = getComponentCount();
-		if (count <= 1)
-		{
-			assert false : "Cannot pop last component";
-			return;
-		}
+    public void popState() {
+        int count = getComponentCount();
+        if (count <= 1) {
+            assert false : "Cannot pop last component";
+            return;
+        }
 
-		PluginPanel subpanel = (PluginPanel) getComponent(count - 2);
-		if (active)
-		{
-			current.onDeactivate();
-			subpanel.onActivate();
-			current = subpanel;
-		}
-		layout.show(this, System.identityHashCode(subpanel) + "");
-		onRemove((PluginPanel) getComponent(count - 1));
-		remove(count - 1);
-		revalidate();
-	}
+        PluginPanel subpanel = (PluginPanel) getComponent(count - 2);
+        if (active) {
+            current.onDeactivate();
+            subpanel.onActivate();
+            current = subpanel;
+        }
+        layout.show(this, System.identityHashCode(subpanel) + "");
+        onRemove((PluginPanel) getComponent(count - 1));
+        remove(count - 1);
+        revalidate();
+    }
 
-	protected void onAdd(PluginPanel p)
-	{
-	}
+    protected void onAdd(PluginPanel p) {
+    }
 
-	protected void onRemove(PluginPanel p)
-	{
-	}
+    protected void onRemove(PluginPanel p) {
+    }
 
-	@Override
-	public void onActivate()
-	{
-		active = true;
-		current.onActivate();
-	}
+    @Override
+    public void onActivate() {
+        active = true;
+        current.onActivate();
+    }
 
-	@Override
-	public void onDeactivate()
-	{
-		active = false;
-		current.onDeactivate();
-	}
+    @Override
+    public void onDeactivate() {
+        active = false;
+        current.onDeactivate();
+    }
 }

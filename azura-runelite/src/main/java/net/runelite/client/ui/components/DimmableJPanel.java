@@ -24,67 +24,60 @@
  */
 package net.runelite.client.ui.components;
 
-import java.awt.Color;
-import javax.swing.JPanel;
 import lombok.Getter;
 
-public class DimmableJPanel extends JPanel
-{
-	// Dimming state, allows for restoring original colors before dimming
-	@Getter
-	private boolean dimmed = false;
-	private Color dimmedForeground = null;
-	private Color dimmedBackground = null;
-	private Color undimmedForeground = null;
-	private Color undimmedBackground = null;
+import javax.swing.*;
+import java.awt.*;
 
-	@Override
-	public void setForeground(Color color)
-	{
-		undimmedForeground = color;
-		dimmedForeground = color.darker();
-		super.setForeground(color);
-	}
+public class DimmableJPanel extends JPanel {
+    // Dimming state, allows for restoring original colors before dimming
+    @Getter
+    private boolean dimmed = false;
+    private Color dimmedForeground = null;
+    private Color dimmedBackground = null;
+    private Color undimmedForeground = null;
+    private Color undimmedBackground = null;
 
-	@Override
-	public void setBackground(Color color)
-	{
-		undimmedBackground = color;
-		dimmedBackground = color.darker();
-		super.setBackground(color);
-	}
+    @Override
+    public Color getForeground() {
+        return dimmed ? dimmedForeground : undimmedForeground;
+    }
 
-	@Override
-	public Color getForeground()
-	{
-		return dimmed ? dimmedForeground : undimmedForeground;
-	}
+    @Override
+    public void setForeground(Color color) {
+        undimmedForeground = color;
+        dimmedForeground = color.darker();
+        super.setForeground(color);
+    }
 
-	@Override
-	public Color getBackground()
-	{
-		return dimmed ? dimmedBackground : undimmedBackground;
-	}
+    @Override
+    public Color getBackground() {
+        return dimmed ? dimmedBackground : undimmedBackground;
+    }
 
-	/**
-	 * Dimming sets all parts of this component with darker colors except for the central label
-	 * This is useful for showing that progress is paused
-	 * Setting dim to false will restore the original colors from before the component was dimmed.
-	 * @param dimmed
-	 */
-	public void setDimmed(boolean dimmed)
-	{
-		this.dimmed = dimmed;
+    @Override
+    public void setBackground(Color color) {
+        undimmedBackground = color;
+        dimmedBackground = color.darker();
+        super.setBackground(color);
+    }
 
-		if (dimmed)
-		{
-			super.setBackground(dimmedBackground);
-			super.setForeground(dimmedForeground);
-		}
-		else
-		{
-			super.setBackground(undimmedBackground);
-			super.setForeground(undimmedForeground);
-		}
-	}
+    /**
+     * Dimming sets all parts of this component with darker colors except for the central label
+     * This is useful for showing that progress is paused
+     * Setting dim to false will restore the original colors from before the component was dimmed.
+     *
+     * @param dimmed
+     */
+    public void setDimmed(boolean dimmed) {
+        this.dimmed = dimmed;
+
+        if (dimmed) {
+            super.setBackground(dimmedBackground);
+            super.setForeground(dimmedForeground);
+        } else {
+            super.setBackground(undimmedBackground);
+            super.setForeground(undimmedForeground);
+        }
+    }
 }

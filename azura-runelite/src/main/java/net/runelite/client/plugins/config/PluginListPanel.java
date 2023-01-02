@@ -59,303 +59,263 @@ import java.util.stream.Stream;
 
 @Slf4j
 @Singleton
-class PluginListPanel extends PluginPanel
-{
-	private static final String RUNELITE_GROUP_NAME = RuneLiteConfig.class.getAnnotation(ConfigGroup.class).value();
-	private static final String PINNED_PLUGINS_CONFIG_KEY = "pinnedPlugins";
+class PluginListPanel extends PluginPanel {
+    private static final String RUNELITE_GROUP_NAME = RuneLiteConfig.class.getAnnotation(ConfigGroup.class).value();
+    private static final String PINNED_PLUGINS_CONFIG_KEY = "pinnedPlugins";
 
-	private final ConfigManager configManager;
-	private final PluginManager pluginManager;
-	private final ScheduledExecutorService executorService;
-	private final Provider<ConfigPanel> configPanelProvider;
-	private final List<PluginConfigurationDescriptor> fakePlugins = new ArrayList<>();
+    private final ConfigManager configManager;
+    private final PluginManager pluginManager;
+    private final ScheduledExecutorService executorService;
+    private final Provider<ConfigPanel> configPanelProvider;
+    private final List<PluginConfigurationDescriptor> fakePlugins = new ArrayList<>();
 
-	@Getter
-	private final MultiplexingPluginPanel muxer;
+    @Getter
+    private final MultiplexingPluginPanel muxer;
 
-	private final IconTextField searchBar;
-	private final JScrollPane scrollPane;
-	private final FixedWidthPanel mainPanel;
-	private List<PluginListItem> pluginList;
+    private final IconTextField searchBar;
+    private final JScrollPane scrollPane;
+    private final FixedWidthPanel mainPanel;
+    private List<PluginListItem> pluginList;
 
-	@Inject
-	public PluginListPanel(
-		ConfigManager configManager,
-		PluginManager pluginManager,
-		ScheduledExecutorService executorService,
-		EventBus eventBus,
-		Provider<ConfigPanel> configPanelProvider)
-	{
-		super(false);
+    @Inject
+    public PluginListPanel(
+            ConfigManager configManager,
+            PluginManager pluginManager,
+            ScheduledExecutorService executorService,
+            EventBus eventBus,
+            Provider<ConfigPanel> configPanelProvider) {
+        super(false);
 
-		this.configManager = configManager;
-		this.pluginManager = pluginManager;
-		this.executorService = executorService;
-		this.configPanelProvider = configPanelProvider;
+        this.configManager = configManager;
+        this.pluginManager = pluginManager;
+        this.executorService = executorService;
+        this.configPanelProvider = configPanelProvider;
 
-		muxer = new MultiplexingPluginPanel(this)
-		{
-			@Override
-			protected void onAdd(PluginPanel p)
-			{
-				eventBus.register(p);
-			}
+        muxer = new MultiplexingPluginPanel(this) {
+            @Override
+            protected void onAdd(PluginPanel p) {
+                eventBus.register(p);
+            }
 
-			@Override
-			protected void onRemove(PluginPanel p)
-			{
-				eventBus.unregister(p);
-			}
-		};
+            @Override
+            protected void onRemove(PluginPanel p) {
+                eventBus.unregister(p);
+            }
+        };
 
-		searchBar = new IconTextField();
-		searchBar.setIcon(IconTextField.Icon.SEARCH);
-		searchBar.setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH - 20, 30));
-		searchBar.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-		searchBar.setHoverBackgroundColor(ColorScheme.DARK_GRAY_HOVER_COLOR);
-		searchBar.getDocument().addDocumentListener(new DocumentListener()
-		{
-			@Override
-			public void insertUpdate(DocumentEvent e)
-			{
-				onSearchBarChanged();
-			}
+        searchBar = new IconTextField();
+        searchBar.setIcon(IconTextField.Icon.SEARCH);
+        searchBar.setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH - 20, 30));
+        searchBar.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+        searchBar.setHoverBackgroundColor(ColorScheme.DARK_GRAY_HOVER_COLOR);
+        searchBar.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                onSearchBarChanged();
+            }
 
-			@Override
-			public void removeUpdate(DocumentEvent e)
-			{
-				onSearchBarChanged();
-			}
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                onSearchBarChanged();
+            }
 
-			@Override
-			public void changedUpdate(DocumentEvent e)
-			{
-				onSearchBarChanged();
-			}
-		});
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                onSearchBarChanged();
+            }
+        });
 
-		setLayout(new BorderLayout());
-		setBackground(ColorScheme.DARK_GRAY_COLOR);
+        setLayout(new BorderLayout());
+        setBackground(ColorScheme.DARK_GRAY_COLOR);
 
-		JPanel topPanel = new JPanel();
-		topPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
-		topPanel.setLayout(new BorderLayout(0, BORDER_OFFSET));
-		topPanel.add(searchBar, BorderLayout.CENTER);
-		add(topPanel, BorderLayout.NORTH);
+        JPanel topPanel = new JPanel();
+        topPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
+        topPanel.setLayout(new BorderLayout(0, BORDER_OFFSET));
+        topPanel.add(searchBar, BorderLayout.CENTER);
+        add(topPanel, BorderLayout.NORTH);
 
-		mainPanel = new FixedWidthPanel();
-		mainPanel.setBorder(new EmptyBorder(8, 10, 10, 10));
-		mainPanel.setLayout(new DynamicGridLayout(0, 1, 0, 5));
-		mainPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+        mainPanel = new FixedWidthPanel();
+        mainPanel.setBorder(new EmptyBorder(8, 10, 10, 10));
+        mainPanel.setLayout(new DynamicGridLayout(0, 1, 0, 5));
+        mainPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
 
-		JPanel northPanel = new FixedWidthPanel();
-		northPanel.setLayout(new BorderLayout());
-		northPanel.add(mainPanel, BorderLayout.NORTH);
+        JPanel northPanel = new FixedWidthPanel();
+        northPanel.setLayout(new BorderLayout());
+        northPanel.add(mainPanel, BorderLayout.NORTH);
 
-		scrollPane = new JScrollPane(northPanel);
-		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-		add(scrollPane, BorderLayout.CENTER);
-	}
+        scrollPane = new JScrollPane(northPanel);
+        scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        add(scrollPane, BorderLayout.CENTER);
+    }
 
-	void rebuildPluginList()
-	{
-		final List<String> pinnedPlugins = getPinnedPluginNames();
+    void rebuildPluginList() {
+        final List<String> pinnedPlugins = getPinnedPluginNames();
 
-		// populate pluginList with all non-hidden plugins
-		pluginList = Stream.concat(
-			fakePlugins.stream(),
-			pluginManager.getPlugins().stream()
-				.filter(plugin -> !plugin.getClass().getAnnotation(PluginDescriptor.class).hidden())
-				.map(plugin ->
-				{
-					PluginDescriptor descriptor = plugin.getClass().getAnnotation(PluginDescriptor.class);
-					Config config = pluginManager.getPluginConfigProxy(plugin);
-					ConfigDescriptor configDescriptor = config == null ? null : configManager.getConfigDescriptor(config);
+        // populate pluginList with all non-hidden plugins
+        pluginList = Stream.concat(
+                fakePlugins.stream(),
+                pluginManager.getPlugins().stream()
+                        .filter(plugin -> !plugin.getClass().getAnnotation(PluginDescriptor.class).hidden())
+                        .map(plugin ->
+                        {
+                            PluginDescriptor descriptor = plugin.getClass().getAnnotation(PluginDescriptor.class);
+                            Config config = pluginManager.getPluginConfigProxy(plugin);
+                            ConfigDescriptor configDescriptor = config == null ? null : configManager.getConfigDescriptor(config);
 
-					return new PluginConfigurationDescriptor(
-						descriptor.name(),
-						descriptor.description(),
-						descriptor.tags(),
-						plugin,
-						config,
-						configDescriptor);
-				})
-		).map(desc ->
-		{
-			PluginListItem listItem = new PluginListItem(this, desc);
-			listItem.setPinned(pinnedPlugins.contains(desc.getName()));
-			return listItem;
-		}).collect(Collectors.toList());
+                            return new PluginConfigurationDescriptor(
+                                    descriptor.name(),
+                                    descriptor.description(),
+                                    descriptor.tags(),
+                                    plugin,
+                                    config,
+                                    configDescriptor);
+                        })
+        ).map(desc ->
+        {
+            PluginListItem listItem = new PluginListItem(this, desc);
+            listItem.setPinned(pinnedPlugins.contains(desc.getName()));
+            return listItem;
+        }).collect(Collectors.toList());
 
-		pluginList.sort(Comparator.comparing(p -> p.getPluginConfig().getName()));
-		mainPanel.removeAll();
-		refresh();
-	}
+        pluginList.sort(Comparator.comparing(p -> p.getPluginConfig().getName()));
+        mainPanel.removeAll();
+        refresh();
+    }
 
-	void addFakePlugin(PluginConfigurationDescriptor... descriptor)
-	{
-		Collections.addAll(fakePlugins, descriptor);
-	}
+    void addFakePlugin(PluginConfigurationDescriptor... descriptor) {
+        Collections.addAll(fakePlugins, descriptor);
+    }
 
-	void refresh()
-	{
-		// update enabled / disabled status of all items
-		pluginList.forEach(listItem ->
-		{
-			final Plugin plugin = listItem.getPluginConfig().getPlugin();
-			if (plugin != null)
-			{
-				listItem.setPluginEnabled(pluginManager.isPluginEnabled(plugin));
-			}
-		});
+    void refresh() {
+        // update enabled / disabled status of all items
+        pluginList.forEach(listItem ->
+        {
+            final Plugin plugin = listItem.getPluginConfig().getPlugin();
+            if (plugin != null) {
+                listItem.setPluginEnabled(pluginManager.isPluginEnabled(plugin));
+            }
+        });
 
-		int scrollBarPosition = scrollPane.getVerticalScrollBar().getValue();
+        int scrollBarPosition = scrollPane.getVerticalScrollBar().getValue();
 
-		onSearchBarChanged();
-		searchBar.requestFocusInWindow();
-		validate();
+        onSearchBarChanged();
+        searchBar.requestFocusInWindow();
+        validate();
 
-		scrollPane.getVerticalScrollBar().setValue(scrollBarPosition);
-	}
+        scrollPane.getVerticalScrollBar().setValue(scrollBarPosition);
+    }
 
-	void openWithFilter(String filter)
-	{
-		searchBar.setText(filter);
-		onSearchBarChanged();
-		muxer.pushState(this);
-	}
+    void openWithFilter(String filter) {
+        searchBar.setText(filter);
+        onSearchBarChanged();
+        muxer.pushState(this);
+    }
 
-	private void onSearchBarChanged()
-	{
-		final String text = searchBar.getText();
+    private void onSearchBarChanged() {
+        final String text = searchBar.getText();
 
-		pluginList.forEach(mainPanel::remove);
+        pluginList.forEach(mainPanel::remove);
 
-		showMatchingPlugins(true, text);
-		showMatchingPlugins(false, text);
+        showMatchingPlugins(true, text);
+        showMatchingPlugins(false, text);
 
-		revalidate();
-	}
+        revalidate();
+    }
 
-	private void showMatchingPlugins(boolean pinned, String text)
-	{
-		if (text.isEmpty())
-		{
-			pluginList.stream().filter(item -> pinned == item.isPinned()).forEach(mainPanel::add);
-			return;
-		}
+    private void showMatchingPlugins(boolean pinned, String text) {
+        if (text.isEmpty()) {
+            pluginList.stream().filter(item -> pinned == item.isPinned()).forEach(mainPanel::add);
+            return;
+        }
 
-		final String[] searchTerms = text.toLowerCase().split(" ");
-		pluginList.forEach(listItem ->
-		{
-			if (pinned == listItem.isPinned() && Text.matchesSearchTerms(searchTerms, listItem.getKeywords()))
-			{
-				mainPanel.add(listItem);
-			}
-		});
-	}
+        final String[] searchTerms = text.toLowerCase().split(" ");
+        pluginList.forEach(listItem ->
+        {
+            if (pinned == listItem.isPinned() && Text.matchesSearchTerms(searchTerms, listItem.getKeywords())) {
+                mainPanel.add(listItem);
+            }
+        });
+    }
 
-	void openConfigurationPanel(String configGroup)
-	{
-		for (PluginListItem pluginListItem : pluginList)
-		{
-			if (pluginListItem.getPluginConfig().getName().equals(configGroup))
-			{
-				openConfigurationPanel(pluginListItem.getPluginConfig());
-				break;
-			}
-		}
-	}
+    void openConfigurationPanel(String configGroup) {
+        for (PluginListItem pluginListItem : pluginList) {
+            if (pluginListItem.getPluginConfig().getName().equals(configGroup)) {
+                openConfigurationPanel(pluginListItem.getPluginConfig());
+                break;
+            }
+        }
+    }
 
-	void openConfigurationPanel(Plugin plugin)
-	{
-		for (PluginListItem pluginListItem : pluginList)
-		{
-			if (pluginListItem.getPluginConfig().getPlugin() == plugin)
-			{
-				openConfigurationPanel(pluginListItem.getPluginConfig());
-				break;
-			}
-		}
-	}
+    void openConfigurationPanel(Plugin plugin) {
+        for (PluginListItem pluginListItem : pluginList) {
+            if (pluginListItem.getPluginConfig().getPlugin() == plugin) {
+                openConfigurationPanel(pluginListItem.getPluginConfig());
+                break;
+            }
+        }
+    }
 
-	void openConfigurationPanel(PluginConfigurationDescriptor plugin)
-	{
-		ConfigPanel panel = configPanelProvider.get();
-		panel.init(plugin);
-		muxer.pushState(panel);
-	}
+    void openConfigurationPanel(PluginConfigurationDescriptor plugin) {
+        ConfigPanel panel = configPanelProvider.get();
+        panel.init(plugin);
+        muxer.pushState(panel);
+    }
 
-	void startPlugin(Plugin plugin)
-	{
-		pluginManager.setPluginEnabled(plugin, true);
+    void startPlugin(Plugin plugin) {
+        pluginManager.setPluginEnabled(plugin, true);
 
-		try
-		{
-			pluginManager.startPlugin(plugin);
-		}
-		catch (PluginInstantiationException ex)
-		{
-			log.warn("Error when starting plugin {}", plugin.getClass().getSimpleName(), ex);
-		}
-	}
+        try {
+            pluginManager.startPlugin(plugin);
+        } catch (PluginInstantiationException ex) {
+            log.warn("Error when starting plugin {}", plugin.getClass().getSimpleName(), ex);
+        }
+    }
 
-	void stopPlugin(Plugin plugin)
-	{
-		pluginManager.setPluginEnabled(plugin, false);
+    void stopPlugin(Plugin plugin) {
+        pluginManager.setPluginEnabled(plugin, false);
 
-		try
-		{
-			pluginManager.stopPlugin(plugin);
-		}
-		catch (PluginInstantiationException ex)
-		{
-			log.warn("Error when stopping plugin {}", plugin.getClass().getSimpleName(), ex);
-		}
-	}
+        try {
+            pluginManager.stopPlugin(plugin);
+        } catch (PluginInstantiationException ex) {
+            log.warn("Error when stopping plugin {}", plugin.getClass().getSimpleName(), ex);
+        }
+    }
 
-	private List<String> getPinnedPluginNames()
-	{
-		final String config = configManager.getConfiguration(RUNELITE_GROUP_NAME, PINNED_PLUGINS_CONFIG_KEY);
+    private List<String> getPinnedPluginNames() {
+        final String config = configManager.getConfiguration(RUNELITE_GROUP_NAME, PINNED_PLUGINS_CONFIG_KEY);
 
-		if (config == null)
-		{
-			return Collections.emptyList();
-		}
+        if (config == null) {
+            return Collections.emptyList();
+        }
 
-		return Text.fromCSV(config);
-	}
+        return Text.fromCSV(config);
+    }
 
-	void savePinnedPlugins()
-	{
-		final String value = pluginList.stream()
-			.filter(PluginListItem::isPinned)
-			.map(p -> p.getPluginConfig().getName())
-			.collect(Collectors.joining(","));
+    void savePinnedPlugins() {
+        final String value = pluginList.stream()
+                .filter(PluginListItem::isPinned)
+                .map(p -> p.getPluginConfig().getName())
+                .collect(Collectors.joining(","));
 
-		configManager.setConfiguration(RUNELITE_GROUP_NAME, PINNED_PLUGINS_CONFIG_KEY, value);
-	}
+        configManager.setConfiguration(RUNELITE_GROUP_NAME, PINNED_PLUGINS_CONFIG_KEY, value);
+    }
 
-	@Subscribe
-	public void onPluginChanged(PluginChanged event)
-	{
-		SwingUtilities.invokeLater(this::refresh);
-	}
+    @Subscribe
+    public void onPluginChanged(PluginChanged event) {
+        SwingUtilities.invokeLater(this::refresh);
+    }
 
-	@Override
-	public Dimension getPreferredSize()
-	{
-		return new Dimension(PANEL_WIDTH + SCROLLBAR_WIDTH, super.getPreferredSize().height);
-	}
+    @Override
+    public Dimension getPreferredSize() {
+        return new Dimension(PANEL_WIDTH + SCROLLBAR_WIDTH, super.getPreferredSize().height);
+    }
 
-	@Override
-	public void onActivate()
-	{
-		super.onActivate();
+    @Override
+    public void onActivate() {
+        super.onActivate();
 
-		if (searchBar.getParent() != null)
-		{
-			searchBar.requestFocusInWindow();
-		}
-	}
+        if (searchBar.getParent() != null) {
+            searchBar.requestFocusInWindow();
+        }
+    }
 }

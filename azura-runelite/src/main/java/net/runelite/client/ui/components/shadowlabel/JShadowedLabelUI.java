@@ -28,20 +28,17 @@ import javax.swing.*;
 import javax.swing.plaf.basic.BasicLabelUI;
 import java.awt.*;
 
-class JShadowedLabelUI extends BasicLabelUI
-{
-	@Override
-	protected void paintEnabledText(JLabel l, Graphics g, String s, int textX, int textY)
-	{
-		if (l instanceof JShadowedLabel)
-		{
-			JShadowedLabel ll = (JShadowedLabel) l;
-			g.setColor(ll.getShadow());
-			g.drawString(s, textX + ll.getShadowSize().x, textY + ll.getShadowSize().y);
-		}
-		g.setColor(l.getForeground());
-		g.drawString(s, textX, textY);
-	}
+class JShadowedLabelUI extends BasicLabelUI {
+    @Override
+    protected void paintEnabledText(JLabel l, Graphics g, String s, int textX, int textY) {
+        if (l instanceof JShadowedLabel) {
+            JShadowedLabel ll = (JShadowedLabel) l;
+            g.setColor(ll.getShadow());
+            g.drawString(s, textX + ll.getShadowSize().x, textY + ll.getShadowSize().y);
+        }
+        g.setColor(l.getForeground());
+        g.drawString(s, textX, textY);
+    }
 
-	// The default impl of paintDisabledText is OK
+    // The default impl of paintDisabledText is OK
 }

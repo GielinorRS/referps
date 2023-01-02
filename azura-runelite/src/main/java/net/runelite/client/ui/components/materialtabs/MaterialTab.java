@@ -45,125 +45,105 @@ import java.util.function.BooleanSupplier;
  *
  * @author Psikoi
  */
-public class MaterialTab extends JLabel
-{
-	private static final Border SELECTED_BORDER = new CompoundBorder(
-		BorderFactory.createMatteBorder(0, 0, 1, 0, ColorScheme.BRAND_ORANGE),
-		BorderFactory.createEmptyBorder(5, 10, 4, 10));
+public class MaterialTab extends JLabel {
+    private static final Border SELECTED_BORDER = new CompoundBorder(
+            BorderFactory.createMatteBorder(0, 0, 1, 0, ColorScheme.BRAND_ORANGE),
+            BorderFactory.createEmptyBorder(5, 10, 4, 10));
 
-	private static final Border UNSELECTED_BORDER = BorderFactory
-		.createEmptyBorder(5, 10, 5, 10);
+    private static final Border UNSELECTED_BORDER = BorderFactory
+            .createEmptyBorder(5, 10, 5, 10);
 
-	/* The tab's containing group */
-	private final MaterialTabGroup group;
+    /* The tab's containing group */
+    private final MaterialTabGroup group;
 
-	/* The tab's associated content display */
-	@Getter
-	private final JComponent content;
+    /* The tab's associated content display */
+    @Getter
+    private final JComponent content;
 
-	/* To be execuded when the tab is selected */
-	@Setter
-	private BooleanSupplier onSelectEvent;
+    /* To be execuded when the tab is selected */
+    @Setter
+    private BooleanSupplier onSelectEvent;
 
-	@Getter
-	private boolean selected;
+    @Getter
+    private boolean selected;
 
-	public MaterialTab(String string, MaterialTabGroup group, JComponent content)
-	{
-		super(string);
+    public MaterialTab(String string, MaterialTabGroup group, JComponent content) {
+        super(string);
 
-		this.group = group;
-		this.content = content;
+        this.group = group;
+        this.content = content;
 
-		if (selected)
-		{
-			select();
-		}
-		else
-		{
-			unselect();
-		}
+        if (selected) {
+            select();
+        } else {
+            unselect();
+        }
 
-		addMouseListener(new MouseAdapter()
-		{
-			@Override
-			public void mousePressed(MouseEvent mouseEvent)
-			{
-				group.select(MaterialTab.this);
-			}
-		});
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent mouseEvent) {
+                group.select(MaterialTab.this);
+            }
+        });
 
-		if (!Strings.isNullOrEmpty(string))
-		{
-			addMouseListener(new MouseAdapter()
-			{
-				@Override
-				public void mouseEntered(MouseEvent e)
-				{
-					MaterialTab tab = (MaterialTab) e.getSource();
-					tab.setForeground(Color.WHITE);
-				}
+        if (!Strings.isNullOrEmpty(string)) {
+            addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseEntered(MouseEvent e) {
+                    MaterialTab tab = (MaterialTab) e.getSource();
+                    tab.setForeground(Color.WHITE);
+                }
 
-				@Override
-				public void mouseExited(MouseEvent e)
-				{
-					MaterialTab tab = (MaterialTab) e.getSource();
-					if (!tab.isSelected())
-					{
-						tab.setForeground(Color.GRAY);
-					}
-				}
-			});
-		}
-	}
+                @Override
+                public void mouseExited(MouseEvent e) {
+                    MaterialTab tab = (MaterialTab) e.getSource();
+                    if (!tab.isSelected()) {
+                        tab.setForeground(Color.GRAY);
+                    }
+                }
+            });
+        }
+    }
 
-	public MaterialTab(ImageIcon icon, MaterialTabGroup group, JComponent content)
-	{
-		this("", group, content);
-		setIcon(icon);
-		setOpaque(true);
-		setVerticalAlignment(SwingConstants.CENTER);
-		setHorizontalAlignment(SwingConstants.CENTER);
-		setBackground(ColorScheme.DARKER_GRAY_COLOR);
+    public MaterialTab(ImageIcon icon, MaterialTabGroup group, JComponent content) {
+        this("", group, content);
+        setIcon(icon);
+        setOpaque(true);
+        setVerticalAlignment(SwingConstants.CENTER);
+        setHorizontalAlignment(SwingConstants.CENTER);
+        setBackground(ColorScheme.DARKER_GRAY_COLOR);
 
-		addMouseListener(new MouseAdapter()
-		{
-			@Override
-			public void mouseEntered(MouseEvent e)
-			{
-				MaterialTab tab = (MaterialTab) e.getSource();
-				tab.setBackground(ColorScheme.DARKER_GRAY_HOVER_COLOR);
-			}
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                MaterialTab tab = (MaterialTab) e.getSource();
+                tab.setBackground(ColorScheme.DARKER_GRAY_HOVER_COLOR);
+            }
 
-			@Override
-			public void mouseExited(MouseEvent e)
-			{
-				MaterialTab tab = (MaterialTab) e.getSource();
-				tab.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-			}
-		});
+            @Override
+            public void mouseExited(MouseEvent e) {
+                MaterialTab tab = (MaterialTab) e.getSource();
+                tab.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+            }
+        });
 
-	}
+    }
 
-	public boolean select()
-	{
-		if (onSelectEvent != null)
-		{
-			if (!onSelectEvent.getAsBoolean())
-			{
-				return false;
-			}
-		}
+    public boolean select() {
+        if (onSelectEvent != null) {
+            if (!onSelectEvent.getAsBoolean()) {
+                return false;
+            }
+        }
 
-		setBorder(SELECTED_BORDER);
-		setForeground(Color.WHITE);
-		return selected = true;
-	}
+        setBorder(SELECTED_BORDER);
+        setForeground(Color.WHITE);
+        return selected = true;
+    }
 
-	public void unselect()
-	{
-		setBorder(UNSELECTED_BORDER);
-		setForeground(Color.GRAY);
-		selected = false;
-	}
+    public void unselect() {
+        setBorder(UNSELECTED_BORDER);
+        setForeground(Color.GRAY);
+        selected = false;
+    }
 }

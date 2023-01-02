@@ -29,36 +29,30 @@ import lombok.Getter;
 import javax.swing.*;
 import java.awt.*;
 
-public class JShadowedLabel extends JLabel
-{
-	public JShadowedLabel()
-	{
-		super();
-		setUI(new JShadowedLabelUI());
-	}
+public class JShadowedLabel extends JLabel {
+    @Getter
+    private Color shadow = Color.BLACK;
+    @Getter
+    private Point shadowSize = new Point(1, 1);
 
-	public JShadowedLabel(String str)
-	{
-		super(str);
-		setUI(new JShadowedLabelUI());
-	}
+    public JShadowedLabel() {
+        super();
+        setUI(new JShadowedLabelUI());
+    }
 
-	@Getter
-	private Color shadow = Color.BLACK;
+    public JShadowedLabel(String str) {
+        super(str);
+        setUI(new JShadowedLabelUI());
+    }
 
-	public void setShadow(Color shadow)
-	{
-		this.shadow = shadow;
-		repaint();
-	}
+    public void setShadow(Color shadow) {
+        this.shadow = shadow;
+        repaint();
+    }
 
-	@Getter
-	private Point shadowSize = new Point(1, 1);
-
-	public void setShadowSize(Point newSize)
-	{
-		this.shadowSize = newSize;
-		revalidate();
-		repaint();
-	}
+    public void setShadowSize(Point newSize) {
+        this.shadowSize = newSize;
+        revalidate();
+        repaint();
+    }
 }

@@ -26,73 +26,63 @@
 package net.runelite.client.ui;
 
 import com.google.common.collect.ComparisonChain;
-import java.awt.Component;
-import java.awt.Dimension;
+
+import javax.swing.*;
+import java.awt.*;
 import java.util.Map;
 import java.util.TreeMap;
-import javax.swing.Box;
-import javax.swing.JToolBar;
 
 /**
  * Client plugin toolbar.
  */
-public class ClientPluginToolbar extends JToolBar
-{
-	private static final int TOOLBAR_WIDTH = 36, TOOLBAR_HEIGHT = 503;
-	private final Map<NavigationButton, Component> componentMap = new TreeMap<>((a, b) ->
-		ComparisonChain
-			.start()
-			.compareTrueFirst(a.isTab(), b.isTab())
-			.compare(a.getPriority(), b.getPriority())
-			.compare(a.getTooltip(), b.getTooltip())
-			.result());
+public class ClientPluginToolbar extends JToolBar {
+    private static final int TOOLBAR_WIDTH = 36, TOOLBAR_HEIGHT = 503;
+    private final Map<NavigationButton, Component> componentMap = new TreeMap<>((a, b) ->
+            ComparisonChain
+                    .start()
+                    .compareTrueFirst(a.isTab(), b.isTab())
+                    .compare(a.getPriority(), b.getPriority())
+                    .compare(a.getTooltip(), b.getTooltip())
+                    .result());
 
-	/**
-	 * Instantiates a new Client plugin toolbar.
-	 */
-	ClientPluginToolbar()
-	{
-		super(JToolBar.VERTICAL);
-		setFloatable(false);
-		setSize(new Dimension(TOOLBAR_WIDTH, TOOLBAR_HEIGHT));
-		setMinimumSize(new Dimension(TOOLBAR_WIDTH, TOOLBAR_HEIGHT));
-		setPreferredSize(new Dimension(TOOLBAR_WIDTH, TOOLBAR_HEIGHT));
-		setMaximumSize(new Dimension(TOOLBAR_WIDTH, Integer.MAX_VALUE));
-	}
+    /**
+     * Instantiates a new Client plugin toolbar.
+     */
+    ClientPluginToolbar() {
+        super(JToolBar.VERTICAL);
+        setFloatable(false);
+        setSize(new Dimension(TOOLBAR_WIDTH, TOOLBAR_HEIGHT));
+        setMinimumSize(new Dimension(TOOLBAR_WIDTH, TOOLBAR_HEIGHT));
+        setPreferredSize(new Dimension(TOOLBAR_WIDTH, TOOLBAR_HEIGHT));
+        setMaximumSize(new Dimension(TOOLBAR_WIDTH, Integer.MAX_VALUE));
+    }
 
-	void addComponent(final NavigationButton button, final Component c)
-	{
-		if (componentMap.put(button, c) == null)
-		{
-			update();
-		}
-	}
+    void addComponent(final NavigationButton button, final Component c) {
+        if (componentMap.put(button, c) == null) {
+            update();
+        }
+    }
 
-	void removeComponent(final NavigationButton button)
-	{
-		if (componentMap.remove(button) != null)
-		{
-			update();
-		}
-	}
+    void removeComponent(final NavigationButton button) {
+        if (componentMap.remove(button) != null) {
+            update();
+        }
+    }
 
-	private void update()
-	{
-		removeAll();
-		boolean isDelimited = false;
+    private void update() {
+        removeAll();
+        boolean isDelimited = false;
 
-		for (final Map.Entry<NavigationButton, Component> entry : componentMap.entrySet())
-		{
-			if (!entry.getKey().isTab() && !isDelimited)
-			{
-				isDelimited = true;
-				add(Box.createVerticalGlue());
-				addSeparator();
-			}
+        for (final Map.Entry<NavigationButton, Component> entry : componentMap.entrySet()) {
+            if (!entry.getKey().isTab() && !isDelimited) {
+                isDelimited = true;
+                add(Box.createVerticalGlue());
+                addSeparator();
+            }
 
-			add(entry.getValue());
-		}
+            add(entry.getValue());
+        }
 
-		repaint();
-	}
+        repaint();
+    }
 }

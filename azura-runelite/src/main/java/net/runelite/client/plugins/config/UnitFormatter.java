@@ -24,63 +24,52 @@
  */
 package net.runelite.client.plugins.config;
 
-import java.text.ParseException;
-import java.util.HashMap;
-import java.util.Map;
-import javax.swing.JFormattedTextField;
 import lombok.RequiredArgsConstructor;
 import net.runelite.client.config.Units;
 
-final class UnitFormatter extends JFormattedTextField.AbstractFormatter
-{
-	private final String units;
+import javax.swing.*;
+import java.text.ParseException;
+import java.util.HashMap;
+import java.util.Map;
 
-	UnitFormatter(Units units)
-	{
-		this.units = units.value();
-	}
+final class UnitFormatter extends JFormattedTextField.AbstractFormatter {
+    private final String units;
 
-	@Override
-	public Object stringToValue(final String text) throws ParseException
-	{
-		final String trimmedText;
+    UnitFormatter(Units units) {
+        this.units = units.value();
+    }
 
-		// Using the spinner controls causes the value to have the unit on the end, so remove it
-		if (text.endsWith(units))
-		{
-			trimmedText = text.substring(0, text.length() - units.length());
-		}
-		else
-		{
-			trimmedText = text;
-		}
+    @Override
+    public Object stringToValue(final String text) throws ParseException {
+        final String trimmedText;
 
-		try
-		{
-			return Integer.valueOf(trimmedText);
-		}
-		catch (NumberFormatException e)
-		{
-			throw new ParseException(trimmedText + " is not an integer.", 0);
-		}
-	}
+        // Using the spinner controls causes the value to have the unit on the end, so remove it
+        if (text.endsWith(units)) {
+            trimmedText = text.substring(0, text.length() - units.length());
+        } else {
+            trimmedText = text;
+        }
 
-	@Override
-	public String valueToString(final Object value)
-	{
-		return value + units;
-	}
+        try {
+            return Integer.valueOf(trimmedText);
+        } catch (NumberFormatException e) {
+            throw new ParseException(trimmedText + " is not an integer.", 0);
+        }
+    }
+
+    @Override
+    public String valueToString(final Object value) {
+        return value + units;
+    }
 }
 
 @RequiredArgsConstructor
-final class UnitFormatterFactory extends JFormattedTextField.AbstractFormatterFactory
-{
-	private final Units units;
-	private final Map<JFormattedTextField, JFormattedTextField.AbstractFormatter> formatters = new HashMap<>();
+final class UnitFormatterFactory extends JFormattedTextField.AbstractFormatterFactory {
+    private final Units units;
+    private final Map<JFormattedTextField, JFormattedTextField.AbstractFormatter> formatters = new HashMap<>();
 
-	@Override
-	public JFormattedTextField.AbstractFormatter getFormatter(final JFormattedTextField tf)
-	{
-		return formatters.computeIfAbsent(tf, (key) -> new UnitFormatter(units));
-	}
+    @Override
+    public JFormattedTextField.AbstractFormatter getFormatter(final JFormattedTextField tf) {
+        return formatters.computeIfAbsent(tf, (key) -> new UnitFormatter(units));
+    }
 }

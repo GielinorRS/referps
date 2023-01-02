@@ -24,126 +24,102 @@
  */
 package net.runelite.client.input;
 
-import java.awt.event.KeyEvent;
-import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
-import javax.annotation.Nullable;
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import net.runelite.client.util.HotkeyListener;
 import org.necrotic.client.Client;
 
+import javax.annotation.Nullable;
+import javax.inject.Inject;
+import javax.inject.Singleton;
+import java.awt.event.KeyEvent;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
 @Singleton
-public class KeyManager
-{
-	private final Client client;
+public class KeyManager {
+    private final Client client;
+    private final List<KeyListener> keyListeners = new CopyOnWriteArrayList<>();
 
-	@Inject
-	private KeyManager(@Nullable final Client client)
-	{
-		this.client = client;
-	}
+    @Inject
+    private KeyManager(@Nullable final Client client) {
+        this.client = client;
+    }
 
-	private final List<KeyListener> keyListeners = new CopyOnWriteArrayList<>();
+    public void registerKeyListener(KeyListener keyListener) {
+        if (!keyListeners.contains(keyListener)) {
+            keyListeners.add(keyListener);
+        }
+    }
 
-	public void registerKeyListener(KeyListener keyListener)
-	{
-		if (!keyListeners.contains(keyListener))
-		{
-			keyListeners.add(keyListener);
-		}
-	}
+    public void unregisterKeyListener(KeyListener keyListener) {
+        keyListeners.remove(keyListener);
+    }
 
-	public void unregisterKeyListener(KeyListener keyListener)
-	{
-		keyListeners.remove(keyListener);
-	}
+    public void processKeyPressed(KeyEvent keyEvent) {
+        if (keyEvent.isConsumed()) {
+            return;
+        }
 
-	public void processKeyPressed(KeyEvent keyEvent)
-	{
-		if (keyEvent.isConsumed())
-		{
-			return;
-		}
+        for (KeyListener keyListener : keyListeners) {
+            if (!shouldProcess(keyListener)) {
+                continue;
+            }
 
-		for (KeyListener keyListener : keyListeners)
-		{
-			if (!shouldProcess(keyListener))
-			{
-				continue;
-			}
+            keyListener.keyPressed(keyEvent);
+            if (keyEvent.isConsumed()) {
+                break;
+            }
+        }
+    }
 
-			keyListener.keyPressed(keyEvent);
-			if (keyEvent.isConsumed())
-			{
-				break;
-			}
-		}
-	}
+    public void processKeyReleased(KeyEvent keyEvent) {
+        if (keyEvent.isConsumed()) {
+            return;
+        }
 
-	public void processKeyReleased(KeyEvent keyEvent)
-	{
-		if (keyEvent.isConsumed())
-		{
-			return;
-		}
+        for (KeyListener keyListener : keyListeners) {
+            if (!shouldProcess(keyListener)) {
+                continue;
+            }
 
-		for (KeyListener keyListener : keyListeners)
-		{
-			if (!shouldProcess(keyListener))
-			{
-				continue;
-			}
+            keyListener.keyReleased(keyEvent);
+            if (keyEvent.isConsumed()) {
+                break;
+            }
+        }
+    }
 
-			keyListener.keyReleased(keyEvent);
-			if (keyEvent.isConsumed())
-			{
-				break;
-			}
-		}
-	}
+    public void processKeyTyped(KeyEvent keyEvent) {
+        if (keyEvent.isConsumed()) {
+            return;
+        }
 
-	public void processKeyTyped(KeyEvent keyEvent)
-	{
-		if (keyEvent.isConsumed())
-		{
-			return;
-		}
+        for (KeyListener keyListener : keyListeners) {
+            if (!shouldProcess(keyListener)) {
+                continue;
+            }
 
-		for (KeyListener keyListener : keyListeners)
-		{
-			if (!shouldProcess(keyListener))
-			{
-				continue;
-			}
+            keyListener.keyTyped(keyEvent);
+            if (keyEvent.isConsumed()) {
+                break;
+            }
+        }
+    }
 
-			keyListener.keyTyped(keyEvent);
-			if (keyEvent.isConsumed())
-			{
-				break;
-			}
-		}
-	}
+    private boolean shouldProcess(final KeyListener keyListener) {
+        if (client == null) {
+            return true;
+        }
 
-	private boolean shouldProcess(final KeyListener keyListener)
-	{
-		if (client == null)
-		{
-			return true;
-		}
+        if (!(keyListener instanceof HotkeyListener)) {
+            return true;
+        }
 
-		if (!(keyListener instanceof HotkeyListener))
-		{
-			return true;
-		}
+        final HotkeyListener hotkeyListener = (HotkeyListener) keyListener;
 
-		final HotkeyListener hotkeyListener = (HotkeyListener) keyListener;
+        if (hotkeyListener.isEnabledOnLogin()) {
+            return true;
+        }
 
-		if (hotkeyListener.isEnabledOnLogin())
-		{
-			return true;
-		}
-
-		return client.loggedIn;
-	}
+        return client.loggedIn;
+    }
 }

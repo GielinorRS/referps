@@ -45,61 +45,54 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.function.Supplier;
 
-public class RuneLiteModule extends AbstractModule
-{
-	private final Supplier<Applet> clientLoader;
-	private final boolean developerMode;
-	private final File config;
+public class RuneLiteModule extends AbstractModule {
+    private final Supplier<Applet> clientLoader;
+    private final boolean developerMode;
+    private final File config;
 
-	public RuneLiteModule(Supplier<Applet> clientLoader, boolean developerMode, File config)
-	{
-		this.clientLoader = clientLoader;
-		this.developerMode = developerMode;
-		this.config = config;
-	}
+    public RuneLiteModule(Supplier<Applet> clientLoader, boolean developerMode, File config) {
+        this.clientLoader = clientLoader;
+        this.developerMode = developerMode;
+        this.config = config;
+    }
 
-	@Override
-	protected void configure()
-	{
-		bindConstant().annotatedWith(Names.named("developerMode")).to(developerMode);
-		bind(File.class).annotatedWith(Names.named("config")).toInstance(config);
-		bind(ScheduledExecutorService.class).toInstance(new ExecutorServiceExceptionLogger(Executors.newSingleThreadScheduledExecutor()));
-		bind(Scheduler.class);
-		bind(PluginManager.class);
+    @Override
+    protected void configure() {
+        bindConstant().annotatedWith(Names.named("developerMode")).to(developerMode);
+        bind(File.class).annotatedWith(Names.named("config")).toInstance(config);
+        bind(ScheduledExecutorService.class).toInstance(new ExecutorServiceExceptionLogger(Executors.newSingleThreadScheduledExecutor()));
+        bind(Scheduler.class);
+        bind(PluginManager.class);
 
-		bind(EventBus.class)
-			.toInstance(new EventBus());
+        bind(EventBus.class)
+                .toInstance(new EventBus());
 
-		bind(EventBus.class)
-			.annotatedWith(Names.named("Deferred EventBus"))
-			.to(DeferredEventBus.class);
-	}
+        bind(EventBus.class)
+                .annotatedWith(Names.named("Deferred EventBus"))
+                .to(DeferredEventBus.class);
+    }
 
-	@Provides
-	@Singleton
-	Applet provideApplet()
-	{
-		return clientLoader.get();
-	}
+    @Provides
+    @Singleton
+    Applet provideApplet() {
+        return clientLoader.get();
+    }
 
-	@Provides
-	@Singleton
-	Client provideClient(@Nullable Applet applet)
-	{
-		return applet instanceof Client ? (Client) applet : null;
-	}
+    @Provides
+    @Singleton
+    Client provideClient(@Nullable Applet applet) {
+        return applet instanceof Client ? (Client) applet : null;
+    }
 
-	@Provides
-	@Singleton
-	RuneLiteConfig provideConfig(ConfigManager configManager)
-	{
-		return configManager.getConfig(RuneLiteConfig.class);
-	}
+    @Provides
+    @Singleton
+    RuneLiteConfig provideConfig(ConfigManager configManager) {
+        return configManager.getConfig(RuneLiteConfig.class);
+    }
 
-	@Provides
-	@Singleton
-	ChatColorConfig provideChatColorConfig(ConfigManager configManager)
-	{
-		return configManager.getConfig(ChatColorConfig.class);
-	}
+    @Provides
+    @Singleton
+    ChatColorConfig provideChatColorConfig(ConfigManager configManager) {
+        return configManager.getConfig(ChatColorConfig.class);
+    }
 }

@@ -36,115 +36,100 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 import java.util.function.Consumer;
 
-public class HuePanel extends JPanel
-{
-	private static final int PANEL_WIDTH = 15;
-	private static final int KNOB_HEIGHT = 4;
+public class HuePanel extends JPanel {
+    private static final int PANEL_WIDTH = 15;
+    private static final int KNOB_HEIGHT = 4;
 
-	private final int height;
+    private final int height;
 
-	@Getter
-	private int selectedY;
+    @Getter
+    private int selectedY;
 
-	@Setter
-	private Consumer<Integer> onColorChange;
+    @Setter
+    private Consumer<Integer> onColorChange;
 
-	HuePanel(int height)
-	{
-		this.height = height;
-		setPreferredSize(new Dimension(PANEL_WIDTH, height));
+    HuePanel(int height) {
+        this.height = height;
+        setPreferredSize(new Dimension(PANEL_WIDTH, height));
 
-		addMouseMotionListener(new MouseMotionAdapter()
-		{
-			@Override
-			public void mouseDragged(MouseEvent me)
-			{
-				moveSelector(me.getY());
-			}
-		});
+        addMouseMotionListener(new MouseMotionAdapter() {
+            @Override
+            public void mouseDragged(MouseEvent me) {
+                moveSelector(me.getY());
+            }
+        });
 
-		addMouseListener(new MouseAdapter()
-		{
-			@Override
-			public void mouseReleased(MouseEvent me)
-			{
-				moveSelector(me.getY());
-			}
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseReleased(MouseEvent me) {
+                moveSelector(me.getY());
+            }
 
-			@Override
-			public void mousePressed(MouseEvent me)
-			{
-				moveSelector(me.getY());
-			}
-		});
-	}
+            @Override
+            public void mousePressed(MouseEvent me) {
+                moveSelector(me.getY());
+            }
+        });
+    }
 
-	/**
-	 * Repaint slider with closest guess for y value on slider.
-	 */
-	public void select(Color color)
-	{
-		this.selectedY = closestYToColor(color);
-		paintImmediately(0, 0, PANEL_WIDTH, height);
-	}
+    /**
+     * Repaint slider with closest guess for y value on slider.
+     */
+    public void select(Color color) {
+        this.selectedY = closestYToColor(color);
+        paintImmediately(0, 0, PANEL_WIDTH, height);
+    }
 
-	/**
-	 * Moves the selector to a specified y coordinate.
-	 */
-	private void moveSelector(int y)
-	{
-		y = Ints.constrainToRange(y, 0, height - 1);
-		if (y == this.selectedY)
-		{
-			return;
-		}
+    /**
+     * Moves the selector to a specified y coordinate.
+     */
+    private void moveSelector(int y) {
+        y = Ints.constrainToRange(y, 0, height - 1);
+        if (y == this.selectedY) {
+            return;
+        }
 
-		this.selectedY = y;
-		paintImmediately(0, 0, PANEL_WIDTH, height);
-		if (this.onColorChange != null)
-		{
-			this.onColorChange.accept(y);
-		}
-	}
+        this.selectedY = y;
+        paintImmediately(0, 0, PANEL_WIDTH, height);
+        if (this.onColorChange != null) {
+            this.onColorChange.accept(y);
+        }
+    }
 
-	/**
-	 * Calculates a close y value for the given target color.
-	 */
-	private int closestYToColor(Color target)
-	{
-		float[] hsb = Color.RGBtoHSB(target.getRed(), target.getGreen(), target.getBlue(), null);
-		float hue = hsb[0];
+    /**
+     * Calculates a close y value for the given target color.
+     */
+    private int closestYToColor(Color target) {
+        float[] hsb = Color.RGBtoHSB(target.getRed(), target.getGreen(), target.getBlue(), null);
+        float hue = hsb[0];
 
-		int offHeight = height - 1;
+        int offHeight = height - 1;
 
-		return Math.round(offHeight - hue * offHeight);
-	}
+        return Math.round(offHeight - hue * offHeight);
+    }
 
-	@Override
-	public void paint(Graphics g)
-	{
-		// Paint the gradient
-		for (int y = 0; y < height; y++)
-		{
-			g.setColor(colorAt(y));
-			g.fillRect(0, y, PANEL_WIDTH, 1);
-		}
+    @Override
+    public void paint(Graphics g) {
+        // Paint the gradient
+        for (int y = 0; y < height; y++) {
+            g.setColor(colorAt(y));
+            g.fillRect(0, y, PANEL_WIDTH, 1);
+        }
 
-		final int halfKnob = KNOB_HEIGHT / 2;
+        final int halfKnob = KNOB_HEIGHT / 2;
 
-		// Paint the selector
-		g.setColor(Color.WHITE);
-		g.fillRect(0, selectedY - 1, PANEL_WIDTH, KNOB_HEIGHT);
-		g.setColor(Color.BLACK);
-		g.drawLine(0, selectedY - halfKnob, PANEL_WIDTH, selectedY - halfKnob);
-		g.drawLine(0, selectedY + halfKnob, PANEL_WIDTH, selectedY + halfKnob);
-	}
+        // Paint the selector
+        g.setColor(Color.WHITE);
+        g.fillRect(0, selectedY - 1, PANEL_WIDTH, KNOB_HEIGHT);
+        g.setColor(Color.BLACK);
+        g.drawLine(0, selectedY - halfKnob, PANEL_WIDTH, selectedY - halfKnob);
+        g.drawLine(0, selectedY + halfKnob, PANEL_WIDTH, selectedY + halfKnob);
+    }
 
-	/**
-	 * Calculate hue color for current hue index.
-	 */
-	private Color colorAt(int y)
-	{
-		return Color.getHSBColor(1 - (float) y / (height - 1), 1, 1);
-	}
+    /**
+     * Calculate hue color for current hue index.
+     */
+    private Color colorAt(int y) {
+        return Color.getHSBColor(1 - (float) y / (height - 1), 1, 1);
+    }
 }

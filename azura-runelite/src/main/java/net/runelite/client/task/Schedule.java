@@ -32,11 +32,10 @@ import java.time.temporal.ChronoUnit;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface Schedule
-{
-	long period();
+public @interface Schedule {
+    long period();
 
-	ChronoUnit unit();
+    ChronoUnit unit();
 
-	boolean asynchronous() default false;
+    boolean asynchronous() default false;
 }

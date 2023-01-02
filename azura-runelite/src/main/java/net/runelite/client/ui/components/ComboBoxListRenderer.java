@@ -24,14 +24,12 @@
  */
 package net.runelite.client.ui.components;
 
-import java.awt.Color;
-import java.awt.Component;
-import javax.swing.JLabel;
-import javax.swing.JList;
-import javax.swing.ListCellRenderer;
-import javax.swing.border.EmptyBorder;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.util.Text;
+
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 
 /**
  * A custom list renderer to avoid substance's weird coloring.
@@ -39,37 +37,29 @@ import net.runelite.client.util.Text;
  * was very hard to see in the dark gray background, this makes the selected
  * item white and adds some padding to the elements for more readable list.
  */
-public final class ComboBoxListRenderer extends JLabel implements ListCellRenderer
-{
+public final class ComboBoxListRenderer extends JLabel implements ListCellRenderer {
 
-	@Override
-	public Component getListCellRendererComponent(JList list, Object o, int index, boolean isSelected, boolean cellHasFocus)
-	{
-		if (isSelected)
-		{
-			setBackground(ColorScheme.DARK_GRAY_COLOR);
-			setForeground(Color.WHITE);
-		}
-		else
-		{
-			setBackground(list.getBackground());
-			setForeground(ColorScheme.LIGHT_GRAY_COLOR);
-		}
+    @Override
+    public Component getListCellRendererComponent(JList list, Object o, int index, boolean isSelected, boolean cellHasFocus) {
+        if (isSelected) {
+            setBackground(ColorScheme.DARK_GRAY_COLOR);
+            setForeground(Color.WHITE);
+        } else {
+            setBackground(list.getBackground());
+            setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+        }
 
-		setBorder(new EmptyBorder(5, 5, 5, 0));
+        setBorder(new EmptyBorder(5, 5, 5, 0));
 
-		String text;
-		if (o instanceof Enum)
-		{
-			text = Text.titleCase((Enum) o);
-		}
-		else
-		{
-			text = o.toString();
-		}
+        String text;
+        if (o instanceof Enum) {
+            text = Text.titleCase((Enum) o);
+        } else {
+            text = o.toString();
+        }
 
-		setText(text);
+        setText(text);
 
-		return this;
-	}
+        return this;
+    }
 }

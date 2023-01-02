@@ -24,55 +24,44 @@
  */
 package net.runelite.client;
 
-import javax.annotation.Nullable;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class RuneLiteProperties
-{
-	private static final String RUNELITE_TITLE = "runelite.title";
-	private static final String RUNELITE_VERSION = "runelite.version";
-	private static final String DISCORD_APP_ID = "runelite.discord.appid";
-	private static final String DISCORD_INVITE = "runelite.discord.invite";
-	private static final String IMGUR_CLIENT_ID = "runelite.imgur.client.id";
+public class RuneLiteProperties {
+    private static final String RUNELITE_TITLE = "runelite.title";
+    private static final String RUNELITE_VERSION = "runelite.version";
+    private static final String DISCORD_APP_ID = "runelite.discord.appid";
+    private static final String DISCORD_INVITE = "runelite.discord.invite";
+    private static final String IMGUR_CLIENT_ID = "runelite.imgur.client.id";
 
-	private static final Properties properties = new Properties();
+    private static final Properties properties = new Properties();
 
-	static
-	{
-		try (InputStream in = RuneLiteProperties.class.getResourceAsStream("runelite.properties"))
-		{
-			properties.load(in);
-		}
-		catch (IOException ex)
-		{
-			throw new RuntimeException(ex);
-		}
-	}
+    static {
+        try (InputStream in = RuneLiteProperties.class.getResourceAsStream("runelite.properties")) {
+            properties.load(in);
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+    }
 
-	public static String getTitle()
-	{
-		return properties.getProperty(RUNELITE_TITLE);
-	}
+    public static String getTitle() {
+        return properties.getProperty(RUNELITE_TITLE);
+    }
 
-	public static String getVersion()
-	{
-		return properties.getProperty(RUNELITE_VERSION);
-	}
+    public static String getVersion() {
+        return properties.getProperty(RUNELITE_VERSION);
+    }
 
-	public static String getDiscordAppId()
-	{
-		return properties.getProperty(DISCORD_APP_ID);
-	}
+    public static String getDiscordAppId() {
+        return properties.getProperty(DISCORD_APP_ID);
+    }
 
-	public static String getDiscordInvite()
-	{
-		return properties.getProperty(DISCORD_INVITE);
-	}
+    public static String getDiscordInvite() {
+        return properties.getProperty(DISCORD_INVITE);
+    }
 
-	public static String getImgurClientId()
-	{
-		return properties.getProperty(IMGUR_CLIENT_ID);
-	}
+    public static String getImgurClientId() {
+        return properties.getProperty(IMGUR_CLIENT_ID);
+    }
 }

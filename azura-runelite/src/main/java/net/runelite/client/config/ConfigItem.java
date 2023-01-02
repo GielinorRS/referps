@@ -31,19 +31,18 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface ConfigItem
-{
-	int position() default -1;
+public @interface ConfigItem {
+    int position() default -1;
 
-	String keyName();
+    String keyName();
 
-	String name();
+    String name();
 
-	String description();
+    String description();
 
-	boolean hidden() default false;
+    boolean hidden() default false;
 
-	String warning() default "";
+    String warning() default "";
 
-	boolean secret() default false;
+    boolean secret() default false;
 }

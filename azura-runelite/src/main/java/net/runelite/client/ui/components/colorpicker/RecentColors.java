@@ -38,94 +38,81 @@ import java.util.function.Consumer;
 
 import static net.runelite.client.ui.components.colorpicker.RuneliteColorPicker.CONFIG_GROUP;
 
-final class RecentColors
-{
-	private static final String CONFIG_KEY = "recentColors";
-	private static final int MAX = 16;
-	private static final int BOX_SIZE = 16;
+final class RecentColors {
+    private static final String CONFIG_KEY = "recentColors";
+    private static final int MAX = 16;
+    private static final int BOX_SIZE = 16;
 
-	private final EvictingQueue<String> recentColors = EvictingQueue.create(MAX);
-	private final ConfigManager configManager;
+    private final EvictingQueue<String> recentColors = EvictingQueue.create(MAX);
+    private final ConfigManager configManager;
 
-	RecentColors(final ConfigManager configManager)
-	{
-		this.configManager = configManager;
-	}
+    RecentColors(final ConfigManager configManager) {
+        this.configManager = configManager;
+    }
 
-	private void load()
-	{
-		String str = configManager.getConfiguration(CONFIG_GROUP, CONFIG_KEY);
-		if (str != null)
-		{
-			recentColors.addAll(Text.fromCSV(str));
-		}
-	}
+    private static JPanel createBox(final Color color, final Consumer<Color> consumer, final boolean alphaHidden) {
+        final JPanel box = new JPanel();
+        String hex = alphaHidden ? ColorUtil.colorToHexCode(color) : ColorUtil.colorToAlphaHexCode(color);
 
-	void add(final String color)
-	{
-		if (ColorUtil.fromString(color) == null)
-		{
-			return;
-		}
+        box.setBackground(color);
+        box.setOpaque(true);
+        box.setPreferredSize(new Dimension(BOX_SIZE, BOX_SIZE));
+        box.setToolTipText("#" + hex.toUpperCase());
+        box.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                consumer.accept(color);
+            }
+        });
 
-		recentColors.remove(color);
-		recentColors.add(color);
+        return box;
+    }
 
-		configManager.setConfiguration(CONFIG_GROUP, CONFIG_KEY, Text.toCSV(recentColors));
-	}
+    private void load() {
+        String str = configManager.getConfiguration(CONFIG_GROUP, CONFIG_KEY);
+        if (str != null) {
+            recentColors.addAll(Text.fromCSV(str));
+        }
+    }
 
-	JPanel build(final Consumer<Color> consumer, final boolean alphaHidden)
-	{
-		load();
+    void add(final String color) {
+        if (ColorUtil.fromString(color) == null) {
+            return;
+        }
 
-		JPanel container = new JPanel(new GridBagLayout());
+        recentColors.remove(color);
+        recentColors.add(color);
 
-		GridBagConstraints cx = new GridBagConstraints();
-		cx.insets = new Insets(0, 1, 4, 2);
-		cx.gridy = 0;
-		cx.gridx = 0;
-		cx.anchor = GridBagConstraints.WEST;
+        configManager.setConfiguration(CONFIG_GROUP, CONFIG_KEY, Text.toCSV(recentColors));
+    }
 
-		for (String s : recentColors)
-		{
-			if (cx.gridx == MAX / 2)
-			{
-				cx.gridy++;
-				cx.gridx = 0;
-			}
+    JPanel build(final Consumer<Color> consumer, final boolean alphaHidden) {
+        load();
 
-			// Make sure the last element stays in line with all of the others
-			if (container.getComponentCount() == recentColors.size() - 1)
-			{
-				cx.weightx = 1;
-				cx.gridwidth = MAX / 2 - cx.gridx;
-			}
+        JPanel container = new JPanel(new GridBagLayout());
 
-			container.add(createBox(ColorUtil.fromString(s), consumer, alphaHidden), cx);
-			cx.gridx++;
-		}
+        GridBagConstraints cx = new GridBagConstraints();
+        cx.insets = new Insets(0, 1, 4, 2);
+        cx.gridy = 0;
+        cx.gridx = 0;
+        cx.anchor = GridBagConstraints.WEST;
 
-		return container;
-	}
+        for (String s : recentColors) {
+            if (cx.gridx == MAX / 2) {
+                cx.gridy++;
+                cx.gridx = 0;
+            }
 
-	private static JPanel createBox(final Color color, final Consumer<Color> consumer, final boolean alphaHidden)
-	{
-		final JPanel box = new JPanel();
-		String hex = alphaHidden ? ColorUtil.colorToHexCode(color) : ColorUtil.colorToAlphaHexCode(color);
+            // Make sure the last element stays in line with all of the others
+            if (container.getComponentCount() == recentColors.size() - 1) {
+                cx.weightx = 1;
+                cx.gridwidth = MAX / 2 - cx.gridx;
+            }
 
-		box.setBackground(color);
-		box.setOpaque(true);
-		box.setPreferredSize(new Dimension(BOX_SIZE, BOX_SIZE));
-		box.setToolTipText("#" + hex.toUpperCase());
-		box.addMouseListener(new MouseAdapter()
-		{
-			@Override
-			public void mouseClicked(MouseEvent e)
-			{
-				consumer.accept(color);
-			}
-		});
+            container.add(createBox(ColorUtil.fromString(s), consumer, alphaHidden), cx);
+            cx.gridx++;
+        }
 
-		return box;
-	}
+        return container;
+    }
 }

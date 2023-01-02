@@ -24,26 +24,24 @@
  */
 package net.runelite.client.config;
 
-import lombok.RequiredArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import net.runelite.client.ui.FontManager;
 
-import java.awt.Font;
+import java.awt.*;
 
 @Getter
 @RequiredArgsConstructor
-public enum FontType
-{
-	REGULAR("Regular", FontManager.getRunescapeFont()),
-	BOLD("Bold", FontManager.getRunescapeBoldFont()),
-	SMALL("Small", FontManager.getRunescapeSmallFont());
+public enum FontType {
+    REGULAR("Regular", FontManager.getRunescapeFont()),
+    BOLD("Bold", FontManager.getRunescapeBoldFont()),
+    SMALL("Small", FontManager.getRunescapeSmallFont());
 
-	private final String name;
-	private final Font font;
+    private final String name;
+    private final Font font;
 
-	@Override
-	public String toString()
-	{
-		return name;
-	}
+    @Override
+    public String toString() {
+        return name;
+    }
 }

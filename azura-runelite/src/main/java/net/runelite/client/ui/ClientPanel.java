@@ -24,43 +24,39 @@
  */
 package net.runelite.client.ui;
 
-import java.applet.Applet;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import javax.annotation.Nullable;
-import javax.swing.JPanel;
 import net.runelite.api.Constants;
 import org.necrotic.client.Client;
 
-final class ClientPanel extends JPanel
-{
-	public ClientPanel(@Nullable Applet client)
-	{
-		setSize(Constants.GAME_FIXED_SIZE);
-		setMinimumSize(Constants.GAME_FIXED_SIZE);
-		setPreferredSize(Constants.GAME_FIXED_SIZE);
-		setLayout(new BorderLayout());
-		setBackground(Color.black);
+import javax.annotation.Nullable;
+import javax.swing.*;
+import java.applet.Applet;
+import java.awt.*;
 
-		if (client == null)
-		{
-			return;
-		}
+final class ClientPanel extends JPanel {
+    public ClientPanel(@Nullable Applet client) {
+        setSize(Constants.GAME_FIXED_SIZE);
+        setMinimumSize(Constants.GAME_FIXED_SIZE);
+        setPreferredSize(Constants.GAME_FIXED_SIZE);
+        setLayout(new BorderLayout());
+        setBackground(Color.black);
 
-		client.setLayout(null);
-		client.setSize(Constants.GAME_FIXED_SIZE);
+        if (client == null) {
+            return;
+        }
 
-		client.init();
-		client.start();
+        client.setLayout(null);
+        client.setSize(Constants.GAME_FIXED_SIZE);
 
-		add(client, BorderLayout.CENTER);
+        client.init();
+        client.start();
 
-		// This causes the whole game frame to be redrawn each frame instead
-		// of only the viewport, so we can hook to MainBufferProvider#draw
-		// and draw anywhere without it leaving artifacts
-		if (client instanceof Client)
-		{
-			// TODO: ((Client)client).setGameDrawingMode(2);
-		}
-	}
+        add(client, BorderLayout.CENTER);
+
+        // This causes the whole game frame to be redrawn each frame instead
+        // of only the viewport, so we can hook to MainBufferProvider#draw
+        // and draw anywhere without it leaving artifacts
+        if (client instanceof Client) {
+            // TODO: ((Client)client).setGameDrawingMode(2);
+        }
+    }
 }

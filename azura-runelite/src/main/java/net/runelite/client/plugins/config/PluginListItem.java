@@ -40,194 +40,169 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class PluginListItem extends JPanel
-{
-	private static final ImageIcon CONFIG_ICON;
-	private static final ImageIcon CONFIG_ICON_HOVER;
-	private static final ImageIcon ON_STAR;
-	private static final ImageIcon OFF_STAR;
+class PluginListItem extends JPanel {
+    private static final ImageIcon CONFIG_ICON;
+    private static final ImageIcon CONFIG_ICON_HOVER;
+    private static final ImageIcon ON_STAR;
+    private static final ImageIcon OFF_STAR;
 
-	private final PluginListPanel pluginListPanel;
+    static {
+        BufferedImage configIcon = ImageUtil.getResourceStreamFromClass(ConfigPanel.class, "config_edit_icon.png");
+        BufferedImage onStar = ImageUtil.getResourceStreamFromClass(ConfigPanel.class, "star_on.png");
+        CONFIG_ICON = new ImageIcon(configIcon);
+        ON_STAR = new ImageIcon(onStar);
+        CONFIG_ICON_HOVER = new ImageIcon(ImageUtil.luminanceOffset(configIcon, -100));
 
-	@Getter
-	private final PluginConfigurationDescriptor pluginConfig;
+        BufferedImage offStar = ImageUtil.luminanceScale(
+                ImageUtil.grayscaleImage(onStar),
+                0.77f
+        );
+        OFF_STAR = new ImageIcon(offStar);
+    }
 
-	@Getter
-	private final List<String> keywords = new ArrayList<>();
+    private final PluginListPanel pluginListPanel;
+    @Getter
+    private final PluginConfigurationDescriptor pluginConfig;
+    @Getter
+    private final List<String> keywords = new ArrayList<>();
+    private final JToggleButton pinButton;
+    private final JToggleButton onOffToggle;
 
-	private final JToggleButton pinButton;
-	private final JToggleButton onOffToggle;
+    PluginListItem(PluginListPanel pluginListPanel, PluginConfigurationDescriptor pluginConfig) {
+        this.pluginListPanel = pluginListPanel;
+        this.pluginConfig = pluginConfig;
 
-	static
-	{
-		BufferedImage configIcon = ImageUtil.getResourceStreamFromClass(ConfigPanel.class, "config_edit_icon.png");
-		BufferedImage onStar = ImageUtil.getResourceStreamFromClass(ConfigPanel.class, "star_on.png");
-		CONFIG_ICON = new ImageIcon(configIcon);
-		ON_STAR = new ImageIcon(onStar);
-		CONFIG_ICON_HOVER = new ImageIcon(ImageUtil.luminanceOffset(configIcon, -100));
+        Collections.addAll(keywords, pluginConfig.getName().toLowerCase().split(" "));
+        Collections.addAll(keywords, pluginConfig.getDescription().toLowerCase().split(" "));
+        Collections.addAll(keywords, pluginConfig.getTags());
 
-		BufferedImage offStar = ImageUtil.luminanceScale(
-			ImageUtil.grayscaleImage(onStar),
-			0.77f
-		);
-		OFF_STAR = new ImageIcon(offStar);
-	}
+        setLayout(new BorderLayout(3, 0));
+        setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH, 20));
 
-	PluginListItem(PluginListPanel pluginListPanel, PluginConfigurationDescriptor pluginConfig)
-	{
-		this.pluginListPanel = pluginListPanel;
-		this.pluginConfig = pluginConfig;
+        JLabel nameLabel = new JLabel(pluginConfig.getName());
+        nameLabel.setForeground(Color.WHITE);
 
-		Collections.addAll(keywords, pluginConfig.getName().toLowerCase().split(" "));
-		Collections.addAll(keywords, pluginConfig.getDescription().toLowerCase().split(" "));
-		Collections.addAll(keywords, pluginConfig.getTags());
+        if (!pluginConfig.getDescription().isEmpty()) {
+            nameLabel.setToolTipText("<html>" + pluginConfig.getName() + ":<br>" + pluginConfig.getDescription() + "</html>");
+        }
 
-		setLayout(new BorderLayout(3, 0));
-		setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH, 20));
+        pinButton = new JToggleButton(OFF_STAR);
+        pinButton.setSelectedIcon(ON_STAR);
+        SwingUtil.removeButtonDecorations(pinButton);
+        SwingUtil.addModalTooltip(pinButton, "Unpin plugin", "Pin plugin");
+        pinButton.setPreferredSize(new Dimension(21, 0));
+        add(pinButton, BorderLayout.LINE_START);
 
-		JLabel nameLabel = new JLabel(pluginConfig.getName());
-		nameLabel.setForeground(Color.WHITE);
+        pinButton.addActionListener(e ->
+        {
+            pluginListPanel.savePinnedPlugins();
+            pluginListPanel.refresh();
+        });
 
-		if (!pluginConfig.getDescription().isEmpty())
-		{
-			nameLabel.setToolTipText("<html>" + pluginConfig.getName() + ":<br>" + pluginConfig.getDescription() + "</html>");
-		}
+        final JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout(new GridLayout(1, 2));
+        add(buttonPanel, BorderLayout.LINE_END);
 
-		pinButton = new JToggleButton(OFF_STAR);
-		pinButton.setSelectedIcon(ON_STAR);
-		SwingUtil.removeButtonDecorations(pinButton);
-		SwingUtil.addModalTooltip(pinButton, "Unpin plugin", "Pin plugin");
-		pinButton.setPreferredSize(new Dimension(21, 0));
-		add(pinButton, BorderLayout.LINE_START);
+        JMenuItem configMenuItem = null;
+        if (pluginConfig.hasConfigurables()) {
+            JButton configButton = new JButton(CONFIG_ICON);
+            configButton.setRolloverIcon(CONFIG_ICON_HOVER);
+            SwingUtil.removeButtonDecorations(configButton);
+            configButton.setPreferredSize(new Dimension(25, 0));
+            configButton.setVisible(false);
+            buttonPanel.add(configButton);
 
-		pinButton.addActionListener(e ->
-		{
-			pluginListPanel.savePinnedPlugins();
-			pluginListPanel.refresh();
-		});
+            configButton.addActionListener(e ->
+            {
+                configButton.setIcon(CONFIG_ICON);
+                openGroupConfigPanel();
+            });
 
-		final JPanel buttonPanel = new JPanel();
-		buttonPanel.setLayout(new GridLayout(1, 2));
-		add(buttonPanel, BorderLayout.LINE_END);
+            configButton.setVisible(true);
+            configButton.setToolTipText("Edit plugin configuration");
 
-		JMenuItem configMenuItem = null;
-		if (pluginConfig.hasConfigurables())
-		{
-			JButton configButton = new JButton(CONFIG_ICON);
-			configButton.setRolloverIcon(CONFIG_ICON_HOVER);
-			SwingUtil.removeButtonDecorations(configButton);
-			configButton.setPreferredSize(new Dimension(25, 0));
-			configButton.setVisible(false);
-			buttonPanel.add(configButton);
+            configMenuItem = new JMenuItem("Configure");
+            configMenuItem.addActionListener(e -> openGroupConfigPanel());
+        }
 
-			configButton.addActionListener(e ->
-			{
-				configButton.setIcon(CONFIG_ICON);
-				openGroupConfigPanel();
-			});
+        add(nameLabel, BorderLayout.CENTER);
 
-			configButton.setVisible(true);
-			configButton.setToolTipText("Edit plugin configuration");
+        onOffToggle = new PluginToggleButton();
+        buttonPanel.add(onOffToggle);
+        if (pluginConfig.getPlugin() != null) {
+            onOffToggle.addItemListener(i ->
+            {
+                if (onOffToggle.isSelected()) {
+                    pluginListPanel.startPlugin(pluginConfig.getPlugin());
+                } else {
+                    pluginListPanel.stopPlugin(pluginConfig.getPlugin());
+                }
+            });
+        } else {
+            onOffToggle.setVisible(false);
+        }
+    }
 
-			configMenuItem = new JMenuItem("Configure");
-			configMenuItem.addActionListener(e -> openGroupConfigPanel());
-		}
+    /**
+     * Adds a mouseover effect to change the text of the passed label to {@link ColorScheme#BRAND_ORANGE} color, and
+     * adds the passed menu items to a popup menu shown when the label is clicked.
+     *
+     * @param label     The label to attach the mouseover and click effects to
+     * @param menuItems The menu items to be shown when the label is clicked
+     */
+    static void addLabelPopupMenu(JLabel label, JMenuItem... menuItems) {
+        final JPopupMenu menu = new JPopupMenu();
+        final Color labelForeground = label.getForeground();
+        menu.setBorder(new EmptyBorder(5, 5, 5, 5));
 
-		add(nameLabel, BorderLayout.CENTER);
+        for (final JMenuItem menuItem : menuItems) {
+            if (menuItem == null) {
+                continue;
+            }
 
-		onOffToggle = new PluginToggleButton();
-		buttonPanel.add(onOffToggle);
-		if (pluginConfig.getPlugin() != null)
-		{
-			onOffToggle.addItemListener(i ->
-			{
-				if (onOffToggle.isSelected())
-				{
-					pluginListPanel.startPlugin(pluginConfig.getPlugin());
-				}
-				else
-				{
-					pluginListPanel.stopPlugin(pluginConfig.getPlugin());
-				}
-			});
-		}
-		else
-		{
-			onOffToggle.setVisible(false);
-		}
-	}
+            // Some machines register mouseEntered through a popup menu, and do not register mouseExited when a popup
+            // menu item is clicked, so reset the label's color when we click one of these options.
+            menuItem.addActionListener(e -> label.setForeground(labelForeground));
+            menu.add(menuItem);
+        }
 
-	boolean isPinned()
-	{
-		return pinButton.isSelected();
-	}
+        label.addMouseListener(new MouseAdapter() {
+            private Color lastForeground;
 
-	void setPinned(boolean pinned)
-	{
-		pinButton.setSelected(pinned);
-	}
+            @Override
+            public void mouseClicked(MouseEvent mouseEvent) {
+                Component source = (Component) mouseEvent.getSource();
+                Point location = MouseInfo.getPointerInfo().getLocation();
+                SwingUtilities.convertPointFromScreen(location, source);
+                menu.show(source, location.x, location.y);
+            }
 
-	void setPluginEnabled(boolean enabled)
-	{
-		onOffToggle.setSelected(enabled);
-	}
+            @Override
+            public void mouseEntered(MouseEvent mouseEvent) {
+                lastForeground = label.getForeground();
+                label.setForeground(ColorScheme.BRAND_ORANGE);
+            }
 
-	private void openGroupConfigPanel()
-	{
-		pluginListPanel.openConfigurationPanel(pluginConfig);
-	}
+            @Override
+            public void mouseExited(MouseEvent mouseEvent) {
+                label.setForeground(lastForeground);
+            }
+        });
+    }
 
-	/**
-	 * Adds a mouseover effect to change the text of the passed label to {@link ColorScheme#BRAND_ORANGE} color, and
-	 * adds the passed menu items to a popup menu shown when the label is clicked.
-	 *
-	 * @param label     The label to attach the mouseover and click effects to
-	 * @param menuItems The menu items to be shown when the label is clicked
-	 */
-	static void addLabelPopupMenu(JLabel label, JMenuItem... menuItems)
-	{
-		final JPopupMenu menu = new JPopupMenu();
-		final Color labelForeground = label.getForeground();
-		menu.setBorder(new EmptyBorder(5, 5, 5, 5));
+    boolean isPinned() {
+        return pinButton.isSelected();
+    }
 
-		for (final JMenuItem menuItem : menuItems)
-		{
-			if (menuItem == null)
-			{
-				continue;
-			}
+    void setPinned(boolean pinned) {
+        pinButton.setSelected(pinned);
+    }
 
-			// Some machines register mouseEntered through a popup menu, and do not register mouseExited when a popup
-			// menu item is clicked, so reset the label's color when we click one of these options.
-			menuItem.addActionListener(e -> label.setForeground(labelForeground));
-			menu.add(menuItem);
-		}
+    void setPluginEnabled(boolean enabled) {
+        onOffToggle.setSelected(enabled);
+    }
 
-		label.addMouseListener(new MouseAdapter()
-		{
-			private Color lastForeground;
-
-			@Override
-			public void mouseClicked(MouseEvent mouseEvent)
-			{
-				Component source = (Component) mouseEvent.getSource();
-				Point location = MouseInfo.getPointerInfo().getLocation();
-				SwingUtilities.convertPointFromScreen(location, source);
-				menu.show(source, location.x, location.y);
-			}
-
-			@Override
-			public void mouseEntered(MouseEvent mouseEvent)
-			{
-				lastForeground = label.getForeground();
-				label.setForeground(ColorScheme.BRAND_ORANGE);
-			}
-
-			@Override
-			public void mouseExited(MouseEvent mouseEvent)
-			{
-				label.setForeground(lastForeground);
-			}
-		});
-	}
+    private void openGroupConfigPanel() {
+        pluginListPanel.openConfigurationPanel(pluginConfig);
+    }
 }

@@ -26,154 +26,130 @@ package net.runelite.client.config;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
-import java.util.Objects;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.util.ReflectUtil;
 
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.util.Objects;
+
 @Slf4j
-class ConfigInvocationHandler implements InvocationHandler
-{
-	// Special object to represent null values in the cache
-	private static final Object NULL = new Object();
+class ConfigInvocationHandler implements InvocationHandler {
+    // Special object to represent null values in the cache
+    private static final Object NULL = new Object();
 
-	private final ConfigManager manager;
-	private final Cache<Method, Object> cache = CacheBuilder.newBuilder()
-		.maximumSize(128)
-		.build();
+    private final ConfigManager manager;
+    private final Cache<Method, Object> cache = CacheBuilder.newBuilder()
+            .maximumSize(128)
+            .build();
 
-	ConfigInvocationHandler(ConfigManager manager)
-	{
-		this.manager = manager;
-	}
+    ConfigInvocationHandler(ConfigManager manager) {
+        this.manager = manager;
+    }
 
-	@Override
-	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable
-	{
-		// Use cached configuration value if available
-		if (args == null)
-		{
-			Object cachedValue = cache.getIfPresent(method);
-			if (cachedValue != null)
-			{
-				return cachedValue == NULL ? null : cachedValue;
-			}
-		}
+    static Object callDefaultMethod(Object proxy, Method method, Object[] args) throws Throwable {
+        Class<?> declaringClass = method.getDeclaringClass();
+        return ReflectUtil.privateLookupIn(declaringClass)
+                .unreflectSpecial(method, declaringClass)
+                .bindTo(proxy)
+                .invokeWithArguments(args);
+    }
 
-		Class<?> iface = proxy.getClass().getInterfaces()[0];
+    @Override
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        // Use cached configuration value if available
+        if (args == null) {
+            Object cachedValue = cache.getIfPresent(method);
+            if (cachedValue != null) {
+                return cachedValue == NULL ? null : cachedValue;
+            }
+        }
 
-		ConfigGroup group = iface.getAnnotation(ConfigGroup.class);
-		ConfigItem item = method.getAnnotation(ConfigItem.class);
+        Class<?> iface = proxy.getClass().getInterfaces()[0];
 
-		if (group == null)
-		{
-			log.warn("Configuration proxy class {} has no @ConfigGroup!", proxy.getClass());
-			return null;
-		}
+        ConfigGroup group = iface.getAnnotation(ConfigGroup.class);
+        ConfigItem item = method.getAnnotation(ConfigItem.class);
 
-		if (item == null)
-		{
-			log.warn("Configuration method {} has no @ConfigItem!", method);
-			return null;
-		}
+        if (group == null) {
+            log.warn("Configuration proxy class {} has no @ConfigGroup!", proxy.getClass());
+            return null;
+        }
 
-		if (args == null)
-		{
-			log.trace("cache miss (size: {}, group: {}, key: {})", cache.size(), group.value(), item.keyName());
+        if (item == null) {
+            log.warn("Configuration method {} has no @ConfigItem!", method);
+            return null;
+        }
 
-			// Getting configuration item
-			String value = manager.getConfiguration(group.value(), item.keyName());
+        if (args == null) {
+            log.trace("cache miss (size: {}, group: {}, key: {})", cache.size(), group.value(), item.keyName());
 
-			if (value == null)
-			{
-				if (method.isDefault())
-				{
-					Object defaultValue = callDefaultMethod(proxy, method, null);
-					cache.put(method, defaultValue == null ? NULL : defaultValue);
-					return defaultValue;
-				}
+            // Getting configuration item
+            String value = manager.getConfiguration(group.value(), item.keyName());
 
-				cache.put(method, NULL);
-				return null;
-			}
+            if (value == null) {
+                if (method.isDefault()) {
+                    Object defaultValue = callDefaultMethod(proxy, method, null);
+                    cache.put(method, defaultValue == null ? NULL : defaultValue);
+                    return defaultValue;
+                }
 
-			// Convert value to return type
-			Class<?> returnType = method.getReturnType();
-			
-			try
-			{
-				Object objectValue = ConfigManager.stringToObject(value, returnType);
-				cache.put(method, objectValue == null ? NULL : objectValue);
-				return objectValue;
-			}
-			catch (Exception e)
-			{
-				log.warn("Unable to unmarshal {}.{} ", group.value(), item.keyName(), e);
-				if (method.isDefault())
-				{
-					return callDefaultMethod(proxy, method, null);
-				}
-				return null;
-			}
-		}
-		else
-		{
-			// Setting a configuration value
+                cache.put(method, NULL);
+                return null;
+            }
 
-			if (args.length != 1)
-			{
-				throw new RuntimeException("Invalid number of arguments to configuration method");
-			}
+            // Convert value to return type
+            Class<?> returnType = method.getReturnType();
 
-			Object newValue = args[0];
+            try {
+                Object objectValue = ConfigManager.stringToObject(value, returnType);
+                cache.put(method, objectValue == null ? NULL : objectValue);
+                return objectValue;
+            } catch (Exception e) {
+                log.warn("Unable to unmarshal {}.{} ", group.value(), item.keyName(), e);
+                if (method.isDefault()) {
+                    return callDefaultMethod(proxy, method, null);
+                }
+                return null;
+            }
+        } else {
+            // Setting a configuration value
 
-			Class<?> type = method.getParameterTypes()[0];
-			Object oldValue = manager.getConfiguration(group.value(), item.keyName(), type);
+            if (args.length != 1) {
+                throw new RuntimeException("Invalid number of arguments to configuration method");
+            }
 
-			if (Objects.equals(oldValue, newValue))
-			{
-				// nothing to do
-				return null;
-			}
+            Object newValue = args[0];
 
-			if (method.isDefault())
-			{
-				Object defaultValue = callDefaultMethod(proxy, method, args);
+            Class<?> type = method.getParameterTypes()[0];
+            Object oldValue = manager.getConfiguration(group.value(), item.keyName(), type);
 
-				if (Objects.equals(newValue, defaultValue))
-				{
-					// Just unset if it goes back to the default
-					manager.unsetConfiguration(group.value(), item.keyName());
-					return null;
-				}
-			}
+            if (Objects.equals(oldValue, newValue)) {
+                // nothing to do
+                return null;
+            }
 
-			if (newValue == null)
-			{
-				manager.unsetConfiguration(group.value(), item.keyName());
-			}
-			else
-			{
-				String newValueStr = ConfigManager.objectToString(newValue);
-				manager.setConfiguration(group.value(), item.keyName(), newValueStr);
-			}
-			return null;
-		}
-	}
+            if (method.isDefault()) {
+                Object defaultValue = callDefaultMethod(proxy, method, args);
 
-	static Object callDefaultMethod(Object proxy, Method method, Object[] args) throws Throwable
-	{
-		Class<?> declaringClass = method.getDeclaringClass();
-		return ReflectUtil.privateLookupIn(declaringClass)
-			.unreflectSpecial(method, declaringClass)
-			.bindTo(proxy)
-			.invokeWithArguments(args);
-	}
+                if (Objects.equals(newValue, defaultValue)) {
+                    // Just unset if it goes back to the default
+                    manager.unsetConfiguration(group.value(), item.keyName());
+                    return null;
+                }
+            }
 
-	void invalidate()
-	{
-		log.trace("cache invalidate");
-		cache.invalidateAll();
-	}
+            if (newValue == null) {
+                manager.unsetConfiguration(group.value(), item.keyName());
+            } else {
+                String newValueStr = ConfigManager.objectToString(newValue);
+                manager.setConfiguration(group.value(), item.keyName(), newValueStr);
+            }
+            return null;
+        }
+    }
+
+    void invalidate() {
+        log.trace("cache invalidate");
+        cache.invalidateAll();
+    }
 }

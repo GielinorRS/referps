@@ -24,67 +24,58 @@
  */
 package net.runelite.client.util;
 
-import java.awt.event.KeyEvent;
-import java.util.function.Supplier;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import net.runelite.client.config.Keybind;
 import net.runelite.client.input.KeyListener;
 
+import java.awt.event.KeyEvent;
+import java.util.function.Supplier;
+
 @RequiredArgsConstructor
-public abstract class HotkeyListener implements KeyListener
-{
-	private final Supplier<Keybind> keybind;
+public abstract class HotkeyListener implements KeyListener {
+    private final Supplier<Keybind> keybind;
 
-	private boolean isPressed = false;
+    private boolean isPressed = false;
 
-	private boolean isConsumingTyped = false;
+    private boolean isConsumingTyped = false;
 
-	@Setter
-	@Getter
-	private boolean isEnabledOnLogin = false;
+    @Setter
+    @Getter
+    private boolean isEnabledOnLogin = false;
 
-	@Override
-	public void keyTyped(KeyEvent e)
-	{
-		if (isConsumingTyped)
-		{
-			e.consume();
-		}
-	}
+    @Override
+    public void keyTyped(KeyEvent e) {
+        if (isConsumingTyped) {
+            e.consume();
+        }
+    }
 
-	@Override
-	public void keyPressed(KeyEvent e)
-	{
-		if (keybind.get().matches(e))
-		{
-			boolean wasPressed = isPressed;
-			isPressed = true;
-			if (!wasPressed)
-			{
-				hotkeyPressed();
-			}
-			if (Keybind.getModifierForKeyCode(e.getKeyCode()) == null)
-			{
-				isConsumingTyped = true;
-				// Only consume non modifier keys
-				e.consume();
-			}
-		}
-	}
+    @Override
+    public void keyPressed(KeyEvent e) {
+        if (keybind.get().matches(e)) {
+            boolean wasPressed = isPressed;
+            isPressed = true;
+            if (!wasPressed) {
+                hotkeyPressed();
+            }
+            if (Keybind.getModifierForKeyCode(e.getKeyCode()) == null) {
+                isConsumingTyped = true;
+                // Only consume non modifier keys
+                e.consume();
+            }
+        }
+    }
 
-	@Override
-	public void keyReleased(KeyEvent e)
-	{
-		if (keybind.get().matches(e))
-		{
-			isPressed = false;
-			isConsumingTyped = false;
-		}
-	}
+    @Override
+    public void keyReleased(KeyEvent e) {
+        if (keybind.get().matches(e)) {
+            isPressed = false;
+            isConsumingTyped = false;
+        }
+    }
 
-	public void hotkeyPressed()
-	{
-	}
+    public void hotkeyPressed() {
+    }
 }

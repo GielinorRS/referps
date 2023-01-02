@@ -31,23 +31,23 @@ public class DiscordPlugin extends Plugin {
         final BufferedImage icon = ImageUtil.getResourceStreamFromClass(getClass(), "discord.png");
 
         discordButton = NavigationButton.builder()
-            .tab(false)
-            .tooltip("Join Discord")
-            .icon(icon)
-            .onClick(() -> LinkBrowser.browse(RuneLiteProperties.getDiscordInvite()))
-            .build();
-        
+                .tab(false)
+                .tooltip("Join Discord")
+                .icon(icon)
+                .onClick(() -> LinkBrowser.browse(RuneLiteProperties.getDiscordInvite()))
+                .build();
+
         clientToolbar.addNavigation(discordButton);
-        
+
         final BufferedImage icon2 = ImageUtil.getResourceStreamFromClass(getClass(), "store.png");
 
         storeButton = NavigationButton.builder()
-            .tab(false)
-            .tooltip("Visit Store")
-            .icon(icon2)
-            .onClick(() -> LinkBrowser.browse("https://Lunite.io/store"))
-            .build();
-        
+                .tab(false)
+                .tooltip("Visit Store")
+                .icon(icon2)
+                .onClick(() -> LinkBrowser.browse("https://Lunite.io/store"))
+                .build();
+
         clientToolbar.addNavigation(storeButton);
     }
 

@@ -26,31 +26,28 @@
  */
 package net.runelite.client.rs;
 
-import java.applet.Applet;
-import java.util.function.Supplier;
 import lombok.extern.slf4j.Slf4j;
 import org.necrotic.client.Client;
 
+import java.applet.Applet;
+import java.util.function.Supplier;
+
 @Slf4j
-public class ClientLoader implements Supplier<Applet>
-{
-	private static final int NUM_ATTEMPTS = 6;
+public class ClientLoader implements Supplier<Applet> {
+    private static final int NUM_ATTEMPTS = 6;
 
-	private Object client = null;
+    private Object client = null;
 
-	@Override
-	public synchronized Applet get()
-	{
-		if (client == null)
-		{
-			client = new Client();
-		}
+    @Override
+    public synchronized Applet get() {
+        if (client == null) {
+            client = new Client();
+        }
 
-		if (client instanceof Throwable)
-		{
-			throw new RuntimeException((Throwable) client);
-		}
-		return (Applet) client;
-	}
+        if (client instanceof Throwable) {
+            throw new RuntimeException((Throwable) client);
+        }
+        return (Applet) client;
+    }
 
 }

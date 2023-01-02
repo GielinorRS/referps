@@ -29,19 +29,17 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public enum FlashNotification
-{
-	DISABLED("Off"),
-	FLASH_TWO_SECONDS("Flash for 2 seconds"),
-	SOLID_TWO_SECONDS("Solid for 2 seconds"),
-	FLASH_UNTIL_CANCELLED("Flash until cancelled"),
-	SOLID_UNTIL_CANCELLED("Solid until cancelled");
+public enum FlashNotification {
+    DISABLED("Off"),
+    FLASH_TWO_SECONDS("Flash for 2 seconds"),
+    SOLID_TWO_SECONDS("Solid for 2 seconds"),
+    FLASH_UNTIL_CANCELLED("Flash until cancelled"),
+    SOLID_UNTIL_CANCELLED("Solid until cancelled");
 
-	private final String type;
+    private final String type;
 
-	@Override
-	public String toString()
-	{
-		return type;
-	}
+    @Override
+    public String toString() {
+        return type;
+    }
 }

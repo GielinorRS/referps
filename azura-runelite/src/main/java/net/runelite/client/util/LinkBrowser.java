@@ -25,186 +25,157 @@
 package net.runelite.client.util;
 
 import com.google.common.base.Strings;
-import java.awt.Desktop;
-import java.awt.Toolkit;
+import lombok.extern.slf4j.Slf4j;
+
+import javax.inject.Singleton;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import javax.inject.Singleton;
-import javax.swing.JOptionPane;
-import javax.swing.SwingUtilities;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * Utility class used for web and file browser navigation
  */
 @Singleton
 @Slf4j
-public class LinkBrowser
-{
-	private static boolean shouldAttemptXdg = OSType.getOSType() == OSType.Linux;
+public class LinkBrowser {
+    private static boolean shouldAttemptXdg = OSType.getOSType() == OSType.Linux;
 
-	/**
-	 * Tries to navigate to specified URL in browser. In case operation fails, displays message box with message
-	 * and copies link to clipboard to navigate to.
-	 */
-	public static void browse(final String url)
-	{
-		new Thread(() ->
-		{
-			if (Strings.isNullOrEmpty(url))
-			{
-				log.warn("LinkBrowser.browse() called with invalid input");
-				return;
-			}
+    /**
+     * Tries to navigate to specified URL in browser. In case operation fails, displays message box with message
+     * and copies link to clipboard to navigate to.
+     */
+    public static void browse(final String url) {
+        new Thread(() ->
+        {
+            if (Strings.isNullOrEmpty(url)) {
+                log.warn("LinkBrowser.browse() called with invalid input");
+                return;
+            }
 
-			if (attemptDesktopBrowse(url))
-			{
-				log.debug("Opened url through Desktop#browse to {}", url);
-				return;
-			}
+            if (attemptDesktopBrowse(url)) {
+                log.debug("Opened url through Desktop#browse to {}", url);
+                return;
+            }
 
-			if (shouldAttemptXdg && attemptXdgOpen(url))
-			{
-				log.debug("Opened url through xdg-open to {}", url);
-				return;
-			}
-			
-			log.warn("LinkBrowser.browse() could not open {}", url);
-			showMessageBox("Unable to open link. Press 'OK' and the link will be copied to your clipboard.", url);
-		}).start();
-	}
+            if (shouldAttemptXdg && attemptXdgOpen(url)) {
+                log.debug("Opened url through xdg-open to {}", url);
+                return;
+            }
 
-	/**
-	 * Tries to open a directory in the OS native file manager.
-	 * @param directory directory to open
-	 */
-	public static void open(final String directory)
-	{
-		new Thread(() ->
-		{
-			if (Strings.isNullOrEmpty(directory))
-			{
-				log.warn("LinkBrowser.open() called with invalid input");
-				return;
-			}
+            log.warn("LinkBrowser.browse() could not open {}", url);
+            showMessageBox("Unable to open link. Press 'OK' and the link will be copied to your clipboard.", url);
+        }).start();
+    }
 
-			if (attemptDesktopOpen(directory))
-			{
-				log.debug("Opened directory through Desktop#open to {}", directory);
-				return;
-			}
+    /**
+     * Tries to open a directory in the OS native file manager.
+     *
+     * @param directory directory to open
+     */
+    public static void open(final String directory) {
+        new Thread(() ->
+        {
+            if (Strings.isNullOrEmpty(directory)) {
+                log.warn("LinkBrowser.open() called with invalid input");
+                return;
+            }
 
-			if (shouldAttemptXdg && attemptXdgOpen(directory))
-			{
-				log.debug("Opened directory through xdg-open to {}", directory);
-				return;
-			}
-			
-			log.warn("LinkBrowser.open() could not open {}", directory);
-			showMessageBox("Unable to open folder. Press 'OK' and the folder directory will be copied to your clipboard.", directory);
-		}).start();
-	}
+            if (attemptDesktopOpen(directory)) {
+                log.debug("Opened directory through Desktop#open to {}", directory);
+                return;
+            }
 
-	private static boolean attemptXdgOpen(String resource)
-	{
-		try
-		{
-			final Process exec = Runtime.getRuntime().exec(new String[]{"xdg-open", resource});
-			exec.waitFor();
+            if (shouldAttemptXdg && attemptXdgOpen(directory)) {
+                log.debug("Opened directory through xdg-open to {}", directory);
+                return;
+            }
 
-			final int ret = exec.exitValue();
-			if (ret == 0)
-			{
-				return true;
-			}
+            log.warn("LinkBrowser.open() could not open {}", directory);
+            showMessageBox("Unable to open folder. Press 'OK' and the folder directory will be copied to your clipboard.", directory);
+        }).start();
+    }
 
-			log.warn("xdg-open {} returned with error code {}", resource, ret);
-			return false;
-		}
-		catch (IOException ex)
-		{
-			// xdg-open not found
-			shouldAttemptXdg = false;
-			return false;
-		}
-		catch (InterruptedException ex)
-		{
-			log.warn("Interrupted while waiting for xdg-open {} to execute", resource);
-			return false;
-		}
-	}
+    private static boolean attemptXdgOpen(String resource) {
+        try {
+            final Process exec = Runtime.getRuntime().exec(new String[]{"xdg-open", resource});
+            exec.waitFor();
 
-	private static boolean attemptDesktopBrowse(String url)
-	{
-		if (!Desktop.isDesktopSupported())
-		{
-			return false;
-		}
+            final int ret = exec.exitValue();
+            if (ret == 0) {
+                return true;
+            }
 
-		final Desktop desktop = Desktop.getDesktop();
+            log.warn("xdg-open {} returned with error code {}", resource, ret);
+            return false;
+        } catch (IOException ex) {
+            // xdg-open not found
+            shouldAttemptXdg = false;
+            return false;
+        } catch (InterruptedException ex) {
+            log.warn("Interrupted while waiting for xdg-open {} to execute", resource);
+            return false;
+        }
+    }
 
-		if (!desktop.isSupported(Desktop.Action.BROWSE))
-		{
-			return false;
-		}
+    private static boolean attemptDesktopBrowse(String url) {
+        if (!Desktop.isDesktopSupported()) {
+            return false;
+        }
 
-		try
-		{
-			desktop.browse(new URI(url));
-			return true;
-		}
-		catch (IOException | URISyntaxException ex)
-		{
-			log.warn("Failed to open Desktop#browse {}", url, ex);
-			return false;
-		}
-	}
+        final Desktop desktop = Desktop.getDesktop();
 
-	private static boolean attemptDesktopOpen(String directory)
-	{
-		if (!Desktop.isDesktopSupported())
-		{
-			return false;
-		}
+        if (!desktop.isSupported(Desktop.Action.BROWSE)) {
+            return false;
+        }
 
-		final Desktop desktop = Desktop.getDesktop();
+        try {
+            desktop.browse(new URI(url));
+            return true;
+        } catch (IOException | URISyntaxException ex) {
+            log.warn("Failed to open Desktop#browse {}", url, ex);
+            return false;
+        }
+    }
 
-		if (!desktop.isSupported(Desktop.Action.OPEN))
-		{
-			return false;
-		}
+    private static boolean attemptDesktopOpen(String directory) {
+        if (!Desktop.isDesktopSupported()) {
+            return false;
+        }
 
-		try
-		{
-			desktop.open(new File(directory));
-			return true;
-		}
-		catch (IOException ex)
-		{
-			log.warn("Failed to open Desktop#open {}", directory, ex);
-			return false;
-		}
-	}
+        final Desktop desktop = Desktop.getDesktop();
 
-	/**
-	 * Open swing message box with specified message and copy data to clipboard
-	 * @param message message to show
-	 */
-	private static void showMessageBox(final String message, final String data)
-	{
-		SwingUtilities.invokeLater(() ->
-		{
-			final int result = JOptionPane.showConfirmDialog(null, message, "Message",
-				JOptionPane.OK_CANCEL_OPTION);
+        if (!desktop.isSupported(Desktop.Action.OPEN)) {
+            return false;
+        }
 
-			if (result == JOptionPane.OK_OPTION)
-			{
-				final StringSelection stringSelection = new StringSelection(data);
-				Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
-			}
-		});
-	}
+        try {
+            desktop.open(new File(directory));
+            return true;
+        } catch (IOException ex) {
+            log.warn("Failed to open Desktop#open {}", directory, ex);
+            return false;
+        }
+    }
+
+    /**
+     * Open swing message box with specified message and copy data to clipboard
+     *
+     * @param message message to show
+     */
+    private static void showMessageBox(final String message, final String data) {
+        SwingUtilities.invokeLater(() ->
+        {
+            final int result = JOptionPane.showConfirmDialog(null, message, "Message",
+                    JOptionPane.OK_CANCEL_OPTION);
+
+            if (result == JOptionPane.OK_OPTION) {
+                final StringSelection stringSelection = new StringSelection(data);
+                Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
+            }
+        });
+    }
 }

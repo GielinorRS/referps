@@ -39,101 +39,86 @@ import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.util.function.Consumer;
 
-public class ColorValuePanel extends JPanel
-{
-	private static final int DEFAULT_VALUE = ColorUtil.MAX_RGB_VALUE;
+public class ColorValuePanel extends JPanel {
+    private static final int DEFAULT_VALUE = ColorUtil.MAX_RGB_VALUE;
 
-	private ColorValueSlider slider = new ColorValueSlider();
-	private JTextField input = new JTextField();
+    private ColorValueSlider slider = new ColorValueSlider();
+    private JTextField input = new JTextField();
 
-	private Consumer<Integer> onValueChanged;
+    private Consumer<Integer> onValueChanged;
 
-	void setOnValueChanged(Consumer<Integer> c)
-	{
-		onValueChanged = c;
-		slider.setOnValueChanged(c);
-	}
+    ColorValuePanel(String labelText) {
+        setLayout(new BorderLayout(10, 0));
+        setBackground(ColorScheme.DARK_GRAY_COLOR);
 
-	ColorValuePanel(String labelText)
-	{
-		setLayout(new BorderLayout(10, 0));
-		setBackground(ColorScheme.DARK_GRAY_COLOR);
+        input.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+        input.setPreferredSize(new Dimension(35, 30));
+        input.setBorder(new EmptyBorder(5, 5, 5, 5));
+        ((AbstractDocument) input.getDocument()).setDocumentFilter(new DocumentFilter() {
+            @Override
+            public void replace(FilterBypass fb, int offset, int length, String str, AttributeSet attrs)
+                    throws BadLocationException {
+                try {
+                    String text = RuneliteColorPicker.getReplacedText(fb, offset, length, str);
 
-		input.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-		input.setPreferredSize(new Dimension(35, 30));
-		input.setBorder(new EmptyBorder(5, 5, 5, 5));
-		((AbstractDocument) input.getDocument()).setDocumentFilter(new DocumentFilter()
-		{
-			@Override
-			public void replace(FilterBypass fb, int offset, int length, String str, AttributeSet attrs)
-				throws BadLocationException
-			{
-				try
-				{
-					String text = RuneliteColorPicker.getReplacedText(fb, offset, length, str);
+                    int value = Integer.parseInt(text);
+                    if (value < ColorUtil.MIN_RGB_VALUE || value > ColorUtil.MAX_RGB_VALUE) {
+                        Toolkit.getDefaultToolkit().beep();
+                        return;
+                    }
 
-					int value = Integer.parseInt(text);
-					if (value < ColorUtil.MIN_RGB_VALUE || value > ColorUtil.MAX_RGB_VALUE)
-					{
-						Toolkit.getDefaultToolkit().beep();
-						return;
-					}
+                    super.replace(fb, offset, length, str, attrs);
+                } catch (NumberFormatException e) {
+                    Toolkit.getDefaultToolkit().beep();
+                }
+            }
+        });
 
-					super.replace(fb, offset, length, str, attrs);
-				}
-				catch (NumberFormatException e)
-				{
-					Toolkit.getDefaultToolkit().beep();
-				}
-			}
-		});
+        input.addFocusListener(new FocusAdapter() {
+            @Override
+            public void focusLost(FocusEvent e) {
+                updateText();
+            }
+        });
 
-		input.addFocusListener(new FocusAdapter()
-		{
-			@Override
-			public void focusLost(FocusEvent e)
-			{
-				updateText();
-			}
-		});
+        input.addActionListener(a -> updateText());
 
-		input.addActionListener(a -> updateText());
+        JLabel label = new JLabel(labelText);
+        label.setPreferredSize(new Dimension(45, 0));
+        label.setForeground(Color.WHITE);
 
-		JLabel label = new JLabel(labelText);
-		label.setPreferredSize(new Dimension(45, 0));
-		label.setForeground(Color.WHITE);
+        slider.setBackground(ColorScheme.DARK_GRAY_COLOR);
+        slider.setBorder(new EmptyBorder(0, 0, 5, 0));
+        slider.setPreferredSize(new Dimension(ColorUtil.MAX_RGB_VALUE + ColorValueSlider.KNOB_WIDTH, 30));
 
-		slider.setBackground(ColorScheme.DARK_GRAY_COLOR);
-		slider.setBorder(new EmptyBorder(0, 0, 5, 0));
-		slider.setPreferredSize(new Dimension(ColorUtil.MAX_RGB_VALUE + ColorValueSlider.KNOB_WIDTH, 30));
+        update(DEFAULT_VALUE);
+        add(label, BorderLayout.WEST);
+        add(slider, BorderLayout.CENTER);
+        add(input, BorderLayout.EAST);
+    }
 
-		update(DEFAULT_VALUE);
-		add(label, BorderLayout.WEST);
-		add(slider, BorderLayout.CENTER);
-		add(input, BorderLayout.EAST);
-	}
+    void setOnValueChanged(Consumer<Integer> c) {
+        onValueChanged = c;
+        slider.setOnValueChanged(c);
+    }
 
-	private void updateText()
-	{
-		int value = Integer.parseInt(input.getText());
+    private void updateText() {
+        int value = Integer.parseInt(input.getText());
 
-		update(value);
-		if (onValueChanged != null)
-		{
-			onValueChanged.accept(getValue());
-		}
-	}
+        update(value);
+        if (onValueChanged != null) {
+            onValueChanged.accept(getValue());
+        }
+    }
 
-	public void update(int value)
-	{
-		value = ColorUtil.constrainValue(value);
+    public void update(int value) {
+        value = ColorUtil.constrainValue(value);
 
-		slider.setValue(value);
-		input.setText(value + "");
-	}
+        slider.setValue(value);
+        input.setText(value + "");
+    }
 
-	public int getValue()
-	{
-		return slider.getValue();
-	}
+    public int getValue() {
+        return slider.getValue();
+    }
 }

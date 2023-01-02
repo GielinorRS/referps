@@ -25,71 +25,62 @@
  */
 package net.runelite.client.ui.components;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import javax.swing.JPanel;
 import lombok.Getter;
+
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * A progress bar to be displayed underneath the GE offer item panels
  */
-public class ThinProgressBar extends JPanel
-{
-	@Getter
-	private int maximumValue = 1;
+public class ThinProgressBar extends JPanel {
+    @Getter
+    private int maximumValue = 1;
 
-	@Getter
-	private int value;
+    @Getter
+    private int value;
 
-	public ThinProgressBar()
-	{
-		setForeground(Color.GREEN);
-		setMaximumSize(new Dimension(Integer.MAX_VALUE, 4));
-		setMinimumSize(new Dimension(0, 4));
-		setPreferredSize(new Dimension(0, 4));
-		setSize(new Dimension(0, 4));
-		setOpaque(true);
-	}
+    public ThinProgressBar() {
+        setForeground(Color.GREEN);
+        setMaximumSize(new Dimension(Integer.MAX_VALUE, 4));
+        setMinimumSize(new Dimension(0, 4));
+        setPreferredSize(new Dimension(0, 4));
+        setSize(new Dimension(0, 4));
+        setOpaque(true);
+    }
 
-	public double getPercentage()
-	{
-		return (value * 100) / maximumValue;
-	}
+    public double getPercentage() {
+        return (value * 100) / maximumValue;
+    }
 
-	@Override
-	public void setForeground(Color color)
-	{
-		super.setForeground(color);
-		setBackground(color.darker());
-	}
+    @Override
+    public void setForeground(Color color) {
+        super.setForeground(color);
+        setBackground(color.darker());
+    }
 
-	public void setMaximumValue(int maximumValue)
-	{
-		if (maximumValue < 1)
-		{
-			maximumValue = 1;
-		}
-		this.maximumValue = maximumValue;
-		repaint();
-	}
+    public void setMaximumValue(int maximumValue) {
+        if (maximumValue < 1) {
+            maximumValue = 1;
+        }
+        this.maximumValue = maximumValue;
+        repaint();
+    }
 
-	public void setValue(int value)
-	{
-		this.value = value;
-		repaint();
-	}
+    public void setValue(int value) {
+        this.value = value;
+        repaint();
+    }
 
-	@Override
-	public void paintComponent(Graphics g)
-	{
-		super.paintComponent(g);
-		int w = getWidth();
-		int h = getHeight();
-		int div = (value * w) / maximumValue;
-		g.setColor(getBackground());
-		g.fillRect(div, 0, w, h);
-		g.setColor(getForeground());
-		g.fillRect(0, 0, div, h);
-	}
+    @Override
+    public void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        int w = getWidth();
+        int h = getHeight();
+        int div = (value * w) / maximumValue;
+        g.setColor(getBackground());
+        g.fillRect(div, 0, w, h);
+        g.setColor(getForeground());
+        g.fillRect(0, 0, div, h);
+    }
 }

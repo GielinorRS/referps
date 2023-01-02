@@ -24,6 +24,10 @@
  */
 package net.runelite.client.task;
 
+import lombok.extern.slf4j.Slf4j;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.time.Duration;
@@ -32,87 +36,65 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ScheduledExecutorService;
-import javax.inject.Inject;
-import javax.inject.Singleton;
-import lombok.extern.slf4j.Slf4j;
 
 @Singleton
 @Slf4j
-public class Scheduler
-{
-	private final List<ScheduledMethod> scheduledMethods = new CopyOnWriteArrayList<>();
+public class Scheduler {
+    private final List<ScheduledMethod> scheduledMethods = new CopyOnWriteArrayList<>();
 
-	@Inject
-	ScheduledExecutorService executor;
+    @Inject
+    ScheduledExecutorService executor;
 
-	public void addScheduledMethod(ScheduledMethod method)
-	{
-		scheduledMethods.add(method);
-	}
+    public void addScheduledMethod(ScheduledMethod method) {
+        scheduledMethods.add(method);
+    }
 
-	public void removeScheduledMethod(ScheduledMethod method)
-	{
-		scheduledMethods.remove(method);
-	}
+    public void removeScheduledMethod(ScheduledMethod method) {
+        scheduledMethods.remove(method);
+    }
 
-	public List<ScheduledMethod> getScheduledMethods()
-	{
-		return Collections.unmodifiableList(scheduledMethods);
-	}
+    public List<ScheduledMethod> getScheduledMethods() {
+        return Collections.unmodifiableList(scheduledMethods);
+    }
 
-	public void tick()
-	{
-		Instant now = Instant.now();
+    public void tick() {
+        Instant now = Instant.now();
 
-		for (ScheduledMethod scheduledMethod : scheduledMethods)
-		{
-			Instant last = scheduledMethod.getLast();
+        for (ScheduledMethod scheduledMethod : scheduledMethods) {
+            Instant last = scheduledMethod.getLast();
 
-			Duration difference = Duration.between(last, now);
+            Duration difference = Duration.between(last, now);
 
-			Schedule schedule = scheduledMethod.getSchedule();
-			Duration timeSinceRun = Duration.of(schedule.period(), schedule.unit());
+            Schedule schedule = scheduledMethod.getSchedule();
+            Duration timeSinceRun = Duration.of(schedule.period(), schedule.unit());
 
-			if (difference.compareTo(timeSinceRun) > 0)
-			{
-				log.trace("Scheduled task triggered: {}", scheduledMethod);
+            if (difference.compareTo(timeSinceRun) > 0) {
+                log.trace("Scheduled task triggered: {}", scheduledMethod);
 
-				scheduledMethod.setLast(now);
+                scheduledMethod.setLast(now);
 
-				if (schedule.asynchronous())
-				{
-					executor.submit(() -> run(scheduledMethod));
-				}
-				else
-				{
-					run(scheduledMethod);
-				}
-			}
-		}
-	}
+                if (schedule.asynchronous()) {
+                    executor.submit(() -> run(scheduledMethod));
+                } else {
+                    run(scheduledMethod);
+                }
+            }
+        }
+    }
 
-	private void run(ScheduledMethod scheduledMethod)
-	{
-		try
-		{
-			Runnable lambda = scheduledMethod.getLambda();
-			if (lambda != null)
-			{
-				lambda.run();
-			}
-			else
-			{
-				Method method = scheduledMethod.getMethod();
-				method.invoke(scheduledMethod.getObject());
-			}
-		}
-		catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException ex)
-		{
-			log.warn("error invoking scheduled task", ex);
-		}
-		catch (Exception ex)
-		{
-			log.warn("error during scheduled task", ex);
-		}
-	}
+    private void run(ScheduledMethod scheduledMethod) {
+        try {
+            Runnable lambda = scheduledMethod.getLambda();
+            if (lambda != null) {
+                lambda.run();
+            } else {
+                Method method = scheduledMethod.getMethod();
+                method.invoke(scheduledMethod.getObject());
+            }
+        } catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException ex) {
+            log.warn("error invoking scheduled task", ex);
+        } catch (Exception ex) {
+            log.warn("error during scheduled task", ex);
+        }
+    }
 }

@@ -24,6 +24,5 @@
  */
 package net.runelite.client.config;
 
-public interface Config
-{
+public interface Config {
 }

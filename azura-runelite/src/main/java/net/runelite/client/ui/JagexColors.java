@@ -24,48 +24,47 @@
  */
 package net.runelite.client.ui;
 
-import java.awt.Color;
+import java.awt.*;
 
 /**
  * This class serves to hold colors used in Oldschool RuneScape that are also used in client code.
  */
-public class JagexColors
-{
-	/*
-	 * Colors of chat text when displayed on an opaque background.
-	 */
-	public static final Color CHAT_PUBLIC_TEXT_OPAQUE_BACKGROUND = Color.BLUE;
-	public static final Color CHAT_PRIVATE_MESSAGE_TEXT_OPAQUE_BACKGROUND = Color.CYAN;
-	public static final Color CHAT_CLAN_TEXT_OPAQUE_BACKGROUND = new Color(127, 0, 0);
-	public static final Color CHAT_CLAN_NAME_OPAQUE_BACKGROUND = Color.BLUE;
-	public static final Color CHAT_GAME_EXAMINE_TEXT_OPAQUE_BACKGROUND = Color.BLACK;
-	public static final Color CHAT_TYPED_TEXT_OPAQUE_BACKGROUND = Color.BLUE;
+public class JagexColors {
+    /*
+     * Colors of chat text when displayed on an opaque background.
+     */
+    public static final Color CHAT_PUBLIC_TEXT_OPAQUE_BACKGROUND = Color.BLUE;
+    public static final Color CHAT_PRIVATE_MESSAGE_TEXT_OPAQUE_BACKGROUND = Color.CYAN;
+    public static final Color CHAT_CLAN_TEXT_OPAQUE_BACKGROUND = new Color(127, 0, 0);
+    public static final Color CHAT_CLAN_NAME_OPAQUE_BACKGROUND = Color.BLUE;
+    public static final Color CHAT_GAME_EXAMINE_TEXT_OPAQUE_BACKGROUND = Color.BLACK;
+    public static final Color CHAT_TYPED_TEXT_OPAQUE_BACKGROUND = Color.BLUE;
 
-	/*
-	 * Colors of chat text when displayed on a transparent background.
-	 */
-	public static final Color CHAT_PUBLIC_TEXT_TRANSPARENT_BACKGROUND = new Color(144, 144, 255);
-	public static final Color CHAT_PRIVATE_MESSAGE_TEXT_TRANSPARENT_BACKGROUND = Color.CYAN;
-	public static final Color CHAT_CLAN_TEXT_TRANSPARENT_BACKGROUND = new Color(239, 80, 80);
-	public static final Color CHAT_CLAN_NAME_TRANSPARENT_BACKGROUND = new Color(144, 112, 255);
-	public static final Color CHAT_GAME_EXAMINE_TEXT_TRANSPARENT_BACKGROUND = Color.WHITE;
-	public static final Color CHAT_TYPED_TEXT_TRANSPARENT_BACKGROUND = new Color(144, 144, 255);
+    /*
+     * Colors of chat text when displayed on a transparent background.
+     */
+    public static final Color CHAT_PUBLIC_TEXT_TRANSPARENT_BACKGROUND = new Color(144, 144, 255);
+    public static final Color CHAT_PRIVATE_MESSAGE_TEXT_TRANSPARENT_BACKGROUND = Color.CYAN;
+    public static final Color CHAT_CLAN_TEXT_TRANSPARENT_BACKGROUND = new Color(239, 80, 80);
+    public static final Color CHAT_CLAN_NAME_TRANSPARENT_BACKGROUND = new Color(144, 112, 255);
+    public static final Color CHAT_GAME_EXAMINE_TEXT_TRANSPARENT_BACKGROUND = Color.WHITE;
+    public static final Color CHAT_TYPED_TEXT_TRANSPARENT_BACKGROUND = new Color(144, 144, 255);
 
-	/*
-	 * Colors relating to right-click menus.
-	 */
-	public static final Color MENU_TARGET = new Color(255, 144, 64);
+    /*
+     * Colors relating to right-click menus.
+     */
+    public static final Color MENU_TARGET = new Color(255, 144, 64);
 
-	/*
-	 * Colors relating to tooltips.
-	 */
-	public static final Color TOOLTIP_BACKGROUND = new Color(255, 255, 160);
-	public static final Color TOOLTIP_BORDER = Color.BLACK;
-	public static final Color TOOLTIP_TEXT = Color.BLACK;
+    /*
+     * Colors relating to tooltips.
+     */
+    public static final Color TOOLTIP_BACKGROUND = new Color(255, 255, 160);
+    public static final Color TOOLTIP_BORDER = Color.BLACK;
+    public static final Color TOOLTIP_TEXT = Color.BLACK;
 
-	/*
-	 * Colors used in interfaces
-	 */
-	public static final Color DARK_ORANGE_INTERFACE_TEXT = new Color(255, 152, 31);
-	public static final Color YELLOW_INTERFACE_TEXT = Color.YELLOW;
+    /*
+     * Colors used in interfaces
+     */
+    public static final Color DARK_ORANGE_INTERFACE_TEXT = new Color(255, 152, 31);
+    public static final Color YELLOW_INTERFACE_TEXT = Color.YELLOW;
 }

@@ -28,29 +28,23 @@ import com.google.inject.Binder;
 import com.google.inject.Injector;
 import com.google.inject.Module;
 
-public abstract class Plugin implements Module
-{
-	protected Injector injector;
+public abstract class Plugin implements Module {
+    protected Injector injector;
 
-	@Override
-	public void configure(Binder binder)
-	{
-	}
+    @Override
+    public void configure(Binder binder) {
+    }
 
-	protected void startUp() throws Exception
-	{
-	}
+    protected void startUp() throws Exception {
+    }
 
-	protected void shutDown() throws Exception
-	{
-	}
+    protected void shutDown() throws Exception {
+    }
 
-	public void resetConfiguration()
-	{
-	}
+    public void resetConfiguration() {
+    }
 
-	public final Injector getInjector()
-	{
-		return injector;
-	}
+    public final Injector getInjector() {
+        return injector;
+    }
 }

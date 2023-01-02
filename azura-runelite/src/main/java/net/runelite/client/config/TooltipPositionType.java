@@ -24,21 +24,19 @@
  */
 package net.runelite.client.config;
 
-import lombok.RequiredArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public enum TooltipPositionType
-{
-	ABOVE_CURSOR("Above cursor"),
-	UNDER_CURSOR("Under cursor");
+public enum TooltipPositionType {
+    ABOVE_CURSOR("Above cursor"),
+    UNDER_CURSOR("Under cursor");
 
-	private final String type;
+    private final String type;
 
-	@Override
-	public String toString()
-	{
-		return type;
-	}
+    @Override
+    public String toString() {
+        return type;
+    }
 }

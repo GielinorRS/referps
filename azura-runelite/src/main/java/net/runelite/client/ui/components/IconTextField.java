@@ -26,269 +26,220 @@
  */
 package net.runelite.client.ui.components;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.util.function.Consumer;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import javax.swing.text.Document;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
 
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.text.Document;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.function.Consumer;
+
 /**
  * This component is a FlatTextField with an icon on its left side, and a clear button (×) on its right side.
  */
-public class IconTextField extends JPanel
-{
-	// To support gifs, the icon needs to be wrapped in a JLabel
-	private final JLabel iconWrapperLabel;
+public class IconTextField extends JPanel {
+    // To support gifs, the icon needs to be wrapped in a JLabel
+    private final JLabel iconWrapperLabel;
 
-	private final FlatTextField textField;
+    private final FlatTextField textField;
 
-	private final JButton clearButton;
+    private final JButton clearButton;
 
-	public IconTextField()
-	{
-		setLayout(new BorderLayout());
+    public IconTextField() {
+        setLayout(new BorderLayout());
 
-		iconWrapperLabel = new JLabel();
-		iconWrapperLabel.setPreferredSize(new Dimension(30, 0));
-		iconWrapperLabel.setVerticalAlignment(JLabel.CENTER);
-		iconWrapperLabel.setHorizontalAlignment(JLabel.CENTER);
+        iconWrapperLabel = new JLabel();
+        iconWrapperLabel.setPreferredSize(new Dimension(30, 0));
+        iconWrapperLabel.setVerticalAlignment(JLabel.CENTER);
+        iconWrapperLabel.setHorizontalAlignment(JLabel.CENTER);
 
-		textField = new FlatTextField();
-		textField.setBorder(null);
+        textField = new FlatTextField();
+        textField.setBorder(null);
 
-		final JTextField innerTxt = textField.getTextField();
-		innerTxt.removeMouseListener(innerTxt.getMouseListeners()[innerTxt.getMouseListeners().length - 1]);
+        final JTextField innerTxt = textField.getTextField();
+        innerTxt.removeMouseListener(innerTxt.getMouseListeners()[innerTxt.getMouseListeners().length - 1]);
 
-		final MouseListener hoverEffect = new MouseAdapter()
-		{
-			@Override
-			public void mouseEntered(MouseEvent mouseEvent)
-			{
-				if (textField.isBlocked())
-				{
-					return;
-				}
+        final MouseListener hoverEffect = new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent mouseEvent) {
+                if (textField.isBlocked()) {
+                    return;
+                }
 
-				final Color hoverColor = textField.getHoverBackgroundColor();
+                final Color hoverColor = textField.getHoverBackgroundColor();
 
-				if (hoverColor != null)
-				{
-					IconTextField.super.setBackground(hoverColor);
-					textField.setBackground(hoverColor, false);
-				}
+                if (hoverColor != null) {
+                    IconTextField.super.setBackground(hoverColor);
+                    textField.setBackground(hoverColor, false);
+                }
 
-			}
+            }
 
-			@Override
-			public void mouseExited(MouseEvent mouseEvent)
-			{
-				setBackground(textField.getBackgroundColor());
-			}
-		};
+            @Override
+            public void mouseExited(MouseEvent mouseEvent) {
+                setBackground(textField.getBackgroundColor());
+            }
+        };
 
-		textField.addMouseListener(hoverEffect);
-		innerTxt.addMouseListener(hoverEffect);
+        textField.addMouseListener(hoverEffect);
+        innerTxt.addMouseListener(hoverEffect);
 
-		clearButton = new JButton("×");
-		clearButton.setPreferredSize(new Dimension(30, 0));
-		clearButton.setFont(FontManager.getRunescapeBoldFont());
-		clearButton.setForeground(ColorScheme.PROGRESS_ERROR_COLOR);
-		clearButton.setBorder(null);
-		clearButton.setBorderPainted(false);
-		clearButton.setContentAreaFilled(false);
-		clearButton.setVisible(false);
+        clearButton = new JButton("×");
+        clearButton.setPreferredSize(new Dimension(30, 0));
+        clearButton.setFont(FontManager.getRunescapeBoldFont());
+        clearButton.setForeground(ColorScheme.PROGRESS_ERROR_COLOR);
+        clearButton.setBorder(null);
+        clearButton.setBorderPainted(false);
+        clearButton.setContentAreaFilled(false);
+        clearButton.setVisible(false);
 
-		// ActionListener for keyboard use (via Tab -> Space)
-		clearButton.addActionListener(evt -> setText(null));
+        // ActionListener for keyboard use (via Tab -> Space)
+        clearButton.addActionListener(evt -> setText(null));
 
-		// MouseListener for hover and click events
-		clearButton.addMouseListener(new MouseAdapter()
-		{
-			@Override
-			public void mousePressed(MouseEvent mouseEvent)
-			{
-				setText(null);
-			}
+        // MouseListener for hover and click events
+        clearButton.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent mouseEvent) {
+                setText(null);
+            }
 
-			@Override
-			public void mouseEntered(MouseEvent mouseEvent)
-			{
-				clearButton.setForeground(Color.PINK);
-				textField.dispatchEvent(mouseEvent);
-			}
+            @Override
+            public void mouseEntered(MouseEvent mouseEvent) {
+                clearButton.setForeground(Color.PINK);
+                textField.dispatchEvent(mouseEvent);
+            }
 
-			@Override
-			public void mouseExited(MouseEvent mouseEvent)
-			{
-				clearButton.setForeground(ColorScheme.PROGRESS_ERROR_COLOR);
-				textField.dispatchEvent(mouseEvent);
-			}
-		});
+            @Override
+            public void mouseExited(MouseEvent mouseEvent) {
+                clearButton.setForeground(ColorScheme.PROGRESS_ERROR_COLOR);
+                textField.dispatchEvent(mouseEvent);
+            }
+        });
 
-		// Show the clear button when text is present, and hide again when empty
-		textField.getTextField().getDocument().addDocumentListener(new DocumentListener()
-		{
-			@Override
-			public void insertUpdate(DocumentEvent e)
-			{
-				SwingUtilities.invokeLater(() -> clearButton.setVisible(true));
-			}
+        // Show the clear button when text is present, and hide again when empty
+        textField.getTextField().getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                SwingUtilities.invokeLater(() -> clearButton.setVisible(true));
+            }
 
-			@Override
-			public void removeUpdate(DocumentEvent e)
-			{
-				SwingUtilities.invokeLater(() -> clearButton.setVisible(!getText().isEmpty()));
-			}
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                SwingUtilities.invokeLater(() -> clearButton.setVisible(!getText().isEmpty()));
+            }
 
-			@Override
-			public void changedUpdate(DocumentEvent e)
-			{
-			}
-		});
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+            }
+        });
 
-		add(iconWrapperLabel, BorderLayout.WEST);
-		add(textField, BorderLayout.CENTER);
-		add(clearButton, BorderLayout.EAST);
-	}
+        add(iconWrapperLabel, BorderLayout.WEST);
+        add(textField, BorderLayout.CENTER);
+        add(clearButton, BorderLayout.EAST);
+    }
 
-	public void addActionListener(ActionListener actionListener)
-	{
-		textField.addActionListener(actionListener);
-	}
+    public void addActionListener(ActionListener actionListener) {
+        textField.addActionListener(actionListener);
+    }
 
-	public void setIcon(Icon icon)
-	{
-		final ImageIcon imageIcon = new ImageIcon(this.getClass().getResource(icon.getFile()));
-		iconWrapperLabel.setIcon(imageIcon);
-	}
+    public void setIcon(Icon icon) {
+        final ImageIcon imageIcon = new ImageIcon(this.getClass().getResource(icon.getFile()));
+        iconWrapperLabel.setIcon(imageIcon);
+    }
 
-	public String getText()
-	{
-		return textField.getText();
-	}
+    public String getText() {
+        return textField.getText();
+    }
 
-	public void setText(String text)
-	{
-		textField.setText(text);
-	}
+    public void setText(String text) {
+        textField.setText(text);
+    }
 
-	@Override
-	public void setBackground(Color color)
-	{
-		if (color == null)
-		{
-			return;
-		}
+    @Override
+    public void setBackground(Color color) {
+        if (color == null) {
+            return;
+        }
 
-		super.setBackground(color);
+        super.setBackground(color);
 
-		if (textField != null)
-		{
-			textField.setBackground(color);
-		}
-	}
+        if (textField != null) {
+            textField.setBackground(color);
+        }
+    }
 
-	public void setHoverBackgroundColor(Color hoverBackgroundColor)
-	{
-		if (hoverBackgroundColor == null)
-		{
-			return;
-		}
+    public void setHoverBackgroundColor(Color hoverBackgroundColor) {
+        if (hoverBackgroundColor == null) {
+            return;
+        }
 
-		this.textField.setHoverBackgroundColor(hoverBackgroundColor);
-	}
+        this.textField.setHoverBackgroundColor(hoverBackgroundColor);
+    }
 
-	@Override
-	public void addKeyListener(KeyListener keyListener)
-	{
-		textField.addKeyListener(keyListener);
-	}
+    @Override
+    public void addKeyListener(KeyListener keyListener) {
+        textField.addKeyListener(keyListener);
+    }
 
-	public void addClearListener(Consumer<ActionEvent> actionEventConsumer)
-	{
-		clearButton.addActionListener(actionEventConsumer::accept);
-	}
+    public void addClearListener(Consumer<ActionEvent> actionEventConsumer) {
+        clearButton.addActionListener(actionEventConsumer::accept);
+    }
 
-	public void addKeyListener(Consumer<KeyEvent> keyEventConsumer)
-	{
-		addKeyListener(new net.runelite.client.input.KeyListener()
-		{
-			@Override
-			public void keyTyped(KeyEvent e)
-			{
-				keyEventConsumer.accept(e);
-			}
+    public void addKeyListener(Consumer<KeyEvent> keyEventConsumer) {
+        addKeyListener(new net.runelite.client.input.KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                keyEventConsumer.accept(e);
+            }
 
-			@Override
-			public void keyPressed(KeyEvent e)
-			{
-				keyEventConsumer.accept(e);
-			}
+            @Override
+            public void keyPressed(KeyEvent e) {
+                keyEventConsumer.accept(e);
+            }
 
-			@Override
-			public void keyReleased(KeyEvent e)
-			{
-				keyEventConsumer.accept(e);
-			}
-		});
-	}
+            @Override
+            public void keyReleased(KeyEvent e) {
+                keyEventConsumer.accept(e);
+            }
+        });
+    }
 
-	@Override
-	public void removeKeyListener(KeyListener keyListener)
-	{
-		textField.removeKeyListener(keyListener);
-	}
+    @Override
+    public void removeKeyListener(KeyListener keyListener) {
+        textField.removeKeyListener(keyListener);
+    }
 
-	public void setEditable(boolean editable)
-	{
-		textField.setEditable(editable);
-		if (!editable)
-		{
-			super.setBackground(textField.getBackgroundColor());
-		}
-	}
+    public void setEditable(boolean editable) {
+        textField.setEditable(editable);
+        if (!editable) {
+            super.setBackground(textField.getBackgroundColor());
+        }
+    }
 
-	@Override
-	public boolean requestFocusInWindow()
-	{
-		super.requestFocusInWindow();
-		return textField.requestFocusInWindow();
-	}
+    @Override
+    public boolean requestFocusInWindow() {
+        super.requestFocusInWindow();
+        return textField.requestFocusInWindow();
+    }
 
-	public Document getDocument()
-	{
-		return textField.getDocument();
-	}
+    public Document getDocument() {
+        return textField.getDocument();
+    }
 
-	@Getter
-	@RequiredArgsConstructor
-	public enum Icon
-	{
-		SEARCH("search.png"),
-		LOADING("loading_spinner.gif"),
-		LOADING_DARKER("loading_spinner_darker.gif"),
-		ERROR("error.png");
+    @Getter
+    @RequiredArgsConstructor
+    public enum Icon {
+        SEARCH("search.png"),
+        LOADING("loading_spinner.gif"),
+        LOADING_DARKER("loading_spinner_darker.gif"),
+        ERROR("error.png");
 
-		private final String file;
-	}
+        private final String file;
+    }
 
 }

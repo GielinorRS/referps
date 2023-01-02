@@ -36,76 +36,64 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 import java.util.function.Consumer;
 
-public class ColorValueSlider extends JPanel
-{
-	static final int KNOB_WIDTH = 4;
+public class ColorValueSlider extends JPanel {
+    static final int KNOB_WIDTH = 4;
 
-	private static final int KNOB_HEIGHT = 14;
-	private static final Color TRACK_COLOR = new Color(20, 20, 20);
-	private static final Color KNOB_COLOR = new Color(150, 150, 150);
+    private static final int KNOB_HEIGHT = 14;
+    private static final Color TRACK_COLOR = new Color(20, 20, 20);
+    private static final Color KNOB_COLOR = new Color(150, 150, 150);
 
-	private int value = ColorUtil.MAX_RGB_VALUE + KNOB_WIDTH;
+    private int value = ColorUtil.MAX_RGB_VALUE + KNOB_WIDTH;
 
-	@Setter
-	private Consumer<Integer> onValueChanged;
+    @Setter
+    private Consumer<Integer> onValueChanged;
 
-	ColorValueSlider()
-	{
-		addMouseMotionListener(new MouseMotionAdapter()
-		{
-			@Override
-			public void mouseDragged(MouseEvent me)
-			{
-				moveTarget(me.getX(), true);
-			}
-		});
+    ColorValueSlider() {
+        addMouseMotionListener(new MouseMotionAdapter() {
+            @Override
+            public void mouseDragged(MouseEvent me) {
+                moveTarget(me.getX(), true);
+            }
+        });
 
-		addMouseListener(new MouseAdapter()
-		{
-			@Override
-			public void mouseReleased(MouseEvent me)
-			{
-				moveTarget(me.getX(), true);
-			}
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseReleased(MouseEvent me) {
+                moveTarget(me.getX(), true);
+            }
 
-			@Override
-			public void mousePressed(MouseEvent me)
-			{
-				moveTarget(me.getX(), true);
-			}
-		});
-	}
+            @Override
+            public void mousePressed(MouseEvent me) {
+                moveTarget(me.getX(), true);
+            }
+        });
+    }
 
-	public void setValue(int x)
-	{
-		moveTarget(x + KNOB_WIDTH, false);
-	}
+    private void moveTarget(int x, boolean shouldUpdate) {
+        value = Ints.constrainToRange(x, ColorUtil.MIN_RGB_VALUE + KNOB_WIDTH, ColorUtil.MAX_RGB_VALUE + KNOB_WIDTH);
+        paintImmediately(0, 0, this.getWidth(), this.getHeight());
 
-	private void moveTarget(int x, boolean shouldUpdate)
-	{
-		value = Ints.constrainToRange(x, ColorUtil.MIN_RGB_VALUE + KNOB_WIDTH, ColorUtil.MAX_RGB_VALUE + KNOB_WIDTH);
-		paintImmediately(0, 0, this.getWidth(), this.getHeight());
+        if (shouldUpdate && onValueChanged != null) {
+            onValueChanged.accept(getValue());
+        }
+    }
 
-		if (shouldUpdate && onValueChanged != null)
-		{
-			onValueChanged.accept(getValue());
-		}
-	}
+    @Override
+    public void paint(Graphics g) {
+        super.paint(g);
 
-	@Override
-	public void paint(Graphics g)
-	{
-		super.paint(g);
+        g.setColor(TRACK_COLOR);
+        g.fillRect(0, this.getHeight() / 2 - 2, this.getWidth() - KNOB_WIDTH, 5);
 
-		g.setColor(TRACK_COLOR);
-		g.fillRect(0, this.getHeight() / 2 - 2, this.getWidth() - KNOB_WIDTH, 5);
+        g.setColor(KNOB_COLOR);
+        g.fillRect(value - KNOB_WIDTH / 2, this.getHeight() / 2 - KNOB_HEIGHT / 2, KNOB_WIDTH, KNOB_HEIGHT);
+    }
 
-		g.setColor(KNOB_COLOR);
-		g.fillRect(value - KNOB_WIDTH / 2, this.getHeight() / 2 - KNOB_HEIGHT / 2, KNOB_WIDTH, KNOB_HEIGHT);
-	}
+    int getValue() {
+        return value - KNOB_WIDTH;
+    }
 
-	int getValue()
-	{
-		return value - KNOB_WIDTH;
-	}
+    public void setValue(int x) {
+        moveTarget(x + KNOB_WIDTH, false);
+    }
 }

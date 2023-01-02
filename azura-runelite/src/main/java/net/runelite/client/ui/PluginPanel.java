@@ -24,78 +24,67 @@
  */
 package net.runelite.client.ui;
 
-import java.awt.BorderLayout;
-import java.awt.Dimension;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.border.EmptyBorder;
 import lombok.AccessLevel;
 import lombok.Getter;
 
-public abstract class PluginPanel extends JPanel
-{
-	public static final int PANEL_WIDTH = 225;
-	public static final int SCROLLBAR_WIDTH = 17;
-	public static final int BORDER_OFFSET = 6;
-	private static final EmptyBorder BORDER_PADDING = new EmptyBorder(BORDER_OFFSET, BORDER_OFFSET, BORDER_OFFSET, BORDER_OFFSET);
-	private static final Dimension OUTER_PREFERRED_SIZE = new Dimension(PluginPanel.PANEL_WIDTH + SCROLLBAR_WIDTH, 0);
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
 
-	@Getter(AccessLevel.PROTECTED)
-	private final JScrollPane scrollPane;
+public abstract class PluginPanel extends JPanel {
+    public static final int PANEL_WIDTH = 225;
+    public static final int SCROLLBAR_WIDTH = 17;
+    public static final int BORDER_OFFSET = 6;
+    private static final EmptyBorder BORDER_PADDING = new EmptyBorder(BORDER_OFFSET, BORDER_OFFSET, BORDER_OFFSET, BORDER_OFFSET);
+    private static final Dimension OUTER_PREFERRED_SIZE = new Dimension(PluginPanel.PANEL_WIDTH + SCROLLBAR_WIDTH, 0);
 
-	@Getter(AccessLevel.PACKAGE)
-	private final JPanel wrappedPanel;
+    @Getter(AccessLevel.PROTECTED)
+    private final JScrollPane scrollPane;
 
-	protected PluginPanel()
-	{
-		this(true);
-	}
+    @Getter(AccessLevel.PACKAGE)
+    private final JPanel wrappedPanel;
 
-	protected PluginPanel(boolean wrap)
-	{
-		super();
-		if (wrap)
-		{
-			setBorder(BORDER_PADDING);
-			setLayout(new DynamicGridLayout(0, 1, 0, 3));
-			setBackground(ColorScheme.DARK_GRAY_COLOR);
+    protected PluginPanel() {
+        this(true);
+    }
 
-			final JPanel northPanel = new JPanel();
-			northPanel.setLayout(new BorderLayout());
-			northPanel.add(this, BorderLayout.NORTH);
-			northPanel.setBackground(ColorScheme.DARK_GRAY_COLOR);
+    protected PluginPanel(boolean wrap) {
+        super();
+        if (wrap) {
+            setBorder(BORDER_PADDING);
+            setLayout(new DynamicGridLayout(0, 1, 0, 3));
+            setBackground(ColorScheme.DARK_GRAY_COLOR);
 
-			scrollPane = new JScrollPane(northPanel);
-			scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+            final JPanel northPanel = new JPanel();
+            northPanel.setLayout(new BorderLayout());
+            northPanel.add(this, BorderLayout.NORTH);
+            northPanel.setBackground(ColorScheme.DARK_GRAY_COLOR);
 
-			wrappedPanel = new JPanel();
+            scrollPane = new JScrollPane(northPanel);
+            scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
-			// Adjust the preferred size to expand to width of scrollbar to
-			// to preven scrollbar overlapping over contents
-			wrappedPanel.setPreferredSize(OUTER_PREFERRED_SIZE);
-			wrappedPanel.setLayout(new BorderLayout());
-			wrappedPanel.add(scrollPane, BorderLayout.CENTER);
-		}
-		else
-		{
-			scrollPane = null;
-			wrappedPanel = this;
-		}
-	}
+            wrappedPanel = new JPanel();
 
-	@Override
-	public Dimension getPreferredSize()
-	{
-		int width = this == wrappedPanel ? PANEL_WIDTH + SCROLLBAR_WIDTH : PANEL_WIDTH;
-		return new Dimension(width, super.getPreferredSize().height);
-	}
+            // Adjust the preferred size to expand to width of scrollbar to
+            // to preven scrollbar overlapping over contents
+            wrappedPanel.setPreferredSize(OUTER_PREFERRED_SIZE);
+            wrappedPanel.setLayout(new BorderLayout());
+            wrappedPanel.add(scrollPane, BorderLayout.CENTER);
+        } else {
+            scrollPane = null;
+            wrappedPanel = this;
+        }
+    }
 
-	public void onActivate()
-	{
-	}
+    @Override
+    public Dimension getPreferredSize() {
+        int width = this == wrappedPanel ? PANEL_WIDTH + SCROLLBAR_WIDTH : PANEL_WIDTH;
+        return new Dimension(width, super.getPreferredSize().height);
+    }
 
-	public void onDeactivate()
-	{
-	}
+    public void onActivate() {
+    }
+
+    public void onDeactivate() {
+    }
 }

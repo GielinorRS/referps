@@ -24,38 +24,33 @@
  */
 package net.runelite.client.plugins;
 
-import java.lang.annotation.Documented;
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Documented
-public @interface PluginDescriptor
-{
-	String name();
+public @interface PluginDescriptor {
+    String name();
 
-	/**
-	 * A short, one-line summary of the plugin.
-	 */
-	String description() default "";
+    /**
+     * A short, one-line summary of the plugin.
+     */
+    String description() default "";
 
-	/**
-	 * A list of plugin keywords, used (together with the name) when searching for plugins.
-	 * Each tag should not contain any spaces, and should be fully lowercase.
-	 */
-	String[] tags() default {};
+    /**
+     * A list of plugin keywords, used (together with the name) when searching for plugins.
+     * Each tag should not contain any spaces, and should be fully lowercase.
+     */
+    String[] tags() default {};
 
-	boolean enabledByDefault() default true;
+    boolean enabledByDefault() default true;
 
-	/**
-	 * Whether or not plugin is hidden from configuration panel
-	 */
-	boolean hidden() default false;
+    /**
+     * Whether or not plugin is hidden from configuration panel
+     */
+    boolean hidden() default false;
 
-	boolean developerPlugin() default false;
+    boolean developerPlugin() default false;
 
-	boolean loadWhenOutdated() default false;
+    boolean loadWhenOutdated() default false;
 }

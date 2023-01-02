@@ -24,50 +24,42 @@
  */
 package net.runelite.client.plugins.config;
 
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import javax.swing.JButton;
 import lombok.Getter;
 import net.runelite.client.config.Keybind;
 import net.runelite.client.config.ModifierlessKeybind;
 
-class HotkeyButton extends JButton
-{
-	@Getter
-	private Keybind value;
+import javax.swing.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
-	public HotkeyButton(Keybind value, boolean modifierless)
-	{
-		setValue(value);
-		addActionListener(e ->
-		{
-			setValue(Keybind.NOT_SET);
-		});
-		addKeyListener(new KeyAdapter()
-		{
-			@Override
-			public void keyPressed(KeyEvent e)
-			{
-				if (modifierless)
-				{
-					setValue(new ModifierlessKeybind(e));
-				}
-				else
-				{
-					setValue(new Keybind(e));
-				}
-			}
-		});
-	}
+class HotkeyButton extends JButton {
+    @Getter
+    private Keybind value;
 
-	public void setValue(Keybind value)
-	{
-		if (value == null)
-		{
-			value = Keybind.NOT_SET;
-		}
+    public HotkeyButton(Keybind value, boolean modifierless) {
+        setValue(value);
+        addActionListener(e ->
+        {
+            setValue(Keybind.NOT_SET);
+        });
+        addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (modifierless) {
+                    setValue(new ModifierlessKeybind(e));
+                } else {
+                    setValue(new Keybind(e));
+                }
+            }
+        });
+    }
 
-		this.value = value;
-		setText(value.toString());
-	}
+    public void setValue(Keybind value) {
+        if (value == null) {
+            value = Keybind.NOT_SET;
+        }
+
+        this.value = value;
+        setText(value.toString());
+    }
 }

@@ -1,22 +1,587 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="refer-client:jar" />
-      <artifact name="refer-runelite:jar" />
-      <artifact name="refer-server:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d00d57a-3430-41ac-b4fb-651efcbd276a" name="Changes" comment="push fixes">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/azura-server.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/refer_client_jar/azura-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e165f285-5d84-4290-a9e6-b3d7919bc3bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kannotator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/server/service/ServiceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/azura-server/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitLink.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GitlabLint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/refer_client_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/refer_runelite_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/refer_server_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinScripting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/azura-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/azura-client-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/azura-client-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/BaseTween.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/BaseTween.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Pool$Callback.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Pool$Callback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Pool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$Modes.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline$Modes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Timeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Tween$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Tween$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Tween$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Tween$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Tween.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/Tween.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenAccessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenAccessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenEquation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenEquations.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenEquations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenPaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenPaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/TweenUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Back.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Bounce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Circ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Cubic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Elastic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Expo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Linear$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Linear$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Linear.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Linear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Quint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/equations/Sine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/paths/CatmullRom.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/paths/CatmullRom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/paths/Linear.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/paths/Linear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/primitives/MutableFloat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/primitives/MutableFloat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/primitives/MutableInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/aurelienribon/tweenengine/primitives/MutableInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/ColorConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/ColorConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/RichPresense.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/RichPresense.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Alert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/AlertHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/AlertHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/AnimatedTextureStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/AnimatedTextureStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/AutoGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/AutoGC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CacheDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CacheDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CardPack.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CardPack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CasketOpening.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CasketOpening.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class30_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class30_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class33.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class39.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Class4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ClassCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ClassCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ClientConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ClientConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CreateUID.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/CreateUID.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/DataType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Decompressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Decompressor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/DrawingArea2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/DrawingArea2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/EffectTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/EffectTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/EffectTimers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/EffectTimers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/FloorDefinitionOSRS.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/FloorDefinitionOSRS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/FrameReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/FrameReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameCanvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameCanvas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameShell.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GameShell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GeneratedValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/GeneratedValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ISAACRandomGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ISAACRandomGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/InterfaceTextInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/InterfaceTextInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/IronIcon.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/IronIcon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ItemStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ItemStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/JagexColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/JagexColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/MemCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/MemCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/MemoryMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/MemoryMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ModIcon.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ModIcon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/MouseDetection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/MouseDetection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/OldschoolMaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/OldschoolMaps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/PackingTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/PackingTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Partyhat.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Partyhat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ProgressBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ProgressBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSGraphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSGraphics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/RSSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ReflectionTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ReflectionTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SecondsTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SecondsTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Settings/Load.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Settings/Load.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Settings/Save.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Settings/Save.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Signlink.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Signlink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Skills.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Skills.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SkinList.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SkinList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SpriteLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SpriteLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Stopwatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/Stopwatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SystemProps.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/SystemProps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/WheelOfFortune.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/WheelOfFortune.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/accounts/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/accounts/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/accounts/AccountManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/accounts/AccountManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/bzip/BZIPContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/bzip/BZIPContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/bzip/BZIPDecompressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/bzip/BZIPDecompressor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/Archive.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/Archive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/Animation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/Animation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/FileOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/FileOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/FixedDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/FixedDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/Flo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/Flo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/IdentityKit.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/IdentityKit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDef5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefMisc2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ItemDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/MobDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/MobDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/MobDefinition2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/MobDefinition2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ObjectDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/ObjectDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/OverLayFlo317.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/OverLayFlo317.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/SpotAnimDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/SpotAnimDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/VarBit.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/VarBit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/Varp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/definition/Varp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/Deque.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/Deque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/NodeCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/NodeCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/NodeSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/NodeSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/NodeSubList.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/node/NodeSubList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/ondemand/OnDemandFetcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/ondemand/OnDemandFetcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/ondemand/OnDemandFetcherParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/ondemand/OnDemandFetcherParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/ondemand/OnDemandRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/cache/ondemand/OnDemandRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/constants/GameFrameConstants$GameFrameType.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/constants/GameFrameConstants$GameFrameType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/constants/GameFrameConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/constants/GameFrameConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/constants/SizeConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/constants/SizeConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/ClanMember$Rank.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/ClanMember$Rank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/ClanMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/ClanMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/PlayerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/entity/player/PlayerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/fxscenes/ModelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/fxscenes/ModelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/Background.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/Background.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/CursorData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/CursorData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/DrawingArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/DrawingArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/RSImageProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/RSImageProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/Sprite.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/Sprite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/SpriteLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/SpriteLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/Censor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/Censor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/RSFontSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/RSFontSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/TextClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/TextClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/TextDrawingArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/TextDrawingArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/TextInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/fonts/TextInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/GameFrame$ScreenMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/GameFrame$ScreenMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/GameFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/GameFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/ChatArea$ChannelButtons$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/ChatArea$ChannelButtons$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/ChatArea$ChannelButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/ChatArea$ChannelButtons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/ChatArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/ChatArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$Orb.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$Orb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$OrbType.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$OrbType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$OrbValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$OrbValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$XPGain.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea$XPGain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/MapArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/TabArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/gameframe/impl/TabArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/Particle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/Particle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleAttachment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleAttachment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/ParticleDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/PointSpawnShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/PointSpawnShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/SpawnShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/SpawnShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/particles/Vector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/ClientConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/ClientConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomInterfaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomInterfaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomMinimapIcon.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/CustomMinimapIcon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/DamageDealer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/DamageDealer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/DissolvablesInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/DissolvablesInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/GrandExchange.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/GrandExchange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/InterfaceComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/InterfaceComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/InterfaceNPC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/InterfaceNPC$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/InterfaceNPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/InterfaceNPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/MagicInterfaceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/MagicInterfaceData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/PetSystem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/PetSystem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/PetSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/PetSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/SummoningInterfaceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/graphics/rsinterface/SummoningInterfaceData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/io/ByteBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/io/ByteBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/io/ISAACCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/io/ISAACCipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/net/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/net/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/net/HttpDownloadUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/net/HttpDownloadUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/net/InetAddressUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/net/InetAddressUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/notification/AlertBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/notification/AlertBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/notification/AlertManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/notification/AlertManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Animable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Animable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Animable_Sub3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Animable_Sub3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Animable_Sub5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Animable_Sub5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/NPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/NPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/PlayerProjectile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/renderable/PlayerProjectile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/FileUtilities$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/FileUtilities$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/FileUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/FileUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/ItemEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/ItemEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/ItemPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/ItemPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/Misc.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/Misc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/ModelUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/tools/ModelUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ui/skin/ObsidianSkin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ui/skin/ObsidianSkin$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ui/skin/ObsidianSkin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ui/skin/ObsidianSkin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ui/skin/SubstanceRuneLiteLookAndFeel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/ui/skin/SubstanceRuneLiteLookAndFeel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Class40.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Class40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Class43.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Class43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Class47.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Class47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/CollisionData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/CollisionData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/CustomObjects$GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/CustomObjects$GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/CustomObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/CustomObjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Ground.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Ground.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Object5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/ObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/ObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Rasterizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Rasterizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Texture.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/Texture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/WorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/WorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/background/ScriptManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/background/ScriptManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/music/Class56.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/music/Class56.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/music/Class56_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/music/Class56_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/music/Class56_Sub1_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/music/Class56_Sub1_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class37.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub7_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub7_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub7_Sub2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub7_Sub2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub9_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class3_Sub9_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class51.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class51.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub2_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub2_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub2_Sub2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Class5_Sub2_Sub2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/InputStream_Sub1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/InputStream_Sub1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Sound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/SoundInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/SoundInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Sounds.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Sounds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Soundtrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/world/sound/Soundtrack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/youtube/Youtube.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/youtube/Youtube.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/youtube/YoutubeChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/youtube/YoutubeChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/youtube/YoutubeVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/classes/org/necrotic/client/youtube/YoutubeVideo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azura-Client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Azura-Client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/api/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/api/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/RuneLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/RuneLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/RuneLiteModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/RuneLiteModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/RuneLiteProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/RuneLiteProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/callback/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/callback/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Alpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Alpha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ChatColorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ChatColorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigItemDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigItemDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ExpandResizeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ExpandResizeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/FlashNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/FlashNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/FontType.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/FontType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Keybind.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Keybind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ModifierlessKeybind.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/ModifierlessKeybind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/RuneLiteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/RuneLiteConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/TooltipPositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/TooltipPositionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/Units.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/WarningOnExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/config/WarningOnExit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/eventbus/EventBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/eventbus/EventBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/eventbus/Subscribe.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/eventbus/Subscribe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/ClientShutdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/ClientShutdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/ConfigChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/ConfigChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/NavigationButtonAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/NavigationButtonAdded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/NavigationButtonRemoved.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/NavigationButtonRemoved.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/PluginChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/events/PluginChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/KeyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/KeyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/KeyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseWheelListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/input/MouseWheelListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/Plugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginDependencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginDependencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginDependency.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginDependency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginInstantiationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginInstantiationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/PluginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/ConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/ConfigPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/ConfigPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/ConfigPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/FixedWidthPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/FixedWidthPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/HotkeyButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/HotkeyButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginConfigurationDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginConfigurationDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginToggleButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/PluginToggleButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/UnitFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/config/UnitFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/discord/DiscordPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/plugins/discord/DiscordPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/rs/ClientLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/rs/ClientLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/task/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/task/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/task/ScheduledMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/task/ScheduledMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/task/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/task/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientPluginToolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientPluginToolbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientTitleToolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientTitleToolbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientToolbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientToolbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ClientUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ColorScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ColorScheme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ContainableFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/ContainableFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/DynamicGridLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/DynamicGridLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/FontManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/FontManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/JagexColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/JagexColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/MultiplexingPluginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/MultiplexingPluginPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/NavigationButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/NavigationButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/PluginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/PluginPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/ComboBoxListRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/ComboBoxListRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/CustomScrollBarUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/CustomScrollBarUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/DimmableJPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/DimmableJPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/FlatTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/FlatTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/IconTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/IconTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/PluginErrorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/PluginErrorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/ProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/ProgressBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/ThinProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/ThinProgressBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorPickerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorPickerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorValuePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorValuePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorValueSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/ColorValueSlider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/HuePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/HuePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/PreviewPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/PreviewPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/RecentColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/RecentColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/materialtabs/MaterialTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/materialtabs/MaterialTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/materialtabs/MaterialTabGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/materialtabs/MaterialTabGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/shadowlabel/JShadowedLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/shadowlabel/JShadowedLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/shadowlabel/JShadowedLabelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/components/shadowlabel/JShadowedLabelUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/skin/ObsidianSkin.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/skin/ObsidianSkin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/skin/SubstanceRuneLiteLookAndFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/ui/skin/SubstanceRuneLiteLookAndFeel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/CallableExceptionLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/CallableExceptionLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ColorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ColorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/DeferredEventBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/DeferredEventBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ExecutorServiceExceptionLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ExecutorServiceExceptionLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/HotkeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/HotkeyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/JagexPrintableCharMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/JagexPrintableCharMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/LinkBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/LinkBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/OSType.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/OSType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ReflectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/ReflectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/RunnableExceptionLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/RunnableExceptionLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/SwingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/SwingUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/TransferableBufferedImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/azura-runelite/src/main/java/net/runelite/client/util/TransferableBufferedImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/azura-runelite-1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/api/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/RuneLiteProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/callback/ClientThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Alpha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ChatColorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigItemDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ConfigManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ExpandResizeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/FlashNotification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/FontType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Keybind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/ModifierlessKeybind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Range.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/RuneLiteConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/TooltipPositionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/Units.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/config/WarningOnExit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$Subscriber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus$SubscriberMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/EventBus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/eventbus/Subscribe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ClientShutdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/ConfigChanged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonAdded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/NavigationButtonRemoved.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/events/PluginChanged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/KeyManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/input/MouseWheelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/Plugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDependencies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDependency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginInstantiationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/PluginManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/ConfigPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/FixedWidthPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/HotkeyButton$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/HotkeyButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginConfigurationDescriptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginListPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/PluginToggleButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/config/UnitFormatterFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/discord/DiscordPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/plugins/legacy/LegacyPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/rs/ClientLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Schedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/ScheduledMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/task/Scheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientPluginToolbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientTitleToolbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientToolbar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ClientUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ColorScheme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame$Mode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/ContainableFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/DynamicGridLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/FontManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/JagexColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/MultiplexingPluginPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton$NavigationButtonBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/NavigationButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/PluginPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ComboBoxListRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/CustomScrollBarUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/DimmableJPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/FlatTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField$Icon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/IconTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/PluginErrorPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ProgressBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/ThinProgressBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorPickerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValuePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/ColorValueSlider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/HuePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/PreviewPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RecentColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/colorpicker/RuneliteColorPicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/materialtabs/MaterialTabGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/shadowlabel/JShadowedLabel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/components/shadowlabel/JShadowedLabelUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/ObsidianSkin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/ObsidianSkin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/ui/skin/SubstanceRuneLiteLookAndFeel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/CallableExceptionLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ColorUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/DeferredEventBus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ExecutorServiceExceptionLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/HotkeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ImageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/JagexPrintableCharMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/LinkBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/OSType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/ReflectUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/RunnableExceptionLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/SwingUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/classes/net/runelite/client/util/TransferableBufferedImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-runelite/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/src/main/java/com/server/service/login/LoginService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/azura-server/src/main/java/com/server/service/login/LoginService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/target/azura-server-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/azura-server/target/maven-status/maven-compiler-plugin/compile/java-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/azura-server.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/azura-server.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/refer_client_jar/azura-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/refer_client_jar/azura-client.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,25 +589,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-    <option name="COMPILER_PROCESS_ADDITIONAL_VM_OPTIONS" value="-server -Xmx9000m -Xms132m" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitLabServerManager">
-    <selected>-1</selected>
-    <servers />
-  </component>
-  <component name="JRebelWorkspace">
-    <option name="jrebelEnabledAutocompile" value="true" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+    <option name="COMPILER_PROCESS_ADDITIONAL_VM_OPTIONS" value="-server -Xmx8000m -Xms132m" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="checksumPolicy" value="WARN" />
+        <option name="failureBehavior" value="NEVER" />
+        <option name="outputLevel" value="DEBUG" />
+        <option name="showDialogWithAdvancedSettings" value="true" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -52,18 +609,14 @@
         <option name="downloadAnnotationsAutomatically" value="true" />
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="excludeTargetFolder" value="false" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2I8jPfbwXoOLy0MrHjDRxVzzgZc" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -71,144 +624,68 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/smoke/IdeaProjects/referps",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.17",
+    "last_opened_file_path": "C:/Users/smoke/Downloads/Lunite_Full_Package",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.zeroturnaround.javarebel.idea.plugin.settings.AdvancedConfigurable",
-    "vue.rearranger.settings.migration": "true"
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "project.kotlinCompiler"
   }
 }]]></component>
   <component name="RebelAgentSelection">
-    <selection>jxr</selection>
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateBuilderDialog.RecentsKey">
-      <recent name="com.server.service" />
-    </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="com.server.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameServer">
-    <configuration name="GameServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ruse.GameServer" />
-      <module name="azura-server" />
+  <component name="RunManager">
+    <configuration name="RuneLite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="net.runelite.client.RuneLite" />
+      <module name="azura-runelite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ruse.*" />
+          <option name="PATTERN" value="net.runelite.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="charcterBackUps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ruse.engine.charcterBackUps" />
-      <module name="azura-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ruse.engine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="server" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="referps" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="./out/artifacts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="server.bat" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="azura-server.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/azura-server.jar" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.charcterBackUps" />
-        <item itemvalue="Batch.server" />
-        <item itemvalue="JAR Application.azura-server.jar" />
-        <item itemvalue="Application.GameServer" />
+        <item itemvalue="Application.RuneLite" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d00d57a-3430-41ac-b4fb-651efcbd276a" name="Changes" comment="" />
-      <created>1669570093731</created>
+      <changelist id="e165f285-5d84-4290-a9e6-b3d7919bc3bf" name="Changes" comment="" />
+      <created>1671988803528</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669570093731</updated>
-      <workItem from="1670341829001" duration="1637000" />
-      <workItem from="1670356450323" duration="427000" />
-      <workItem from="1671357409638" duration="1753000" />
-      <workItem from="1671359212866" duration="1405000" />
+      <updated>1671988803528</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="push fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="push fixes" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

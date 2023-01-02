@@ -31,35 +31,30 @@ import lombok.Getter;
 import javax.swing.*;
 import java.awt.*;
 
-class PreviewPanel extends JPanel
-{
-	private static final int CHECKER_SIZE = 10;
+class PreviewPanel extends JPanel {
+    private static final int CHECKER_SIZE = 10;
 
-	@Getter
-	private Color color;
+    @Getter
+    private Color color;
 
-	void setColor(Color c)
-	{
-		this.color = c;
-		this.paintImmediately(0, 0, this.getWidth(), this.getHeight());
-	}
+    void setColor(Color c) {
+        this.color = c;
+        this.paintImmediately(0, 0, this.getWidth(), this.getHeight());
+    }
 
-	@Override
-	public void paint(Graphics g)
-	{
-		super.paint(g);
+    @Override
+    public void paint(Graphics g) {
+        super.paint(g);
 
-		for (int x = 0; x < getWidth(); x += CHECKER_SIZE)
-		{
-			for (int y = 0; y < getHeight(); y += CHECKER_SIZE)
-			{
-				int val = (x / CHECKER_SIZE + y / CHECKER_SIZE) % 2;
-				g.setColor(val == 0 ? Color.LIGHT_GRAY : Color.WHITE);
-				g.fillRect(x, y, CHECKER_SIZE, CHECKER_SIZE);
-			}
-		}
+        for (int x = 0; x < getWidth(); x += CHECKER_SIZE) {
+            for (int y = 0; y < getHeight(); y += CHECKER_SIZE) {
+                int val = (x / CHECKER_SIZE + y / CHECKER_SIZE) % 2;
+                g.setColor(val == 0 ? Color.LIGHT_GRAY : Color.WHITE);
+                g.fillRect(x, y, CHECKER_SIZE, CHECKER_SIZE);
+            }
+        }
 
-		g.setColor(color);
-		g.fillRect(0, 0, this.getWidth(), this.getHeight());
-	}
+        g.setColor(color);
+        g.fillRect(0, 0, this.getWidth(), this.getHeight());
+    }
 }

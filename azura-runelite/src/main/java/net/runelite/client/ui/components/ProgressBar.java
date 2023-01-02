@@ -24,137 +24,116 @@
  */
 package net.runelite.client.ui.components;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.util.Collections;
-import java.util.List;
-import javax.swing.JLabel;
-import javax.swing.SwingConstants;
-import javax.swing.border.EmptyBorder;
 import lombok.Setter;
 import net.runelite.client.ui.FontManager;
 import net.runelite.client.ui.components.shadowlabel.JShadowedLabel;
 
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import java.awt.*;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * A progress bar to be displayed underneath the GE offer item panels
  */
-public class ProgressBar extends DimmableJPanel
-{
-	@Setter
-	private int maximumValue;
+public class ProgressBar extends DimmableJPanel {
+    private final JLabel leftLabel = new JShadowedLabel();
+    private final JLabel rightLabel = new JShadowedLabel();
+    private final JLabel centerLabel = new JShadowedLabel();
+    @Setter
+    private int maximumValue;
+    @Setter
+    private int value;
+    @Setter
+    private List<Integer> positions = Collections.emptyList();
+    private String centerLabelText = "";
+    private String dimmedText = "";
 
-	@Setter
-	private int value;
+    public ProgressBar() {
+        setLayout(new BorderLayout());
+        // The background color should be overridden
+        setBackground(Color.GREEN.darker());
+        setForeground(Color.GREEN.brighter());
 
-	@Setter
-	private List<Integer> positions = Collections.emptyList();
+        setPreferredSize(new Dimension(100, 16));
 
-	private final JLabel leftLabel = new JShadowedLabel();
-	private final JLabel rightLabel = new JShadowedLabel();
-	private final JLabel centerLabel = new JShadowedLabel();
-	private String centerLabelText = "";
-	private String dimmedText = "";
+        leftLabel.setFont(FontManager.getRunescapeSmallFont());
+        leftLabel.setForeground(Color.WHITE);
+        leftLabel.setBorder(new EmptyBorder(2, 5, 0, 0));
 
-	public ProgressBar()
-	{
-		setLayout(new BorderLayout());
-		// The background color should be overridden
-		setBackground(Color.GREEN.darker());
-		setForeground(Color.GREEN.brighter());
+        rightLabel.setFont(FontManager.getRunescapeSmallFont());
+        rightLabel.setForeground(Color.WHITE);
+        rightLabel.setBorder(new EmptyBorder(2, 0, 0, 5));
 
-		setPreferredSize(new Dimension(100, 16));
+        centerLabel.setFont(FontManager.getRunescapeSmallFont());
+        centerLabel.setForeground(Color.WHITE);
+        centerLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        centerLabel.setBorder(new EmptyBorder(2, 0, 0, 0));
 
-		leftLabel.setFont(FontManager.getRunescapeSmallFont());
-		leftLabel.setForeground(Color.WHITE);
-		leftLabel.setBorder(new EmptyBorder(2, 5, 0, 0));
+        // Adds components to be automatically redrawn when paintComponents is called
+        add(leftLabel, BorderLayout.WEST);
+        add(centerLabel, BorderLayout.CENTER);
+        add(rightLabel, BorderLayout.EAST);
+    }
 
-		rightLabel.setFont(FontManager.getRunescapeSmallFont());
-		rightLabel.setForeground(Color.WHITE);
-		rightLabel.setBorder(new EmptyBorder(2, 0, 0, 5));
+    @Override
+    public void paint(Graphics g) {
+        int percentage = getPercentage();
+        int topWidth = (int) (getSize().width * (percentage / 100f));
 
-		centerLabel.setFont(FontManager.getRunescapeSmallFont());
-		centerLabel.setForeground(Color.WHITE);
-		centerLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		centerLabel.setBorder(new EmptyBorder(2, 0, 0, 0));
+        super.paint(g);
+        g.setColor(getForeground());
+        g.fillRect(0, 0, topWidth, 16);
 
-		// Adds components to be automatically redrawn when paintComponents is called
-		add(leftLabel, BorderLayout.WEST);
-		add(centerLabel, BorderLayout.CENTER);
-		add(rightLabel, BorderLayout.EAST);
-	}
+        for (final Integer position : positions) {
+            final int xCord = getSize().width * position / maximumValue;
+            if (xCord > topWidth) {
+                g.fillRect(xCord, 0, 1, 16);
+            }
+        }
 
-	@Override
-	public void paint(Graphics g)
-	{
-		int percentage = getPercentage();
-		int topWidth = (int) (getSize().width * (percentage / 100f));
+        super.paintComponents(g);
+    }
 
-		super.paint(g);
-		g.setColor(getForeground());
-		g.fillRect(0, 0, topWidth, 16);
+    @Override
+    public void setDimmed(boolean dimmed) {
+        super.setDimmed(dimmed);
 
-		for (final Integer position : positions)
-		{
-			final int xCord = getSize().width * position / maximumValue;
-			if (xCord > topWidth)
-			{
-				g.fillRect(xCord, 0, 1, 16);
-			}
-		}
+        if (dimmed) {
+            leftLabel.setForeground(Color.GRAY);
+            rightLabel.setForeground(Color.GRAY);
+            centerLabel.setText(dimmedText);
+        } else {
+            leftLabel.setForeground(Color.WHITE);
+            rightLabel.setForeground(Color.WHITE);
+            centerLabel.setText(centerLabelText);
+        }
+    }
 
-		super.paintComponents(g);
-	}
+    public void setLeftLabel(String txt) {
+        leftLabel.setText(txt);
+    }
 
-	@Override
-	public void setDimmed(boolean dimmed)
-	{
-		super.setDimmed(dimmed);
+    public void setRightLabel(String txt) {
+        rightLabel.setText(txt);
+    }
 
-		if (dimmed)
-		{
-			leftLabel.setForeground(Color.GRAY);
-			rightLabel.setForeground(Color.GRAY);
-			centerLabel.setText(dimmedText);
-		}
-		else
-		{
-			leftLabel.setForeground(Color.WHITE);
-			rightLabel.setForeground(Color.WHITE);
-			centerLabel.setText(centerLabelText);
-		}
-	}
+    public void setCenterLabel(String txt) {
+        centerLabelText = txt;
+        centerLabel.setText(isDimmed() ? dimmedText : txt);
+    }
 
-	public void setLeftLabel(String txt)
-	{
-		leftLabel.setText(txt);
-	}
+    public void setDimmedText(String txt) {
+        dimmedText = txt;
+        centerLabel.setText(isDimmed() ? txt : centerLabelText);
+    }
 
-	public void setRightLabel(String txt)
-	{
-		rightLabel.setText(txt);
-	}
+    public int getPercentage() {
+        if (value == 0) {
+            return 0;
+        }
 
-	public void setCenterLabel(String txt)
-	{
-		centerLabelText = txt;
-		centerLabel.setText(isDimmed() ? dimmedText : txt);
-	}
-
-	public void setDimmedText(String txt)
-	{
-		dimmedText = txt;
-		centerLabel.setText(isDimmed() ? txt : centerLabelText);
-	}
-
-	public int getPercentage()
-	{
-		if (value == 0)
-		{
-			return 0;
-		}
-
-		return (value * 100) / maximumValue;
-	}
+        return (value * 100) / maximumValue;
+    }
 }

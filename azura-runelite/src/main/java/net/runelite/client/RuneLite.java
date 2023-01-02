@@ -14,7 +14,6 @@ import org.necrotic.client.Client;
 
 import javax.annotation.Nullable;
 import javax.inject.Singleton;
-import javax.swing.*;
 import java.io.File;
 import java.util.Locale;
 
@@ -85,7 +84,8 @@ public final class RuneLite {
         pluginManager.setOutdated(false);
         pluginManager.loadCorePlugins();
         pluginManager.loadDefaultPluginConfiguration(null);
-        clientUI.init();		eventBus.register(clientUI);
+        clientUI.init();
+        eventBus.register(clientUI);
         eventBus.register(pluginManager);
         eventBus.register(configManager);
         pluginManager.startPlugins();

@@ -24,57 +24,51 @@
  */
 package net.runelite.client.ui;
 
-import java.util.HashSet;
-import java.util.Set;
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import net.runelite.client.eventbus.EventBus;
 import net.runelite.client.events.NavigationButtonAdded;
 import net.runelite.client.events.NavigationButtonRemoved;
+
+import javax.inject.Inject;
+import javax.inject.Singleton;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Plugin toolbar buttons holder.
  */
 @Singleton
-public class ClientToolbar
-{
-	private final EventBus eventBus;
-	private final Set<NavigationButton> buttons = new HashSet<>();
+public class ClientToolbar {
+    private final EventBus eventBus;
+    private final Set<NavigationButton> buttons = new HashSet<>();
 
-	@Inject
-	private ClientToolbar(final EventBus eventBus)
-	{
-		this.eventBus = eventBus;
-	}
+    @Inject
+    private ClientToolbar(final EventBus eventBus) {
+        this.eventBus = eventBus;
+    }
 
-	/**
-	 * Add navigation.
-	 *
-	 * @param button the button
-	 */
-	public void addNavigation(final NavigationButton button)
-	{
-		if (buttons.contains(button))
-		{
-			return;
-		}
+    /**
+     * Add navigation.
+     *
+     * @param button the button
+     */
+    public void addNavigation(final NavigationButton button) {
+        if (buttons.contains(button)) {
+            return;
+        }
 
-		if (buttons.add(button))
-		{
-			eventBus.post(new NavigationButtonAdded(button));
-		}
-	}
+        if (buttons.add(button)) {
+            eventBus.post(new NavigationButtonAdded(button));
+        }
+    }
 
-	/**
-	 * Remove navigation.
-	 *
-	 * @param button the button
-	 */
-	public void removeNavigation(final NavigationButton button)
-	{
-		if (buttons.remove(button))
-		{
-			eventBus.post(new NavigationButtonRemoved(button));
-		}
-	}
+    /**
+     * Remove navigation.
+     *
+     * @param button the button
+     */
+    public void removeNavigation(final NavigationButton button) {
+        if (buttons.remove(button)) {
+            eventBus.post(new NavigationButtonRemoved(button));
+        }
+    }
 }

@@ -47,83 +47,70 @@ import java.util.List;
  *
  * @author Psikoi
  */
-public class MaterialTabGroup extends JPanel
-{
-	/* The panel on which the content tab's content will be displayed on. */
-	private final JPanel display;
-	/* A list of all the tabs contained in this group. */
-	private final List<MaterialTab> tabs = new ArrayList<>();
+public class MaterialTabGroup extends JPanel {
+    /* The panel on which the content tab's content will be displayed on. */
+    private final JPanel display;
+    /* A list of all the tabs contained in this group. */
+    private final List<MaterialTab> tabs = new ArrayList<>();
 
-	public MaterialTabGroup(JPanel display)
-	{
-		this.display = display;
-		if (display != null)
-		{
-			this.display.setLayout(new BorderLayout());
-		}
-		setLayout(new FlowLayout(FlowLayout.CENTER, 8, 0));
-		setOpaque(false);
-	}
+    public MaterialTabGroup(JPanel display) {
+        this.display = display;
+        if (display != null) {
+            this.display.setLayout(new BorderLayout());
+        }
+        setLayout(new FlowLayout(FlowLayout.CENTER, 8, 0));
+        setOpaque(false);
+    }
 
-	public MaterialTabGroup()
-	{
-		this(null);
-	}
+    public MaterialTabGroup() {
+        this(null);
+    }
 
-	/* Returns the tab on a certain index. */
-	public MaterialTab getTab(int index)
-	{
+    /* Returns the tab on a certain index. */
+    public MaterialTab getTab(int index) {
 
-		if (tabs == null || tabs.isEmpty())
-		{
-			return null;
-		}
+        if (tabs == null || tabs.isEmpty()) {
+            return null;
+        }
 
-		return tabs.get(index);
-	}
+        return tabs.get(index);
+    }
 
-	public void addTab(MaterialTab tab)
-	{
-		tabs.add(tab);
-		add(tab, BorderLayout.NORTH);
-	}
+    public void addTab(MaterialTab tab) {
+        tabs.add(tab);
+        add(tab, BorderLayout.NORTH);
+    }
 
-	/***
-	 * Selects a tab from the group, and sets the display's content to the
-	 * tab's associated content.
-	 * @param selectedTab - The tab to select
-	 */
-	public boolean select(MaterialTab selectedTab)
-	{
-		if (!tabs.contains(selectedTab))
-		{
-			return false;
-		}
+    /***
+     * Selects a tab from the group, and sets the display's content to the
+     * tab's associated content.
+     * @param selectedTab - The tab to select
+     */
+    public boolean select(MaterialTab selectedTab) {
+        if (!tabs.contains(selectedTab)) {
+            return false;
+        }
 
-		// If the OnTabSelected returned false, exit the method to prevent tab switching
-		if (!selectedTab.select())
-		{
-			return false;
-		}
+        // If the OnTabSelected returned false, exit the method to prevent tab switching
+        if (!selectedTab.select()) {
+            return false;
+        }
 
-		// If the display is available, switch from the old to the new display
-		if (display != null)
-		{
-			display.removeAll();
-			display.add(selectedTab.getContent());
-			display.revalidate();
-			display.repaint();
-		}
+        // If the display is available, switch from the old to the new display
+        if (display != null) {
+            display.removeAll();
+            display.add(selectedTab.getContent());
+            display.revalidate();
+            display.repaint();
+        }
 
-		// Unselected all other tabs
-		for (MaterialTab tab : tabs)
-		{
-			if (!tab.equals(selectedTab))
-			{
-				tab.unselect();
-			}
-		}
+        // Unselected all other tabs
+        for (MaterialTab tab : tabs) {
+            if (!tab.equals(selectedTab)) {
+                tab.unselect();
+            }
+        }
 
-		return true;
-	}
+        return true;
+    }
 }

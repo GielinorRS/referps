@@ -24,49 +24,43 @@
  */
 package net.runelite.client.util;
 
-import java.util.Queue;
-import java.util.concurrent.ConcurrentLinkedQueue;
-import javax.inject.Inject;
-import javax.inject.Singleton;
 import net.runelite.client.eventbus.EventBus;
 
+import javax.inject.Inject;
+import javax.inject.Singleton;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
 @Singleton
-public class DeferredEventBus extends EventBus
-{
-	private final EventBus eventBus;
-	private final Queue<Object> pendingEvents = new ConcurrentLinkedQueue<>();
+public class DeferredEventBus extends EventBus {
+    private final EventBus eventBus;
+    private final Queue<Object> pendingEvents = new ConcurrentLinkedQueue<>();
 
-	@Inject
-	private DeferredEventBus(EventBus eventBus)
-	{
-		this.eventBus = eventBus;
-	}
+    @Inject
+    private DeferredEventBus(EventBus eventBus) {
+        this.eventBus = eventBus;
+    }
 
-	@Override
-	public void register(Object object)
-	{
-		eventBus.register(object);
-	}
+    @Override
+    public void register(Object object) {
+        eventBus.register(object);
+    }
 
-	@Override
-	public void unregister(Object object)
-	{
-		eventBus.unregister(object);
-	}
+    @Override
+    public void unregister(Object object) {
+        eventBus.unregister(object);
+    }
 
-	@Override
-	public void post(Object object)
-	{
-		pendingEvents.add(object);
-	}
+    @Override
+    public void post(Object object) {
+        pendingEvents.add(object);
+    }
 
-	public void replay()
-	{
-		int size = pendingEvents.size();
-		while (size-- > 0)
-		{
-			Object object = pendingEvents.poll();
-			eventBus.post(object);
-		}
-	}
+    public void replay() {
+        int size = pendingEvents.size();
+        while (size-- > 0) {
+            Object object = pendingEvents.poll();
+            eventBus.post(object);
+        }
+    }
 }

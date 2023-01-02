@@ -32,25 +32,23 @@ import net.runelite.client.plugins.Plugin;
 import javax.annotation.Nullable;
 
 @Value
-class PluginConfigurationDescriptor
-{
-	private final String name;
-	private final String description;
-	private final String[] tags;
+class PluginConfigurationDescriptor {
+    private final String name;
+    private final String description;
+    private final String[] tags;
 
-	// Can be null if its not an actual plugin (RuneLite / ChatColors)
-	@Nullable
-	private final Plugin plugin;
+    // Can be null if its not an actual plugin (RuneLite / ChatColors)
+    @Nullable
+    private final Plugin plugin;
 
-	// Can be null if it has no more configuration than the on/off toggle
-	@Nullable
-	private final Config config;
+    // Can be null if it has no more configuration than the on/off toggle
+    @Nullable
+    private final Config config;
 
-	@Nullable
-	private final ConfigDescriptor configDescriptor;
+    @Nullable
+    private final ConfigDescriptor configDescriptor;
 
-	boolean hasConfigurables()
-	{
-		return configDescriptor != null && !configDescriptor.getItems().stream().allMatch(item -> item.getItem().hidden());
-	}
+    boolean hasConfigurables() {
+        return configDescriptor != null && !configDescriptor.getItems().stream().allMatch(item -> item.getItem().hidden());
+    }
 }

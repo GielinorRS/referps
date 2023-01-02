@@ -30,162 +30,147 @@ import net.runelite.client.ui.ContainableFrame;
 import java.awt.*;
 
 @ConfigGroup(RuneLiteConfig.GROUP_NAME)
-public interface RuneLiteConfig extends Config
-{
-	String GROUP_NAME = "runelite";
+public interface RuneLiteConfig extends Config {
+    String GROUP_NAME = "runelite";
 
-	@ConfigItem(
-			keyName = "gameSize",
-			name = "Game size",
-			description = "The game will resize to this resolution upon starting the client",
-			position = 10
-	)
-	default Dimension gameSize()
-	{
-		return Constants.GAME_FIXED_SIZE;
-	}
+    @ConfigItem(
+            keyName = "gameSize",
+            name = "Game size",
+            description = "The game will resize to this resolution upon starting the client",
+            position = 10
+    )
+    default Dimension gameSize() {
+        return Constants.GAME_FIXED_SIZE;
+    }
 
-	@ConfigItem(
-		keyName = "automaticResizeType",
-		name = "Resize type",
-		description = "Choose how the window should resize when opening and closing panels",
-		position = 11
-	)
-	default ExpandResizeType automaticResizeType()
-	{
-		return ExpandResizeType.KEEP_GAME_SIZE;
-	}
+    @ConfigItem(
+            keyName = "automaticResizeType",
+            name = "Resize type",
+            description = "Choose how the window should resize when opening and closing panels",
+            position = 11
+    )
+    default ExpandResizeType automaticResizeType() {
+        return ExpandResizeType.KEEP_GAME_SIZE;
+    }
 
-	@ConfigItem(
-		keyName = "lockWindowSize",
-		name = "Lock window size",
-		description = "Determines if the window resizing is allowed or not",
-		position = 12
-	)
-	default boolean lockWindowSize()
-	{
-		return false;
-	}
+    @ConfigItem(
+            keyName = "lockWindowSize",
+            name = "Lock window size",
+            description = "Determines if the window resizing is allowed or not",
+            position = 12
+    )
+    default boolean lockWindowSize() {
+        return false;
+    }
 
-	@ConfigItem(
-			keyName = "containInScreen2",
-			name = "Contain in screen",
-			description = "Makes the client stay contained in the screen when attempted to move out of it.<br>Note: 'Always' only works if custom chrome is enabled.",
-			position = 13
-	)
-	default ContainableFrame.Mode containInScreen()
-	{
-		return ContainableFrame.Mode.RESIZING;
-	}
+    @ConfigItem(
+            keyName = "containInScreen2",
+            name = "Contain in screen",
+            description = "Makes the client stay contained in the screen when attempted to move out of it.<br>Note: 'Always' only works if custom chrome is enabled.",
+            position = 13
+    )
+    default ContainableFrame.Mode containInScreen() {
+        return ContainableFrame.Mode.RESIZING;
+    }
 
-	@ConfigItem(
-		keyName = "rememberScreenBounds",
-		name = "Remember client position",
-		description = "Save the position and size of the client after exiting",
-		position = 14
-	)
-	default boolean rememberScreenBounds()
-	{
-		return true;
-	}
+    @ConfigItem(
+            keyName = "rememberScreenBounds",
+            name = "Remember client position",
+            description = "Save the position and size of the client after exiting",
+            position = 14
+    )
+    default boolean rememberScreenBounds() {
+        return true;
+    }
 
-	@ConfigItem(
-		keyName = "uiEnableCustomChrome",
-		name = "Enable custom window chrome",
-		description = "Use Runelite's custom window title and borders.",
-		warning = "Please restart your client after changing this setting",
-		position = 15
-	)
-	default boolean enableCustomChrome()
-	{
-		return true;
-	}
+    @ConfigItem(
+            keyName = "uiEnableCustomChrome",
+            name = "Enable custom window chrome",
+            description = "Use Runelite's custom window title and borders.",
+            warning = "Please restart your client after changing this setting",
+            position = 15
+    )
+    default boolean enableCustomChrome() {
+        return true;
+    }
 
-	@ConfigItem(
-		keyName = "gameAlwaysOnTop",
-		name = "Enable client always on top",
-		description = "The game will always be on the top of the screen",
-		position = 16
-	)
-	default boolean gameAlwaysOnTop()
-	{
-		return false;
-	}
+    @ConfigItem(
+            keyName = "gameAlwaysOnTop",
+            name = "Enable client always on top",
+            description = "The game will always be on the top of the screen",
+            position = 16
+    )
+    default boolean gameAlwaysOnTop() {
+        return false;
+    }
 
-	@ConfigItem(
-		keyName = "warningOnExit",
-		name = "Display warning on exit",
-		description = "Toggles a warning popup when trying to exit the client",
-		position = 17
-	)
-	default WarningOnExit warningOnExit()
-	{
-		return WarningOnExit.LOGGED_IN;
-	}
+    @ConfigItem(
+            keyName = "warningOnExit",
+            name = "Display warning on exit",
+            description = "Toggles a warning popup when trying to exit the client",
+            position = 17
+    )
+    default WarningOnExit warningOnExit() {
+        return WarningOnExit.LOGGED_IN;
+    }
 
-	@ConfigItem(
-		keyName = "usernameInTitle",
-		name = "Show display name in title",
-		description = "Toggles displaying of local player's display name in client title",
-		position = 18
-	)
-	default boolean usernameInTitle()
-	{
-		return true;
-	}
+    @ConfigItem(
+            keyName = "usernameInTitle",
+            name = "Show display name in title",
+            description = "Toggles displaying of local player's display name in client title",
+            position = 18
+    )
+    default boolean usernameInTitle() {
+        return true;
+    }
 
-	@ConfigItem(
-		keyName = "notificationTray",
-		name = "Enable tray notifications",
-		description = "Enables tray notifications",
-		position = 20
-	)
-	default boolean enableTrayNotifications()
-	{
-		return true;
-	}
+    @ConfigItem(
+            keyName = "notificationTray",
+            name = "Enable tray notifications",
+            description = "Enables tray notifications",
+            position = 20
+    )
+    default boolean enableTrayNotifications() {
+        return true;
+    }
 
-	@ConfigItem(
-		keyName = "notificationRequestFocus",
-		name = "Request focus on notification",
-		description = "Toggles window focus request",
-		position = 21
-	)
-	default boolean requestFocusOnNotification()
-	{
-		return true;
-	}
+    @ConfigItem(
+            keyName = "notificationRequestFocus",
+            name = "Request focus on notification",
+            description = "Toggles window focus request",
+            position = 21
+    )
+    default boolean requestFocusOnNotification() {
+        return true;
+    }
 
-	@ConfigItem(
-		keyName = "notificationGameMessage",
-		name = "Enable game message notifications",
-		description = "Puts a notification message in the chatbox",
-		position = 23
-	)
-	default boolean enableGameMessageNotification()
-	{
-		return false;
-	}
+    @ConfigItem(
+            keyName = "notificationGameMessage",
+            name = "Enable game message notifications",
+            description = "Puts a notification message in the chatbox",
+            position = 23
+    )
+    default boolean enableGameMessageNotification() {
+        return false;
+    }
 
-	@ConfigItem(
-		keyName = "notificationFocused",
-		name = "Send notifications when focused",
-		description = "Toggles all notifications for when the client is focused",
-		position = 25
-	)
-	default boolean sendNotificationsWhenFocused()
-	{
-		return false;
-	}
+    @ConfigItem(
+            keyName = "notificationFocused",
+            name = "Send notifications when focused",
+            description = "Toggles all notifications for when the client is focused",
+            position = 25
+    )
+    default boolean sendNotificationsWhenFocused() {
+        return false;
+    }
 
-	@ConfigItem(
-		keyName = "blockExtraMouseButtons",
-		name = "Block Extra Mouse Buttons",
-		description = "Blocks extra mouse buttons (4 and above)",
-		position = 43
-	)
-	default boolean blockExtraMouseButtons()
-	{
-		return true;
-	}
+    @ConfigItem(
+            keyName = "blockExtraMouseButtons",
+            name = "Block Extra Mouse Buttons",
+            description = "Blocks extra mouse buttons (4 and above)",
+            position = 43
+    )
+    default boolean blockExtraMouseButtons() {
+        return true;
+    }
 }

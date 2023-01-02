@@ -25,11 +25,12 @@
  */
 package net.runelite.client.ui;
 
-import java.awt.image.BufferedImage;
-import java.util.Map;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+
+import java.awt.image.BufferedImage;
+import java.util.Map;
 
 /**
  * UI navigation button.
@@ -37,52 +38,48 @@ import lombok.EqualsAndHashCode;
 @Data
 @Builder
 @EqualsAndHashCode(of = {"tooltip"})
-public class NavigationButton
-{
-	/**
-	 * Icon of button.
-	 */
-	private final BufferedImage icon;
+public class NavigationButton {
+    /**
+     * Icon of button.
+     */
+    private final BufferedImage icon;
+    /**
+     * Tooltip to show when hovered.
+     */
+    @Builder.Default
+    private final String tooltip = "";
+    /**
+     * If the button is tab or not
+     */
+    @Builder.Default
+    private boolean tab = true;
+    /**
+     * Button selection state
+     */
+    private boolean selected;
 
-	/**
-	 * If the button is tab or not
-	 */
-	@Builder.Default
-	private boolean tab = true;
+    /**
+     * On click action of the button.
+     */
+    private Runnable onClick;
 
-	/**
-	 * Tooltip to show when hovered.
-	 */
-	@Builder.Default
-	private final String tooltip = "";
+    /**
+     * On select action of the button.
+     */
+    private Runnable onSelect;
 
-	/**
-	 * Button selection state
-	 */
-	private boolean selected;
+    /**
+     * Plugin panel, used when expanding and contracting sidebar.
+     */
+    private PluginPanel panel;
 
-	/**
-	 * On click action of the button.
-	 */
-	private Runnable onClick;
+    /**
+     * The order in which the button should be displayed in the side bar. (from lower to higher)
+     */
+    private int priority;
 
-	/**
-	 * On select action of the button.
-	 */
-	private Runnable onSelect;
-
-	/**
-	 * Plugin panel, used when expanding and contracting sidebar.
-	 */
-	private PluginPanel panel;
-
-	/**
-	 * The order in which the button should be displayed in the side bar. (from lower to higher)
-	 */
-	private int priority;
-
-	/**
-	 * Map of key-value pairs for setting the popup menu
-	 */
-	private Map<String, Runnable> popup;
+    /**
+     * Map of key-value pairs for setting the popup menu
+     */
+    private Map<String, Runnable> popup;
 }

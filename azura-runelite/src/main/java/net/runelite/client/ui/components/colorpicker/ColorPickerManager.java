@@ -36,28 +36,24 @@ import java.awt.*;
 import java.awt.event.WindowEvent;
 
 @Singleton
-public class ColorPickerManager
-{
-	private final ConfigManager configManager;
+public class ColorPickerManager {
+    private final ConfigManager configManager;
 
-	@Setter(AccessLevel.PACKAGE)
-	@Getter(AccessLevel.PACKAGE)
-	private RuneliteColorPicker currentPicker;
+    @Setter(AccessLevel.PACKAGE)
+    @Getter(AccessLevel.PACKAGE)
+    private RuneliteColorPicker currentPicker;
 
-	@Inject
-	private ColorPickerManager(final ConfigManager configManager)
-	{
-		this.configManager = configManager;
-	}
+    @Inject
+    private ColorPickerManager(final ConfigManager configManager) {
+        this.configManager = configManager;
+    }
 
-	public RuneliteColorPicker create(Window owner, Color previousColor, String title, boolean alphaHidden)
-	{
-		if (currentPicker != null)
-		{
-			currentPicker.dispatchEvent(new WindowEvent(currentPicker, WindowEvent.WINDOW_CLOSING));
-		}
+    public RuneliteColorPicker create(Window owner, Color previousColor, String title, boolean alphaHidden) {
+        if (currentPicker != null) {
+            currentPicker.dispatchEvent(new WindowEvent(currentPicker, WindowEvent.WINDOW_CLOSING));
+        }
 
-		currentPicker = new RuneliteColorPicker(owner, previousColor, title, alphaHidden, configManager, this);
-		return currentPicker;
-	}
+        currentPicker = new RuneliteColorPicker(owner, previousColor, title, alphaHidden, configManager, this);
+        return currentPicker;
+    }
 }
