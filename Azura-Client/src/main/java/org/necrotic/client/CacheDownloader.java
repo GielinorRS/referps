@@ -17,15 +17,15 @@ public class CacheDownloader {
 
     private static final String CACHE_FILE_NAME = "Refer.zip"; //The name of the actual .zip file
 
-    private static final String CACHE_URL = "https://www.dropbox.com/s/5l7ixn0sdi6ux8q/refer.zip?dl=1";
-    private static final String CACHE_URL1 = "https://www.dropbox.com/s/5l7ixn0sdi6ux8q/refer.zip?dl=1";
-    private static final String NEWEST_VERSION_FILE_URL = "https://www.lunite.io/resources/cache_version.txt";
-    private static final String NEWEST_VERSION_FILE_URL1 = "https://download1501.mediafire.com/xa8bmoogb7cg/ia96cpttjuqjoir/cache_version.txt";
+    private static final String CACHE_URL = "https://www.mediafire.com/file/sjrgjszthgmelky/refer.zip";
+    private static final String CACHE_URL1 = "https://www.mediafire.com/file/sjrgjszthgmelky/refer.zip";
+    private static final String NEWEST_VERSION_FILE_URL = "https://www.mediafire.com/file/6i040elvb9j5b66/cache_version.txt";
+    private static final String NEWEST_VERSION_FILE_URL1 = "https://www.mediafire.com/file/6i040elvb9j5b66/cache_version.txt";
 
     private static final String CURRENT_VERSION_FILE = "cache_version.txt"; //The location of the local cache_version txt file
 
-    public static final String URL_TO_LOADING_IMAGES = "https://lunite.io/resources/";
-    public static final String MIRROR_URL_TO_LOADING_IMAGES = "https://lunite.io/resources/"; //If first link is broken, it will attempt to download from here
+    public static final String URL_TO_LOADING_IMAGES = "https://www.mediafire.com/folder/ilm9epwknkybj/resources";
+    public static final String MIRROR_URL_TO_LOADING_IMAGES = "https://www.mediafire.com/folder/ilm9epwknkybj/resources"; //If first link is broken, it will attempt to download from here
 
     public static boolean UPDATING = true;
 
@@ -102,7 +102,7 @@ public class CacheDownloader {
             int downloaded = 0;
             long numWritten = 0;
 
-            if (httpConn.getContentLength() <=  0){
+            if (httpConn.getContentLength() <= 0) {
                 downloadCache2();
                 return;
             }

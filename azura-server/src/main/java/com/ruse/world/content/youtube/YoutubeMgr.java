@@ -100,17 +100,17 @@ public class YoutubeMgr {
 
 	private static void updateChannel(YoutubeChannelInfo channel) {
 		try {
-			YouTube.Channels.List channelsList = youtube.channels().list("snippet, statistics, contentDetails");
-
-			channelsList.setId(channel.getChannelId());
+			YouTube.Channels.List channelsList = youtube.channels().list(Collections.singletonList("snippet, statistics, contentDetails"));
+			channelsList.setId(Collections.singletonList(channel.getChannelId()));
 			ChannelListResponse channelResponse = channelsList.execute();
 			Channel c = channelResponse.getItems().get(0);
-
+			String uploads = c.getContentDetails().getRelatedPlaylists().getUploads();
+			List<String> uploadsList = new ArrayList<>();
+			uploadsList.add(uploads);
 			channel.updateChannelInfo(c.getSnippet().getTitle(),
 					c.getStatistics().getSubscriberCount().longValue(),
 					c.getSnippet().getThumbnails().getDefault().getUrl(),
-					c.getContentDetails().getRelatedPlaylists().getUploads());
-
+					uploadsList);
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Error with channel: " + channel.getChannelId());
